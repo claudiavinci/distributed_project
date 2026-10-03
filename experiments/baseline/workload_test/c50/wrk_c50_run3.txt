@@ -1,0 +1,17 @@
+]633;E;echo "Test: baseline";412f52fb-ea87-43e7-bc39-b700a883b9fd]633;CTest: baseline
+Configuration: t4 c50 d5m
+Sat Oct  3 10:36:02 CEST 2026
+Running 5m test @ http://localhost:8080
+  4 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   471.61ms  236.44ms   1.90s    67.55%
+    Req/Sec    28.56     25.17   180.00     89.20%
+  Latency Distribution
+     50%  511.97ms
+     75%  602.84ms
+     90%  696.71ms
+     99%    1.10s 
+  30834 requests in 5.01m, 269.42MB read
+  Non-2xx or 3xx responses: 8986
+Requests/sec:    102.61
+Transfer/sec:      0.90MB

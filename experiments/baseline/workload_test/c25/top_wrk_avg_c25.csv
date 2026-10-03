@@ -1,0 +1,13 @@
+Service,CPU(millicores),Memory(MiB)
+adservice,30.4,107.78
+cartservice,37.3,72.38
+checkoutservice,1.41,13.72
+currencyservice,152.91,53.03
+emailservice,3.02,38.0
+frontend,173.81,22.91
+loadgenerator,4.61,56.32
+paymentservice,1.13,46.65
+productcatalogservice,22.34,17.09
+recommendationservice,8.02,33.0
+redis-cart,5.45,15.25
+shippingservice,1.2,13.33
