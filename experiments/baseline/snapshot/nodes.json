@@ -20,7 +20,7 @@
                     "node.kubernetes.io/exclude-from-external-load-balancers": ""
                 },
                 "name": "consumer-control-plane",
-                "resourceVersion": "30154",
+                "resourceVersion": "77272",
                 "uid": "5d9e01a5-090d-49aa-a859-dfeb9fcbac13"
             },
             "spec": {
@@ -39,7 +39,7 @@
             "status": {
                 "addresses": [
                     {
-                        "address": "172.18.0.4",
+                        "address": "172.18.0.10",
                         "type": "InternalIP"
                     },
                     {
@@ -52,7 +52,7 @@
                     "ephemeral-storage": "1081101176832",
                     "hugepages-1Gi": "0",
                     "hugepages-2Mi": "0",
-                    "memory": "16271780Ki",
+                    "memory": "20484516Ki",
                     "pods": "110"
                 },
                 "capacity": {
@@ -60,12 +60,12 @@
                     "ephemeral-storage": "1081101176832",
                     "hugepages-1Gi": "0",
                     "hugepages-2Mi": "0",
-                    "memory": "16271780Ki",
+                    "memory": "20484516Ki",
                     "pods": "110"
                 },
                 "conditions": [
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:25:01Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:26Z",
                         "lastTransitionTime": "2026-10-01T10:50:32Z",
                         "message": "kubelet has sufficient memory available",
                         "reason": "KubeletHasSufficientMemory",
@@ -73,7 +73,7 @@
                         "type": "MemoryPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:25:01Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:26Z",
                         "lastTransitionTime": "2026-10-01T10:50:32Z",
                         "message": "kubelet has no disk pressure",
                         "reason": "KubeletHasNoDiskPressure",
@@ -81,7 +81,7 @@
                         "type": "DiskPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:25:01Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:26Z",
                         "lastTransitionTime": "2026-10-01T10:50:32Z",
                         "message": "kubelet has sufficient PID available",
                         "reason": "KubeletHasSufficientPID",
@@ -89,7 +89,7 @@
                         "type": "PIDPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:25:01Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:26Z",
                         "lastTransitionTime": "2026-10-01T10:50:54Z",
                         "message": "kubelet is posting ready status",
                         "reason": "KubeletReady",
@@ -126,7 +126,7 @@
                             "registry.k8s.io/kube-controller-manager-amd64:v1.37.0",
                             "registry.k8s.io/kube-controller-manager:v1.37.0"
                         ],
-                        "sizeBytes": 91037405
+                        "sizeBytes": 91037796
                     },
                     {
                         "names": [
@@ -134,7 +134,7 @@
                             "registry.k8s.io/kube-proxy-amd64:v1.37.0",
                             "registry.k8s.io/kube-proxy:v1.37.0"
                         ],
-                        "sizeBytes": 82823264
+                        "sizeBytes": 82822887
                     },
                     {
                         "names": [
@@ -142,7 +142,7 @@
                             "registry.k8s.io/kube-scheduler-amd64:v1.37.0",
                             "registry.k8s.io/kube-scheduler:v1.37.0"
                         ],
-                        "sizeBytes": 62689371
+                        "sizeBytes": 62688989
                     },
                     {
                         "names": [
@@ -197,19 +197,19 @@
                 ],
                 "nodeInfo": {
                     "architecture": "amd64",
-                    "bootID": "bd1f8634-9e37-4c55-9781-f539a62a6d3e",
+                    "bootID": "e1e8f62f-5ad7-4efb-8825-0bb2c9921672",
                     "containerRuntimeVersion": "containerd://2.3.4",
                     "kernelVersion": "5.15.146.1-microsoft-standard-WSL2",
                     "kubeProxyVersion": "",
                     "kubeletVersion": "v1.37.0",
-                    "machineID": "160ba1b21c734d6f9d0f8005d9f428a3",
+                    "machineID": "afe212aa152344b5bbb113a9d71bb6af",
                     "operatingSystem": "linux",
                     "osImage": "Debian GNU/Linux 13 (trixie)",
                     "runningInUserNamespace": false,
                     "swap": {
-                        "capacity": 4294967296
+                        "capacity": 5368709120
                     },
-                    "systemUUID": "160ba1b21c734d6f9d0f8005d9f428a3"
+                    "systemUUID": "afe212aa152344b5bbb113a9d71bb6af"
                 },
                 "runtimeHandlers": [
                     {
@@ -253,7 +253,7 @@
                     "kubernetes.io/os": "linux"
                 },
                 "name": "consumer-worker",
-                "resourceVersion": "30330",
+                "resourceVersion": "77211",
                 "uid": "e2890a0b-6d14-4521-ad06-b6635f41488d"
             },
             "spec": {
@@ -266,7 +266,7 @@
             "status": {
                 "addresses": [
                     {
-                        "address": "172.18.0.3",
+                        "address": "172.18.0.5",
                         "type": "InternalIP"
                     },
                     {
@@ -279,7 +279,7 @@
                     "ephemeral-storage": "1081101176832",
                     "hugepages-1Gi": "0",
                     "hugepages-2Mi": "0",
-                    "memory": "16271780Ki",
+                    "memory": "20484516Ki",
                     "pods": "110"
                 },
                 "capacity": {
@@ -287,12 +287,12 @@
                     "ephemeral-storage": "1081101176832",
                     "hugepages-1Gi": "0",
                     "hugepages-2Mi": "0",
-                    "memory": "16271780Ki",
+                    "memory": "20484516Ki",
                     "pods": "110"
                 },
                 "conditions": [
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:26:08Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:05Z",
                         "lastTransitionTime": "2026-10-01T10:50:44Z",
                         "message": "kubelet has sufficient memory available",
                         "reason": "KubeletHasSufficientMemory",
@@ -300,7 +300,7 @@
                         "type": "MemoryPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:26:08Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:05Z",
                         "lastTransitionTime": "2026-10-01T10:50:44Z",
                         "message": "kubelet has no disk pressure",
                         "reason": "KubeletHasNoDiskPressure",
@@ -308,7 +308,7 @@
                         "type": "DiskPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:26:08Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:05Z",
                         "lastTransitionTime": "2026-10-01T10:50:44Z",
                         "message": "kubelet has sufficient PID available",
                         "reason": "KubeletHasSufficientPID",
@@ -316,7 +316,7 @@
                         "type": "PIDPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:26:08Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:05Z",
                         "lastTransitionTime": "2026-10-01T10:50:56Z",
                         "message": "kubelet is posting ready status",
                         "reason": "KubeletReady",
@@ -341,6 +341,13 @@
                 "images": [
                     {
                         "names": [
+                            "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice@sha256:7b26b5ea1a6472ca62b3c20c6f6ac12dd1fbcf18ba596a2c174982bcccdfc0c8",
+                            "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7"
+                        ],
+                        "sizeBytes": 109886572
+                    },
+                    {
+                        "names": [
                             "docker.io/library/import-2026-08-26@sha256:eff360f86083f21c9ceaa64cbaa2e4d439d9e7e1d6834c21d25daac35e58015b",
                             "registry.k8s.io/kube-apiserver-amd64:v1.37.0",
                             "registry.k8s.io/kube-apiserver:v1.37.0"
@@ -361,7 +368,7 @@
                             "registry.k8s.io/kube-proxy-amd64:v1.37.0",
                             "registry.k8s.io/kube-proxy:v1.37.0"
                         ],
-                        "sizeBytes": 82822887
+                        "sizeBytes": 82823264
                     },
                     {
                         "names": [
@@ -558,6 +565,13 @@
                     },
                     {
                         "names": [
+                            "docker.io/library/alpine@sha256:294b683cb724975bec92580e1e685676bd4b50bda910ddb8c51d4cabeaec77e6",
+                            "docker.io/library/alpine:latest"
+                        ],
+                        "sizeBytes": 3860589
+                    },
+                    {
+                        "names": [
                             "docker.io/kindest/local-path-helper:v20260131-7181c60a"
                         ],
                         "sizeBytes": 2872608
@@ -577,19 +591,19 @@
                 ],
                 "nodeInfo": {
                     "architecture": "amd64",
-                    "bootID": "bd1f8634-9e37-4c55-9781-f539a62a6d3e",
+                    "bootID": "e1e8f62f-5ad7-4efb-8825-0bb2c9921672",
                     "containerRuntimeVersion": "containerd://2.3.4",
                     "kernelVersion": "5.15.146.1-microsoft-standard-WSL2",
                     "kubeProxyVersion": "",
                     "kubeletVersion": "v1.37.0",
-                    "machineID": "874f6ab09fec4923ab0bfa190be4cc20",
+                    "machineID": "e8d54ed1535741f2b9a5c7ebd68b7d45",
                     "operatingSystem": "linux",
                     "osImage": "Debian GNU/Linux 13 (trixie)",
                     "runningInUserNamespace": false,
                     "swap": {
-                        "capacity": 4294967296
+                        "capacity": 5368709120
                     },
-                    "systemUUID": "874f6ab09fec4923ab0bfa190be4cc20"
+                    "systemUUID": "e8d54ed1535741f2b9a5c7ebd68b7d45"
                 },
                 "runtimeHandlers": [
                     {
@@ -633,7 +647,7 @@
                     "kubernetes.io/os": "linux"
                 },
                 "name": "consumer-worker2",
-                "resourceVersion": "30545",
+                "resourceVersion": "77245",
                 "uid": "bddbb674-2157-45ed-ad94-c368a7462ed0"
             },
             "spec": {
@@ -646,7 +660,7 @@
             "status": {
                 "addresses": [
                     {
-                        "address": "172.18.0.2",
+                        "address": "172.18.0.9",
                         "type": "InternalIP"
                     },
                     {
@@ -659,7 +673,7 @@
                     "ephemeral-storage": "1081101176832",
                     "hugepages-1Gi": "0",
                     "hugepages-2Mi": "0",
-                    "memory": "16271780Ki",
+                    "memory": "20484516Ki",
                     "pods": "110"
                 },
                 "capacity": {
@@ -667,12 +681,12 @@
                     "ephemeral-storage": "1081101176832",
                     "hugepages-1Gi": "0",
                     "hugepages-2Mi": "0",
-                    "memory": "16271780Ki",
+                    "memory": "20484516Ki",
                     "pods": "110"
                 },
                 "conditions": [
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:27:38Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:14Z",
                         "lastTransitionTime": "2026-10-01T10:50:44Z",
                         "message": "kubelet has sufficient memory available",
                         "reason": "KubeletHasSufficientMemory",
@@ -680,7 +694,7 @@
                         "type": "MemoryPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:27:38Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:14Z",
                         "lastTransitionTime": "2026-10-01T10:50:44Z",
                         "message": "kubelet has no disk pressure",
                         "reason": "KubeletHasNoDiskPressure",
@@ -688,7 +702,7 @@
                         "type": "DiskPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:27:38Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:14Z",
                         "lastTransitionTime": "2026-10-01T10:50:44Z",
                         "message": "kubelet has sufficient PID available",
                         "reason": "KubeletHasSufficientPID",
@@ -696,7 +710,7 @@
                         "type": "PIDPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:27:38Z",
+                        "lastHeartbeatTime": "2026-10-05T13:42:14Z",
                         "lastTransitionTime": "2026-10-01T10:50:57Z",
                         "message": "kubelet is posting ready status",
                         "reason": "KubeletReady",
@@ -746,7 +760,7 @@
                             "registry.k8s.io/kube-apiserver-amd64:v1.37.0",
                             "registry.k8s.io/kube-apiserver:v1.37.0"
                         ],
-                        "sizeBytes": 104328436
+                        "sizeBytes": 104328054
                     },
                     {
                         "names": [
@@ -771,6 +785,13 @@
                             "registry.k8s.io/kube-scheduler:v1.37.0"
                         ],
                         "sizeBytes": 62688989
+                    },
+                    {
+                        "names": [
+                            "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice@sha256:c581681bbf9abec8563e520aac3f3dbe3e7498853b6eb263193bc80c87e42f74",
+                            "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7"
+                        ],
+                        "sizeBytes": 50756989
                     },
                     {
                         "names": [
@@ -957,19 +978,19 @@
                 ],
                 "nodeInfo": {
                     "architecture": "amd64",
-                    "bootID": "bd1f8634-9e37-4c55-9781-f539a62a6d3e",
+                    "bootID": "e1e8f62f-5ad7-4efb-8825-0bb2c9921672",
                     "containerRuntimeVersion": "containerd://2.3.4",
                     "kernelVersion": "5.15.146.1-microsoft-standard-WSL2",
                     "kubeProxyVersion": "",
                     "kubeletVersion": "v1.37.0",
-                    "machineID": "594aadb334af42af8cfd60b459688b5c",
+                    "machineID": "f8891bd201c64642bc2927f3fb3b642e",
                     "operatingSystem": "linux",
                     "osImage": "Debian GNU/Linux 13 (trixie)",
                     "runningInUserNamespace": false,
                     "swap": {
-                        "capacity": 4294967296
+                        "capacity": 5368709120
                     },
-                    "systemUUID": "594aadb334af42af8cfd60b459688b5c"
+                    "systemUUID": "f8891bd201c64642bc2927f3fb3b642e"
                 },
                 "runtimeHandlers": [
                     {
@@ -1002,7 +1023,7 @@
             "metadata": {
                 "annotations": {
                     "node.alpha.kubernetes.io/ttl": "0",
-                    "virtual-kubelet.io/last-applied-node-status": "{\"capacity\":{\"cpu\":\"4\",\"ephemeral-storage\":\"20Gi\",\"memory\":\"8Gi\",\"pods\":\"110\"},\"allocatable\":{\"cpu\":\"4\",\"ephemeral-storage\":\"20Gi\",\"memory\":\"8Gi\",\"pods\":\"110\"},\"conditions\":[{\"type\":\"Ready\",\"status\":\"True\",\"lastHeartbeatTime\":\"2026-10-01T15:29:06Z\",\"lastTransitionTime\":\"2026-10-01T15:23:18Z\",\"reason\":\"KubeletReady\",\"message\":\"The Liqo Virtual Kubelet is posting ready status\"},{\"type\":\"MemoryPressure\",\"status\":\"False\",\"lastHeartbeatTime\":\"2026-10-01T15:29:06Z\",\"lastTransitionTime\":\"2026-10-01T15:23:18Z\",\"reason\":\"RemoteClusterHasSufficientMemory\",\"message\":\"The remote cluster is advertising sufficient resources\"},{\"type\":\"DiskPressure\",\"status\":\"False\",\"lastHeartbeatTime\":\"2026-10-01T15:29:06Z\",\"lastTransitionTime\":\"2026-10-01T15:23:18Z\",\"reason\":\"RemoteClusterHasNoDiskPressure\",\"message\":\"The remote cluster is advertising sufficient resources\"},{\"type\":\"PIDPressure\",\"status\":\"False\",\"lastHeartbeatTime\":\"2026-10-01T15:29:06Z\",\"lastTransitionTime\":\"2026-10-01T15:23:18Z\",\"reason\":\"RemoteClusterHasNoPIDPressure\",\"message\":\"The remote cluster is advertising sufficient resources\"},{\"type\":\"NetworkUnavailable\",\"status\":\"False\",\"lastHeartbeatTime\":\"2026-10-01T15:29:06Z\",\"lastTransitionTime\":\"2026-10-01T15:23:18Z\",\"reason\":\"LiqoNetworkingUp\",\"message\":\"The Liqo cluster interconnection is established\"}],\"addresses\":[{\"type\":\"InternalIP\",\"address\":\"10.244.1.25\"}],\"daemonEndpoints\":{\"kubeletEndpoint\":{\"Port\":10250}},\"nodeInfo\":{\"machineID\":\"\",\"systemUUID\":\"\",\"bootID\":\"\",\"kernelVersion\":\"\",\"osImage\":\"\",\"containerRuntimeVersion\":\"\",\"kubeletVersion\":\"v1.37.0\",\"kubeProxyVersion\":\"\",\"operatingSystem\":\"Linux\",\"architecture\":\"amd64\"}}",
+                    "virtual-kubelet.io/last-applied-node-status": "{\"capacity\":{\"cpu\":\"4\",\"ephemeral-storage\":\"20Gi\",\"memory\":\"8Gi\",\"pods\":\"110\"},\"allocatable\":{\"cpu\":\"4\",\"ephemeral-storage\":\"20Gi\",\"memory\":\"8Gi\",\"pods\":\"110\"},\"conditions\":[{\"type\":\"Ready\",\"status\":\"False\",\"lastHeartbeatTime\":\"2026-10-05T13:32:28Z\",\"lastTransitionTime\":\"2026-10-05T13:32:26Z\",\"reason\":\"KubeletNotReady\",\"message\":\"The Liqo Virtual Kubelet is currently not ready\"},{\"type\":\"MemoryPressure\",\"status\":\"False\",\"lastHeartbeatTime\":\"2026-10-05T13:32:28Z\",\"lastTransitionTime\":\"2026-10-05T13:30:41Z\",\"reason\":\"RemoteClusterHasSufficientMemory\",\"message\":\"The remote cluster is advertising sufficient resources\"},{\"type\":\"DiskPressure\",\"status\":\"False\",\"lastHeartbeatTime\":\"2026-10-05T13:32:28Z\",\"lastTransitionTime\":\"2026-10-05T13:30:41Z\",\"reason\":\"RemoteClusterHasNoDiskPressure\",\"message\":\"The remote cluster is advertising sufficient resources\"},{\"type\":\"PIDPressure\",\"status\":\"False\",\"lastHeartbeatTime\":\"2026-10-05T13:32:28Z\",\"lastTransitionTime\":\"2026-10-05T13:30:41Z\",\"reason\":\"RemoteClusterHasNoPIDPressure\",\"message\":\"The remote cluster is advertising sufficient resources\"},{\"type\":\"NetworkUnavailable\",\"status\":\"True\",\"lastHeartbeatTime\":\"2026-10-05T13:32:28Z\",\"lastTransitionTime\":\"2026-10-05T13:32:26Z\",\"reason\":\"LiqoNetworkingDown\",\"message\":\"The Liqo cluster interconnection is down\"}],\"addresses\":[{\"type\":\"InternalIP\",\"address\":\"10.244.1.12\"}],\"daemonEndpoints\":{\"kubeletEndpoint\":{\"Port\":10250}},\"nodeInfo\":{\"machineID\":\"\",\"systemUUID\":\"\",\"bootID\":\"\",\"kernelVersion\":\"\",\"osImage\":\"\",\"containerRuntimeVersion\":\"\",\"kubeletVersion\":\"v1.37.0\",\"kubeProxyVersion\":\"\",\"operatingSystem\":\"Linux\",\"architecture\":\"amd64\"}}",
                     "virtual-kubelet.io/last-applied-object-meta": "{\"name\":\"patient-cloud\",\"uid\":\"653d5449-2de4-46b9-a75f-e9ec07d5e126\",\"labels\":{\"alpha.service-controller.kubernetes.io/exclude-balancer\":\"true\",\"kubernetes.io/arch\":\"amd64\",\"kubernetes.io/hostname\":\"patient-cloud\",\"kubernetes.io/os\":\"linux\",\"kubernetes.io/role\":\"agent\",\"liqo.io/provider\":\"kind\",\"liqo.io/remote-cluster-id\":\"patient-cloud\",\"liqo.io/type\":\"virtual-node\",\"node.kubernetes.io/exclude-from-external-load-balancers\":\"true\",\"storage.liqo.io/available\":\"true\"}}"
                 },
                 "creationTimestamp": "2026-10-01T15:23:18Z",
@@ -1021,7 +1042,7 @@
                     "storage.liqo.io/available": "true"
                 },
                 "name": "patient-cloud",
-                "resourceVersion": "30760",
+                "resourceVersion": "75427",
                 "uid": "653d5449-2de4-46b9-a75f-e9ec07d5e126"
             },
             "spec": {
@@ -1034,13 +1055,28 @@
                         "effect": "NoExecute",
                         "key": "virtual-node.liqo.io/not-allowed",
                         "value": "true"
+                    },
+                    {
+                        "effect": "NoSchedule",
+                        "key": "node.kubernetes.io/network-unavailable",
+                        "timeAdded": "2026-10-05T13:32:26Z"
+                    },
+                    {
+                        "effect": "NoSchedule",
+                        "key": "node.kubernetes.io/unreachable",
+                        "timeAdded": "2026-10-05T13:33:30Z"
+                    },
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/unreachable",
+                        "timeAdded": "2026-10-05T13:33:30Z"
                     }
                 ]
             },
             "status": {
                 "addresses": [
                     {
-                        "address": "10.244.1.25",
+                        "address": "10.244.1.12",
                         "type": "InternalIP"
                     }
                 ],
@@ -1058,43 +1094,43 @@
                 },
                 "conditions": [
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:29:06Z",
-                        "lastTransitionTime": "2026-10-01T15:23:18Z",
-                        "message": "The Liqo Virtual Kubelet is posting ready status",
-                        "reason": "KubeletReady",
-                        "status": "True",
+                        "lastHeartbeatTime": "2026-10-05T13:32:28Z",
+                        "lastTransitionTime": "2026-10-05T13:33:30Z",
+                        "message": "Kubelet stopped posting node status.",
+                        "reason": "NodeStatusUnknown",
+                        "status": "Unknown",
                         "type": "Ready"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:29:06Z",
-                        "lastTransitionTime": "2026-10-01T15:23:18Z",
-                        "message": "The remote cluster is advertising sufficient resources",
-                        "reason": "RemoteClusterHasSufficientMemory",
-                        "status": "False",
+                        "lastHeartbeatTime": "2026-10-05T13:32:28Z",
+                        "lastTransitionTime": "2026-10-05T13:33:30Z",
+                        "message": "Kubelet stopped posting node status.",
+                        "reason": "NodeStatusUnknown",
+                        "status": "Unknown",
                         "type": "MemoryPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:29:06Z",
-                        "lastTransitionTime": "2026-10-01T15:23:18Z",
-                        "message": "The remote cluster is advertising sufficient resources",
-                        "reason": "RemoteClusterHasNoDiskPressure",
-                        "status": "False",
+                        "lastHeartbeatTime": "2026-10-05T13:32:28Z",
+                        "lastTransitionTime": "2026-10-05T13:33:30Z",
+                        "message": "Kubelet stopped posting node status.",
+                        "reason": "NodeStatusUnknown",
+                        "status": "Unknown",
                         "type": "DiskPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:29:06Z",
-                        "lastTransitionTime": "2026-10-01T15:23:18Z",
-                        "message": "The remote cluster is advertising sufficient resources",
-                        "reason": "RemoteClusterHasNoPIDPressure",
-                        "status": "False",
+                        "lastHeartbeatTime": "2026-10-05T13:32:28Z",
+                        "lastTransitionTime": "2026-10-05T13:33:30Z",
+                        "message": "Kubelet stopped posting node status.",
+                        "reason": "NodeStatusUnknown",
+                        "status": "Unknown",
                         "type": "PIDPressure"
                     },
                     {
-                        "lastHeartbeatTime": "2026-10-01T15:29:06Z",
-                        "lastTransitionTime": "2026-10-01T15:23:18Z",
-                        "message": "The Liqo cluster interconnection is established",
-                        "reason": "LiqoNetworkingUp",
-                        "status": "False",
+                        "lastHeartbeatTime": "2026-10-05T13:32:28Z",
+                        "lastTransitionTime": "2026-10-05T13:32:26Z",
+                        "message": "The Liqo cluster interconnection is down",
+                        "reason": "LiqoNetworkingDown",
+                        "status": "True",
                         "type": "NetworkUnavailable"
                     }
                 ],

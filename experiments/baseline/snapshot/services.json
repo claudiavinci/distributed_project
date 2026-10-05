@@ -8,19 +8,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"adservice\"},\"name\":\"adservice\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":9555,\"targetPort\":9555}],\"selector\":{\"app\":\"adservice\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "labels": {
                     "app": "adservice"
                 },
                 "name": "adservice",
                 "namespace": "shop",
-                "resourceVersion": "27134",
-                "uid": "3ba4d11d-aa05-4aec-8da7-1ced9d786068"
+                "resourceVersion": "76759",
+                "uid": "0f26ef3e-2a3e-4dd1-a1af-a383909abbd3"
             },
             "spec": {
-                "clusterIP": "10.96.76.56",
+                "clusterIP": "10.96.108.127",
                 "clusterIPs": [
-                    "10.96.76.56"
+                    "10.96.108.127"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [
@@ -52,19 +52,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"cartservice\"},\"name\":\"cartservice\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":7070,\"targetPort\":7070}],\"selector\":{\"app\":\"cartservice\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:37Z",
                 "labels": {
                     "app": "cartservice"
                 },
                 "name": "cartservice",
                 "namespace": "shop",
-                "resourceVersion": "27311",
-                "uid": "e797d263-d117-4123-a26f-2c024129ff59"
+                "resourceVersion": "76896",
+                "uid": "1f9ceb47-7ae9-4300-862e-f72f4157738b"
             },
             "spec": {
-                "clusterIP": "10.96.7.219",
+                "clusterIP": "10.96.208.121",
                 "clusterIPs": [
-                    "10.96.7.219"
+                    "10.96.208.121"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [
@@ -96,19 +96,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"checkoutservice\"},\"name\":\"checkoutservice\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":5050,\"targetPort\":5050}],\"selector\":{\"app\":\"checkoutservice\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "labels": {
                     "app": "checkoutservice"
                 },
                 "name": "checkoutservice",
                 "namespace": "shop",
-                "resourceVersion": "27180",
-                "uid": "f9ed2674-1e15-4343-8525-1cb5bb9ef459"
+                "resourceVersion": "76801",
+                "uid": "8cdae393-5482-41b7-b654-e39a280a28a8"
             },
             "spec": {
-                "clusterIP": "10.96.82.162",
+                "clusterIP": "10.96.100.53",
                 "clusterIPs": [
-                    "10.96.82.162"
+                    "10.96.100.53"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [
@@ -140,19 +140,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"currencyservice\"},\"name\":\"currencyservice\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":7000,\"targetPort\":7000}],\"selector\":{\"app\":\"currencyservice\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "labels": {
                     "app": "currencyservice"
                 },
                 "name": "currencyservice",
                 "namespace": "shop",
-                "resourceVersion": "27203",
-                "uid": "3929f4d3-4151-47d9-a598-510b5e1c84f9"
+                "resourceVersion": "76828",
+                "uid": "4db3eb04-ce7b-4266-8791-addd44015fc4"
             },
             "spec": {
-                "clusterIP": "10.96.157.79",
+                "clusterIP": "10.96.132.35",
                 "clusterIPs": [
-                    "10.96.157.79"
+                    "10.96.132.35"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [
@@ -184,19 +184,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"emailservice\"},\"name\":\"emailservice\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":5000,\"targetPort\":8080}],\"selector\":{\"app\":\"emailservice\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "labels": {
                     "app": "emailservice"
                 },
                 "name": "emailservice",
                 "namespace": "shop",
-                "resourceVersion": "27225",
-                "uid": "60bfe260-de25-4fcb-b075-437d5c96e56e"
+                "resourceVersion": "76839",
+                "uid": "9265791a-f2d7-4365-af31-c8462615c084"
             },
             "spec": {
-                "clusterIP": "10.96.84.108",
+                "clusterIP": "10.96.72.76",
                 "clusterIPs": [
-                    "10.96.84.108"
+                    "10.96.72.76"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [
@@ -228,19 +228,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"frontend\"},\"name\":\"frontend\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"http\",\"port\":80,\"targetPort\":8080}],\"selector\":{\"app\":\"frontend\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "labels": {
                     "app": "frontend"
                 },
                 "name": "frontend",
                 "namespace": "shop",
-                "resourceVersion": "27251",
-                "uid": "9e0c9057-405b-4b21-a45a-5fdb0a20d32e"
+                "resourceVersion": "76861",
+                "uid": "8dcb7a6a-38f4-403c-b166-95abf6ec5ab2"
             },
             "spec": {
-                "clusterIP": "10.96.231.203",
+                "clusterIP": "10.96.52.84",
                 "clusterIPs": [
-                    "10.96.231.203"
+                    "10.96.52.84"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [
@@ -272,19 +272,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"frontend\"},\"name\":\"frontend-external\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"http\",\"port\":80,\"targetPort\":8080}],\"selector\":{\"app\":\"frontend\"},\"type\":\"NodePort\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "labels": {
                     "app": "frontend"
                 },
                 "name": "frontend-external",
                 "namespace": "shop",
-                "resourceVersion": "27259",
-                "uid": "6dab2ed4-b695-418e-878f-1bf851ca13bf"
+                "resourceVersion": "76866",
+                "uid": "f1b2e903-b8e7-4ba9-a209-8c74a59ee431"
             },
             "spec": {
-                "clusterIP": "10.96.208.134",
+                "clusterIP": "10.96.30.149",
                 "clusterIPs": [
-                    "10.96.208.134"
+                    "10.96.30.149"
                 ],
                 "externalTrafficPolicy": "Cluster",
                 "internalTrafficPolicy": "Cluster",
@@ -295,7 +295,7 @@
                 "ports": [
                     {
                         "name": "http",
-                        "nodePort": 32479,
+                        "nodePort": 30138,
                         "port": 80,
                         "protocol": "TCP",
                         "targetPort": 8080
@@ -318,19 +318,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"paymentservice\"},\"name\":\"paymentservice\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":50051,\"targetPort\":50051}],\"selector\":{\"app\":\"paymentservice\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:37Z",
                 "labels": {
                     "app": "paymentservice"
                 },
                 "name": "paymentservice",
                 "namespace": "shop",
-                "resourceVersion": "27329",
-                "uid": "ace000e7-c14b-4c0a-8262-a13239729c4c"
+                "resourceVersion": "76917",
+                "uid": "8e903a2f-8aba-4cd1-bcd2-6d1dee8fd663"
             },
             "spec": {
-                "clusterIP": "10.96.80.219",
+                "clusterIP": "10.96.237.77",
                 "clusterIPs": [
-                    "10.96.80.219"
+                    "10.96.237.77"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [
@@ -362,19 +362,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"productcatalogservice\"},\"name\":\"productcatalogservice\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":3550,\"targetPort\":3550}],\"selector\":{\"app\":\"productcatalogservice\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "labels": {
                     "app": "productcatalogservice"
                 },
                 "name": "productcatalogservice",
                 "namespace": "shop",
-                "resourceVersion": "27243",
-                "uid": "2c929935-9bfd-42e7-b9db-3c201023f826"
+                "resourceVersion": "76850",
+                "uid": "3f5d7571-39ec-4933-8965-a02d60bfb248"
             },
             "spec": {
-                "clusterIP": "10.96.245.206",
+                "clusterIP": "10.96.49.60",
                 "clusterIPs": [
-                    "10.96.245.206"
+                    "10.96.49.60"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [
@@ -406,19 +406,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"recommendationservice\"},\"name\":\"recommendationservice\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":8080,\"targetPort\":8080}],\"selector\":{\"app\":\"recommendationservice\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:37Z",
                 "labels": {
                     "app": "recommendationservice"
                 },
                 "name": "recommendationservice",
                 "namespace": "shop",
-                "resourceVersion": "27274",
-                "uid": "3c2ad45c-40d2-41e7-a19f-4b6dfcef3a4d"
+                "resourceVersion": "76882",
+                "uid": "cca652b9-e53e-4fb3-8901-893908ac7e3f"
             },
             "spec": {
-                "clusterIP": "10.96.76.243",
+                "clusterIP": "10.96.102.141",
                 "clusterIPs": [
-                    "10.96.76.243"
+                    "10.96.102.141"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [
@@ -450,19 +450,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"redis-cart\"},\"name\":\"redis-cart\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"tcp-redis\",\"port\":6379,\"targetPort\":6379}],\"selector\":{\"app\":\"redis-cart\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:37Z",
                 "labels": {
                     "app": "redis-cart"
                 },
                 "name": "redis-cart",
                 "namespace": "shop",
-                "resourceVersion": "27321",
-                "uid": "3e720b7f-edf1-4871-b92e-d56492e82e73"
+                "resourceVersion": "76908",
+                "uid": "f3ace41c-1276-4814-865f-32bd49940d67"
             },
             "spec": {
-                "clusterIP": "10.96.49.142",
+                "clusterIP": "10.96.217.98",
                 "clusterIPs": [
-                    "10.96.49.142"
+                    "10.96.217.98"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [
@@ -494,19 +494,19 @@
                 "annotations": {
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"shippingservice\"},\"name\":\"shippingservice\",\"namespace\":\"shop\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":50051,\"targetPort\":50051}],\"selector\":{\"app\":\"shippingservice\"},\"type\":\"ClusterIP\"}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "labels": {
                     "app": "shippingservice"
                 },
                 "name": "shippingservice",
                 "namespace": "shop",
-                "resourceVersion": "27154",
-                "uid": "d96cbe18-43c8-44bd-9885-c2427b1d0a96"
+                "resourceVersion": "76783",
+                "uid": "71dfab13-4f3d-4259-8f01-2fa64123e001"
             },
             "spec": {
-                "clusterIP": "10.96.12.109",
+                "clusterIP": "10.96.145.96",
                 "clusterIPs": [
-                    "10.96.12.109"
+                    "10.96.145.96"
                 ],
                 "internalTrafficPolicy": "Cluster",
                 "ipFamilies": [

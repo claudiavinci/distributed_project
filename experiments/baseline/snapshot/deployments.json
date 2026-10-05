@@ -9,15 +9,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"adservice\"},\"name\":\"adservice\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"adservice\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"adservice\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"PORT\",\"value\":\"9555\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7\",\"livenessProbe\":{\"grpc\":{\"port\":9555},\"initialDelaySeconds\":20,\"periodSeconds\":15},\"name\":\"server\",\"ports\":[{\"containerPort\":9555}],\"readinessProbe\":{\"grpc\":{\"port\":9555},\"initialDelaySeconds\":20,\"periodSeconds\":15},\"resources\":{\"limits\":{\"cpu\":\"300m\",\"memory\":\"300Mi\"},\"requests\":{\"cpu\":\"200m\",\"memory\":\"180Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"adservice\",\"terminationGracePeriodSeconds\":5}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "generation": 1,
                 "labels": {
                     "app": "adservice"
                 },
                 "name": "adservice",
                 "namespace": "shop",
-                "resourceVersion": "27589",
-                "uid": "2837e7b4-254b-48eb-8bbd-d237b12261a6"
+                "resourceVersion": "77281",
+                "uid": "a2e0f2cf-dd50-4de3-a179-14b229982641"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -124,16 +124,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:05:19Z",
-                        "lastUpdateTime": "2026-10-01T15:05:19Z",
+                        "lastTransitionTime": "2026-10-05T13:42:27Z",
+                        "lastUpdateTime": "2026-10-05T13:42:27Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:05:19Z",
+                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastUpdateTime": "2026-10-05T13:42:27Z",
                         "message": "ReplicaSet \"adservice-84b79f4569\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -155,15 +155,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"cartservice\"},\"name\":\"cartservice\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"cartservice\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"cartservice\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"REDIS_ADDR\",\"value\":\"redis-cart:6379\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7\",\"livenessProbe\":{\"grpc\":{\"port\":7070},\"initialDelaySeconds\":15,\"periodSeconds\":10},\"name\":\"server\",\"ports\":[{\"containerPort\":7070}],\"readinessProbe\":{\"grpc\":{\"port\":7070},\"initialDelaySeconds\":15},\"resources\":{\"limits\":{\"cpu\":\"300m\",\"memory\":\"128Mi\"},\"requests\":{\"cpu\":\"200m\",\"memory\":\"64Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"cartservice\",\"terminationGracePeriodSeconds\":5}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:37Z",
                 "generation": 1,
                 "labels": {
                     "app": "cartservice"
                 },
                 "name": "cartservice",
                 "namespace": "shop",
-                "resourceVersion": "27630",
-                "uid": "722ef4a7-186d-48a6-980a-459cc9f29a1d"
+                "resourceVersion": "77202",
+                "uid": "37f45542-0d89-4ebc-a1b6-014953ea151a"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -270,16 +270,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:05:34Z",
-                        "lastUpdateTime": "2026-10-01T15:05:34Z",
+                        "lastTransitionTime": "2026-10-05T13:42:00Z",
+                        "lastUpdateTime": "2026-10-05T13:42:00Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:05:34Z",
+                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastUpdateTime": "2026-10-05T13:42:00Z",
                         "message": "ReplicaSet \"cartservice-574c7f4cdd\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -301,15 +301,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"checkoutservice\"},\"name\":\"checkoutservice\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"checkoutservice\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"checkoutservice\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"PORT\",\"value\":\"5050\"},{\"name\":\"PRODUCT_CATALOG_SERVICE_ADDR\",\"value\":\"productcatalogservice:3550\"},{\"name\":\"SHIPPING_SERVICE_ADDR\",\"value\":\"shippingservice:50051\"},{\"name\":\"PAYMENT_SERVICE_ADDR\",\"value\":\"paymentservice:50051\"},{\"name\":\"EMAIL_SERVICE_ADDR\",\"value\":\"emailservice:5000\"},{\"name\":\"CURRENCY_SERVICE_ADDR\",\"value\":\"currencyservice:7000\"},{\"name\":\"CART_SERVICE_ADDR\",\"value\":\"cartservice:7070\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7\",\"livenessProbe\":{\"grpc\":{\"port\":5050}},\"name\":\"server\",\"ports\":[{\"containerPort\":5050}],\"readinessProbe\":{\"grpc\":{\"port\":5050}},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"128Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"64Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"checkoutservice\"}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "generation": 1,
                 "labels": {
                     "app": "checkoutservice"
                 },
                 "name": "checkoutservice",
                 "namespace": "shop",
-                "resourceVersion": "27429",
-                "uid": "a4be6c89-3adc-4c6d-82ae-23b2b8ec2c02"
+                "resourceVersion": "77076",
+                "uid": "68339c4f-e5aa-401a-bd04-09c52c6a8c54"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -438,16 +438,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:50Z",
-                        "lastUpdateTime": "2026-10-01T15:04:50Z",
+                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastUpdateTime": "2026-10-05T13:41:38Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:04:50Z",
+                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastUpdateTime": "2026-10-05T13:41:38Z",
                         "message": "ReplicaSet \"checkoutservice-7ddc4696cf\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -469,15 +469,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"currencyservice\"},\"name\":\"currencyservice\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"currencyservice\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"currencyservice\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"PORT\",\"value\":\"7000\"},{\"name\":\"DISABLE_PROFILER\",\"value\":\"1\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7\",\"livenessProbe\":{\"grpc\":{\"port\":7000}},\"name\":\"server\",\"ports\":[{\"containerPort\":7000,\"name\":\"grpc\"}],\"readinessProbe\":{\"grpc\":{\"port\":7000}},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"128Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"64Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"currencyservice\",\"terminationGracePeriodSeconds\":5}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "generation": 1,
                 "labels": {
                     "app": "currencyservice"
                 },
                 "name": "currencyservice",
                 "namespace": "shop",
-                "resourceVersion": "27483",
-                "uid": "d9d2033a-4406-4aa6-9497-2a8efc3df8ca"
+                "resourceVersion": "77218",
+                "uid": "b1e9c2ce-2fd5-4c3b-8f48-4a6f935fb1e5"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -587,16 +587,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:05:00Z",
-                        "lastUpdateTime": "2026-10-01T15:05:00Z",
+                        "lastTransitionTime": "2026-10-05T13:42:05Z",
+                        "lastUpdateTime": "2026-10-05T13:42:05Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:05:00Z",
+                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastUpdateTime": "2026-10-05T13:42:05Z",
                         "message": "ReplicaSet \"currencyservice-6478b9fcf7\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -618,15 +618,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"emailservice\"},\"name\":\"emailservice\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"emailservice\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"emailservice\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"PORT\",\"value\":\"8080\"},{\"name\":\"DISABLE_PROFILER\",\"value\":\"1\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice:v0.10.7\",\"livenessProbe\":{\"grpc\":{\"port\":8080},\"periodSeconds\":5},\"name\":\"server\",\"ports\":[{\"containerPort\":8080}],\"readinessProbe\":{\"grpc\":{\"port\":8080},\"periodSeconds\":5},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"128Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"64Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"emailservice\",\"terminationGracePeriodSeconds\":5}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "generation": 1,
                 "labels": {
                     "app": "emailservice"
                 },
                 "name": "emailservice",
                 "namespace": "shop",
-                "resourceVersion": "27490",
-                "uid": "36ce3e9f-2c62-4ebb-866e-0448f91b34ca"
+                "resourceVersion": "77136",
+                "uid": "ab1dc0ea-5b43-4804-be91-111758042065"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -735,16 +735,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:05:00Z",
-                        "lastUpdateTime": "2026-10-01T15:05:00Z",
+                        "lastTransitionTime": "2026-10-05T13:41:48Z",
+                        "lastUpdateTime": "2026-10-05T13:41:48Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:05:00Z",
+                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastUpdateTime": "2026-10-05T13:41:48Z",
                         "message": "ReplicaSet \"emailservice-59d546db77\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -766,15 +766,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"frontend\"},\"name\":\"frontend\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"frontend\"}},\"template\":{\"metadata\":{\"annotations\":{\"sidecar.istio.io/rewriteAppHTTPProbers\":\"true\"},\"labels\":{\"app\":\"frontend\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"PORT\",\"value\":\"8080\"},{\"name\":\"PRODUCT_CATALOG_SERVICE_ADDR\",\"value\":\"productcatalogservice:3550\"},{\"name\":\"CURRENCY_SERVICE_ADDR\",\"value\":\"currencyservice:7000\"},{\"name\":\"CART_SERVICE_ADDR\",\"value\":\"cartservice:7070\"},{\"name\":\"RECOMMENDATION_SERVICE_ADDR\",\"value\":\"recommendationservice:8080\"},{\"name\":\"SHIPPING_SERVICE_ADDR\",\"value\":\"shippingservice:50051\"},{\"name\":\"CHECKOUT_SERVICE_ADDR\",\"value\":\"checkoutservice:5050\"},{\"name\":\"AD_SERVICE_ADDR\",\"value\":\"adservice:9555\"},{\"name\":\"SHOPPING_ASSISTANT_SERVICE_ADDR\",\"value\":\"shoppingassistantservice:80\"},{\"name\":\"ENABLE_PROFILER\",\"value\":\"0\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7\",\"livenessProbe\":{\"httpGet\":{\"httpHeaders\":[{\"name\":\"Cookie\",\"value\":\"shop_session-id=x-liveness-probe\"}],\"path\":\"/_healthz\",\"port\":8080},\"initialDelaySeconds\":10},\"name\":\"server\",\"ports\":[{\"containerPort\":8080}],\"readinessProbe\":{\"httpGet\":{\"httpHeaders\":[{\"name\":\"Cookie\",\"value\":\"shop_session-id=x-readiness-probe\"}],\"path\":\"/_healthz\",\"port\":8080},\"initialDelaySeconds\":10},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"128Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"64Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"frontend\"}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "generation": 1,
                 "labels": {
                     "app": "frontend"
                 },
                 "name": "frontend",
                 "namespace": "shop",
-                "resourceVersion": "27548",
-                "uid": "4feac5cd-4eaa-4633-8cb9-58d71e606f28"
+                "resourceVersion": "77144",
+                "uid": "bb326575-6dc2-471f-b990-fb92a29ba5e9"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -934,16 +934,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:05:12Z",
-                        "lastUpdateTime": "2026-10-01T15:05:12Z",
+                        "lastTransitionTime": "2026-10-05T13:41:49Z",
+                        "lastUpdateTime": "2026-10-05T13:41:49Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:05:12Z",
+                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastUpdateTime": "2026-10-05T13:41:49Z",
                         "message": "ReplicaSet \"frontend-54b9f9678\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -965,15 +965,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"loadgenerator\"},\"name\":\"loadgenerator\",\"namespace\":\"shop\"},\"spec\":{\"replicas\":1,\"selector\":{\"matchLabels\":{\"app\":\"loadgenerator\"}},\"template\":{\"metadata\":{\"annotations\":{\"sidecar.istio.io/rewriteAppHTTPProbers\":\"true\"},\"labels\":{\"app\":\"loadgenerator\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"FRONTEND_ADDR\",\"value\":\"frontend:80\"},{\"name\":\"USERS\",\"value\":\"10\"},{\"name\":\"RATE\",\"value\":\"1\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/loadgenerator:v0.10.7\",\"name\":\"main\",\"resources\":{\"limits\":{\"cpu\":\"500m\",\"memory\":\"512Mi\"},\"requests\":{\"cpu\":\"300m\",\"memory\":\"256Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"initContainers\":[{\"command\":[\"/bin/sh\",\"-exc\",\"MAX_RETRIES=12\\nRETRY_INTERVAL=10\\nfor i in $(seq 1 $MAX_RETRIES); do\\n  echo \\\"Attempt $i: Pinging frontend: ${FRONTEND_ADDR}...\\\"\\n  STATUSCODE=$(wget --server-response http://${FRONTEND_ADDR} 2\\u003e\\u00261 | awk '/^  HTTP/{print $2}')\\n  if [ $STATUSCODE -eq 200 ]; then\\n      echo \\\"Frontend is reachable.\\\"\\n      exit 0\\n  fi\\n  echo \\\"Error: Could not reach frontend - Status code: ${STATUSCODE}\\\"\\n  sleep $RETRY_INTERVAL\\ndone\\necho \\\"Failed to reach frontend after $MAX_RETRIES attempts.\\\"\\nexit 1\\n\"],\"env\":[{\"name\":\"FRONTEND_ADDR\",\"value\":\"frontend:80\"}],\"image\":\"busybox:1.38.0@sha256:dc2d74b28e4cf8984fa52af1f39bc7c3d9c73760b41a74d629f5d11b1ab28616\",\"name\":\"frontend-check\",\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"restartPolicy\":\"Always\",\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"loadgenerator\",\"terminationGracePeriodSeconds\":5}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:37Z",
                 "generation": 1,
                 "labels": {
                     "app": "loadgenerator"
                 },
                 "name": "loadgenerator",
                 "namespace": "shop",
-                "resourceVersion": "27674",
-                "uid": "abab3725-6641-48b8-a012-6e4482dbd180"
+                "resourceVersion": "77243",
+                "uid": "a610994d-31ef-480a-a0d7-3157e6663b36"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -1094,16 +1094,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:05:55Z",
-                        "lastUpdateTime": "2026-10-01T15:05:55Z",
+                        "lastTransitionTime": "2026-10-05T13:42:14Z",
+                        "lastUpdateTime": "2026-10-05T13:42:14Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:05:55Z",
+                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastUpdateTime": "2026-10-05T13:42:14Z",
                         "message": "ReplicaSet \"loadgenerator-9878487f4\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -1125,15 +1125,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"paymentservice\"},\"name\":\"paymentservice\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"paymentservice\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"paymentservice\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"PORT\",\"value\":\"50051\"},{\"name\":\"DISABLE_PROFILER\",\"value\":\"1\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/paymentservice:v0.10.7\",\"livenessProbe\":{\"grpc\":{\"port\":50051}},\"name\":\"server\",\"ports\":[{\"containerPort\":50051}],\"readinessProbe\":{\"grpc\":{\"port\":50051}},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"128Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"64Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"paymentservice\",\"terminationGracePeriodSeconds\":5}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:37Z",
                 "generation": 1,
                 "labels": {
                     "app": "paymentservice"
                 },
                 "name": "paymentservice",
                 "namespace": "shop",
-                "resourceVersion": "27618",
-                "uid": "827d7c8d-ea94-42b5-8517-eff893ddda17"
+                "resourceVersion": "77158",
+                "uid": "9c3375c8-ef5f-4796-842b-6f2297eed77a"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -1242,16 +1242,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:05:30Z",
-                        "lastUpdateTime": "2026-10-01T15:05:30Z",
+                        "lastTransitionTime": "2026-10-05T13:41:50Z",
+                        "lastUpdateTime": "2026-10-05T13:41:50Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:50Z",
-                        "lastUpdateTime": "2026-10-01T15:05:30Z",
+                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastUpdateTime": "2026-10-05T13:41:50Z",
                         "message": "ReplicaSet \"paymentservice-78478447c\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -1273,15 +1273,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"productcatalogservice\"},\"name\":\"productcatalogservice\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"productcatalogservice\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"productcatalogservice\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"PORT\",\"value\":\"3550\"},{\"name\":\"DISABLE_PROFILER\",\"value\":\"1\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7\",\"livenessProbe\":{\"grpc\":{\"port\":3550}},\"name\":\"server\",\"ports\":[{\"containerPort\":3550}],\"readinessProbe\":{\"grpc\":{\"port\":3550}},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"128Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"64Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"productcatalogservice\",\"terminationGracePeriodSeconds\":5}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "generation": 1,
                 "labels": {
                     "app": "productcatalogservice"
                 },
                 "name": "productcatalogservice",
                 "namespace": "shop",
-                "resourceVersion": "27460",
-                "uid": "5ffec079-d391-48be-b980-69440ad4cd6f"
+                "resourceVersion": "77096",
+                "uid": "a514b123-5a4d-402b-b09b-a492d747e4bb"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -1390,16 +1390,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:57Z",
-                        "lastUpdateTime": "2026-10-01T15:04:57Z",
+                        "lastTransitionTime": "2026-10-05T13:41:39Z",
+                        "lastUpdateTime": "2026-10-05T13:41:39Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:04:57Z",
+                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastUpdateTime": "2026-10-05T13:41:39Z",
                         "message": "ReplicaSet \"productcatalogservice-99c4c7c7f\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -1421,15 +1421,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"recommendationservice\"},\"name\":\"recommendationservice\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"recommendationservice\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"recommendationservice\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"PORT\",\"value\":\"8080\"},{\"name\":\"PRODUCT_CATALOG_SERVICE_ADDR\",\"value\":\"productcatalogservice:3550\"},{\"name\":\"DISABLE_PROFILER\",\"value\":\"1\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice:v0.10.7\",\"livenessProbe\":{\"grpc\":{\"port\":8080},\"periodSeconds\":5},\"name\":\"server\",\"ports\":[{\"containerPort\":8080}],\"readinessProbe\":{\"grpc\":{\"port\":8080},\"periodSeconds\":5},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"450Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"220Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"recommendationservice\",\"terminationGracePeriodSeconds\":5}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:37Z",
                 "generation": 1,
                 "labels": {
                     "app": "recommendationservice"
                 },
                 "name": "recommendationservice",
                 "namespace": "shop",
-                "resourceVersion": "27536",
-                "uid": "ebcfd50c-afb9-491c-9f15-99e1eab0945b"
+                "resourceVersion": "77152",
+                "uid": "e5d12ce7-e17b-4842-b02e-1e50994e494e"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -1542,16 +1542,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:05:09Z",
-                        "lastUpdateTime": "2026-10-01T15:05:09Z",
+                        "lastTransitionTime": "2026-10-05T13:41:49Z",
+                        "lastUpdateTime": "2026-10-05T13:41:49Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:05:09Z",
+                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastUpdateTime": "2026-10-05T13:41:49Z",
                         "message": "ReplicaSet \"recommendationservice-59654c7cb9\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -1573,15 +1573,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"redis-cart\"},\"name\":\"redis-cart\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"redis-cart\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"redis-cart\"}},\"spec\":{\"containers\":[{\"image\":\"redis:alpine\",\"livenessProbe\":{\"periodSeconds\":5,\"tcpSocket\":{\"port\":6379}},\"name\":\"redis\",\"ports\":[{\"containerPort\":6379}],\"readinessProbe\":{\"periodSeconds\":5,\"tcpSocket\":{\"port\":6379}},\"resources\":{\"limits\":{\"cpu\":\"125m\",\"memory\":\"256Mi\"},\"requests\":{\"cpu\":\"70m\",\"memory\":\"200Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true},\"volumeMounts\":[{\"mountPath\":\"/data\",\"name\":\"redis-data\"}]}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"volumes\":[{\"emptyDir\":{},\"name\":\"redis-data\"}]}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:37Z",
                 "generation": 1,
                 "labels": {
                     "app": "redis-cart"
                 },
                 "name": "redis-cart",
                 "namespace": "shop",
-                "resourceVersion": "27568",
-                "uid": "e10a704b-5a99-4936-9c0c-a324c1bfba13"
+                "resourceVersion": "77105",
+                "uid": "9970c8ec-ad3b-400d-8199-e447a683a69d"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -1688,16 +1688,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:05:17Z",
-                        "lastUpdateTime": "2026-10-01T15:05:17Z",
+                        "lastTransitionTime": "2026-10-05T13:41:40Z",
+                        "lastUpdateTime": "2026-10-05T13:41:40Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:05:17Z",
+                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastUpdateTime": "2026-10-05T13:41:40Z",
                         "message": "ReplicaSet \"redis-cart-6fdc7894b7\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
@@ -1719,15 +1719,15 @@
                     "deployment.kubernetes.io/revision": "1",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"shippingservice\"},\"name\":\"shippingservice\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"shippingservice\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"shippingservice\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"PORT\",\"value\":\"50051\"},{\"name\":\"DISABLE_PROFILER\",\"value\":\"1\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice:v0.10.7\",\"livenessProbe\":{\"grpc\":{\"port\":50051}},\"name\":\"server\",\"ports\":[{\"containerPort\":50051}],\"readinessProbe\":{\"grpc\":{\"port\":50051},\"periodSeconds\":5},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"128Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"64Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"shippingservice\"}}}}\n"
                 },
-                "creationTimestamp": "2026-10-01T15:04:49Z",
+                "creationTimestamp": "2026-10-05T13:41:36Z",
                 "generation": 1,
                 "labels": {
                     "app": "shippingservice"
                 },
                 "name": "shippingservice",
                 "namespace": "shop",
-                "resourceVersion": "27428",
-                "uid": "dc9ceac4-8ada-462f-9109-889215ad8210"
+                "resourceVersion": "77086",
+                "uid": "65faf4cd-011e-4b52-a45c-26b948320aa5"
             },
             "spec": {
                 "progressDeadlineSeconds": 600,
@@ -1836,16 +1836,16 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:50Z",
-                        "lastUpdateTime": "2026-10-01T15:04:50Z",
+                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastUpdateTime": "2026-10-05T13:41:38Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     },
                     {
-                        "lastTransitionTime": "2026-10-01T15:04:49Z",
-                        "lastUpdateTime": "2026-10-01T15:04:50Z",
+                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastUpdateTime": "2026-10-05T13:41:38Z",
                         "message": "ReplicaSet \"shippingservice-57457d4b97\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",

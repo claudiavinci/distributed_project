@@ -1,0 +1,2967 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "adservice-84b79f4569-r7lcm",
+                "namespace": "shop",
+                "resourceVersion": "76770",
+                "uid": "8b83c2b2-609c-4340-a15a-cb636b6ae26a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Successfully assigned shop/adservice-84b79f4569-r7lcm to consumer-worker",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "adservice-84b79f4569-r7lcm.18dba5e8ec4f8bb4",
+                "namespace": "shop",
+                "resourceVersion": "76778",
+                "uid": "dd587bcf-e6b6-41f3-af7e-138dafefdef3"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "adservice-84b79f4569-r7lcm",
+                "namespace": "shop",
+                "resourceVersion": "76774",
+                "uid": "8b83c2b2-609c-4340-a15a-cb636b6ae26a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Pulling image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "adservice-84b79f4569-r7lcm.18dba5e90aa699cc",
+                "namespace": "shop",
+                "resourceVersion": "76889",
+                "uid": "a450137e-fa68-43bc-a49e-64afe4b63303"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "adservice-84b79f4569-r7lcm",
+                "namespace": "shop",
+                "resourceVersion": "76774",
+                "uid": "8b83c2b2-609c-4340-a15a-cb636b6ae26a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:55Z",
+            "message": "Successfully pulled image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7\" in 18.714s (18.715s including waiting). Image size: 109886572 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:55Z",
+                "name": "adservice-84b79f4569-r7lcm.18dba5ed6627cb59",
+                "namespace": "shop",
+                "resourceVersion": "77184",
+                "uid": "b59f86d7-fd29-4db7-a5cb-5955c2e6f0a2"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "adservice-84b79f4569-r7lcm",
+                "namespace": "shop",
+                "resourceVersion": "76774",
+                "uid": "8b83c2b2-609c-4340-a15a-cb636b6ae26a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:55Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:55Z",
+                "name": "adservice-84b79f4569-r7lcm.18dba5ed689f2285",
+                "namespace": "shop",
+                "resourceVersion": "77185",
+                "uid": "4baeff38-706d-4782-a270-78a52bec0c7b"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "adservice-84b79f4569-r7lcm",
+                "namespace": "shop",
+                "resourceVersion": "76774",
+                "uid": "8b83c2b2-609c-4340-a15a-cb636b6ae26a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:55Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:55Z",
+                "name": "adservice-84b79f4569-r7lcm.18dba5ed6bd3bfa2",
+                "namespace": "shop",
+                "resourceVersion": "77186",
+                "uid": "1335bc2a-e308-4f1d-802b-a8b302bf2350"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:42:24Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "adservice-84b79f4569-r7lcm",
+                "namespace": "shop",
+                "resourceVersion": "76774",
+                "uid": "8b83c2b2-609c-4340-a15a-cb636b6ae26a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:42:24Z",
+            "message": "Liveness probe failed: timeout: health rpc did not complete within 1s",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:42:24Z",
+                "name": "adservice-84b79f4569-r7lcm.18dba5f3f5352169",
+                "namespace": "shop",
+                "resourceVersion": "77264",
+                "uid": "302ddb67-5c9d-4635-b71e-d81c3eabe060"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "adservice-84b79f4569",
+                "namespace": "shop",
+                "resourceVersion": "76755",
+                "uid": "177e62fd-6a2e-4d26-98df-bdb910221942"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Error creating: pods \"adservice-84b79f4569-\" is forbidden: error looking up service account shop/adservice: serviceaccount \"adservice\" not found",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "adservice-84b79f4569.18dba5e8e8f83c81",
+                "namespace": "shop",
+                "resourceVersion": "76768",
+                "uid": "cc0bb0d5-7cf7-4552-841e-62ec51f498fe"
+            },
+            "reason": "FailedCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "adservice-84b79f4569",
+                "namespace": "shop",
+                "resourceVersion": "76761",
+                "uid": "177e62fd-6a2e-4d26-98df-bdb910221942"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Created pod: adservice-84b79f4569-r7lcm",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "adservice-84b79f4569.18dba5e8ebb685eb",
+                "namespace": "shop",
+                "resourceVersion": "76772",
+                "uid": "6dc9d250-52b7-4baa-b7ff-061b58003398"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "adservice",
+                "namespace": "shop",
+                "resourceVersion": "76754",
+                "uid": "a2e0f2cf-dd50-4de3-a179-14b229982641"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Scaled up replica set adservice-84b79f4569 from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "adservice.18dba5e8e836f769",
+                "namespace": "shop",
+                "resourceVersion": "76756",
+                "uid": "9cead00a-6a64-4eaa-b81b-d8b114d1e187"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "cartservice-574c7f4cdd-vb85h",
+                "namespace": "shop",
+                "resourceVersion": "76966",
+                "uid": "2be310ad-72fa-4804-b57f-4e8c57713b76"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Successfully assigned shop/cartservice-574c7f4cdd-vb85h to consumer-worker2",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "cartservice-574c7f4cdd-vb85h.18dba5e936f4af53",
+                "namespace": "shop",
+                "resourceVersion": "76971",
+                "uid": "8cd52c3c-672f-492c-94f1-bcbb29796710"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "cartservice-574c7f4cdd-vb85h",
+                "namespace": "shop",
+                "resourceVersion": "76968",
+                "uid": "2be310ad-72fa-4804-b57f-4e8c57713b76"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "cartservice-574c7f4cdd-vb85h.18dba5e95d7ad100",
+                "namespace": "shop",
+                "resourceVersion": "77029",
+                "uid": "4e0e1da0-370c-46fc-b72c-f8ab358e86b1"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "cartservice-574c7f4cdd-vb85h",
+                "namespace": "shop",
+                "resourceVersion": "76968",
+                "uid": "2be310ad-72fa-4804-b57f-4e8c57713b76"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "cartservice-574c7f4cdd-vb85h.18dba5e9641efa3e",
+                "namespace": "shop",
+                "resourceVersion": "77039",
+                "uid": "8a6a0b25-9e9b-4481-9d69-7e5226b6a1c9"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "cartservice-574c7f4cdd-vb85h",
+                "namespace": "shop",
+                "resourceVersion": "76968",
+                "uid": "2be310ad-72fa-4804-b57f-4e8c57713b76"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "cartservice-574c7f4cdd-vb85h.18dba5e968d9036f",
+                "namespace": "shop",
+                "resourceVersion": "77048",
+                "uid": "2b85a0a4-3e32-4c73-b918-ecb3e3b07de8"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:42:00Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "cartservice-574c7f4cdd-vb85h",
+                "namespace": "shop",
+                "resourceVersion": "76968",
+                "uid": "2be310ad-72fa-4804-b57f-4e8c57713b76"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:42:00Z",
+            "message": "Liveness probe failed: timeout: health rpc did not complete within 1s",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:42:00Z",
+                "name": "cartservice-574c7f4cdd-vb85h.18dba5ee6ffc340e",
+                "namespace": "shop",
+                "resourceVersion": "77195",
+                "uid": "40deb9b5-4b39-46b6-b012-3bab3c61f0f9"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "cartservice-574c7f4cdd",
+                "namespace": "shop",
+                "resourceVersion": "76929",
+                "uid": "b5332ba3-1e23-4d81-964c-b8e0d2e4e57b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Created pod: cartservice-574c7f4cdd-vb85h",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "cartservice-574c7f4cdd.18dba5e934a0471f",
+                "namespace": "shop",
+                "resourceVersion": "77037",
+                "uid": "db74c3b6-1360-4cb0-9a85-a20b1ac84ff0"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "cartservice",
+                "namespace": "shop",
+                "resourceVersion": "76894",
+                "uid": "37f45542-0d89-4ebc-a1b6-014953ea151a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Scaled up replica set cartservice-574c7f4cdd from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "cartservice.18dba5e9200dea1b",
+                "namespace": "shop",
+                "resourceVersion": "77005",
+                "uid": "6da5e9ac-815c-4597-b2f3-1550b81761f3"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "checkoutservice-7ddc4696cf-hm6ft",
+                "namespace": "shop",
+                "resourceVersion": "76815",
+                "uid": "a588a5bd-2b5e-4d6d-a0d2-38b76f0e4d58"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Successfully assigned shop/checkoutservice-7ddc4696cf-hm6ft to consumer-worker",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "checkoutservice-7ddc4696cf-hm6ft.18dba5e8f564e019",
+                "namespace": "shop",
+                "resourceVersion": "76821",
+                "uid": "8033fcf8-d35f-4733-883a-2e7af1e775cd"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "checkoutservice-7ddc4696cf-hm6ft",
+                "namespace": "shop",
+                "resourceVersion": "76819",
+                "uid": "a588a5bd-2b5e-4d6d-a0d2-38b76f0e4d58"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "checkoutservice-7ddc4696cf-hm6ft.18dba5e91b98faec",
+                "namespace": "shop",
+                "resourceVersion": "76927",
+                "uid": "1879f09e-c446-47c6-9ee4-d09a3ee8c87a"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "checkoutservice-7ddc4696cf-hm6ft",
+                "namespace": "shop",
+                "resourceVersion": "76819",
+                "uid": "a588a5bd-2b5e-4d6d-a0d2-38b76f0e4d58"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "checkoutservice-7ddc4696cf-hm6ft.18dba5e92721af59",
+                "namespace": "shop",
+                "resourceVersion": "76942",
+                "uid": "d8f2ef75-61ea-4208-9446-6131e1857352"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "checkoutservice-7ddc4696cf-hm6ft",
+                "namespace": "shop",
+                "resourceVersion": "76819",
+                "uid": "a588a5bd-2b5e-4d6d-a0d2-38b76f0e4d58"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "checkoutservice-7ddc4696cf-hm6ft.18dba5e92aa662b7",
+                "namespace": "shop",
+                "resourceVersion": "76945",
+                "uid": "3d44448c-9940-4c60-be87-a43b17e30aa8"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "checkoutservice-7ddc4696cf-hm6ft",
+                "namespace": "shop",
+                "resourceVersion": "76819",
+                "uid": "a588a5bd-2b5e-4d6d-a0d2-38b76f0e4d58"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.1.21:5050\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "checkoutservice-7ddc4696cf-hm6ft.18dba5e96678f435",
+                "namespace": "shop",
+                "resourceVersion": "77042",
+                "uid": "350af67f-83cc-4faf-8bfb-1cf07ee1361c"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 4,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "checkoutservice-7ddc4696cf",
+                "namespace": "shop",
+                "resourceVersion": "76795",
+                "uid": "af9c6f1c-2209-49cf-ac5b-f34be3fb7491"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Error creating: pods \"checkoutservice-7ddc4696cf-\" is forbidden: error looking up service account shop/checkoutservice: serviceaccount \"checkoutservice\" not found",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "checkoutservice-7ddc4696cf.18dba5e8f0b155d0",
+                "namespace": "shop",
+                "resourceVersion": "76831",
+                "uid": "01b79f76-42fa-4cb8-a5e3-79a6d7bd7eb9"
+            },
+            "reason": "FailedCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "checkoutservice-7ddc4696cf",
+                "namespace": "shop",
+                "resourceVersion": "76800",
+                "uid": "af9c6f1c-2209-49cf-ac5b-f34be3fb7491"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Created pod: checkoutservice-7ddc4696cf-hm6ft",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "checkoutservice-7ddc4696cf.18dba5e8f4a8e373",
+                "namespace": "shop",
+                "resourceVersion": "76859",
+                "uid": "76ddcdea-2d37-49ef-8f91-f124ae3b70bc"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "checkoutservice",
+                "namespace": "shop",
+                "resourceVersion": "76794",
+                "uid": "68339c4f-e5aa-401a-bd04-09c52c6a8c54"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Scaled up replica set checkoutservice-7ddc4696cf from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "checkoutservice.18dba5e8f06d7472",
+                "namespace": "shop",
+                "resourceVersion": "76796",
+                "uid": "f7351fa7-5362-4abb-8869-6ca0d8b83529"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "currencyservice-6478b9fcf7-prznz",
+                "namespace": "shop",
+                "resourceVersion": "76849",
+                "uid": "9f3a1125-d5bc-4bf3-a4d5-66e3a3404e53"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Successfully assigned shop/currencyservice-6478b9fcf7-prznz to consumer-worker2",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "currencyservice-6478b9fcf7-prznz.18dba5e8fe7e4396",
+                "namespace": "shop",
+                "resourceVersion": "76854",
+                "uid": "e8626996-225d-492f-8def-2bf1e173d105"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-6478b9fcf7-prznz",
+                "namespace": "shop",
+                "resourceVersion": "76851",
+                "uid": "9f3a1125-d5bc-4bf3-a4d5-66e3a3404e53"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Pulling image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "currencyservice-6478b9fcf7-prznz.18dba5e921ed2f7e",
+                "namespace": "shop",
+                "resourceVersion": "76935",
+                "uid": "ab8e3725-3b72-47c4-ac85-0a1cdb804fc6"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-6478b9fcf7-prznz",
+                "namespace": "shop",
+                "resourceVersion": "76851",
+                "uid": "9f3a1125-d5bc-4bf3-a4d5-66e3a3404e53"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:53Z",
+            "message": "Successfully pulled image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7\" in 15.945s (15.945s including waiting). Image size: 50756989 bytes.",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:53Z",
+                "name": "currencyservice-6478b9fcf7-prznz.18dba5ecd860de8c",
+                "namespace": "shop",
+                "resourceVersion": "77167",
+                "uid": "d47c758b-4e3e-4220-bba5-186df431aa1b"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-6478b9fcf7-prznz",
+                "namespace": "shop",
+                "resourceVersion": "76851",
+                "uid": "9f3a1125-d5bc-4bf3-a4d5-66e3a3404e53"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:53Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:53Z",
+                "name": "currencyservice-6478b9fcf7-prznz.18dba5ecdbad212a",
+                "namespace": "shop",
+                "resourceVersion": "77168",
+                "uid": "6c5ada28-6d95-48ab-a1d8-6a83447090cb"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-6478b9fcf7-prznz",
+                "namespace": "shop",
+                "resourceVersion": "76851",
+                "uid": "9f3a1125-d5bc-4bf3-a4d5-66e3a3404e53"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:53Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:53Z",
+                "name": "currencyservice-6478b9fcf7-prznz.18dba5ece16a7934",
+                "namespace": "shop",
+                "resourceVersion": "77169",
+                "uid": "076c0ba1-ee17-48d9-b672-df1d69b63d8b"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:54Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-6478b9fcf7-prznz",
+                "namespace": "shop",
+                "resourceVersion": "76851",
+                "uid": "9f3a1125-d5bc-4bf3-a4d5-66e3a3404e53"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:55Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.2.13:7000\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:54Z",
+                "name": "currencyservice-6478b9fcf7-prznz.18dba5ed1d5b4b51",
+                "namespace": "shop",
+                "resourceVersion": "77183",
+                "uid": "07b64d04-1568-41b9-8d03-bb9ca13eae64"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "currencyservice-6478b9fcf7",
+                "namespace": "shop",
+                "resourceVersion": "76822",
+                "uid": "dd491b05-2f0e-4cb6-871c-142da24f744a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Created pod: currencyservice-6478b9fcf7-prznz",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "currencyservice-6478b9fcf7.18dba5e8fd8fbb16",
+                "namespace": "shop",
+                "resourceVersion": "76892",
+                "uid": "4b754fbb-be97-4b37-86c3-d0f6b47816f0"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "currencyservice",
+                "namespace": "shop",
+                "resourceVersion": "76818",
+                "uid": "b1e9c2ce-2fd5-4c3b-8f48-4a6f935fb1e5"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Scaled up replica set currencyservice-6478b9fcf7 from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "currencyservice.18dba5e8f63872b4",
+                "namespace": "shop",
+                "resourceVersion": "76824",
+                "uid": "c1f50267-c2bc-4d8f-a4ef-95478afb4528"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "emailservice-59d546db77-t74l6",
+                "namespace": "shop",
+                "resourceVersion": "76870",
+                "uid": "ba803187-a001-46e0-909f-63038119c9b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Successfully assigned shop/emailservice-59d546db77-t74l6 to consumer-worker2",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "emailservice-59d546db77-t74l6.18dba5e90516bb34",
+                "namespace": "shop",
+                "resourceVersion": "76874",
+                "uid": "e72391b1-b92c-4092-8aa3-186063eddc6d"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "emailservice-59d546db77-t74l6",
+                "namespace": "shop",
+                "resourceVersion": "76873",
+                "uid": "ba803187-a001-46e0-909f-63038119c9b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "emailservice-59d546db77-t74l6.18dba5e92d24b85d",
+                "namespace": "shop",
+                "resourceVersion": "76954",
+                "uid": "f5a8f70c-9be3-4356-8a05-d50eb702940f"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "emailservice-59d546db77-t74l6",
+                "namespace": "shop",
+                "resourceVersion": "76873",
+                "uid": "ba803187-a001-46e0-909f-63038119c9b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "emailservice-59d546db77-t74l6.18dba5e931a974f2",
+                "namespace": "shop",
+                "resourceVersion": "76963",
+                "uid": "795b7bfa-0065-4cbf-b7f9-64a4dbfbbfac"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "emailservice-59d546db77-t74l6",
+                "namespace": "shop",
+                "resourceVersion": "76873",
+                "uid": "ba803187-a001-46e0-909f-63038119c9b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "emailservice-59d546db77-t74l6.18dba5e9360cd7a9",
+                "namespace": "shop",
+                "resourceVersion": "76970",
+                "uid": "e50ddf99-defe-4f7c-8829-21d961aca811"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "emailservice-59d546db77-t74l6",
+                "namespace": "shop",
+                "resourceVersion": "76873",
+                "uid": "ba803187-a001-46e0-909f-63038119c9b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:44Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.2.14:8080\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "emailservice-59d546db77-t74l6.18dba5e97229a907",
+                "namespace": "shop",
+                "resourceVersion": "77121",
+                "uid": "6fe94de6-0d97-453b-980b-22841ddeef8f"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "emailservice-59d546db77-t74l6",
+                "namespace": "shop",
+                "resourceVersion": "76873",
+                "uid": "ba803187-a001-46e0-909f-63038119c9b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:43Z",
+            "message": "Liveness probe failed: timeout: failed to connect service \"10.244.2.14:8080\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:43Z",
+                "name": "emailservice-59d546db77-t74l6.18dba5ea7ea89426",
+                "namespace": "shop",
+                "resourceVersion": "77117",
+                "uid": "4d2c7adc-c1ee-4bb7-8432-a061a515f227"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "emailservice-59d546db77",
+                "namespace": "shop",
+                "resourceVersion": "76835",
+                "uid": "67c3d6fd-fb10-451a-94a1-7d96cd6b24d6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Created pod: emailservice-59d546db77-t74l6",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "emailservice-59d546db77.18dba5e903fcc24c",
+                "namespace": "shop",
+                "resourceVersion": "76930",
+                "uid": "1ad84636-9e40-4011-b870-73a35d1f7bbf"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "emailservice",
+                "namespace": "shop",
+                "resourceVersion": "76834",
+                "uid": "ab1dc0ea-5b43-4804-be91-111758042065"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Scaled up replica set emailservice-59d546db77 from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "emailservice.18dba5e8f98c2255",
+                "namespace": "shop",
+                "resourceVersion": "76836",
+                "uid": "3e67dee8-af9c-4eb3-8215-0befe401aaea"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "frontend-54b9f9678-tp6l8",
+                "namespace": "shop",
+                "resourceVersion": "76905",
+                "uid": "284a7e06-4ce3-4643-bb0f-4d9906b17dd9"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Successfully assigned shop/frontend-54b9f9678-tp6l8 to consumer-worker",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "frontend-54b9f9678-tp6l8.18dba5e913e8ca3f",
+                "namespace": "shop",
+                "resourceVersion": "76909",
+                "uid": "112d2f16-27fd-43cd-96ac-a39bd0c58200"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "frontend-54b9f9678-tp6l8",
+                "namespace": "shop",
+                "resourceVersion": "76906",
+                "uid": "284a7e06-4ce3-4643-bb0f-4d9906b17dd9"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "frontend-54b9f9678-tp6l8.18dba5e939cb501d",
+                "namespace": "shop",
+                "resourceVersion": "76982",
+                "uid": "8c038edd-1e16-493b-93d9-7798fd1a319f"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "frontend-54b9f9678-tp6l8",
+                "namespace": "shop",
+                "resourceVersion": "76906",
+                "uid": "284a7e06-4ce3-4643-bb0f-4d9906b17dd9"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "frontend-54b9f9678-tp6l8.18dba5e93ec83372",
+                "namespace": "shop",
+                "resourceVersion": "76994",
+                "uid": "b6cc76eb-0f2c-4288-b780-41b750aa9259"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "frontend-54b9f9678-tp6l8",
+                "namespace": "shop",
+                "resourceVersion": "76906",
+                "uid": "284a7e06-4ce3-4643-bb0f-4d9906b17dd9"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "frontend-54b9f9678-tp6l8.18dba5e94459c465",
+                "namespace": "shop",
+                "resourceVersion": "76996",
+                "uid": "d419f7ae-3e39-43eb-a403-deaa2b42c7f2"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "frontend-54b9f9678",
+                "namespace": "shop",
+                "resourceVersion": "76876",
+                "uid": "8adb0c78-1fbe-4e8b-8cf3-d4399566dbbc"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Created pod: frontend-54b9f9678-tp6l8",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "frontend-54b9f9678.18dba5e913123e16",
+                "namespace": "shop",
+                "resourceVersion": "76995",
+                "uid": "173f0dc1-b887-42c9-949a-5ee2c4eeb743"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "frontend",
+                "namespace": "shop",
+                "resourceVersion": "76857",
+                "uid": "bb326575-6dc2-471f-b990-fb92a29ba5e9"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Scaled up replica set frontend-54b9f9678 from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "frontend.18dba5e906ffedf4",
+                "namespace": "shop",
+                "resourceVersion": "76904",
+                "uid": "2f17bfbb-56b1-44fe-8890-27abb7225a42"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "loadgenerator-9878487f4-s5s9g",
+                "namespace": "shop",
+                "resourceVersion": "76944",
+                "uid": "baee45d5-b589-4e68-bd0b-2c4667253922"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Successfully assigned shop/loadgenerator-9878487f4-s5s9g to consumer-worker",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "loadgenerator-9878487f4-s5s9g.18dba5e92b72caac",
+                "namespace": "shop",
+                "resourceVersion": "76948",
+                "uid": "8aebb51e-6a9e-4e52-9315-59db5c7ade45"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{frontend-check}",
+                "kind": "Pod",
+                "name": "loadgenerator-9878487f4-s5s9g",
+                "namespace": "shop",
+                "resourceVersion": "76946",
+                "uid": "baee45d5-b589-4e68-bd0b-2c4667253922"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container image \"busybox:1.38.0@sha256:dc2d74b28e4cf8984fa52af1f39bc7c3d9c73760b41a74d629f5d11b1ab28616\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "loadgenerator-9878487f4-s5s9g.18dba5e951e04aaa",
+                "namespace": "shop",
+                "resourceVersion": "77016",
+                "uid": "978a0543-c78c-46e3-bd7f-13ea692d8246"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{frontend-check}",
+                "kind": "Pod",
+                "name": "loadgenerator-9878487f4-s5s9g",
+                "namespace": "shop",
+                "resourceVersion": "76946",
+                "uid": "baee45d5-b589-4e68-bd0b-2c4667253922"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "loadgenerator-9878487f4-s5s9g.18dba5e9639a58fd",
+                "namespace": "shop",
+                "resourceVersion": "77038",
+                "uid": "451630bc-8b41-4786-9dac-c32edb8a2218"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{frontend-check}",
+                "kind": "Pod",
+                "name": "loadgenerator-9878487f4-s5s9g",
+                "namespace": "shop",
+                "resourceVersion": "76946",
+                "uid": "baee45d5-b589-4e68-bd0b-2c4667253922"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "loadgenerator-9878487f4-s5s9g.18dba5e9677ddced",
+                "namespace": "shop",
+                "resourceVersion": "77044",
+                "uid": "1164159d-e6ae-44f0-9235-0f822559c661"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:42:14Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{main}",
+                "kind": "Pod",
+                "name": "loadgenerator-9878487f4-s5s9g",
+                "namespace": "shop",
+                "resourceVersion": "76946",
+                "uid": "baee45d5-b589-4e68-bd0b-2c4667253922"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:42:14Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/loadgenerator:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:42:14Z",
+                "name": "loadgenerator-9878487f4-s5s9g.18dba5f1a71b1ee1",
+                "namespace": "shop",
+                "resourceVersion": "77236",
+                "uid": "75035c68-5894-47f8-805d-ae2c5175f642"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:42:14Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{main}",
+                "kind": "Pod",
+                "name": "loadgenerator-9878487f4-s5s9g",
+                "namespace": "shop",
+                "resourceVersion": "76946",
+                "uid": "baee45d5-b589-4e68-bd0b-2c4667253922"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:42:14Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:42:14Z",
+                "name": "loadgenerator-9878487f4-s5s9g.18dba5f1a9829e97",
+                "namespace": "shop",
+                "resourceVersion": "77238",
+                "uid": "3545eef3-6d7a-4f70-8421-4b9a8cb0ce7a"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:42:14Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{main}",
+                "kind": "Pod",
+                "name": "loadgenerator-9878487f4-s5s9g",
+                "namespace": "shop",
+                "resourceVersion": "76946",
+                "uid": "baee45d5-b589-4e68-bd0b-2c4667253922"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:42:14Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:42:14Z",
+                "name": "loadgenerator-9878487f4-s5s9g.18dba5f1ac95a7e9",
+                "namespace": "shop",
+                "resourceVersion": "77240",
+                "uid": "8b791fe3-0d16-4ebc-9bf3-22ab60595de1"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "loadgenerator-9878487f4",
+                "namespace": "shop",
+                "resourceVersion": "76921",
+                "uid": "67766c39-660d-4386-be8f-759ad3690f5b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Created pod: loadgenerator-9878487f4-s5s9g",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "loadgenerator-9878487f4.18dba5e92ae4d370",
+                "namespace": "shop",
+                "resourceVersion": "77027",
+                "uid": "b2efe798-2008-49dd-8bc5-63d9e5013ed0"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "loadgenerator",
+                "namespace": "shop",
+                "resourceVersion": "76888",
+                "uid": "a610994d-31ef-480a-a0d7-3157e6663b36"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Scaled up replica set loadgenerator-9878487f4 from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "loadgenerator.18dba5e918342a31",
+                "namespace": "shop",
+                "resourceVersion": "76969",
+                "uid": "af199667-241d-4b88-b0b6-1db8e3877e96"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "paymentservice-78478447c-zzh6r",
+                "namespace": "shop",
+                "resourceVersion": "77006",
+                "uid": "c9daa619-8dda-4e31-b8fa-d0c4b8c260b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Successfully assigned shop/paymentservice-78478447c-zzh6r to consumer-worker2",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "paymentservice-78478447c-zzh6r.18dba5e948be8077",
+                "namespace": "shop",
+                "resourceVersion": "77008",
+                "uid": "75242bde-2a90-4c75-888e-09d213f58724"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "paymentservice-78478447c-zzh6r",
+                "namespace": "shop",
+                "resourceVersion": "77007",
+                "uid": "c9daa619-8dda-4e31-b8fa-d0c4b8c260b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/paymentservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "paymentservice-78478447c-zzh6r.18dba5e9700e9739",
+                "namespace": "shop",
+                "resourceVersion": "77064",
+                "uid": "73fa6e48-af5b-4533-a7c3-f1531499b541"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "paymentservice-78478447c-zzh6r",
+                "namespace": "shop",
+                "resourceVersion": "77007",
+                "uid": "c9daa619-8dda-4e31-b8fa-d0c4b8c260b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "paymentservice-78478447c-zzh6r.18dba5e9733dc175",
+                "namespace": "shop",
+                "resourceVersion": "77067",
+                "uid": "f3fc7fab-0b82-4a1b-8d52-be90a1455665"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:39Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "paymentservice-78478447c-zzh6r",
+                "namespace": "shop",
+                "resourceVersion": "77007",
+                "uid": "c9daa619-8dda-4e31-b8fa-d0c4b8c260b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:39Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:39Z",
+                "name": "paymentservice-78478447c-zzh6r.18dba5e97a28dce5",
+                "namespace": "shop",
+                "resourceVersion": "77077",
+                "uid": "0c4d9e23-85c3-4643-b928-67c5f5a2608f"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:40Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "paymentservice-78478447c-zzh6r",
+                "namespace": "shop",
+                "resourceVersion": "77007",
+                "uid": "c9daa619-8dda-4e31-b8fa-d0c4b8c260b8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:41Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.2.17:50051\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:40Z",
+                "name": "paymentservice-78478447c-zzh6r.18dba5e9b6029ac2",
+                "namespace": "shop",
+                "resourceVersion": "77109",
+                "uid": "c8a515b5-c81d-40aa-9398-dd49fac5e1e5"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "paymentservice-78478447c",
+                "namespace": "shop",
+                "resourceVersion": "76964",
+                "uid": "67165fba-bd27-4b28-8fc6-f898239ec7cf"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Created pod: paymentservice-78478447c-zzh6r",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "paymentservice-78478447c.18dba5e9483a228a",
+                "namespace": "shop",
+                "resourceVersion": "77046",
+                "uid": "6564a6dc-eba7-4d4a-969a-dcacba7ba9e1"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "paymentservice",
+                "namespace": "shop",
+                "resourceVersion": "76913",
+                "uid": "9c3375c8-ef5f-4796-842b-6f2297eed77a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Scaled up replica set paymentservice-78478447c from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "paymentservice.18dba5e9335da14d",
+                "namespace": "shop",
+                "resourceVersion": "77057",
+                "uid": "292b136a-1c72-4986-8920-7deeb008a8b6"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "productcatalogservice-99c4c7c7f-ng2xz",
+                "namespace": "shop",
+                "resourceVersion": "76878",
+                "uid": "2de9de29-4dd7-4dbe-9d9c-4ad14a335fc6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Successfully assigned shop/productcatalogservice-99c4c7c7f-ng2xz to consumer-worker",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "productcatalogservice-99c4c7c7f-ng2xz.18dba5e907a703cc",
+                "namespace": "shop",
+                "resourceVersion": "76881",
+                "uid": "aa17b188-e424-48e5-9060-bc331da744d3"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "productcatalogservice-99c4c7c7f-ng2xz",
+                "namespace": "shop",
+                "resourceVersion": "76879",
+                "uid": "2de9de29-4dd7-4dbe-9d9c-4ad14a335fc6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "productcatalogservice-99c4c7c7f-ng2xz.18dba5e932c7e61c",
+                "namespace": "shop",
+                "resourceVersion": "76965",
+                "uid": "d41c2da7-fcae-4013-9d94-08ff0e1191a0"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "productcatalogservice-99c4c7c7f-ng2xz",
+                "namespace": "shop",
+                "resourceVersion": "76879",
+                "uid": "2de9de29-4dd7-4dbe-9d9c-4ad14a335fc6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "productcatalogservice-99c4c7c7f-ng2xz.18dba5e937daecf4",
+                "namespace": "shop",
+                "resourceVersion": "76974",
+                "uid": "2a0e9f71-0c87-440e-bd4e-070b53508dcd"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "productcatalogservice-99c4c7c7f-ng2xz",
+                "namespace": "shop",
+                "resourceVersion": "76879",
+                "uid": "2de9de29-4dd7-4dbe-9d9c-4ad14a335fc6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "productcatalogservice-99c4c7c7f-ng2xz.18dba5e93be62906",
+                "namespace": "shop",
+                "resourceVersion": "76987",
+                "uid": "fdf03964-6bed-4e91-9574-76dbe7ce9d70"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "productcatalogservice-99c4c7c7f-ng2xz",
+                "namespace": "shop",
+                "resourceVersion": "76879",
+                "uid": "2de9de29-4dd7-4dbe-9d9c-4ad14a335fc6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.1.22:3550\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "productcatalogservice-99c4c7c7f-ng2xz.18dba5e977a8c085",
+                "namespace": "shop",
+                "resourceVersion": "77072",
+                "uid": "44fe8c06-6899-491b-b1bb-a01bdf65154b"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "productcatalogservice-99c4c7c7f",
+                "namespace": "shop",
+                "resourceVersion": "76847",
+                "uid": "bad89051-d386-45f3-9c9c-81e296fff9a0"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Created pod: productcatalogservice-99c4c7c7f-ng2xz",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "productcatalogservice-99c4c7c7f.18dba5e90702ef57",
+                "namespace": "shop",
+                "resourceVersion": "76959",
+                "uid": "51cb7c3c-1b5b-4c47-9d2c-696bf58522c8"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "productcatalogservice",
+                "namespace": "shop",
+                "resourceVersion": "76846",
+                "uid": "a514b123-5a4d-402b-b09b-a492d747e4bb"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Scaled up replica set productcatalogservice-99c4c7c7f from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "productcatalogservice.18dba5e8fd193fe0",
+                "namespace": "shop",
+                "resourceVersion": "76867",
+                "uid": "e82fe13b-b697-4603-a38b-02813792fa86"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "recommendationservice-59654c7cb9-s8c8x",
+                "namespace": "shop",
+                "resourceVersion": "76924",
+                "uid": "d279af24-f1f3-447b-9e9a-db2a3c92ed3b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Successfully assigned shop/recommendationservice-59654c7cb9-s8c8x to consumer-worker2",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "recommendationservice-59654c7cb9-s8c8x.18dba5e91e4bc464",
+                "namespace": "shop",
+                "resourceVersion": "76931",
+                "uid": "d2b32978-1c62-445f-b549-30f873670116"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "recommendationservice-59654c7cb9-s8c8x",
+                "namespace": "shop",
+                "resourceVersion": "76928",
+                "uid": "d279af24-f1f3-447b-9e9a-db2a3c92ed3b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "recommendationservice-59654c7cb9-s8c8x.18dba5e951a5be4d",
+                "namespace": "shop",
+                "resourceVersion": "77015",
+                "uid": "c4b033a5-eed2-4592-9edb-a4b40614e6d4"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "recommendationservice-59654c7cb9-s8c8x",
+                "namespace": "shop",
+                "resourceVersion": "76928",
+                "uid": "d279af24-f1f3-447b-9e9a-db2a3c92ed3b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "recommendationservice-59654c7cb9-s8c8x.18dba5e9588cdb14",
+                "namespace": "shop",
+                "resourceVersion": "77022",
+                "uid": "68bd21dc-9058-4445-a950-0201a58c5ed9"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "recommendationservice-59654c7cb9-s8c8x",
+                "namespace": "shop",
+                "resourceVersion": "76928",
+                "uid": "d279af24-f1f3-447b-9e9a-db2a3c92ed3b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "recommendationservice-59654c7cb9-s8c8x.18dba5e95c3b3ae9",
+                "namespace": "shop",
+                "resourceVersion": "77026",
+                "uid": "a7297a4b-f97c-448c-8af6-e54f4e1d36ef"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:39Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "recommendationservice-59654c7cb9-s8c8x",
+                "namespace": "shop",
+                "resourceVersion": "76928",
+                "uid": "d279af24-f1f3-447b-9e9a-db2a3c92ed3b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:45Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.2.15:8080\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:39Z",
+                "name": "recommendationservice-59654c7cb9-s8c8x.18dba5e9986202de",
+                "namespace": "shop",
+                "resourceVersion": "77126",
+                "uid": "bed6eb9e-2f2b-4c27-bb5c-35be484dd7ab"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "recommendationservice-59654c7cb9-s8c8x",
+                "namespace": "shop",
+                "resourceVersion": "76928",
+                "uid": "d279af24-f1f3-447b-9e9a-db2a3c92ed3b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:43Z",
+            "message": "Liveness probe failed: timeout: failed to connect service \"10.244.2.15:8080\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:43Z",
+                "name": "recommendationservice-59654c7cb9-s8c8x.18dba5ea98ac9076",
+                "namespace": "shop",
+                "resourceVersion": "77118",
+                "uid": "9c9cbe44-a0a9-419c-9de7-3500387947b3"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "recommendationservice-59654c7cb9",
+                "namespace": "shop",
+                "resourceVersion": "76891",
+                "uid": "71b8cadb-5dc7-4b48-a600-f59c4a46b591"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Created pod: recommendationservice-59654c7cb9-s8c8x",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "recommendationservice-59654c7cb9.18dba5e91c31382d",
+                "namespace": "shop",
+                "resourceVersion": "77014",
+                "uid": "1001e5a1-bc74-471e-b51a-8352b13ca5ff"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "recommendationservice",
+                "namespace": "shop",
+                "resourceVersion": "76875",
+                "uid": "e5d12ce7-e17b-4842-b02e-1e50994e494e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Scaled up replica set recommendationservice-59654c7cb9 from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "recommendationservice.18dba5e90c3a6069",
+                "namespace": "shop",
+                "resourceVersion": "76937",
+                "uid": "d33cd0ef-0713-4b28-8ae5-96b55e3f5755"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "redis-cart-6fdc7894b7-vlk9f",
+                "namespace": "shop",
+                "resourceVersion": "76976",
+                "uid": "ed51fc2c-6584-466d-a9be-8102ca46c711"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Successfully assigned shop/redis-cart-6fdc7894b7-vlk9f to consumer-worker",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "redis-cart-6fdc7894b7-vlk9f.18dba5e93ad1e2f9",
+                "namespace": "shop",
+                "resourceVersion": "76984",
+                "uid": "f5c14c92-2a43-4625-8111-0200f8cc4422"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "redis-cart-6fdc7894b7-vlk9f",
+                "namespace": "shop",
+                "resourceVersion": "76980",
+                "uid": "ed51fc2c-6584-466d-a9be-8102ca46c711"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container image \"redis:alpine\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "redis-cart-6fdc7894b7-vlk9f.18dba5e9747b25d1",
+                "namespace": "shop",
+                "resourceVersion": "77068",
+                "uid": "43d72490-7884-4c14-9d25-418fbd283ca8"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "redis-cart-6fdc7894b7-vlk9f",
+                "namespace": "shop",
+                "resourceVersion": "76980",
+                "uid": "ed51fc2c-6584-466d-a9be-8102ca46c711"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "redis-cart-6fdc7894b7-vlk9f.18dba5e9774f6b04",
+                "namespace": "shop",
+                "resourceVersion": "77071",
+                "uid": "6f6ecf32-dbfa-4188-ab15-f4833fa88128"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:39Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "redis-cart-6fdc7894b7-vlk9f",
+                "namespace": "shop",
+                "resourceVersion": "76980",
+                "uid": "ed51fc2c-6584-466d-a9be-8102ca46c711"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:39Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:39Z",
+                "name": "redis-cart-6fdc7894b7-vlk9f.18dba5e980e41ec1",
+                "namespace": "shop",
+                "resourceVersion": "77087",
+                "uid": "52166e63-310c-4bd9-8b64-65415282ac64"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:39Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "redis-cart-6fdc7894b7-vlk9f",
+                "namespace": "shop",
+                "resourceVersion": "76980",
+                "uid": "ed51fc2c-6584-466d-a9be-8102ca46c711"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:39Z",
+            "message": "Readiness probe failed: dial tcp 10.244.1.25:6379: connect: connection refused",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:39Z",
+                "name": "redis-cart-6fdc7894b7-vlk9f.18dba5e981201090",
+                "namespace": "shop",
+                "resourceVersion": "77088",
+                "uid": "a5a37c74-1623-47e1-bd11-ccbbaeaeddbd"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "redis-cart-6fdc7894b7",
+                "namespace": "shop",
+                "resourceVersion": "76939",
+                "uid": "9a300a28-a1ff-49e4-bea1-8a04e723f980"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Created pod: redis-cart-6fdc7894b7-vlk9f",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "redis-cart-6fdc7894b7.18dba5e9397d8c3f",
+                "namespace": "shop",
+                "resourceVersion": "77041",
+                "uid": "2865f081-c83e-4c1d-a9ff-a5e43538b598"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "redis-cart",
+                "namespace": "shop",
+                "resourceVersion": "76903",
+                "uid": "9970c8ec-ad3b-400d-8199-e447a683a69d"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Scaled up replica set redis-cart-6fdc7894b7 from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "redis-cart.18dba5e92700edfe",
+                "namespace": "shop",
+                "resourceVersion": "77023",
+                "uid": "8a4047c7-e2c8-4cd9-a08f-f8ce4a19062d"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "shippingservice-57457d4b97-q9lvz",
+                "namespace": "shop",
+                "resourceVersion": "76802",
+                "uid": "b54a153a-0f24-47b3-b7dc-59f88be48578"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Successfully assigned shop/shippingservice-57457d4b97-q9lvz to consumer-worker",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "shippingservice-57457d4b97-q9lvz.18dba5e8f3121e24",
+                "namespace": "shop",
+                "resourceVersion": "76811",
+                "uid": "60ee6e1a-3247-47fa-8dcb-6aa2636c2e70"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "shippingservice-57457d4b97-q9lvz",
+                "namespace": "shop",
+                "resourceVersion": "76808",
+                "uid": "b54a153a-0f24-47b3-b7dc-59f88be48578"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "shippingservice-57457d4b97-q9lvz.18dba5e91b122dc1",
+                "namespace": "shop",
+                "resourceVersion": "76925",
+                "uid": "e5e97cb8-c7f0-4c13-aff0-7823ded5a212"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "shippingservice-57457d4b97-q9lvz",
+                "namespace": "shop",
+                "resourceVersion": "76808",
+                "uid": "b54a153a-0f24-47b3-b7dc-59f88be48578"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "shippingservice-57457d4b97-q9lvz.18dba5e9268ffad2",
+                "namespace": "shop",
+                "resourceVersion": "76940",
+                "uid": "4db715a3-cec4-4faa-a63b-e65ec76199a4"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "shippingservice-57457d4b97-q9lvz",
+                "namespace": "shop",
+                "resourceVersion": "76808",
+                "uid": "b54a153a-0f24-47b3-b7dc-59f88be48578"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:37Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:37Z",
+                "name": "shippingservice-57457d4b97-q9lvz.18dba5e92dc0f717",
+                "namespace": "shop",
+                "resourceVersion": "76955",
+                "uid": "61b8b979-afdc-4289-bab9-93774b99c5f8"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "shippingservice-57457d4b97-q9lvz",
+                "namespace": "shop",
+                "resourceVersion": "76808",
+                "uid": "b54a153a-0f24-47b3-b7dc-59f88be48578"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:38Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.1.20:50051\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:38Z",
+                "name": "shippingservice-57457d4b97-q9lvz.18dba5e9699088bf",
+                "namespace": "shop",
+                "resourceVersion": "77051",
+                "uid": "ccae4cdc-b632-4658-96e0-c8f6c85ec772"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 4,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "shippingservice-57457d4b97",
+                "namespace": "shop",
+                "resourceVersion": "76771",
+                "uid": "b0fe36be-85f3-4402-bedc-1dc34fdefd77"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Error creating: pods \"shippingservice-57457d4b97-\" is forbidden: error looking up service account shop/shippingservice: serviceaccount \"shippingservice\" not found",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "shippingservice-57457d4b97.18dba5e8ec540a8e",
+                "namespace": "shop",
+                "resourceVersion": "76793",
+                "uid": "c3566070-a51c-43d5-9d23-6a4d1d45908f"
+            },
+            "reason": "FailedCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "shippingservice-57457d4b97",
+                "namespace": "shop",
+                "resourceVersion": "76781",
+                "uid": "b0fe36be-85f3-4402-bedc-1dc34fdefd77"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Created pod: shippingservice-57457d4b97-q9lvz",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "shippingservice-57457d4b97.18dba5e8f223f1fb",
+                "namespace": "shop",
+                "resourceVersion": "76806",
+                "uid": "069dc44f-53cd-4257-8d4a-14956f0b9fe6"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-05T13:41:36Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "shippingservice",
+                "namespace": "shop",
+                "resourceVersion": "76769",
+                "uid": "65faf4cd-011e-4b52-a45c-26b948320aa5"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-05T13:41:36Z",
+            "message": "Scaled up replica set shippingservice-57457d4b97 from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-05T13:41:36Z",
+                "name": "shippingservice.18dba5e8ec029299",
+                "namespace": "shop",
+                "resourceVersion": "76775",
+                "uid": "f3e96366-c8f4-4542-80ef-95680572e5c6"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}
