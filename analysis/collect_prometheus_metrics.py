@@ -402,26 +402,37 @@ for times in times_files:
 def average_runs(data, key):
 
     grouped = defaultdict(list)
-
     for item in data:
         grouped[item[key]].append(item)
-
-    result=[]
-    
+    result = []
     for name, values in grouped.items():
-        row={key:name}
+        row = {
+            key: name
+        }
         for field in values[0]:
-            if field not in [key,"run"]:
-                nums=[
-                    x[field]
-                    for x in values
-                    if x[field] is not None
-                ]
-                if nums:
-                    row[field]=round(
-                        sum(nums)/len(nums),
-                        2
-                    )
+            # campi da ignorare
+            if field in [
+                key,
+                "run",
+                "start_ts",
+                "end_ts",
+                "start_time",
+                "end_time"
+            ]:
+                continue
+            nums=[]
+            for x in values:
+                value = x.get(field)
+                if value is not None:
+                    try:
+                        nums.append(float(value))
+                    except ValueError:
+                        pass
+            if nums:
+                row[field] = round(
+                    sum(nums)/len(nums),
+                    2
+                )
         result.append(row)
     return result
 
