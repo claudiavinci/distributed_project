@@ -1,0 +1,14 @@
+pod,memory_avg_MiB,memory_max_MiB,cpu_avg_millicores,cpu_max_millicores
+adservice-84b79f4569-r7lcm,148.24,149.18,15.09,28.82
+cartservice-574c7f4cdd-vb85h,107.57,108.42,11.61,19.31
+checkoutservice-7ddc4696cf-hm6ft,27.58,27.77,0.72,0.79
+currencyservice-6478b9fcf7-prznz,97.83,98.44,90.94,174.22
+emailservice-59d546db77-t74l6,54.64,54.64,2.62,2.71
+frontend-54b9f9678-tp6l8,87.31,93.97,91.51,169.59
+loadgenerator-9878487f4-s5s9g,73.32,73.42,3.14,3.46
+paymentservice-78478447c-zzh6r,85.82,86.02,0.45,0.48
+productcatalogservice-99c4c7c7f-ng2xz,33.75,34.5,8.73,11.45
+recommendationservice-59654c7cb9-s8c8x,56.12,56.17,5.85,6.18
+redis-cart-6fdc7894b7-vlk9f,30.81,30.92,2.58,3.41
+shippingservice-57457d4b97-q9lvz,26.38,26.52,0.74,0.82
+wrk-tester,17.98,19.05,10.56,20.23
