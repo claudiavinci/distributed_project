@@ -1,0 +1,2 @@
+Configuration,Threads,Connections,Avg_Latency_ms,Max_Latency_ms,P50_ms,P75_ms,P90_ms,P99_ms,Total_Requests,Requests_sec,Transfer_MB_sec,Socket_connect_errors,Socket_read_errors,Socket_write_errors,Socket_timeout_errors
+c100,16.0,100.0,1040.0,2000.0,1000.0,1100.0,1203.33,1840.0,27803.33,89.63,0.92,0.0,0.0,0.0,681.67
