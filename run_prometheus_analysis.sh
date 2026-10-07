@@ -28,7 +28,7 @@ PYTHON_SCRIPT="$(pwd)/analysis/collect_prometheus_metrics.py"
 
 TEST_NAME="baseline"
 
-CONNECTIONS=5000
+CONNECTIONS=10000
 
 RUNS_DIR="experiments/${TEST_NAME}/workload_test/c${CONNECTIONS}/raw"
 
