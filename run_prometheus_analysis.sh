@@ -28,11 +28,13 @@ PYTHON_SCRIPT="$(pwd)/analysis/collect_prometheus_metrics.py"
 
 TEST_NAME="baseline"
 
-CONNECTIONS=500
+CONNECTIONS=1000
 
 RUNS_DIR="experiments/${TEST_NAME}/workload_test/c${CONNECTIONS}/raw"
 
 OUTPUT_DIR="experiments/${TEST_NAME}/workload_test/c${CONNECTIONS}/metrics_csv"
+
+mkdir -p "$OUTPUT_DIR"
 
 OUTPUT_PREFIX="${OUTPUT_DIR}/c${CONNECTIONS}"
 
@@ -52,6 +54,9 @@ cleanup(){
         echo "Chiusura port-forward Prometheus..."
         kill "$PORT_FORWARD_PID" 2>/dev/null || true
     fi
+    echo "================================="
+    echo "Pulizia completata"
+    echo "================================="
 }
 
 trap cleanup EXIT SIGINT SIGTERM
@@ -120,8 +125,4 @@ python "$PYTHON_SCRIPT" \
 --runs-dir "$RUNS_DIR" \
 --output-prefix "$OUTPUT_PREFIX"
 
-echo "================================="
-echo "ANALISI COMPLETATA"
-echo "================================="
-echo ""
 

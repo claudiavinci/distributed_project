@@ -1,2 +1,0 @@
-Concurrency_Level,Threads,Connections,Avg_Latency_ms,Max_Latency_ms,P50_Latency_ms,P75_Latency_ms,P90_Latency_ms,P99_Latency_ms,Total_Requests,Timeouts,Req_per_Sec,Transfer_per_Sec_MB
-c25,16.0,25.0,235.34,1370.0,200.97,236.21,301.77,963.01,21593.0,0.0,70.07,0.72

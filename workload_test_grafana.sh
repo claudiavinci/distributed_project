@@ -14,7 +14,7 @@ MONITORING_NAMESPACE="monitoring"
 WRK_POD="wrk-tester"
 
 THREADS=16
-CONNECTIONS=25
+CONNECTIONS=1000
 DURATION="5m"
 
 RUNS=3
@@ -26,21 +26,20 @@ RESULT_FILE="wrk_t${THREADS}_c${CONNECTIONS}.txt"
 
 mkdir -p "$OUTPUT_DIR"
 
-# =========================
-# GESTIONE INTERRUZIONE
-# =========================
+# ====================================
+# GESTIONE INTERRUZIONE E TERMINAZIONE
+# ====================================
 
 cleanup() {
-
     echo ""
     echo "================================="
-    echo "INTERRUZIONE TEST"
     echo "Pulizia risorse..."
     echo "================================="
 
     # Chiude eventuale port-forward Grafana
     if [ -n "$GRAFANA_PID" ]; then
         kill "$GRAFANA_PID" 2>/dev/null || true
+        wait "$GRAFANA_PID" 2>/dev/null || true
     fi
 
     # Elimina pod wrk
@@ -50,9 +49,10 @@ cleanup() {
         --ignore-not-found || true
 
     echo "Pulizia completata."
-    exit 1
 }
-trap cleanup SIGINT SIGTERM EXIT
+
+trap cleanup EXIT
+trap 'exit 130' SIGINT SIGTERM
 
 echo "================================="
 echo "START TEST"
@@ -188,27 +188,12 @@ do
     fi
 done
 
-# =========================
-# CLEANUP
-# =========================
-
-echo ""
-echo "Elimino pod wrk..."
-
-kubectl delete pod \
-$WRK_POD \
--n $NAMESPACE
-
-echo "Chiudo port-forward Grafana..."
-
-if [ -n "$GRAFANA_PID" ]; then
-    kill $GRAFANA_PID 2>/dev/null || true
-    pkill -f "kubectl port-forward.*monitoring-grafana" || true
-fi
-
 echo ""
 echo "================================="
 echo "TEST COMPLETATO"
 echo "Risultato:"
 echo "$OUTPUT_DIR/$RESULT_FILE"
 echo "================================="
+echo ""
+echo "Aspetto 180 secondi per chiudere port-forward Grafana e pulire risorse..."
+sleep 180
