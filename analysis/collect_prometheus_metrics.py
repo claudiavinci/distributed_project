@@ -125,12 +125,23 @@ def extract_label(data, label):
             result[name] = item["values"]
     return result
 
+def extract_pod_node(data, labels):
+    result = {}
+    for item in data:
+        key = tuple(
+            item["metric"].get(label)
+            for label in labels
+        )
+        if all(key):
+            result[key] = item["values"]
+
+    return result
 # =====================================================
 # QUERY
 # =====================================================
 
 pod_memory_query = f"""
-sum by(pod)(
+sum by(pod, node)(
     container_memory_usage_bytes{{
         namespace="{args.namespace}",
         container!="POD",
@@ -140,7 +151,7 @@ sum by(pod)(
 """
 
 pod_cpu_query = f"""
-sum by(pod)(
+sum by(pod, node)(
     rate(
         container_cpu_usage_seconds_total{{
         namespace="{args.namespace}",
@@ -211,31 +222,33 @@ def collect_run(times_file):
 
     # POD
 
-    pods_memory = extract_label(
+    pods_memory = extract_pod_node(
         pod_memory,
-        "pod"
+        ["pod", "node"]
     )
 
-    pods_cpu = extract_label(
+    pods_cpu = extract_pod_node(
         pod_cpu,
-        "pod"
+        ["pod", "node"]
     )
     
     pod_report = []
 
-    for pod in sorted(
+    for pod, node in sorted(
         set(pods_memory.keys()) | set(pods_cpu.keys())
     ):
         mem = calculate_stats(
-            pods_memory.get(pod, [])
+            pods_memory.get((pod, node), [])
         )
 
         cpu = calculate_stats(
-            pods_cpu.get(pod, [])
+            pods_cpu.get((pod, node), [])
         )
 
         pod_report.append({
             "pod": pod,
+            
+            "node": node,
 
             "memory_avg_MiB":
                 round(mem["avg"]/1024/1024,2)
@@ -343,19 +356,31 @@ def save_csv(filename,data):
 # =====================================================
 
 def average_runs(data, key):
-
     grouped = defaultdict(list)
     for item in data:
-        grouped[item[key]].append(item)
+        if key == "pod":
+            group_key = (
+                item["pod"],
+                item["node"]
+            )
+        else:
+            group_key = item[key]
+        grouped[group_key].append(item)
     result = []
+
     for name, values in grouped.items():
-        row = {
-            key: name
-        }
+        row = {}
+
+        if key == "pod":
+            row["pod"] = name[0]
+            row["node"] = name[1]
+        else:
+            row[key] = name
+
         for field in values[0]:
-            # campi da ignorare
             if field in [
-                key,
+                "pod",
+                "node",
                 "run",
                 "start_ts",
                 "end_ts",
@@ -372,10 +397,7 @@ def average_runs(data, key):
                     except ValueError:
                         pass
             if nums:
-                row[field] = round(
-                    sum(nums)/len(nums),
-                    2
-                )
+                row[field] = round(sum(nums)/len(nums),2)
         result.append(row)
     return result
 

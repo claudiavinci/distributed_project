@@ -1,0 +1,10 @@
+Deployment=recommendationservice
+Namespace=shop
+
+Start_timestamp=1791473443
+End_timestamp=1791473466
+
+Start_time=2026-10-08 17:30:43
+End_time=2026-10-08 17:31:06
+
+Offloading_time_seconds=23

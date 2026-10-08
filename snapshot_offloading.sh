@@ -1,6 +1,17 @@
 #!/bin/bash
 
-OUTPUT_DIR="experiments/offloading_stateless/snapshot"
+# =====================================
+# CARICAMENTO CONFIG ESPERIMENTO
+# =====================================
+
+source workload_exp_config.conf
+
+if [ -z "$TEST" ] || [ -z "$CONNECTIONS" ]; then
+    echo "Errore: configurazione esperimento incompleta"
+    exit 1
+fi
+
+OUTPUT_DIR="experiments/${TEST}/snapshot"
 
 export KUBECONFIG="$(pwd)/consumer-config"
 
@@ -17,6 +28,9 @@ kubectl get pods -n shop -o wide > "$OUTPUT_DIR/shop_pods.txt"
 kubectl get foreignclusters > "$OUTPUT_DIR/foreignclusters.txt"
 kubectl get namespaceoffloading -n shop -o yaml > "$OUTPUT_DIR/namespace_offloading.yaml"
 kubectl get nodes --show-labels | grep liqo > "$OUTPUT_DIR/liqo_virtual_node.txt"
+
+# Eventi
+kubectl get events -n shop --sort-by=.lastTimestamp > "$OUTPUT_DIR/shop_events.txt"
 
 # Risorse
 kubectl top nodes > "$OUTPUT_DIR/top_nodes.txt"

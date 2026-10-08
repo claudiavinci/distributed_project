@@ -1,0 +1,18 @@
+Test: offloading stateless (single)
+Configuration: t16 c1000 d5m
+Run: 1
+Thu Oct  8 16:52:53 UTC 2026
+Running 5m test @ http://frontend-external:80
+  16 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec    11.45     11.48   191.00     88.95%
+  Latency Distribution
+     50%    0.00us
+     75%    0.00us
+     90%    0.00us
+     99%    0.00us
+  28254 requests in 5.27m, 289.66MB read
+  Socket errors: connect 0, read 0, write 0, timeout 28254
+Requests/sec:     89.32
+Transfer/sec:      0.92MB

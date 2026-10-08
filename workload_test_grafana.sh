@@ -3,25 +3,27 @@
 set -e
 
 # =========================
+# CARICAMENTO CONFIG
+# =========================
+
+source workload_exp_config.conf
+
+if [ -z "$TEST" ] || [ -z "$CONNECTIONS" ]; then
+    echo "Errore: configurazione esperimento incompleta"
+    exit 1
+fi
+
+# =========================
 # CONFIGURAZIONE
 # =========================
 
 export KUBECONFIG="$(pwd)/consumer-config"
 
-NAMESPACE="shop"
-MONITORING_NAMESPACE="monitoring"
-
-WRK_POD="wrk-tester"
-
-THREADS=16
-CONNECTIONS=10000
-DURATION="5m"
-
-RUNS=3
-COOLDOWN=300   # secondi tra una run e l'altra
 GRAFANA_PID=""
 
-OUTPUT_DIR="experiments/baseline/workload_test/c${CONNECTIONS}/raw"
+# OUTPUT_DIR="experiments/baseline/workload_test/c${CONNECTIONS}/raw"
+OUTPUT_DIR="experiments/${TEST}/workload_test/c${CONNECTIONS}/raw"
+
 RESULT_FILE="wrk_t${THREADS}_c${CONNECTIONS}.txt"
 
 mkdir -p "$OUTPUT_DIR"
@@ -113,6 +115,14 @@ kubectl run $WRK_POD \
 -n $NAMESPACE \
 --image=alpine \
 --restart=Never \
+--overrides='
+{
+  "spec": {
+    "nodeSelector": {
+      "kubernetes.io/hostname": "consumer-worker"
+    }
+  }
+}' \
 --command -- sleep 3600
 
 echo "Attendo pod Ready..."
@@ -122,6 +132,10 @@ kubectl wait \
 pod/$WRK_POD \
 -n $NAMESPACE \
 --timeout=60s
+
+echo ""
+echo "Nodo dove è stato schedulato wrk-tester:"
+kubectl get pod $WRK_POD -n $NAMESPACE -o wide
 
 # =========================
 # INSTALLAZIONE WRK
@@ -154,7 +168,7 @@ do
     -n $NAMESPACE \
     $WRK_POD -- sh -c "
     {
-        echo 'Test: baseline'
+        echo 'Test: ${TEST}'
         echo 'Configuration: t${THREADS} c${CONNECTIONS} d${DURATION}'
         echo 'Run: ${RUN}'
         date
@@ -164,7 +178,7 @@ do
         -c${CONNECTIONS} \
         -d${DURATION} \
         --latency \
-        http://frontend-external:80
+        ${TARGET_URL}
 
     } > /tmp/${RESULT_FILE}
     "

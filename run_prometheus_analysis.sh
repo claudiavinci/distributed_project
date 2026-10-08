@@ -3,20 +3,21 @@
 set -e
 
 # =====================================
+# CARICAMENTO CONFIG ESPERIMENTO
+# =====================================
+
+source workload_exp_config.conf
+
+if [ -z "$TEST" ] || [ -z "$CONNECTIONS" ]; then
+    echo "Errore: configurazione esperimento incompleta"
+    exit 1
+fi
+
+# =====================================
 # CONFIGURAZIONE ESPERIMENTO
 # =====================================
 
 export KUBECONFIG="$(pwd)/consumer-config"
-
-# Applicazione Kubernetes
-
-APP_NAMESPACE="shop"
-
-# Prometheus
-
-MONITORING_NAMESPACE="monitoring"
-PROMETHEUS_SERVICE="monitoring-kube-prometheus-prometheus"
-PROMETHEUS_PORT=9090
 
 # Python
 
@@ -26,13 +27,9 @@ PYTHON_SCRIPT="$(pwd)/analysis/collect_prometheus_metrics.py"
 
 # Esperimento da analizzare
 
-TEST_NAME="baseline"
+RUNS_DIR="experiments/${TEST}/workload_test/c${CONNECTIONS}/raw"
 
-CONNECTIONS=10000
-
-RUNS_DIR="experiments/${TEST_NAME}/workload_test/c${CONNECTIONS}/raw"
-
-OUTPUT_DIR="experiments/${TEST_NAME}/workload_test/c${CONNECTIONS}/metrics_csv"
+OUTPUT_DIR="experiments/${TEST}/workload_test/c${CONNECTIONS}/metrics_csv"
 
 mkdir -p "$OUTPUT_DIR"
 
@@ -110,7 +107,7 @@ echo "Raccolta metriche Prometheus"
 echo "================================="
 
 echo "Esperimento:"
-echo "$TEST_NAME"
+echo "$TEST"
 
 echo "Configurazione:"
 echo "c=$CONNECTIONS"
@@ -121,7 +118,7 @@ echo "$RUNS_DIR"
 echo ""
 
 python "$PYTHON_SCRIPT" \
---namespace "$APP_NAMESPACE" \
+--namespace "$NAMESPACE" \
 --runs-dir "$RUNS_DIR" \
 --output-prefix "$OUTPUT_PREFIX"
 
