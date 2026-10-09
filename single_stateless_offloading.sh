@@ -9,7 +9,7 @@ set -e
 export KUBECONFIG="$(pwd)/consumer-config"
 
 NAMESPACE="shop"
-DEPLOYMENT="recommendationservice"
+DEPLOYMENT="productcatalogservice"
 
 OUTPUT_DIR="experiments/offloading_stateless/single_stateless"
 

@@ -9,7 +9,7 @@ items:
     generation: 1
     name: offloading
     namespace: shop
-    resourceVersion: "171972"
+    resourceVersion: "208985"
     uid: f01094e7-05b4-48cd-9203-471b0a20e5c4
   spec:
     clusterSelector:
@@ -22,13 +22,13 @@ items:
     remoteNamespaceName: shop
     remoteNamespacesConditions:
       patient-cloud:
-      - lastTransitionTime: "2026-10-08T15:25:49Z"
+      - lastTransitionTime: "2026-10-09T10:17:37Z"
         message: The remote cluster has been selected through the ClusterSelector
           field
         reason: ClusterSelected
         status: "True"
         type: OffloadingRequired
-      - lastTransitionTime: "2026-10-08T15:25:49Z"
+      - lastTransitionTime: "2026-10-09T10:17:37Z"
         message: Namespace correctly offloaded to the remote cluster
         reason: NamespaceCreated
         status: "True"
