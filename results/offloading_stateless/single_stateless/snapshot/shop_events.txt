@@ -1,0 +1,18 @@
+LAST SEEN   TYPE      REASON                         OBJECT                                                                           MESSAGE
+15s         Normal    SuccessfulCreate               replicaset/productcatalogservice-7bccf8c7c                                       Created pod: productcatalogservice-7bccf8c7c-7bhcf
+15s         Normal    Scheduled                      pod/productcatalogservice-7bccf8c7c-7bhcf                                        Successfully assigned shop/productcatalogservice-7bccf8c7c-7bhcf to patient-cloud
+15s         Normal    SuccessfulSATokensReflection   pod/productcatalogservice-7bccf8c7c-7bhcf                                        Successfully reflected object to cluster "patient-cloud"
+15s         Normal    ScalingReplicaSet              deployment/productcatalogservice                                                 Scaled up replica set productcatalogservice-7bccf8c7c from 0 to 1
+15s         Normal    CreatedPod                     shadowpod/productcatalogservice-7bccf8c7c-7bhcf                                  Successfully created pod from ShadowPod
+14s         Normal    Created                        pod/productcatalogservice-7bccf8c7c-7bhcf                                        Container created
+14s         Normal    Pulled                         pod/productcatalogservice-7bccf8c7c-7bhcf                                        Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+14s         Normal    FirewallConfigurationUpdate    firewallconfiguration/productcatalogservice-7bccf8c7c-7bhcf-remap-ipmapping-gw   FirewallConfiguration Applied: True
+14s         Normal    Started                        pod/productcatalogservice-7bccf8c7c-7bhcf                                        Container started
+14s         Normal    Scheduled                      pod/productcatalogservice-7bccf8c7c-7bhcf                                        Successfully assigned shop/productcatalogservice-7bccf8c7c-7bhcf to provider-worker2
+13s         Warning   Unhealthy                      pod/productcatalogservice-7bccf8c7c-7bhcf                                        Readiness probe failed: timeout: failed to connect service "10.244.1.9:3550" within 1s: context deadline exceeded
+13s         Normal    Killing                        pod/productcatalogservice-c48bb9cfd-75nrl                                        Stopping container server
+13s         Normal    SuccessfulDelete               replicaset/productcatalogservice-c48bb9cfd                                       Deleted pod: productcatalogservice-c48bb9cfd-75nrl
+13s         Normal    ScalingReplicaSet              deployment/productcatalogservice                                                 Scaled down replica set productcatalogservice-c48bb9cfd from 1 to 0
+12s         Normal    SuccessfulReflection           pod/productcatalogservice-7bccf8c7c-7bhcf                                        Successfully reflected object status back from cluster "patient-cloud"
+12s         Normal    SuccessfulReflection           endpointslice/productcatalogservice-p42qh                                        Successfully reflected object to cluster "patient-cloud"
+12s         Normal    SuccessfulReflection           pod/productcatalogservice-7bccf8c7c-7bhcf                                        Successfully reflected object to cluster "patient-cloud"

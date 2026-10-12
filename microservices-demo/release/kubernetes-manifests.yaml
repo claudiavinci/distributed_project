@@ -291,9 +291,15 @@ spec:
         readinessProbe:
           grpc:
             port: 7000
+          initialDelaySeconds: 10
+          timeoutSeconds: 5
+          periodSeconds: 10
         livenessProbe:
           grpc:
             port: 7000
+          initialDelaySeconds: 10
+          timeoutSeconds: 5
+          periodSeconds: 10
         resources:
           requests:
             cpu: 100m
@@ -507,6 +513,8 @@ spec:
           - containerPort: 8080
           readinessProbe:
             initialDelaySeconds: 10
+            timeoutSeconds: 5
+            periodSeconds: 10
             httpGet:
               path: "/_healthz"
               port: 8080
@@ -515,6 +523,8 @@ spec:
                 value: "shop_session-id=x-readiness-probe"
           livenessProbe:
             initialDelaySeconds: 10
+            timeoutSeconds: 5
+            periodSeconds: 10
             httpGet:
               path: "/_healthz"
               port: 8080

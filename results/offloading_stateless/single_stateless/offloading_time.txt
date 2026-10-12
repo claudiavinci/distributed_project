@@ -1,0 +1,10 @@
+Deployment=productcatalogservice
+Namespace=shop
+
+Start_timestamp=1791816925
+End_timestamp=1791816927
+
+Start_time=2026-10-12 16:55:25
+End_time=2026-10-12 16:55:27
+
+Offloading_time_seconds=2
