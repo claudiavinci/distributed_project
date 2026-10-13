@@ -1,13 +1,13 @@
 NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE               NOMINATED NODE   READINESS GATES
-adservice-84b79f4569-r7lcm               1/1     Running   9 (116m ago)    6d21h   10.244.1.4    consumer-worker    <none>           <none>
-cartservice-574c7f4cdd-vb85h             1/1     Running   9 (116m ago)    6d21h   10.244.2.9    consumer-worker2   <none>           <none>
-checkoutservice-7ddc4696cf-hm6ft         1/1     Running   9 (116m ago)    6d21h   10.244.1.13   consumer-worker    <none>           <none>
-currencyservice-6478b9fcf7-prznz         1/1     Running   15 (116m ago)   6d21h   10.244.2.11   consumer-worker2   <none>           <none>
-emailservice-59d546db77-t74l6            1/1     Running   11 (116m ago)   6d21h   10.244.2.7    consumer-worker2   <none>           <none>
-frontend-54b9f9678-tp6l8                 1/1     Running   54 (116m ago)   6d21h   10.244.1.5    consumer-worker    <none>           <none>
-loadgenerator-9878487f4-s5s9g            1/1     Running   9 (116m ago)    6d21h   10.244.1.11   consumer-worker    <none>           <none>
-paymentservice-78478447c-zzh6r           1/1     Running   9 (116m ago)    6d21h   10.244.2.4    consumer-worker2   <none>           <none>
-productcatalogservice-7bccf8c7c-7bhcf    1/1     Running   0               15s     10.71.1.9     patient-cloud      <none>           <none>
-recommendationservice-5b48f47799-rvltx   1/1     Running   2 (116m ago)    3d1h    10.244.2.6    consumer-worker2   <none>           <none>
-redis-cart-6fdc7894b7-vlk9f              1/1     Running   9 (116m ago)    6d21h   10.244.1.7    consumer-worker    <none>           <none>
-shippingservice-57457d4b97-q9lvz         1/1     Running   9 (116m ago)    6d21h   10.244.1.8    consumer-worker    <none>           <none>
+adservice-84b79f4569-r7lcm               1/1     Running   10 (149m ago)   7d20h   10.244.1.13   consumer-worker    <none>           <none>
+cartservice-574c7f4cdd-vb85h             1/1     Running   10 (149m ago)   7d20h   10.244.2.10   consumer-worker2   <none>           <none>
+checkoutservice-7ddc4696cf-hm6ft         1/1     Running   10 (149m ago)   7d20h   10.244.1.9    consumer-worker    <none>           <none>
+currencyservice-6f448f877f-jhtfl         1/1     Running   1 (149m ago)    19h     10.244.2.8    consumer-worker2   <none>           <none>
+emailservice-59d546db77-t74l6            1/1     Running   12 (149m ago)   7d20h   10.244.2.5    consumer-worker2   <none>           <none>
+frontend-75bfd69c4c-ddx5k                1/1     Running   1 (149m ago)    19h     10.244.1.12   consumer-worker    <none>           <none>
+loadgenerator-9878487f4-s5s9g            1/1     Running   10 (149m ago)   7d20h   10.244.1.7    consumer-worker    <none>           <none>
+paymentservice-78478447c-zzh6r           1/1     Running   10 (149m ago)   7d20h   10.244.2.9    consumer-worker2   <none>           <none>
+productcatalogservice-7b88f9fb8c-7cfxt   1/1     Running   0               34m     10.71.2.7     patient-cloud      <none>           <none>
+recommendationservice-5b48f47799-rvltx   1/1     Running   3 (149m ago)    4d      10.244.2.6    consumer-worker2   <none>           <none>
+redis-cart-6fdc7894b7-vlk9f              1/1     Running   10 (149m ago)   7d20h   10.244.1.14   consumer-worker    <none>           <none>
+shippingservice-57457d4b97-q9lvz         1/1     Running   10 (149m ago)   7d20h   10.244.1.11   consumer-worker    <none>           <none>

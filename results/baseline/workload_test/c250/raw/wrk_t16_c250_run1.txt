@@ -1,0 +1,17 @@
+Test: baseline
+Configuration: t16 c250 d5m
+Run: 1
+Tue Oct 13 11:01:18 UTC 2026
+Running 5m test @ http://frontend-external:80
+  16 threads and 250 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.48s   481.19ms   5.05s    85.84%
+    Req/Sec     9.24      8.04   100.00     79.19%
+  Latency Distribution
+     50%    2.38s 
+     75%    2.51s 
+     90%    3.01s 
+     99%    4.15s 
+  30348 requests in 5.25m, 311.13MB read
+Requests/sec:     96.35
+Transfer/sec:      0.99MB

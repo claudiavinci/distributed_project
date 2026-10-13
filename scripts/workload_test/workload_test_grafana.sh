@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 # =========================
 # CARICAMENTO CONFIG
@@ -16,7 +16,9 @@ if [ -z "$TEST" ] || \
    [ -z "$NAMESPACE" ] || \
    [ -z "$MONITORING_NAMESPACE" ] || \
    [ -z "$WRK_POD" ] || \
-   [ -z "$TARGET_URL" ]; then
+   [ -z "$TARGET_URL" ] || \
+   [ -z "${COOLDOWN:-}" ] || \
+   [ -z "${WRK_TIMEOUT:-}" ]; then
 
     echo "Errore: configurazione esperimento incompleta"
     exit 1
@@ -171,6 +173,7 @@ do
         -t${THREADS} \
         -c${CONNECTIONS} \
         -d${DURATION} \
+        --timeout ${WRK_TIMEOUT} \
         --latency \
         ${TARGET_URL}
 

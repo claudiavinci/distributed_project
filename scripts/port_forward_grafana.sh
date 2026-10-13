@@ -11,6 +11,8 @@ SERVICE="monitoring-grafana"
 LOCAL_PORT="3000"
 REMOTE_PORT="80"
 
+export KUBECONFIG="$(pwd)/consumer-config"
+
 # =========================
 # PORT-FORWARD GRAFANA
 # =========================

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
 # =====================================
 # CARICAMENTO CONFIG ESPERIMENTO
@@ -8,7 +8,7 @@ set -e
 
 source configs/exp_config.conf
 
-if [ -z "$TEST" ] || [ -z "$NAMESPACE" ] || [ -z "$DEPLOYMENT"]; then
+if [ -z "$TEST" ] || [ -z "$NAMESPACE" ] || [ -z "$DEPLOYMENT" ]; then
     echo "Errore: configurazione esperimento incompleta"
     exit 1
 fi
@@ -19,16 +19,13 @@ fi
 
 export KUBECONFIG="$(pwd)/consumer-config"
 
-OUTPUT_DIR="results/$TEST/"
-
+OUTPUT_DIR="results/$TEST"
 mkdir -p "$OUTPUT_DIR"
-
 RESULT_FILE="$OUTPUT_DIR/offloading_time.txt"
 
 echo "======================================"
 echo "OFFLOADING TEST"
 echo "======================================"
-
 echo "Namespace: $NAMESPACE"
 echo "Deployment: $DEPLOYMENT"
 echo ""
@@ -38,7 +35,6 @@ echo ""
 # =====================================
 
 START_TS=$(date +%s)
-
 START_TIME=$(date "+%Y-%m-%d %H:%M:%S")
 
 echo "Avvio rischedulazione workload..."
@@ -48,8 +44,8 @@ echo "Start time: $START_TIME"
 # RIAVVIO DEPLOYMENT
 # =====================================
 
-kubectl rollout restart deployment/$DEPLOYMENT \
--n $NAMESPACE
+kubectl rollout restart deployment/"$DEPLOYMENT" \
+-n "$NAMESPACE"
 
 # =====================================
 # ATTESA READY
@@ -58,27 +54,31 @@ kubectl rollout restart deployment/$DEPLOYMENT \
 echo ""
 echo "Attendo che il deployment sia disponibile..."
 
-kubectl rollout status deployment/$DEPLOYMENT \
--n $NAMESPACE
-
-echo "Attendo pod Ready..."
-
-kubectl wait \
---for=condition=Ready \
-pod \
--l app=$DEPLOYMENT \
--n $NAMESPACE \
---timeout=180s
+kubectl rollout status deployment/"$DEPLOYMENT" \
+-n "$NAMESPACE" --timeout=180s
 
 # =====================================
 # FINE MISURAZIONE
 # =====================================
 
 END_TS=$(date +%s)
-
 END_TIME=$(date "+%Y-%m-%d %H:%M:%S")
-
 ELAPSED=$((END_TS-START_TS))
+
+# =====================================
+# CONTROLLO PLACEMENT
+# =====================================
+
+NODE=$(kubectl get pods -n "$NAMESPACE" -l app="$DEPLOYMENT" \
+  --sort-by=.metadata.creationTimestamp \
+  -o jsonpath='{.items[0].spec.nodeName}')
+
+echo "Pod schedulato su: $NODE"
+
+case "$NODE" in
+  liqo-*) ;;  # virtual node, ok
+  *) echo "Errore: il pod non è sul virtual node"; exit 1 ;;
+esac
 
 # =====================================
 # SALVATAGGIO RISULTATO
@@ -103,12 +103,8 @@ echo "OFFLOADING COMPLETATO"
 echo "======================================"
 
 echo ""
-echo "Tempo di convergenza:"
-echo "${ELAPSED} secondi"
-
-echo ""
-echo "Risultato salvato:"
-echo "$RESULT_FILE"
+echo "Tempo di convergenza: ${ELAPSED} secondi"
+echo "Risultato salvato: $RESULT_FILE"
 
 sleep 5
 
