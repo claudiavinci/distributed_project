@@ -1,21 +1,58 @@
 import http from 'k6/http';
+import { check } from 'k6';
 
-// Tutti i valori arrivano da exp_config.conf tramite lo script bash (flag -e).
+
 export const options = {
-  scenarios: {
-    open_loop: {
-      executor: 'constant-arrival-rate',
-      rate: Number(__ENV.RATE),
-      timeUnit: '1s',
-      duration: __ENV.DURATION,
-      preAllocatedVUs: Number(__ENV.PRE_VUS),
-      maxVUs: Number(__ENV.MAX_VUS),
+    scenarios: {
+        open_loop: {
+            executor: 'constant-arrival-rate',
+            rate: Number(ENV.RATE),
+            timeUnit: '1s',
+            duration: ENV.DURATION,
+            preAllocatedVUs:
+                Number(ENV.PRE_VUS),
+            maxVUs:
+                Number(ENV.MAX_VUS),
+        },
     },
-  },
-  discardResponseBodies: true,
-  summaryTrendStats: ['avg', 'min', 'med', 'max', 'p(90)', 'p(95)', 'p(99)'],
+
+    thresholds: {
+        dropped_iterations: [
+            'count==0'
+        ]
+    },
+
+    // per analisi sperimentale
+    summaryTrendStats: [
+        'avg',
+        'med',
+        'min',
+        'max',
+        'p(90)',
+        'p(95)',
+        'p(99)'
+    ],
+
+    // per Online Boutique terrei il body
+    discardResponseBodies: false
 };
 
 export default function () {
-  http.get(__ENV.TARGET_URL, { timeout: __ENV.REQ_TIMEOUT });
+    let response = http.get(
+        ENV.TARGET_URL,
+        {
+            timeout: ENV.REQ_TIMEOUT,
+            tags: {
+                test:
+                    ENV.TEST_NAME || "baseline",
+                rate:
+                    ENV.RATE
+            }
+        }
+    );
+
+    check(response, {
+        "frontend reachable":
+            (r) => r.status === 200
+    });
 }

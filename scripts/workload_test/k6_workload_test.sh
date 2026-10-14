@@ -10,7 +10,7 @@ source configs/exp_config.conf
 
 REQUIRED_VARS=(
   TEST DURATION RUNS COOLDOWN CONNECTIONS
-  NAMESPACE MONITORING_NAMESPACE WRK_POD TARGET_URL WRK_TIMEOUT
+  NAMESPACE MONITORING_NAMESPACE K6_POD TARGET_URL WRK_TIMEOUT
   RATES WARMUP_RATE WARMUP_DURATION
 )
 
@@ -28,7 +28,7 @@ done
 export KUBECONFIG="$(pwd)/consumer-config"
 
 GRAFANA_PID=""
-BASE_OUTPUT_DIR="$(pwd)/results/${TEST}/c${CONNECTIONS}"
+BASE_OUTPUT_DIR="$(pwd)/results/${TEST}"
 
 read -r -a RATE_LIST <<< "$RATES"
 TOTAL_RUNS=$(( ${#RATE_LIST[@]} * RUNS ))
@@ -63,7 +63,7 @@ cleanup() {
         wait "$GRAFANA_PID" 2>/dev/null || true
     fi
 
-    kubectl delete pod "$WRK_POD" \
+    kubectl delete pod "$K6_POD" \
         -n "$NAMESPACE" \
         --ignore-not-found || true
 
@@ -104,16 +104,16 @@ echo "Grafana disponibile: http://localhost:3000"
 # FUNZIONI
 # =========================
 
-create_wrk_pod() {
+create_K6_POD() {
 
     echo ""
     echo "Creo pod k6..."
 
-    kubectl delete pod "$WRK_POD" \
+    kubectl delete pod "$K6_POD" \
         -n "$NAMESPACE" \
         --ignore-not-found
 
-    kubectl run "$WRK_POD" \
+    kubectl run "$K6_POD" \
         -n "$NAMESPACE" \
         --image="$K6_IMAGE" \
         --image-pull-policy=IfNotPresent \
@@ -132,28 +132,28 @@ create_wrk_pod() {
 
     kubectl wait \
         --for=condition=Ready \
-        pod/"$WRK_POD" \
+        pod/"$K6_POD" \
         -n "$NAMESPACE" \
         --timeout=180s
 
-    if ! kubectl exec -n "$NAMESPACE" "$WRK_POD" -- k6 version; then
+    if ! kubectl exec -n "$NAMESPACE" "$K6_POD" -- k6 version; then
         echo "Errore: k6 non eseguibile nell'immagine $K6_IMAGE"
         exit 1
     fi
 
     echo ""
     echo "Nodo k6:"
-    kubectl get pod "$WRK_POD" -n "$NAMESPACE" -o wide
+    kubectl get pod "$K6_POD" -n "$NAMESPACE" -o wide
 }
 
 # uso: run_k6 <rate> <durata>
 run_k6() {
-    kubectl exec -i -n "$NAMESPACE" "$WRK_POD" -- \
-        k6 run --quiet --no-usage-report \
+    kubectl exec -i -n "$NAMESPACE" "$K6_POD" -- \
+        k6 run --no-usage-report \
         -e RATE="$1" \
         -e DURATION="$2" \
         -e TARGET_URL="$TARGET_URL" \
-        -e REQ_TIMEOUT="$WRK_TIMEOUT" \
+        -e REQ_TIMEOUT="$K6_TIMEOUT" \
         -e PRE_VUS="$PRE_VUS" \
         -e MAX_VUS="$MAX_VUS" \
         --summary-export=/tmp/summary.json \
@@ -178,7 +178,7 @@ do
         echo "RATE ${RATE} req/s - RUN ${RUN} / ${RUNS}"
         echo "================================="
 
-        create_wrk_pod
+        create_K6_POD
 
         # Warm-up del sistema sotto test (non entra nei timestamp della run)
         echo ""
@@ -212,7 +212,7 @@ do
         } > "$OUTPUT_DIR/run${RUN}_times.txt"
 
         # riepilogo in formato JSON (comodo per l'analisi)
-        kubectl exec -n "$NAMESPACE" "$WRK_POD" -- cat /tmp/summary.json \
+        kubectl exec -n "$NAMESPACE" "$K6_POD" -- cat /tmp/summary.json \
             > "$OUTPUT_DIR/$SUMMARY_FILE" || echo "Attenzione: summary JSON non recuperato"
 
         echo "Run completata. Rate richiesto: ${RATE} req/s"
@@ -222,7 +222,7 @@ do
         echo ""
         echo "Elimino pod k6..."
 
-        kubectl delete pod "$WRK_POD" \
+        kubectl delete pod "$K6_POD" \
             -n "$NAMESPACE" \
             --ignore-not-found
 
