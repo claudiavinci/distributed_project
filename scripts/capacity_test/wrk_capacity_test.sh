@@ -8,21 +8,17 @@ set -euo pipefail
 
 source configs/exp_config.conf
 
-if [ -z "$TEST" ] || \
-   [ -z "$THREADS" ] || \
-   [ -z "$CONNECTIONS" ] || \
-   [ -z "$DURATION" ] || \
-   [ -z "$RUNS" ] || \
-   [ -z "$NAMESPACE" ] || \
-   [ -z "$MONITORING_NAMESPACE" ] || \
-   [ -z "$WRK_POD" ] || \
-   [ -z "$TARGET_URL" ] || \
-   [ -z "${COOLDOWN:-}" ] || \
-   [ -z "${WRK_TIMEOUT:-}" ]; then
+REQUIRED_VARS=(
+  TEST THREADS CONNECTIONS DURATION RUNS COOLDOWN
+  NAMESPACE MONITORING_NAMESPACE WRK_POD TARGET_URL WRK_TIMEOUT
+)
 
-    echo "Errore: configurazione esperimento incompleta"
-    exit 1
-fi
+for v in "${REQUIRED_VARS[@]}"; do
+    if [ -z "${!v:-}" ]; then
+        echo "Errore: variabile mancante in exp_config.conf: $v"
+        exit 1
+    fi
+done
 
 # =========================
 # CONFIGURAZIONE
@@ -32,7 +28,7 @@ export KUBECONFIG="$(pwd)/consumer-config"
 
 GRAFANA_PID=""
 
-OUTPUT_DIR="$(pwd)/results/${TEST}/workload_test/c${CONNECTIONS}/raw"
+OUTPUT_DIR="$(pwd)/results/${TEST}/capacity_test/c${CONNECTIONS}/raw"
 
 mkdir -p "$OUTPUT_DIR"
 

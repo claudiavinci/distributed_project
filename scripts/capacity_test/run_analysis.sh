@@ -8,16 +8,16 @@ set -e
 
 source configs/exp_config.conf
 
-if [ -z "$TEST" ] || \
-   [ -z "$CONNECTIONS" ] || \
-   [ -z "$NAMESPACE" ] || \
-   [ -z "$MONITORING_NAMESPACE" ] || \
-   [ -z "$PROMETHEUS_SERVICE" ] || \
-   [ -z "$PROMETHEUS_PORT" ]; then
+REQUIRED_VARS=(
+  TEST CONNECTIONS NAMESPACE MONITORING_NAMESPACE PROMETHEUS_SERVICE PROMETHEUS_PORT
+)
 
-    echo "Errore: configurazione esperimento incompleta"
-    exit 1
-fi
+for v in "${REQUIRED_VARS[@]}"; do
+    if [ -z "${!v:-}" ]; then
+        echo "Errore: variabile mancante in exp_config.conf: $v"
+        exit 1
+    fi
+done
 
 # =====================================
 # CONFIGURAZIONE
@@ -30,7 +30,7 @@ VENV="$(pwd)/venv"
 PROM_SCRIPT="$(pwd)/scripts/analysis/collect_prometheus_metrics.py"
 WRK_SCRIPT="$(pwd)/scripts/analysis/wrk_test.py"
 
-BASE_DIR="$(pwd)/results/${TEST}/workload_test/c${CONNECTIONS}"
+BASE_DIR="$(pwd)/results/${TEST}/c${CONNECTIONS}"
 
 RUNS_DIR="${BASE_DIR}/raw"
 
