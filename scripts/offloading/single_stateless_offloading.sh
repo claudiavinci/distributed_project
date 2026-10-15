@@ -71,14 +71,17 @@ ELAPSED=$((END_TS-START_TS))
 
 NODE=$(kubectl get pods -n "$NAMESPACE" -l app="$DEPLOYMENT" \
   --sort-by=.metadata.creationTimestamp \
-  -o jsonpath='{.items[0].spec.nodeName}')
+  -o jsonpath='{.items[-1:].spec.nodeName}')
 
 echo "Pod schedulato su: $NODE"
 
-case "$NODE" in
-  liqo-*) ;;  # virtual node, ok
-  *) echo "Errore: il pod non è sul virtual node"; exit 1 ;;
-esac
+NODE_TYPE=$(kubectl get node "$NODE" \
+  -o jsonpath='{.metadata.labels.liqo\.io/type}')
+
+if [ "$NODE_TYPE" != "virtual-node" ]; then
+    echo "Errore: il pod non è sul virtual node (nodo: $NODE, type: ${NODE_TYPE:-n/a})"
+    exit 1
+fi
 
 # =====================================
 # SALVATAGGIO RISULTATO
@@ -106,9 +109,9 @@ echo ""
 echo "Tempo di convergenza: ${ELAPSED} secondi"
 echo "Risultato salvato: $RESULT_FILE"
 
-sleep 5
+sleep 10
 
 echo ""
 echo "Esecuzione snapshot offloading..."
 
-./snapshot_offloading.sh
+./scripts/offloading/snapshot_offloading.sh

@@ -5,11 +5,11 @@ export const options = {
   scenarios: {
     open_loop: {
       executor: 'constant-arrival-rate',
-      rate: Number(ENV.RATE),
+      rate: Number(__ENV.RATE),
       timeUnit: '1s',
-      duration: ENV.DURATION,
-      preAllocatedVUs: Number(ENV.PRE_VUS),
-      maxVUs: Number(ENV.MAX_VUS),
+      duration: __ENV.DURATION,
+      preAllocatedVUs: Number(__ENV.PRE_VUS),
+      maxVUs: Number(__ENV.MAX_VUS),
     },
   },
   discardResponseBodies: true,
@@ -17,5 +17,9 @@ export const options = {
 };
 
 export default function () {
-  http.get(ENV.TARGET_URL, { timeout: ENV.REQ_TIMEOUT });
+  http.get(__ENV.TARGET_URL, { timeout: __ENV.REQ_TIMEOUT });
+  check(response, {
+        "frontend reachable":
+            (r) => r.status === 200
+    });
 }

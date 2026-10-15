@@ -1,5 +1,5 @@
 NAME                     CPU(cores)   CPU(%)   MEMORY(bytes)   MEMORY(%)   
-consumer-control-plane   183m         1%       1517Mi          7%          
-consumer-worker          105m         0%       1167Mi          5%          
-consumer-worker2         117m         0%       2289Mi          11%         
-patient-cloud            196m         4%       2113Mi          25%         
+consumer-control-plane   245m         1%       1532Mi          7%          
+consumer-worker          150m         0%       1169Mi          5%          
+consumer-worker2         151m         0%       2231Mi          11%         
+patient-cloud            342m         8%       2303Mi          28%         
