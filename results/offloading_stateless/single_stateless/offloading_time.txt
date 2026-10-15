@@ -1,10 +1,10 @@
 Deployment=currencyservice
 Namespace=shop
 
-Start_timestamp=1792069756
-End_timestamp=1792069768
+Start_timestamp=1792073116
+End_timestamp=1792073142
 
-Start_time=2026-10-15 15:09:16
-End_time=2026-10-15 15:09:28
+Start_time=2026-10-15 16:05:16
+End_time=2026-10-15 16:05:42
 
-Offloading_time_seconds=12
+Offloading_time_seconds=26
