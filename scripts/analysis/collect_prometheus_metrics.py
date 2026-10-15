@@ -8,11 +8,6 @@ import requests
 from datetime import datetime
 from collections import defaultdict
 
-# =====================================================
-# CONFIGURAZIONE
-# =====================================================
-
-PROMETHEUS_URL = "http://localhost:9090"
 
 # =====================================================
 # ARGOMENTI
@@ -44,7 +39,16 @@ parser.add_argument(
     default="5s"
 )
 
+parser.add_argument(
+    "--prometheus-url",
+    default="http://localhost:9090"
+)
+
+
 args = parser.parse_args()
+
+PROMETHEUS_URL = args.prometheus_url
+RATE_WINDOW = 60  # secondi
 
 # =====================================================
 # LETTURA TIMESTAMP
@@ -157,7 +161,7 @@ sum by(pod, node)(
         namespace="{args.namespace}",
         container!="POD",
         container!=""
-        }}[5m]
+        }}[1m]
     )
 )
 """
@@ -174,7 +178,7 @@ node_cpu_query = """
         rate(
             node_cpu_seconds_total{
             mode="idle"
-            }[5m]
+            }[1m]
         )
     )
 )
@@ -186,68 +190,32 @@ node_cpu_query = """
 
 def collect_run(times_file):
     start, end = read_times_file(times_file)
-    start_time = datetime.fromtimestamp(start).strftime(
-        "%Y-%m-%d %H:%M:%S"
-    )
-    end_time = datetime.fromtimestamp(end).strftime(
-        "%Y-%m-%d %H:%M:%S"
-    )
-    print(
-        f"Analizzo {times_file}"
-    )
+    cpu_start = start + RATE_WINDOW
 
-    pod_memory = prometheus_query(
-        pod_memory_query,
-        start,
-        end
-    )
+    start_time = datetime.fromtimestamp(start).strftime("%Y-%m-%d %H:%M:%S")
+    end_time = datetime.fromtimestamp(end).strftime("%Y-%m-%d %H:%M:%S")
+    print(f"Analizzo {times_file}")
 
-    pod_cpu = prometheus_query(
-        pod_cpu_query,
-        start,
-        end
-    )
+    pod_memory = prometheus_query(pod_memory_query, start, end)
+    pod_cpu = prometheus_query(pod_cpu_query, cpu_start, end)
 
-    node_memory = prometheus_query(
-        node_memory_query,
-        start,
-        end
-    )
-
-    node_cpu = prometheus_query(
-        node_cpu_query,
-        start,
-        end
-    )
+    node_memory = prometheus_query(node_memory_query, start, end)
+    node_cpu = prometheus_query(node_cpu_query, cpu_start, end)
 
     # POD
 
-    pods_memory = extract_pod_node(
-        pod_memory,
-        ["pod", "node"]
-    )
-
-    pods_cpu = extract_pod_node(
-        pod_cpu,
-        ["pod", "node"]
-    )
+    pods_memory = extract_pod_node(pod_memory, ["pod", "node"])
+    pods_cpu = extract_pod_node(pod_cpu, ["pod", "node"])
     
     pod_report = []
 
-    for pod, node in sorted(
-        set(pods_memory.keys()) | set(pods_cpu.keys())
-    ):
-        mem = calculate_stats(
-            pods_memory.get((pod, node), [])
-        )
+    for pod, node in sorted(set(pods_memory.keys()) | set(pods_cpu.keys())):
 
-        cpu = calculate_stats(
-            pods_cpu.get((pod, node), [])
-        )
+        mem = calculate_stats(pods_memory.get((pod, node), []))
+        cpu = calculate_stats(pods_cpu.get((pod, node), []))
 
         pod_report.append({
             "pod": pod,
-            
             "node": node,
 
             "memory_avg_MiB":
@@ -269,39 +237,24 @@ def collect_run(times_file):
             # informazioni temporali run
             "start_ts": start,
             "end_ts": end,
-
             "start_time": start_time,
             "end_time": end_time
         })
 
     # NODE
-    nodes_memory = extract_label(
-        node_memory,
-        "instance"
-    )
-
-    nodes_cpu = extract_label(
-        node_cpu,
-        "instance"
-    )
+    nodes_memory = extract_label(node_memory, "instance")
+    nodes_cpu = extract_label(node_cpu, "instance")
 
     node_report = []
 
-    for node in sorted(
-        set(nodes_memory.keys()) | set(nodes_cpu.keys())
-    ):
+    for node in sorted(set(nodes_memory.keys()) | set(nodes_cpu.keys())):
 
-        mem = calculate_stats(
-            nodes_memory.get(node, [])
-        )
-
-        cpu = calculate_stats(
-            nodes_cpu.get(node, [])
-        )
+        mem = calculate_stats(nodes_memory.get(node, []))
+        cpu = calculate_stats(nodes_cpu.get(node, []))
 
         node_report.append({
-
             "node": node,
+
             "memory_avg_%":
                 round(mem["avg"],2)
                 if mem["avg"] is not None else None,
@@ -321,7 +274,6 @@ def collect_run(times_file):
             # informazioni temporali run
             "start_ts": start,
             "end_ts": end,
-
             "start_time": start_time,
             "end_time": end_time
         })
@@ -336,18 +288,9 @@ def save_csv(filename,data):
     if not data:
         return
 
-    with open(
-        filename,
-        "w",
-        newline="",
-        encoding="utf-8"
-    ) as f:
+    with open(filename, "w", newline="", encoding="utf-8") as f:
 
-        writer = csv.DictWriter(
-            f,
-            fieldnames=data[0].keys()
-        )
-
+        writer = csv.DictWriter(f, fieldnames=data[0].keys())
         writer.writeheader()
         writer.writerows(data)
 
@@ -359,10 +302,7 @@ def average_runs(data, key):
     grouped = defaultdict(list)
     for item in data:
         if key == "pod":
-            group_key = (
-                item["pod"],
-                item["node"]
-            )
+            group_key = (item["pod"], item["node"])
         else:
             group_key = item[key]
         grouped[group_key].append(item)
@@ -406,19 +346,10 @@ def average_runs(data, key):
 # =====================================================
 
 def main():
-    times_files = sorted(
-        glob.glob(
-            os.path.join(
-                args.runs_dir,
-                "run*_times.txt"
-            )
-        )
-    )
+    times_files = sorted(glob.glob(os.path.join(args.runs_dir, "run*_times.txt")))
 
     if not times_files:
-        raise Exception(
-            "Nessun file run*_times.txt trovato"
-        )
+        raise Exception("Nessun file run*_times.txt trovato")
 
     all_pods = []
     all_nodes = []
@@ -426,18 +357,10 @@ def main():
     for times in times_files:
 
         pods, nodes = collect_run(times)
-        run_name = os.path.basename(times)\
-            .replace("_times.txt","")
+        run_name = os.path.basename(times).replace("_times.txt","")
 
-        save_csv(
-            f"{args.output_prefix}_{run_name}_pods.csv",
-            pods
-        )
-
-        save_csv(
-            f"{args.output_prefix}_{run_name}_nodes.csv",
-            nodes
-        )
+        save_csv(f"{args.output_prefix}_{run_name}_pods.csv", pods)
+        save_csv(f"{args.output_prefix}_{run_name}_nodes.csv", nodes)
 
         for p in pods:
             p["run"] = run_name
@@ -447,38 +370,20 @@ def main():
             n["run"] = run_name
             all_nodes.append(n)
     
-    avg_pods = average_runs(
-        all_pods,
-        "pod"
-    )
+    avg_pods = average_runs(all_pods, "pod")
+    avg_nodes = average_runs(all_nodes, "node")
 
-    avg_nodes = average_runs(
-        all_nodes,
-        "node"
-    )
-
-    save_csv(
-        f"{args.output_prefix}_average_pods.csv",
-        avg_pods
-    )
-
-    save_csv(
-        f"{args.output_prefix}_average_nodes.csv",
-        avg_nodes
-    )
-
+    save_csv(f"{args.output_prefix}_average_pods.csv", avg_pods)
+    save_csv(f"{args.output_prefix}_average_nodes.csv", avg_nodes)
+    
     print()
     print("===================================")
     print("Analisi completata")
     print("Run analizzate:", len(times_files))
     print()
     print("Output:")
-    print(
-        f"{args.output_prefix}_average_pods.csv"
-    )
-    print(
-        f"{args.output_prefix}_average_nodes.csv"
-    )
+    print(f"{args.output_prefix}_average_pods.csv")
+    print(f"{args.output_prefix}_average_nodes.csv")
     print("===================================")
 
 if __name__ == "__main__":

@@ -9,7 +9,7 @@ set -e
 source configs/exp_config.conf
 
 REQUIRED_VARS=(
-  TEST CONNECTIONS NAMESPACE MONITORING_NAMESPACE PROMETHEUS_SERVICE PROMETHEUS_PORT
+  TEST CONNECTIONS NAMESPACE MONITORING_NAMESPACE PROMETHEUS_URL PROMETHEUS_SERVICE PROMETHEUS_PORT
 )
 
 for v in "${REQUIRED_VARS[@]}"; do
@@ -88,7 +88,7 @@ ${PROMETHEUS_PORT}:${PROMETHEUS_PORT} &
 
 PORT_FORWARD_PID=$!
 
-echo "Prometheus disponibile su localhost:${PROMETHEUS_PORT}"
+echo "Prometheus disponibile su ${PROMETHEUS_URL}"
 
 sleep 5
 
@@ -119,7 +119,8 @@ echo "================================="
 python "$PROM_SCRIPT" \
 --namespace "$NAMESPACE" \
 --runs-dir "$RUNS_DIR" \
---output-prefix "$OUTPUT_PREFIX"
+--output-prefix "$OUTPUT_PREFIX" \
+--prometheus-url "$PROMETHEUS_URL"
 
 # =====================================
 # ANALISI WRK
