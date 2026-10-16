@@ -9,7 +9,7 @@ set -euo pipefail
 source configs/exp_config.conf
 
 REQUIRED_VARS=(
-  TEST DURATION RUNS COOLDOWN CONNECTIONS
+  TEST DURATION RUNS COOLDOWN
   NAMESPACE MONITORING_NAMESPACE K6_POD TARGET_URL WRK_TIMEOUT
   RATES WARMUP_RATE WARMUP_DURATION
 )
@@ -28,7 +28,7 @@ done
 export KUBECONFIG="$(pwd)/consumer-config"
 
 GRAFANA_PID=""
-BASE_OUTPUT_DIR="$(pwd)/results/${TEST}/c${CONNECTIONS}"
+BASE_OUTPUT_DIR="$(pwd)/results/${TEST}"
 
 read -r -a RATE_LIST <<< "$RATES"
 TOTAL_RUNS=$(( ${#RATE_LIST[@]} * RUNS ))
@@ -186,8 +186,8 @@ do
 
         run_k6 "$WARMUP_RATE" "$WARMUP_DURATION" > /dev/null 2>&1
 
-        RESULT_FILE="k6_R${RATE}_run${RUN}.txt"
-        SUMMARY_FILE="k6_R${RATE}_run${RUN}_summary.json"
+        RESULT_FILE="R${RATE}_run${RUN}.txt"
+        SUMMARY_FILE="R${RATE}_run${RUN}_summary.json"
 
         echo ""
         echo "Avvio misura..."

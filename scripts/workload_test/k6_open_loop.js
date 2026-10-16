@@ -1,4 +1,5 @@
 import http from 'k6/http';
+import { check } from 'k6';
 
 // Tutti i valori arrivano da exp_config.conf tramite lo script bash (flag -e).
 export const options = {
@@ -17,9 +18,8 @@ export const options = {
 };
 
 export default function () {
-  http.get(__ENV.TARGET_URL, { timeout: __ENV.REQ_TIMEOUT });
-  check(response, {
-        "frontend reachable":
-            (r) => r.status === 200
-    });
+  const res = http.get(__ENV.TARGET_URL, { timeout: __ENV.REQ_TIMEOUT });
+  check(res, {
+    'frontend reachable': (r) => r.status === 200,
+  });
 }
