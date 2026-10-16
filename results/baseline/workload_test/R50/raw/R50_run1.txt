@@ -1,32 +1,32 @@
 Test: baseline/workload_test
 Configuration: k6 constant-arrival-rate R50 d5m VUs 300-2000
 Run: 1
-Fri Oct 16 14:12:32 CEST 2026
+Fri Oct 16 16:32:35 CEST 2026
 
 
 
   █ TOTAL RESULTS 
 
-    checks_total.......: 15001   50.038873/s
+    checks_total.......: 15001   50.118816/s
     checks_succeeded...: 100.00% 15001 out of 15001
     checks_failed......: 0.00%   0 out of 15001
 
     ✓ frontend reachable
 
     HTTP
-    http_req_duration..............: avg=108.04ms min=293.18µs med=72.82ms max=1.46s p(90)=181.85ms p(95)=331.75ms p(99)=956.26ms
-      { expected_response:true }...: avg=108.04ms min=293.18µs med=72.82ms max=1.46s p(90)=181.85ms p(95)=331.75ms p(99)=956.26ms
+    http_req_duration..............: avg=91.16ms min=198.11µs med=58.4ms max=1.29s p(90)=171.59ms p(95)=340.58ms p(99)=908.52ms
+      { expected_response:true }...: avg=91.16ms min=198.11µs med=58.4ms max=1.29s p(90)=171.59ms p(95)=340.58ms p(99)=908.52ms
     http_req_failed................: 0.00%  0 out of 15001
-    http_reqs......................: 15001  50.038873/s
+    http_reqs......................: 15001  50.118816/s
 
     EXECUTION
-    iteration_duration.............: avg=108.4ms  min=10.47ms  med=73.04ms max=1.46s p(90)=182.64ms p(95)=331.95ms p(99)=956.48ms
-    iterations.....................: 15001  50.038873/s
-    vus............................: 2      min=0          max=46 
+    iteration_duration.............: avg=91.78ms min=10.49ms  med=58.7ms max=1.29s p(90)=172.77ms p(95)=345.29ms p(99)=910.01ms
+    iterations.....................: 15001  50.118816/s
+    vus............................: 3      min=2          max=60 
     vus_max........................: 300    min=300        max=300
 
     NETWORK
-    data_received..................: 161 MB 538 kB/s
+    data_received..................: 161 MB 539 kB/s
     data_sent......................: 1.1 MB 3.8 kB/s
 
 

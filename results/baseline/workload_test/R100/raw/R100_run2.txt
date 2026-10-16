@@ -1,33 +1,32 @@
 Test: baseline/workload_test
 Configuration: k6 constant-arrival-rate R100 d5m VUs 300-2000
 Run: 2
-Fri Oct 16 14:46:43 CEST 2026
+Fri Oct 16 17:06:41 CEST 2026
 
 
 
   █ TOTAL RESULTS 
 
-    checks_total.......: 29994   99.494337/s
-    checks_succeeded...: 100.00% 29994 out of 29994
-    checks_failed......: 0.00%   0 out of 29994
+    checks_total.......: 30001   100.218307/s
+    checks_succeeded...: 100.00% 30001 out of 30001
+    checks_failed......: 0.00%   0 out of 30001
 
     ✓ frontend reachable
 
     HTTP
-    http_req_duration..............: avg=1.94s min=13.07ms med=1.94s max=3.49s p(90)=2.3s p(95)=2.49s p(99)=2.87s
-      { expected_response:true }...: avg=1.94s min=13.07ms med=1.94s max=3.49s p(90)=2.3s p(95)=2.49s p(99)=2.87s
-    http_req_failed................: 0.00%  0 out of 29994
-    http_reqs......................: 29994  99.494337/s
+    http_req_duration..............: avg=675.95ms min=11.35ms med=645.82ms max=2.07s p(90)=910.42ms p(95)=1.01s p(99)=1.39s
+      { expected_response:true }...: avg=675.95ms min=11.35ms med=645.82ms max=2.07s p(90)=910.42ms p(95)=1.01s p(99)=1.39s
+    http_req_failed................: 0.00%  0 out of 30001
+    http_reqs......................: 30001  100.218307/s
 
     EXECUTION
-    dropped_iterations.............: 6      0.019903/s
-    iteration_duration.............: avg=1.94s min=13.7ms  med=1.94s max=3.49s p(90)=2.3s p(95)=2.49s p(99)=2.87s
-    iterations.....................: 29994  99.494337/s
-    vus............................: 158    min=40         max=285
-    vus_max........................: 306    min=300        max=306
+    iteration_duration.............: avg=678.09ms min=11.88ms med=649.23ms max=2.07s p(90)=910.57ms p(95)=1.01s p(99)=1.39s
+    iterations.....................: 30001  100.218307/s
+    vus............................: 51     min=31         max=198
+    vus_max........................: 300    min=300        max=300
 
     NETWORK
-    data_received..................: 322 MB 1.1 MB/s
+    data_received..................: 323 MB 1.1 MB/s
     data_sent......................: 2.3 MB 7.6 kB/s
 
 

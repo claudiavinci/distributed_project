@@ -5,14 +5,17 @@
             "apiVersion": "v1",
             "kind": "Pod",
             "metadata": {
-                "creationTimestamp": "2026-10-05T13:41:36Z",
-                "generateName": "adservice-84b79f4569-",
+                "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                },
+                "creationTimestamp": "2026-10-16T14:27:35Z",
+                "generateName": "adservice-58b67d9989-",
                 "generation": 1,
                 "labels": {
                     "app": "adservice",
-                    "pod-template-hash": "84b79f4569"
+                    "pod-template-hash": "58b67d9989"
                 },
-                "name": "adservice-84b79f4569-r7lcm",
+                "name": "adservice-58b67d9989-nw79l",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -20,12 +23,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "adservice-84b79f4569",
-                        "uid": "177e62fd-6a2e-4d26-98df-bdb910221942"
+                        "name": "adservice-58b67d9989",
+                        "uid": "539195c0-efce-441b-bd82-2154e332af45"
                     }
                 ],
-                "resourceVersion": "77280",
-                "uid": "8b83c2b2-609c-4340-a15a-cb636b6ae26a"
+                "resourceVersion": "503849",
+                "uid": "c2065c96-d536-405b-a29a-e2450465f931"
             },
             "spec": {
                 "containers": [
@@ -92,7 +95,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-88gw2",
+                                "name": "kube-api-access-jkhx8",
                                 "readOnly": true
                             }
                         ]
@@ -100,7 +103,7 @@
                 ],
                 "dnsPolicy": "ClusterFirst",
                 "enableServiceLinks": true,
-                "nodeName": "consumer-worker",
+                "nodeName": "consumer-worker2",
                 "preemptionPolicy": "PreemptLowerPriority",
                 "priority": 0,
                 "restartPolicy": "Always",
@@ -130,7 +133,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-88gw2",
+                        "name": "kube-api-access-jkhx8",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -177,35 +180,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:42:27Z",
+                        "lastTransitionTime": "2026-10-16T14:28:07Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:42:27Z",
+                        "lastTransitionTime": "2026-10-16T14:28:07Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -217,7 +220,7 @@
                             "cpu": "200m",
                             "memory": "180Mi"
                         },
-                        "containerID": "containerd://7c7c3535c0f04be44e70310b4fd4c30d3afd5a3ffd46efaae3a38192927640de",
+                        "containerID": "containerd://8bc9fe0dd5f70209d9756de72300c62549e1f49c3be82fec85585eed99fec5df",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice@sha256:7b26b5ea1a6472ca62b3c20c6f6ac12dd1fbcf18ba596a2c174982bcccdfc0c8",
                         "lastState": {},
@@ -237,7 +240,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:55Z"
+                                "startedAt": "2026-10-16T14:27:36Z"
                             }
                         },
                         "user": {
@@ -252,25 +255,25 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-88gw2",
+                                "name": "kube-api-access-jkhx8",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.5",
+                "hostIP": "172.18.0.9",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.5"
+                        "ip": "172.18.0.9"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.19",
+                "podIP": "10.244.2.17",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.19"
+                        "ip": "10.244.2.17"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -284,21 +287,24 @@
                         "memory": "180Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:36Z"
+                "startTime": "2026-10-16T14:27:35Z"
             }
         },
         {
             "apiVersion": "v1",
             "kind": "Pod",
             "metadata": {
-                "creationTimestamp": "2026-10-05T13:41:37Z",
-                "generateName": "cartservice-574c7f4cdd-",
+                "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                },
+                "creationTimestamp": "2026-10-16T14:27:35Z",
+                "generateName": "cartservice-97df47bdb-",
                 "generation": 1,
                 "labels": {
                     "app": "cartservice",
-                    "pod-template-hash": "574c7f4cdd"
+                    "pod-template-hash": "97df47bdb"
                 },
-                "name": "cartservice-574c7f4cdd-vb85h",
+                "name": "cartservice-97df47bdb-hvqc5",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -306,12 +312,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "cartservice-574c7f4cdd",
-                        "uid": "b5332ba3-1e23-4d81-964c-b8e0d2e4e57b"
+                        "name": "cartservice-97df47bdb",
+                        "uid": "cd1232ae-6c9d-4e1c-afc3-d9f3933b6f21"
                     }
                 ],
-                "resourceVersion": "77201",
-                "uid": "2be310ad-72fa-4804-b57f-4e8c57713b76"
+                "resourceVersion": "503797",
+                "uid": "e4480d48-4f2b-4d69-ac03-5803229c78f2"
             },
             "spec": {
                 "containers": [
@@ -378,7 +384,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-t9jm4",
+                                "name": "kube-api-access-dq2sb",
                                 "readOnly": true
                             }
                         ]
@@ -386,7 +392,7 @@
                 ],
                 "dnsPolicy": "ClusterFirst",
                 "enableServiceLinks": true,
-                "nodeName": "consumer-worker2",
+                "nodeName": "consumer-worker",
                 "preemptionPolicy": "PreemptLowerPriority",
                 "priority": 0,
                 "restartPolicy": "Always",
@@ -416,7 +422,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-t9jm4",
+                        "name": "kube-api-access-dq2sb",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -463,35 +469,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:42:00Z",
+                        "lastTransitionTime": "2026-10-16T14:27:57Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:42:00Z",
+                        "lastTransitionTime": "2026-10-16T14:27:57Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -503,7 +509,7 @@
                             "cpu": "200m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://2bd2f28ddce1dfa66c5fb4fc73cfccc83f704299e9e9d83ac8d51b67e4edeb39",
+                        "containerID": "containerd://d78dbd7b4ce994245b7b5c680a417bd866e920cdd3a4606d57a42e8e849a702c",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice@sha256:e5310c2aa45732e351c55c88051700d958dc7ed2693e66405fc6c70cf080109e",
                         "lastState": {},
@@ -523,7 +529,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:38Z"
+                                "startedAt": "2026-10-16T14:27:36Z"
                             }
                         },
                         "user": {
@@ -538,25 +544,25 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-t9jm4",
+                                "name": "kube-api-access-dq2sb",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.9",
+                "hostIP": "172.18.0.10",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.9"
+                        "ip": "172.18.0.10"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.2.16",
+                "podIP": "10.244.1.26",
                 "podIPs": [
                     {
-                        "ip": "10.244.2.16"
+                        "ip": "10.244.1.26"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -570,21 +576,24 @@
                         "memory": "64Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:37Z"
+                "startTime": "2026-10-16T14:27:35Z"
             }
         },
         {
             "apiVersion": "v1",
             "kind": "Pod",
             "metadata": {
-                "creationTimestamp": "2026-10-05T13:41:36Z",
-                "generateName": "checkoutservice-7ddc4696cf-",
+                "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                },
+                "creationTimestamp": "2026-10-16T14:27:35Z",
+                "generateName": "checkoutservice-579bd94bfc-",
                 "generation": 1,
                 "labels": {
                     "app": "checkoutservice",
-                    "pod-template-hash": "7ddc4696cf"
+                    "pod-template-hash": "579bd94bfc"
                 },
-                "name": "checkoutservice-7ddc4696cf-hm6ft",
+                "name": "checkoutservice-579bd94bfc-vcccj",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -592,12 +601,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "checkoutservice-7ddc4696cf",
-                        "uid": "af9c6f1c-2209-49cf-ac5b-f34be3fb7491"
+                        "name": "checkoutservice-579bd94bfc",
+                        "uid": "bcd786bd-2c04-4804-9222-620e03d67ccd"
                     }
                 ],
-                "resourceVersion": "77073",
-                "uid": "a588a5bd-2b5e-4d6d-a0d2-38b76f0e4d58"
+                "resourceVersion": "503545",
+                "uid": "bf4f3487-c19b-446f-8e5b-6c03ecbf8b10"
             },
             "spec": {
                 "containers": [
@@ -686,7 +695,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-pdgqg",
+                                "name": "kube-api-access-rxtb7",
                                 "readOnly": true
                             }
                         ]
@@ -724,7 +733,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-pdgqg",
+                        "name": "kube-api-access-rxtb7",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -771,35 +780,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:38Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:38Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -811,7 +820,7 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://8ddd2664236ecda6343bfa01e183ad469bbb1ed461780ba0a0289d377d2b4b09",
+                        "containerID": "containerd://977d7eb648a7ba50cb565ce15e32d9e008af4cc10c7c87bd9b2876e5d0cf5815",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice@sha256:f0e72ff7b438dd2e8776fb142d5132cfa5ba02c523466f1491270c576412d33f",
                         "lastState": {},
@@ -831,7 +840,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:37Z"
+                                "startedAt": "2026-10-16T14:27:36Z"
                             }
                         },
                         "user": {
@@ -846,25 +855,25 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-pdgqg",
+                                "name": "kube-api-access-rxtb7",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.5",
+                "hostIP": "172.18.0.10",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.5"
+                        "ip": "172.18.0.10"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.21",
+                "podIP": "10.244.1.27",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.21"
+                        "ip": "10.244.1.27"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -878,21 +887,24 @@
                         "memory": "64Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:36Z"
+                "startTime": "2026-10-16T14:27:35Z"
             }
         },
         {
             "apiVersion": "v1",
             "kind": "Pod",
             "metadata": {
-                "creationTimestamp": "2026-10-05T13:41:36Z",
-                "generateName": "currencyservice-6478b9fcf7-",
+                "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                },
+                "creationTimestamp": "2026-10-16T14:27:35Z",
+                "generateName": "currencyservice-5fb47bcbf-",
                 "generation": 1,
                 "labels": {
                     "app": "currencyservice",
-                    "pod-template-hash": "6478b9fcf7"
+                    "pod-template-hash": "5fb47bcbf"
                 },
-                "name": "currencyservice-6478b9fcf7-prznz",
+                "name": "currencyservice-5fb47bcbf-ggwnw",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -900,12 +912,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "currencyservice-6478b9fcf7",
-                        "uid": "dd491b05-2f0e-4cb6-871c-142da24f744a"
+                        "name": "currencyservice-5fb47bcbf",
+                        "uid": "68fa1bd6-4f86-466a-911f-239fd8de977d"
                     }
                 ],
-                "resourceVersion": "77217",
-                "uid": "9f3a1125-d5bc-4bf3-a4d5-66e3a3404e53"
+                "resourceVersion": "513555",
+                "uid": "e5ee8511-16ea-4ae4-926c-c157e0c07aaa"
             },
             "spec": {
                 "containers": [
@@ -928,9 +940,10 @@
                                 "port": 7000,
                                 "service": ""
                             },
+                            "initialDelaySeconds": 10,
                             "periodSeconds": 10,
                             "successThreshold": 1,
-                            "timeoutSeconds": 1
+                            "timeoutSeconds": 5
                         },
                         "name": "server",
                         "ports": [
@@ -946,9 +959,10 @@
                                 "port": 7000,
                                 "service": ""
                             },
+                            "initialDelaySeconds": 10,
                             "periodSeconds": 10,
                             "successThreshold": 1,
-                            "timeoutSeconds": 1
+                            "timeoutSeconds": 5
                         },
                         "resources": {
                             "limits": {
@@ -975,7 +989,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-6r4hk",
+                                "name": "kube-api-access-k7ssx",
                                 "readOnly": true
                             }
                         ]
@@ -1013,7 +1027,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-6r4hk",
+                        "name": "kube-api-access-k7ssx",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -1060,35 +1074,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:42:05Z",
+                        "lastTransitionTime": "2026-10-16T15:38:05Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:42:05Z",
+                        "lastTransitionTime": "2026-10-16T15:38:05Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -1100,10 +1114,18 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://f3db6392b8b930581bacc4e7416210dfd3036b0309b86e63a7af7922ae399d56",
+                        "containerID": "containerd://94d9738855d2b0b1b5262c5f1fd794571720ece5f1222ca9972a86d7450346b5",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice@sha256:c581681bbf9abec8563e520aac3f3dbe3e7498853b6eb263193bc80c87e42f74",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://a62a9210ab462596b2b96a1ab40f3e9b8621af36e9f06d0e2f869285859f63eb",
+                                "exitCode": 137,
+                                "finishedAt": "2026-10-16T15:37:44Z",
+                                "reason": "OOMKilled",
+                                "startedAt": "2026-10-16T15:29:03Z"
+                            }
+                        },
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -1116,11 +1138,11 @@
                                 "memory": "64Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 2,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:53Z"
+                                "startedAt": "2026-10-16T15:37:54Z"
                             }
                         },
                         "user": {
@@ -1135,7 +1157,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-6r4hk",
+                                "name": "kube-api-access-k7ssx",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
@@ -1150,10 +1172,10 @@
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.2.13",
+                "podIP": "10.244.2.18",
                 "podIPs": [
                     {
-                        "ip": "10.244.2.13"
+                        "ip": "10.244.2.18"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -1167,21 +1189,24 @@
                         "memory": "64Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:36Z"
+                "startTime": "2026-10-16T14:27:35Z"
             }
         },
         {
             "apiVersion": "v1",
             "kind": "Pod",
             "metadata": {
-                "creationTimestamp": "2026-10-05T13:41:37Z",
-                "generateName": "emailservice-59d546db77-",
+                "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                },
+                "creationTimestamp": "2026-10-16T14:27:35Z",
+                "generateName": "emailservice-6795455f-",
                 "generation": 1,
                 "labels": {
                     "app": "emailservice",
-                    "pod-template-hash": "59d546db77"
+                    "pod-template-hash": "6795455f"
                 },
-                "name": "emailservice-59d546db77-t74l6",
+                "name": "emailservice-6795455f-s88mt",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -1189,12 +1214,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "emailservice-59d546db77",
-                        "uid": "67c3d6fd-fb10-451a-94a1-7d96cd6b24d6"
+                        "name": "emailservice-6795455f",
+                        "uid": "66175c42-a878-4326-b14c-d1529b807151"
                     }
                 ],
-                "resourceVersion": "77135",
-                "uid": "ba803187-a001-46e0-909f-63038119c9b8"
+                "resourceVersion": "503664",
+                "uid": "27fcc3a0-17b7-471d-b8c0-c352a2b5207c"
             },
             "spec": {
                 "containers": [
@@ -1263,7 +1288,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-tp5mv",
+                                "name": "kube-api-access-77c9r",
                                 "readOnly": true
                             }
                         ]
@@ -1271,7 +1296,7 @@
                 ],
                 "dnsPolicy": "ClusterFirst",
                 "enableServiceLinks": true,
-                "nodeName": "consumer-worker2",
+                "nodeName": "consumer-worker",
                 "preemptionPolicy": "PreemptLowerPriority",
                 "priority": 0,
                 "restartPolicy": "Always",
@@ -1301,7 +1326,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-tp5mv",
+                        "name": "kube-api-access-77c9r",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -1348,35 +1373,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:48Z",
+                        "lastTransitionTime": "2026-10-16T14:27:48Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:48Z",
+                        "lastTransitionTime": "2026-10-16T14:27:48Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -1388,7 +1413,7 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://b09299a62dd8964163f1f988c2eac847012a5730c1328e034bd313ee517e2744",
+                        "containerID": "containerd://c6454ab72fe30341b6700eb8acffa945f3214ae139c8930d0e0f8c7f1d726c54",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice@sha256:1142813191b50f7e74bd1d8957d3b272496e9648b745d2c9914752b94356eade",
                         "lastState": {},
@@ -1408,7 +1433,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:37Z"
+                                "startedAt": "2026-10-16T14:27:37Z"
                             }
                         },
                         "user": {
@@ -1423,25 +1448,25 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-tp5mv",
+                                "name": "kube-api-access-77c9r",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.9",
+                "hostIP": "172.18.0.10",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.9"
+                        "ip": "172.18.0.10"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.2.14",
+                "podIP": "10.244.1.28",
                 "podIPs": [
                     {
-                        "ip": "10.244.2.14"
+                        "ip": "10.244.1.28"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -1455,7 +1480,7 @@
                         "memory": "64Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:37Z"
+                "startTime": "2026-10-16T14:27:35Z"
             }
         },
         {
@@ -1463,16 +1488,17 @@
             "kind": "Pod",
             "metadata": {
                 "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00",
                     "sidecar.istio.io/rewriteAppHTTPProbers": "true"
                 },
-                "creationTimestamp": "2026-10-05T13:41:37Z",
-                "generateName": "frontend-54b9f9678-",
+                "creationTimestamp": "2026-10-16T14:27:35Z",
+                "generateName": "frontend-7b68f9d7c6-",
                 "generation": 1,
                 "labels": {
                     "app": "frontend",
-                    "pod-template-hash": "54b9f9678"
+                    "pod-template-hash": "7b68f9d7c6"
                 },
-                "name": "frontend-54b9f9678-tp6l8",
+                "name": "frontend-7b68f9d7c6-65rmt",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -1480,12 +1506,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "frontend-54b9f9678",
-                        "uid": "8adb0c78-1fbe-4e8b-8cf3-d4399566dbbc"
+                        "name": "frontend-7b68f9d7c6",
+                        "uid": "ed1d9d8b-21cc-45ef-aa29-16c3dae66614"
                     }
                 ],
-                "resourceVersion": "77143",
-                "uid": "284a7e06-4ce3-4643-bb0f-4d9906b17dd9"
+                "resourceVersion": "503615",
+                "uid": "000ade0d-9d11-44d6-87f6-347618f297e5"
             },
             "spec": {
                 "containers": [
@@ -1550,7 +1576,7 @@
                             "initialDelaySeconds": 10,
                             "periodSeconds": 10,
                             "successThreshold": 1,
-                            "timeoutSeconds": 1
+                            "timeoutSeconds": 5
                         },
                         "name": "server",
                         "ports": [
@@ -1575,12 +1601,12 @@
                             "initialDelaySeconds": 10,
                             "periodSeconds": 10,
                             "successThreshold": 1,
-                            "timeoutSeconds": 1
+                            "timeoutSeconds": 5
                         },
                         "resources": {
                             "limits": {
-                                "cpu": "200m",
-                                "memory": "128Mi"
+                                "cpu": "1",
+                                "memory": "512Mi"
                             },
                             "requests": {
                                 "cpu": "100m",
@@ -1602,7 +1628,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-d5j94",
+                                "name": "kube-api-access-zk6rh",
                                 "readOnly": true
                             }
                         ]
@@ -1640,7 +1666,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-d5j94",
+                        "name": "kube-api-access-zk6rh",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -1687,35 +1713,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:48Z",
+                        "lastTransitionTime": "2026-10-16T14:27:47Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:48Z",
+                        "lastTransitionTime": "2026-10-16T14:27:47Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -1727,7 +1753,7 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://4bb1e4b0e4e97653c9886a63abc330e3df0dbc26cfd004eb58323c5fc3390d8e",
+                        "containerID": "containerd://f213fd5676471ca80201020fc27b29290105e0f19c8719dbc42e013d72e326d3",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend@sha256:e1cbd4561d3c9d27497dc0e8b1c12da194c4bf2ea82648f58bf38f073698f483",
                         "lastState": {},
@@ -1735,8 +1761,8 @@
                         "ready": true,
                         "resources": {
                             "limits": {
-                                "cpu": "200m",
-                                "memory": "128Mi"
+                                "cpu": "1",
+                                "memory": "512Mi"
                             },
                             "requests": {
                                 "cpu": "100m",
@@ -1747,7 +1773,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:38Z"
+                                "startedAt": "2026-10-16T14:27:37Z"
                             }
                         },
                         "user": {
@@ -1762,39 +1788,39 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-d5j94",
+                                "name": "kube-api-access-zk6rh",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.5",
+                "hostIP": "172.18.0.10",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.5"
+                        "ip": "172.18.0.10"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.23",
+                "podIP": "10.244.1.29",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.23"
+                        "ip": "10.244.1.29"
                     }
                 ],
                 "qosClass": "Burstable",
                 "resources": {
                     "limits": {
-                        "cpu": "200m",
-                        "memory": "128Mi"
+                        "cpu": "1",
+                        "memory": "512Mi"
                     },
                     "requests": {
                         "cpu": "79m",
                         "memory": "64Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:37Z"
+                "startTime": "2026-10-16T14:27:35Z"
             }
         },
         {
@@ -1802,16 +1828,17 @@
             "kind": "Pod",
             "metadata": {
                 "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00",
                     "sidecar.istio.io/rewriteAppHTTPProbers": "true"
                 },
-                "creationTimestamp": "2026-10-05T13:41:37Z",
-                "generateName": "loadgenerator-9878487f4-",
+                "creationTimestamp": "2026-10-16T14:27:35Z",
+                "generateName": "loadgenerator-685b5f9b7c-",
                 "generation": 1,
                 "labels": {
                     "app": "loadgenerator",
-                    "pod-template-hash": "9878487f4"
+                    "pod-template-hash": "685b5f9b7c"
                 },
-                "name": "loadgenerator-9878487f4-s5s9g",
+                "name": "loadgenerator-685b5f9b7c-qqrzx",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -1819,12 +1846,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "loadgenerator-9878487f4",
-                        "uid": "67766c39-660d-4386-be8f-759ad3690f5b"
+                        "name": "loadgenerator-685b5f9b7c",
+                        "uid": "df790cec-3f7c-4484-a7de-1ed930597187"
                     }
                 ],
-                "resourceVersion": "77241",
-                "uid": "baee45d5-b589-4e68-bd0b-2c4667253922"
+                "resourceVersion": "503956",
+                "uid": "85e5fffe-73c2-4a6e-a830-692d2e0236cf"
             },
             "spec": {
                 "containers": [
@@ -1871,7 +1898,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-lt7mh",
+                                "name": "kube-api-access-fm6gg",
                                 "readOnly": true
                             }
                         ]
@@ -1911,13 +1938,13 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-lt7mh",
+                                "name": "kube-api-access-fm6gg",
                                 "readOnly": true
                             }
                         ]
                     }
                 ],
-                "nodeName": "consumer-worker",
+                "nodeName": "consumer-worker2",
                 "preemptionPolicy": "PreemptLowerPriority",
                 "priority": 0,
                 "restartPolicy": "Always",
@@ -1947,7 +1974,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-lt7mh",
+                        "name": "kube-api-access-fm6gg",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -1994,35 +2021,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:42:14Z",
+                        "lastTransitionTime": "2026-10-16T14:27:38Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:42:14Z",
+                        "lastTransitionTime": "2026-10-16T14:27:38Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:42:14Z",
+                        "lastTransitionTime": "2026-10-16T14:27:38Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -2034,7 +2061,7 @@
                             "cpu": "300m",
                             "memory": "256Mi"
                         },
-                        "containerID": "containerd://521210b79cd0802b7133e10cbb04496649c81fe3e64f638009a71f56768421b9",
+                        "containerID": "containerd://cf5b0cac66e956a5c76916a1601ba0357ae285a7e050b7cb157132492e03386c",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/loadgenerator:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/loadgenerator@sha256:f86f07c0da48bc00e7843e060b6811b56b1ad8a184d3962f5e80e15f42370cc8",
                         "lastState": {},
@@ -2054,7 +2081,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:42:14Z"
+                                "startedAt": "2026-10-16T14:27:38Z"
                             }
                         },
                         "user": {
@@ -2069,22 +2096,22 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-lt7mh",
+                                "name": "kube-api-access-fm6gg",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.5",
+                "hostIP": "172.18.0.9",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.5"
+                        "ip": "172.18.0.9"
                     }
                 ],
                 "initContainerStatuses": [
                     {
-                        "containerID": "containerd://ac8b2f30da9aca444d6d4ef281efa39fd8f019ec0ffdefeade246a28724281f8",
+                        "containerID": "containerd://29b469c65aba9de1d4d0d5e3077872317ccb7c1ea0f422d98e2c24cdb2463e19",
                         "image": "sha256:c6348fa86ba0fb2108c9334f5fe913ddc6d853313e655891f133a0127c30099f",
                         "imageID": "docker.io/library/busybox@sha256:dc2d74b28e4cf8984fa52af1f39bc7c3d9c73760b41a74d629f5d11b1ab28616",
                         "lastState": {},
@@ -2095,11 +2122,11 @@
                         "started": false,
                         "state": {
                             "terminated": {
-                                "containerID": "containerd://ac8b2f30da9aca444d6d4ef281efa39fd8f019ec0ffdefeade246a28724281f8",
+                                "containerID": "containerd://29b469c65aba9de1d4d0d5e3077872317ccb7c1ea0f422d98e2c24cdb2463e19",
                                 "exitCode": 0,
-                                "finishedAt": "2026-10-05T13:42:13Z",
+                                "finishedAt": "2026-10-16T14:27:37Z",
                                 "reason": "Completed",
-                                "startedAt": "2026-10-05T13:41:38Z"
+                                "startedAt": "2026-10-16T14:27:36Z"
                             }
                         },
                         "user": {
@@ -2114,7 +2141,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-lt7mh",
+                                "name": "kube-api-access-fm6gg",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
@@ -2123,10 +2150,10 @@
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.24",
+                "podIP": "10.244.2.19",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.24"
+                        "ip": "10.244.2.19"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -2136,25 +2163,28 @@
                         "memory": "512Mi"
                     },
                     "requests": {
-                        "cpu": "300m",
+                        "cpu": "284m",
                         "memory": "256Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:37Z"
+                "startTime": "2026-10-16T14:27:35Z"
             }
         },
         {
             "apiVersion": "v1",
             "kind": "Pod",
             "metadata": {
-                "creationTimestamp": "2026-10-05T13:41:38Z",
-                "generateName": "paymentservice-78478447c-",
+                "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                },
+                "creationTimestamp": "2026-10-16T14:27:35Z",
+                "generateName": "paymentservice-7bf687975-",
                 "generation": 1,
                 "labels": {
                     "app": "paymentservice",
-                    "pod-template-hash": "78478447c"
+                    "pod-template-hash": "7bf687975"
                 },
-                "name": "paymentservice-78478447c-zzh6r",
+                "name": "paymentservice-7bf687975-2gn2s",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -2162,12 +2192,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "paymentservice-78478447c",
-                        "uid": "67165fba-bd27-4b28-8fc6-f898239ec7cf"
+                        "name": "paymentservice-7bf687975",
+                        "uid": "76ca957d-16e9-4e2a-8eca-5ec57180e93a"
                     }
                 ],
-                "resourceVersion": "77157",
-                "uid": "c9daa619-8dda-4e31-b8fa-d0c4b8c260b8"
+                "resourceVersion": "503670",
+                "uid": "532a7cce-66d1-49ca-8ec4-2e3a9f9af007"
             },
             "spec": {
                 "containers": [
@@ -2236,7 +2266,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-q2mq2",
+                                "name": "kube-api-access-75g4h",
                                 "readOnly": true
                             }
                         ]
@@ -2244,7 +2274,7 @@
                 ],
                 "dnsPolicy": "ClusterFirst",
                 "enableServiceLinks": true,
-                "nodeName": "consumer-worker2",
+                "nodeName": "consumer-worker",
                 "preemptionPolicy": "PreemptLowerPriority",
                 "priority": 0,
                 "restartPolicy": "Always",
@@ -2274,7 +2304,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-q2mq2",
+                        "name": "kube-api-access-75g4h",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -2321,35 +2351,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:50Z",
+                        "lastTransitionTime": "2026-10-16T14:27:48Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:50Z",
+                        "lastTransitionTime": "2026-10-16T14:27:48Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:35Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -2361,7 +2391,7 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://11e052be5a41f0c1afc250839730e932d1e905ee4fb3f8283d0792b2aa1ac1b4",
+                        "containerID": "containerd://7f9093784ababb64bc373212e0e8b6294d4e8e094348d102da37dede8b4c6d83",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/paymentservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/paymentservice@sha256:e1ff27c553f7e0c31f4a10f1950ec0ee34cd41d77dd819b1fcfa139273891602",
                         "lastState": {},
@@ -2381,7 +2411,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:38Z"
+                                "startedAt": "2026-10-16T14:27:37Z"
                             }
                         },
                         "user": {
@@ -2396,25 +2426,25 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-q2mq2",
+                                "name": "kube-api-access-75g4h",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.9",
+                "hostIP": "172.18.0.10",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.9"
+                        "ip": "172.18.0.10"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.2.17",
+                "podIP": "10.244.1.30",
                 "podIPs": [
                     {
-                        "ip": "10.244.2.17"
+                        "ip": "10.244.1.30"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -2428,21 +2458,24 @@
                         "memory": "64Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:38Z"
+                "startTime": "2026-10-16T14:27:35Z"
             }
         },
         {
             "apiVersion": "v1",
             "kind": "Pod",
             "metadata": {
-                "creationTimestamp": "2026-10-05T13:41:37Z",
-                "generateName": "productcatalogservice-99c4c7c7f-",
+                "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                },
+                "creationTimestamp": "2026-10-16T14:27:36Z",
+                "generateName": "productcatalogservice-5cbcdf9fbf-",
                 "generation": 1,
                 "labels": {
                     "app": "productcatalogservice",
-                    "pod-template-hash": "99c4c7c7f"
+                    "pod-template-hash": "5cbcdf9fbf"
                 },
-                "name": "productcatalogservice-99c4c7c7f-ng2xz",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -2450,12 +2483,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "productcatalogservice-99c4c7c7f",
-                        "uid": "bad89051-d386-45f3-9c9c-81e296fff9a0"
+                        "name": "productcatalogservice-5cbcdf9fbf",
+                        "uid": "1c63d4ba-ff4d-4fb6-b9b2-22163bbeb445"
                     }
                 ],
-                "resourceVersion": "77099",
-                "uid": "2de9de29-4dd7-4dbe-9d9c-4ad14a335fc6"
+                "resourceVersion": "503523",
+                "uid": "7966eff4-e290-4e23-8975-e276de03d4e0"
             },
             "spec": {
                 "containers": [
@@ -2524,7 +2557,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-srk69",
+                                "name": "kube-api-access-cnlrq",
                                 "readOnly": true
                             }
                         ]
@@ -2532,7 +2565,7 @@
                 ],
                 "dnsPolicy": "ClusterFirst",
                 "enableServiceLinks": true,
-                "nodeName": "consumer-worker",
+                "nodeName": "consumer-worker2",
                 "preemptionPolicy": "PreemptLowerPriority",
                 "priority": 0,
                 "restartPolicy": "Always",
@@ -2562,7 +2595,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-srk69",
+                        "name": "kube-api-access-cnlrq",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -2609,35 +2642,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:37Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:38Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:38Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -2649,7 +2682,7 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://a0dc2ba28f4cba3f002d6fb32f03d71092608b237ed32128749b2598ec8d772d",
+                        "containerID": "containerd://551431a7acb16c6dacb059ffd8a6e3451581f5ef09f3ccdcc8056afa310321dc",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice@sha256:ba573405e9b03ea29970185eeaf0a9de9db7400b9104695e39d4dfc0fb651cb5",
                         "lastState": {},
@@ -2669,7 +2702,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:37Z"
+                                "startedAt": "2026-10-16T14:27:37Z"
                             }
                         },
                         "user": {
@@ -2684,25 +2717,25 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-srk69",
+                                "name": "kube-api-access-cnlrq",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.5",
+                "hostIP": "172.18.0.9",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.5"
+                        "ip": "172.18.0.9"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.22",
+                "podIP": "10.244.2.20",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.22"
+                        "ip": "10.244.2.20"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -2716,21 +2749,24 @@
                         "memory": "64Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:37Z"
+                "startTime": "2026-10-16T14:27:36Z"
             }
         },
         {
             "apiVersion": "v1",
             "kind": "Pod",
             "metadata": {
-                "creationTimestamp": "2026-10-05T13:41:37Z",
-                "generateName": "recommendationservice-59654c7cb9-",
+                "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                },
+                "creationTimestamp": "2026-10-16T14:27:36Z",
+                "generateName": "recommendationservice-69778f8f45-",
                 "generation": 1,
                 "labels": {
                     "app": "recommendationservice",
-                    "pod-template-hash": "59654c7cb9"
+                    "pod-template-hash": "69778f8f45"
                 },
-                "name": "recommendationservice-59654c7cb9-s8c8x",
+                "name": "recommendationservice-69778f8f45-lmj5l",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -2738,12 +2774,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "recommendationservice-59654c7cb9",
-                        "uid": "71b8cadb-5dc7-4b48-a600-f59c4a46b591"
+                        "name": "recommendationservice-69778f8f45",
+                        "uid": "2551dad1-f4f9-4c95-ae80-223535149403"
                     }
                 ],
-                "resourceVersion": "77151",
-                "uid": "d279af24-f1f3-447b-9e9a-db2a3c92ed3b"
+                "resourceVersion": "503710",
+                "uid": "97a4e7b3-eae5-4978-8e4c-271d79efece1"
             },
             "spec": {
                 "containers": [
@@ -2816,7 +2852,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-5b6w2",
+                                "name": "kube-api-access-tfw4z",
                                 "readOnly": true
                             }
                         ]
@@ -2824,7 +2860,7 @@
                 ],
                 "dnsPolicy": "ClusterFirst",
                 "enableServiceLinks": true,
-                "nodeName": "consumer-worker2",
+                "nodeName": "consumer-worker",
                 "preemptionPolicy": "PreemptLowerPriority",
                 "priority": 0,
                 "restartPolicy": "Always",
@@ -2854,7 +2890,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-5b6w2",
+                        "name": "kube-api-access-tfw4z",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -2901,35 +2937,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:37Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:49Z",
+                        "lastTransitionTime": "2026-10-16T14:27:49Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:49Z",
+                        "lastTransitionTime": "2026-10-16T14:27:49Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -2941,7 +2977,7 @@
                             "cpu": "100m",
                             "memory": "220Mi"
                         },
-                        "containerID": "containerd://36f8cf2790a3d31c97511564cc809e74cd5b8cf287ce0074b72759816d3fcdc0",
+                        "containerID": "containerd://39efc89162f15f8378cbf7c46424a29a6954536468bd73f326b6e2722c91a246",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice@sha256:69291992f5511e9199d08c24a3ceb6470b39461933304fbdad1c7ddfc7358fd9",
                         "lastState": {},
@@ -2961,7 +2997,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:38Z"
+                                "startedAt": "2026-10-16T14:27:38Z"
                             }
                         },
                         "user": {
@@ -2976,25 +3012,25 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-5b6w2",
+                                "name": "kube-api-access-tfw4z",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.9",
+                "hostIP": "172.18.0.10",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.9"
+                        "ip": "172.18.0.10"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.2.15",
+                "podIP": "10.244.1.31",
                 "podIPs": [
                     {
-                        "ip": "10.244.2.15"
+                        "ip": "10.244.1.31"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -3008,21 +3044,24 @@
                         "memory": "220Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:37Z"
+                "startTime": "2026-10-16T14:27:36Z"
             }
         },
         {
             "apiVersion": "v1",
             "kind": "Pod",
             "metadata": {
-                "creationTimestamp": "2026-10-05T13:41:37Z",
-                "generateName": "redis-cart-6fdc7894b7-",
+                "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                },
+                "creationTimestamp": "2026-10-16T14:27:36Z",
+                "generateName": "redis-cart-5986669847-",
                 "generation": 1,
                 "labels": {
                     "app": "redis-cart",
-                    "pod-template-hash": "6fdc7894b7"
+                    "pod-template-hash": "5986669847"
                 },
-                "name": "redis-cart-6fdc7894b7-vlk9f",
+                "name": "redis-cart-5986669847-vbzk4",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -3030,12 +3069,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "redis-cart-6fdc7894b7",
-                        "uid": "9a300a28-a1ff-49e4-bea1-8a04e723f980"
+                        "name": "redis-cart-5986669847",
+                        "uid": "ccec0133-0ebf-44f8-ad9e-ee6e10473333"
                     }
                 ],
-                "resourceVersion": "77108",
-                "uid": "ed51fc2c-6584-466d-a9be-8102ca46c711"
+                "resourceVersion": "503573",
+                "uid": "02664d69-476a-4df9-bb61-fb013109a351"
             },
             "spec": {
                 "containers": [
@@ -3096,7 +3135,7 @@
                             },
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-ft25q",
+                                "name": "kube-api-access-8q8gp",
                                 "readOnly": true
                             }
                         ]
@@ -3138,7 +3177,7 @@
                         "name": "redis-data"
                     },
                     {
-                        "name": "kube-api-access-ft25q",
+                        "name": "kube-api-access-8q8gp",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -3185,35 +3224,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:38Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:39Z",
+                        "lastTransitionTime": "2026-10-16T14:27:43Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:39Z",
+                        "lastTransitionTime": "2026-10-16T14:27:43Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -3225,7 +3264,7 @@
                             "cpu": "70m",
                             "memory": "200Mi"
                         },
-                        "containerID": "containerd://c226b24d54f7d7adda0d12633e1efbb6f8accede0343f32c36554a3054f50590",
+                        "containerID": "containerd://1d1b93302d4621619de59568a1593a62ce9b2d75c98733952fdccf6111336573",
                         "image": "docker.io/library/redis:alpine",
                         "imageID": "docker.io/library/redis@sha256:3811787313eba226a2ef38658c6ccb91cd5e110edc89c37767de373120a0e5a0",
                         "lastState": {},
@@ -3245,7 +3284,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:39Z"
+                                "startedAt": "2026-10-16T14:27:38Z"
                             }
                         },
                         "user": {
@@ -3264,25 +3303,25 @@
                             },
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-ft25q",
+                                "name": "kube-api-access-8q8gp",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.5",
+                "hostIP": "172.18.0.10",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.5"
+                        "ip": "172.18.0.10"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.25",
+                "podIP": "10.244.1.32",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.25"
+                        "ip": "10.244.1.32"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -3296,21 +3335,24 @@
                         "memory": "200Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:37Z"
+                "startTime": "2026-10-16T14:27:36Z"
             }
         },
         {
             "apiVersion": "v1",
             "kind": "Pod",
             "metadata": {
-                "creationTimestamp": "2026-10-05T13:41:36Z",
-                "generateName": "shippingservice-57457d4b97-",
+                "annotations": {
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                },
+                "creationTimestamp": "2026-10-16T14:27:36Z",
+                "generateName": "shippingservice-8485bdbcf9-",
                 "generation": 1,
                 "labels": {
                     "app": "shippingservice",
-                    "pod-template-hash": "57457d4b97"
+                    "pod-template-hash": "8485bdbcf9"
                 },
-                "name": "shippingservice-57457d4b97-q9lvz",
+                "name": "shippingservice-8485bdbcf9-n4hdw",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -3318,12 +3360,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "shippingservice-57457d4b97",
-                        "uid": "b0fe36be-85f3-4402-bedc-1dc34fdefd77"
+                        "name": "shippingservice-8485bdbcf9",
+                        "uid": "a52f7026-68ea-4fc9-923a-f3e0cfde2049"
                     }
                 ],
-                "resourceVersion": "77074",
-                "uid": "b54a153a-0f24-47b3-b7dc-59f88be48578"
+                "resourceVersion": "503524",
+                "uid": "0153a8f6-9cbb-4ff4-9706-e76a6129c317"
             },
             "spec": {
                 "containers": [
@@ -3392,7 +3434,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-48vnb",
+                                "name": "kube-api-access-6jh64",
                                 "readOnly": true
                             }
                         ]
@@ -3400,7 +3442,7 @@
                 ],
                 "dnsPolicy": "ClusterFirst",
                 "enableServiceLinks": true,
-                "nodeName": "consumer-worker",
+                "nodeName": "consumer-worker2",
                 "preemptionPolicy": "PreemptLowerPriority",
                 "priority": 0,
                 "restartPolicy": "Always",
@@ -3430,7 +3472,7 @@
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-48vnb",
+                        "name": "kube-api-access-6jh64",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -3477,35 +3519,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:37Z",
+                        "lastTransitionTime": "2026-10-16T14:27:37Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:39Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:38Z",
+                        "lastTransitionTime": "2026-10-16T14:27:39Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-05T13:41:36Z",
+                        "lastTransitionTime": "2026-10-16T14:27:36Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -3517,7 +3559,7 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://b2951f59f83fbd39ac69df54cc9beece28f390cb0a411ce6bf62452db673bf03",
+                        "containerID": "containerd://9ad136540323b102258c1cf859fa0d7dda4815e43f1b85433bb5e947671755d2",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice@sha256:3984397422ef1b45bd8a7c6736f935f4b6a41a1724ea39f9563b26733ed633e4",
                         "lastState": {},
@@ -3537,7 +3579,7 @@
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-05T13:41:37Z"
+                                "startedAt": "2026-10-16T14:27:38Z"
                             }
                         },
                         "user": {
@@ -3552,25 +3594,25 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-48vnb",
+                                "name": "kube-api-access-6jh64",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.5",
+                "hostIP": "172.18.0.9",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.5"
+                        "ip": "172.18.0.9"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.20",
+                "podIP": "10.244.2.21",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.20"
+                        "ip": "10.244.2.21"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -3584,7 +3626,7 @@
                         "memory": "64Mi"
                     }
                 },
-                "startTime": "2026-10-05T13:41:36Z"
+                "startTime": "2026-10-16T14:27:36Z"
             }
         }
     ],
