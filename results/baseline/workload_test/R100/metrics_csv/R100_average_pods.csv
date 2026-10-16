@@ -1,0 +1,14 @@
+pod,node,memory_avg_MiB,memory_max_MiB,cpu_avg_millicores,cpu_max_millicores
+adservice-c95dcdd6d-lkmf9,consumer-worker,138.02,139.54,38.36,42.42
+cartservice-78f8b447f5-zqvxn,consumer-worker2,93.64,97.62,31.65,37.82
+checkoutservice-85487b9cdb-wlcrm,consumer-worker2,23.65,23.93,0.76,1.15
+currencyservice-6d5fb8cbb5-5gvcr,consumer-worker2,95.03,96.02,186.39,192.89
+emailservice-588c6dc478-69hnd,consumer-worker,36.2,36.21,2.66,2.87
+frontend-f667d844d-7tt5h,consumer-worker,61.55,67.26,191.92,198.0
+k6-tester,consumer-worker,103.29,115.26,81.45,84.77
+loadgenerator-54557746dd-spjvg,consumer-worker2,68.53,68.73,3.63,4.14
+paymentservice-895749554-qtrzp,consumer-worker,84.16,84.39,0.49,1.17
+productcatalogservice-647848f894-2hs7h,consumer-worker,32.05,32.33,16.56,18.25
+recommendationservice-5b578f7794-rf52q,consumer-worker,47.72,47.77,6.58,7.53
+redis-cart-6557778bbd-6rdz8,consumer-worker2,30.07,30.19,4.26,4.61
+shippingservice-b97c6fffb-wlfsr,consumer-worker2,21.57,21.58,0.74,0.92

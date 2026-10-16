@@ -1,0 +1,34 @@
+Test: baseline/workload_test
+Configuration: k6 constant-arrival-rate R100 d5m VUs 300-2000
+Run: 3
+Fri Oct 16 14:55:17 CEST 2026
+
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 29925   99.169615/s
+    checks_succeeded...: 100.00% 29925 out of 29925
+    checks_failed......: 0.00%   0 out of 29925
+
+    ✓ frontend reachable
+
+    HTTP
+    http_req_duration..............: avg=2.16s min=11.91ms med=2.06s max=4.77s p(90)=2.94s p(95)=3.18s p(99)=3.53s
+      { expected_response:true }...: avg=2.16s min=11.91ms med=2.06s max=4.77s p(90)=2.94s p(95)=3.18s p(99)=3.53s
+    http_req_failed................: 0.00%  0 out of 29925
+    http_reqs......................: 29925  99.169615/s
+
+    EXECUTION
+    dropped_iterations.............: 76     0.251859/s
+    iteration_duration.............: avg=2.16s min=12.54ms med=2.06s max=4.77s p(90)=2.94s p(95)=3.18s p(99)=3.54s
+    iterations.....................: 29925  99.169615/s
+    vus............................: 78     min=38         max=348
+    vus_max........................: 376    min=300        max=376
+
+    NETWORK
+    data_received..................: 322 MB 1.1 MB/s
+    data_sent......................: 2.3 MB 7.5 kB/s
+
+
+

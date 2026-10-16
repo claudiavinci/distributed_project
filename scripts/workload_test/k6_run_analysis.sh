@@ -57,14 +57,14 @@ RESULTS_DIR="$(pwd)/results/${TEST}"
 #   results/<TEST>/R<R>/metrics_csv  CSV del singolo rate (Prometheus + k6)
 #   results/<TEST>/k6_summary*.csv   riepilogo di tutti i rate
 
-RUNS_DIR="${RESULTS_DIR}/R{rate}/raw"
-METRICS_DIR="${RESULTS_DIR}/R{rate}/metrics_csv"
+RUNS_DIR_TEMPLATE="${RESULTS_DIR}/R{rate}/raw"
+METRICS_DIR_TEMPLATE="${RESULTS_DIR}/R{rate}/metrics_csv"
 
-runs_dir()    { echo "${RUNS_DIR//\{rate\}/$1}"; }
-metrics_dir() { echo "${METRICS_DIR//\{rate\}/$1}"; }
+runs_dir()    { echo "${RUNS_DIR_TEMPLATE//\{rate\}/$1}"; }
+metrics_dir() { echo "${METRICS_DIR_TEMPLATE//\{rate\}/$1}"; }
 
 # glob dei CSV per-run di tutti i rate, derivato dallo stesso template
-K6_RUNS_GLOB="${METRICS_DIR//\{rate\}/*}/R*_k6_runs.csv"
+K6_RUNS_GLOB="${METRICS_DIR_TEMPLATE//\{rate\}/*}/R*_k6_runs.csv"
 
 # =====================================
 # CLEANUP
