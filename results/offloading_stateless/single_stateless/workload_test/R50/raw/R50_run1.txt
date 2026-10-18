@@ -1,0 +1,33 @@
+Test: offloading_stateless/single_stateless
+Configuration: k6 constant-arrival-rate R50 d5m VUs 300-2000
+Run: 1
+Sun Oct 18 12:07:16 CEST 2026
+
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 15000   50.162781/s
+    checks_succeeded...: 100.00% 15000 out of 15000
+    checks_failed......: 0.00%   0 out of 15000
+
+    ✓ frontend reachable
+
+    HTTP
+    http_req_duration..............: avg=97.3ms  min=109.55µs med=70.4ms  max=1.37s p(90)=182.48ms p(95)=279.62ms p(99)=817.58ms
+      { expected_response:true }...: avg=97.3ms  min=109.55µs med=70.4ms  max=1.37s p(90)=182.48ms p(95)=279.62ms p(99)=817.58ms
+    http_req_failed................: 0.00%  0 out of 15000
+    http_reqs......................: 15000  50.162781/s
+
+    EXECUTION
+    iteration_duration.............: avg=97.83ms min=13.74ms  med=70.72ms max=1.37s p(90)=183.7ms  p(95)=279.82ms p(99)=817.8ms 
+    iterations.....................: 15000  50.162781/s
+    vus............................: 1      min=1          max=57 
+    vus_max........................: 300    min=300        max=300
+
+    NETWORK
+    data_received..................: 161 MB 539 kB/s
+    data_sent......................: 1.1 MB 3.8 kB/s
+
+
+

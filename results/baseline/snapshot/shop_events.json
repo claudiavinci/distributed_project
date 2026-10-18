@@ -3,7 +3,871 @@
     "items": [
         {
             "apiVersion": "v1",
-            "count": 3,
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "adservice-2xqfz",
+                "namespace": "shop",
+                "resourceVersion": "516473",
+                "uid": "9229c8a1-1d18-41f2-9e37-552e66a37bda"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "adservice-2xqfz.18df94900a2c23b2",
+                "namespace": "shop",
+                "resourceVersion": "518898",
+                "uid": "6c2cc43f-4478-4352-9ccf-6229d2b40d09"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "adservice-2xqfz",
+                "namespace": "shop",
+                "resourceVersion": "516473",
+                "uid": "9229c8a1-1d18-41f2-9e37-552e66a37bda"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "adservice-2xqfz.18df9597335d9b5c",
+                "namespace": "shop",
+                "resourceVersion": "522056",
+                "uid": "e1790bfc-ff44-4c12-8eb8-1c4b6c35d65f"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:32Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "adservice-58b67d9989-nw79l",
+                "namespace": "shop",
+                "resourceVersion": "503849",
+                "uid": "c2065c96-d536-405b-a29a-e2450465f931"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:32Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:32Z",
+                "name": "adservice-58b67d9989-nw79l.18df93ae2ae4d8cb",
+                "namespace": "shop",
+                "resourceVersion": "515611",
+                "uid": "fcc00836-a9f5-48d2-a27d-ea551b81b887"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:42Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "adservice-58b67d9989-nw79l",
+                "namespace": "shop",
+                "resourceVersion": "503849",
+                "uid": "c2065c96-d536-405b-a29a-e2450465f931"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:42Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:42Z",
+                "name": "adservice-58b67d9989-nw79l.18df93b06ea1c9cb",
+                "namespace": "shop",
+                "resourceVersion": "515754",
+                "uid": "040420df-a192-41ab-a2fc-7c68bdc9b220"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:42Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "adservice-58b67d9989-nw79l",
+                "namespace": "shop",
+                "resourceVersion": "503849",
+                "uid": "c2065c96-d536-405b-a29a-e2450465f931"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:42Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:42Z",
+                "name": "adservice-58b67d9989-nw79l.18df93b0739c21b1",
+                "namespace": "shop",
+                "resourceVersion": "515761",
+                "uid": "424e32cf-b6d7-445c-b0ee-b8cb7300d271"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:42Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "adservice-58b67d9989-nw79l",
+                "namespace": "shop",
+                "resourceVersion": "503849",
+                "uid": "c2065c96-d536-405b-a29a-e2450465f931"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:42Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:42Z",
+                "name": "adservice-58b67d9989-nw79l.18df93b07fc5a498",
+                "namespace": "shop",
+                "resourceVersion": "515770",
+                "uid": "4d951103-c8f5-4125-bb61-d832ea7e2118"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:53:15Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "adservice-58b67d9989-nw79l",
+                "namespace": "shop",
+                "resourceVersion": "503849",
+                "uid": "c2065c96-d536-405b-a29a-e2450465f931"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:53:15Z",
+            "message": "Readiness probe failed: timeout: health rpc did not complete within 1s",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:53:15Z",
+                "name": "adservice-58b67d9989-nw79l.18df93b80a13769a",
+                "namespace": "shop",
+                "resourceVersion": "516321",
+                "uid": "b9c5e9ec-2af5-4c58-a893-4a2448d8f531"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "adservice",
+                "namespace": "shop",
+                "resourceVersion": "76759",
+                "uid": "0f26ef3e-2a3e-4dd1-a1af-a383909abbd3"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "adservice.18df94900f4d2a00",
+                "namespace": "shop",
+                "resourceVersion": "518920",
+                "uid": "3bfa7300-c2d9-4429-8f37-50a66e65a2e1"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "adservice",
+                "namespace": "shop",
+                "resourceVersion": "76759",
+                "uid": "0f26ef3e-2a3e-4dd1-a1af-a383909abbd3"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "adservice.18df95973dd81919",
+                "namespace": "shop",
+                "resourceVersion": "522086",
+                "uid": "c0b01570-1bf2-4d5f-9191-90a790fdf3e5"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "cartservice-97df47bdb-hvqc5",
+                "namespace": "shop",
+                "resourceVersion": "503797",
+                "uid": "e4480d48-4f2b-4d69-ac03-5803229c78f2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:38Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:38Z",
+                "name": "cartservice-97df47bdb-hvqc5.18df93af5ee47543",
+                "namespace": "shop",
+                "resourceVersion": "515662",
+                "uid": "3c300a95-aadd-448b-96c0-c624767d3d52"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "cartservice-97df47bdb-hvqc5",
+                "namespace": "shop",
+                "resourceVersion": "503797",
+                "uid": "e4480d48-4f2b-4d69-ac03-5803229c78f2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "cartservice-97df47bdb-hvqc5.18df93b0cb3164a9",
+                "namespace": "shop",
+                "resourceVersion": "515824",
+                "uid": "66d3dc8e-22f6-4f33-8154-9652da6618f1"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "cartservice-97df47bdb-hvqc5",
+                "namespace": "shop",
+                "resourceVersion": "503797",
+                "uid": "e4480d48-4f2b-4d69-ac03-5803229c78f2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "cartservice-97df47bdb-hvqc5.18df93b0e31a6ff2",
+                "namespace": "shop",
+                "resourceVersion": "515861",
+                "uid": "e55bf4de-e9f4-4bbf-9bb8-9efb8f40e4b2"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:45Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "cartservice-97df47bdb-hvqc5",
+                "namespace": "shop",
+                "resourceVersion": "503797",
+                "uid": "e4480d48-4f2b-4d69-ac03-5803229c78f2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:45Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:45Z",
+                "name": "cartservice-97df47bdb-hvqc5.18df93b1012b7db9",
+                "namespace": "shop",
+                "resourceVersion": "515892",
+                "uid": "74aa3269-7687-4476-8b3f-781636e7ca39"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:53:07Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "cartservice-97df47bdb-hvqc5",
+                "namespace": "shop",
+                "resourceVersion": "503797",
+                "uid": "e4480d48-4f2b-4d69-ac03-5803229c78f2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:53:07Z",
+            "message": "Readiness probe failed: timeout: health rpc did not complete within 1s",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:53:07Z",
+                "name": "cartservice-97df47bdb-hvqc5.18df93b64e3e139c",
+                "namespace": "shop",
+                "resourceVersion": "516263",
+                "uid": "b858b0ef-bac3-4e3a-aee8-5192b99cbcfc"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "cartservice-rpzct",
+                "namespace": "shop",
+                "resourceVersion": "516344",
+                "uid": "4be81979-c45e-4b09-b096-8ad026e78204"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "cartservice-rpzct.18df94900a1cb847",
+                "namespace": "shop",
+                "resourceVersion": "518891",
+                "uid": "3259251e-728b-455d-ba23-a4149f22f83e"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "cartservice-rpzct",
+                "namespace": "shop",
+                "resourceVersion": "516344",
+                "uid": "4be81979-c45e-4b09-b096-8ad026e78204"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "cartservice-rpzct.18df9597347c285a",
+                "namespace": "shop",
+                "resourceVersion": "522062",
+                "uid": "60a45ff9-bfc4-4fbd-9d89-dd0be56996d2"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "cartservice",
+                "namespace": "shop",
+                "resourceVersion": "76896",
+                "uid": "1f9ceb47-7ae9-4300-862e-f72f4157738b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "cartservice.18df949013d09180",
+                "namespace": "shop",
+                "resourceVersion": "518926",
+                "uid": "40064729-b12e-4961-bb27-f8f1ab70671b"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "cartservice",
+                "namespace": "shop",
+                "resourceVersion": "76896",
+                "uid": "1f9ceb47-7ae9-4300-862e-f72f4157738b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "cartservice.18df959737aeaf4d",
+                "namespace": "shop",
+                "resourceVersion": "522075",
+                "uid": "016898a6-0947-4589-ae87-491cc2b7a908"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "checkoutservice-579bd94bfc-vcccj",
+                "namespace": "shop",
+                "resourceVersion": "503545",
+                "uid": "bf4f3487-c19b-446f-8e5b-6c03ecbf8b10"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:38Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:38Z",
+                "name": "checkoutservice-579bd94bfc-vcccj.18df93af5d817e8a",
+                "namespace": "shop",
+                "resourceVersion": "515661",
+                "uid": "5d72b739-c3c6-4459-be98-ef669fd3a454"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "checkoutservice-579bd94bfc-vcccj",
+                "namespace": "shop",
+                "resourceVersion": "503545",
+                "uid": "bf4f3487-c19b-446f-8e5b-6c03ecbf8b10"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:45Z",
+                "name": "checkoutservice-579bd94bfc-vcccj.18df93b0f54af576",
+                "namespace": "shop",
+                "resourceVersion": "515882",
+                "uid": "1ae85f80-727a-4f45-a266-c80bdc91cf5b"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:45Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "checkoutservice-579bd94bfc-vcccj",
+                "namespace": "shop",
+                "resourceVersion": "503545",
+                "uid": "bf4f3487-c19b-446f-8e5b-6c03ecbf8b10"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:45Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:45Z",
+                "name": "checkoutservice-579bd94bfc-vcccj.18df93b1068d9e68",
+                "namespace": "shop",
+                "resourceVersion": "515894",
+                "uid": "489ac8ae-5c21-4afd-b647-29096f367f32"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:45Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "checkoutservice-579bd94bfc-vcccj",
+                "namespace": "shop",
+                "resourceVersion": "503545",
+                "uid": "bf4f3487-c19b-446f-8e5b-6c03ecbf8b10"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:45Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:45Z",
+                "name": "checkoutservice-579bd94bfc-vcccj.18df93b11a2ca8c3",
+                "namespace": "shop",
+                "resourceVersion": "515915",
+                "uid": "e5f7235d-31e8-4c2b-8784-7bb0bd46d3c0"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "checkoutservice-579bd94bfc-vcccj",
+                "namespace": "shop",
+                "resourceVersion": "503545",
+                "uid": "bf4f3487-c19b-446f-8e5b-6c03ecbf8b10"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:46Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.1.10:5050\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:46Z",
+                "name": "checkoutservice-579bd94bfc-vcccj.18df93b15d6e37db",
+                "namespace": "shop",
+                "resourceVersion": "515945",
+                "uid": "b5c01370-de99-4418-aed7-bf4af849c9fe"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "checkoutservice-g5874",
+                "namespace": "shop",
+                "resourceVersion": "516033",
+                "uid": "df81c300-2e8a-42ec-8129-013436de382d"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "checkoutservice-g5874.18df94900a1e1aaa",
+                "namespace": "shop",
+                "resourceVersion": "518893",
+                "uid": "d134fd2c-7366-470d-bff2-0781b022b4b6"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "checkoutservice-g5874",
+                "namespace": "shop",
+                "resourceVersion": "516033",
+                "uid": "df81c300-2e8a-42ec-8129-013436de382d"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "checkoutservice-g5874.18df9597335b9106",
+                "namespace": "shop",
+                "resourceVersion": "522054",
+                "uid": "5ca64e5b-4166-4109-a0f4-9fbf23881a4d"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "checkoutservice",
+                "namespace": "shop",
+                "resourceVersion": "76801",
+                "uid": "8cdae393-5482-41b7-b654-e39a280a28a8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "checkoutservice.18df94901288e5fd",
+                "namespace": "shop",
+                "resourceVersion": "518924",
+                "uid": "177ac3a7-951e-4a78-ab58-9a6f96ec9387"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "checkoutservice",
+                "namespace": "shop",
+                "resourceVersion": "76801",
+                "uid": "8cdae393-5482-41b7-b654-e39a280a28a8"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "checkoutservice.18df9597356e0a2b",
+                "namespace": "shop",
+                "resourceVersion": "522074",
+                "uid": "593cd933-245e-43f7-9b8b-f84a86a7f503"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 4,
             "eventTime": null,
             "firstTimestamp": "2026-10-16T14:27:36Z",
             "involvedObject": {
@@ -16,13 +880,13 @@
                 "uid": "e5ee8511-16ea-4ae4-926c-c157e0c07aaa"
             },
             "kind": "Event",
-            "lastTimestamp": "2026-10-16T15:37:54Z",
+            "lastTimestamp": "2026-10-16T15:49:04Z",
             "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7\" already present on machine and can be accessed by the pod",
             "metadata": {
                 "creationTimestamp": "2026-10-16T15:29:03Z",
                 "name": "currencyservice-5fb47bcbf-ggwnw.18df08cdc2220df8",
                 "namespace": "shop",
-                "resourceVersion": "513527",
+                "resourceVersion": "515081",
                 "uid": "f001e0af-73fc-4bde-b9d8-421654158839"
             },
             "reason": "Pulled",
@@ -36,7 +900,7 @@
         },
         {
             "apiVersion": "v1",
-            "count": 3,
+            "count": 4,
             "eventTime": null,
             "firstTimestamp": "2026-10-16T14:27:36Z",
             "involvedObject": {
@@ -49,13 +913,13 @@
                 "uid": "e5ee8511-16ea-4ae4-926c-c157e0c07aaa"
             },
             "kind": "Event",
-            "lastTimestamp": "2026-10-16T15:37:54Z",
+            "lastTimestamp": "2026-10-16T15:49:04Z",
             "message": "Container created",
             "metadata": {
                 "creationTimestamp": "2026-10-16T15:29:03Z",
                 "name": "currencyservice-5fb47bcbf-ggwnw.18df08cdccce6364",
                 "namespace": "shop",
-                "resourceVersion": "513528",
+                "resourceVersion": "515088",
                 "uid": "79384287-6fa9-4e15-90a2-266a7ccbb9a3"
             },
             "reason": "Created",
@@ -69,7 +933,7 @@
         },
         {
             "apiVersion": "v1",
-            "count": 3,
+            "count": 4,
             "eventTime": null,
             "firstTimestamp": "2026-10-16T14:27:37Z",
             "involvedObject": {
@@ -82,13 +946,13 @@
                 "uid": "e5ee8511-16ea-4ae4-926c-c157e0c07aaa"
             },
             "kind": "Event",
-            "lastTimestamp": "2026-10-16T15:37:54Z",
+            "lastTimestamp": "2026-10-16T15:49:04Z",
             "message": "Container started",
             "metadata": {
                 "creationTimestamp": "2026-10-16T15:29:03Z",
                 "name": "currencyservice-5fb47bcbf-ggwnw.18df08ce0225c332",
                 "namespace": "shop",
-                "resourceVersion": "513529",
+                "resourceVersion": "515089",
                 "uid": "bd24c230-b994-4bf7-9ed7-0251cf5990f6"
             },
             "reason": "Started",
@@ -135,32 +999,33 @@
         },
         {
             "apiVersion": "v1",
-            "count": 13,
+            "count": 1,
             "eventTime": null,
-            "firstTimestamp": "2026-10-16T12:08:43Z",
+            "firstTimestamp": "2026-10-18T08:52:38Z",
             "involvedObject": {
-                "apiVersion": "discovery.k8s.io/v1",
-                "kind": "EndpointSlice",
-                "name": "currencyservice-r7hkg",
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "currencyservice-5fb47bcbf-ggwnw",
                 "namespace": "shop",
-                "resourceVersion": "512293",
-                "uid": "a52275e8-c4f2-4a55-8696-c16ce8209258"
+                "resourceVersion": "515115",
+                "uid": "e5ee8511-16ea-4ae4-926c-c157e0c07aaa"
             },
             "kind": "Event",
-            "lastTimestamp": "2026-10-16T15:38:05Z",
-            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "lastTimestamp": "2026-10-18T08:52:38Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
             "metadata": {
-                "creationTimestamp": "2026-10-16T15:29:03Z",
-                "name": "currencyservice-r7hkg.18df01397f78cc3a",
+                "creationTimestamp": "2026-10-18T08:52:38Z",
+                "name": "currencyservice-5fb47bcbf-ggwnw.18df93af5acf2b86",
                 "namespace": "shop",
-                "resourceVersion": "513560",
-                "uid": "1b327785-ad55-4365-a2a0-628a43f5d518"
+                "resourceVersion": "515660",
+                "uid": "679e7b13-802d-4508-bbb5-f0ae4822c965"
             },
-            "reason": "SuccessfulReflection",
-            "reportingComponent": "liqo-endpointslice-reflection",
-            "reportingInstance": "",
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
             "source": {
-                "component": "liqo-endpointslice-reflection"
+                "component": "kubelet",
+                "host": "consumer-worker2"
             },
             "type": "Normal"
         },
@@ -168,24 +1033,342 @@
             "apiVersion": "v1",
             "count": 1,
             "eventTime": null,
-            "firstTimestamp": "2026-10-16T14:48:37Z",
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-5fb47bcbf-ggwnw",
+                "namespace": "shop",
+                "resourceVersion": "515115",
+                "uid": "e5ee8511-16ea-4ae4-926c-c157e0c07aaa"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "currencyservice-5fb47bcbf-ggwnw.18df93b0e54e068f",
+                "namespace": "shop",
+                "resourceVersion": "515864",
+                "uid": "3d6b25a2-3f41-41ba-9ee2-9b60b667a441"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-5fb47bcbf-ggwnw",
+                "namespace": "shop",
+                "resourceVersion": "515115",
+                "uid": "e5ee8511-16ea-4ae4-926c-c157e0c07aaa"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:45Z",
+                "name": "currencyservice-5fb47bcbf-ggwnw.18df93b0f6d0511c",
+                "namespace": "shop",
+                "resourceVersion": "515877",
+                "uid": "c4b65555-6531-411c-b869-8e87472d3eff"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:45Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-5fb47bcbf-ggwnw",
+                "namespace": "shop",
+                "resourceVersion": "515115",
+                "uid": "e5ee8511-16ea-4ae4-926c-c157e0c07aaa"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:45Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:45Z",
+                "name": "currencyservice-5fb47bcbf-ggwnw.18df93b103d785c2",
+                "namespace": "shop",
+                "resourceVersion": "515889",
+                "uid": "8039f709-2f73-4f26-9011-bba9c447c317"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:10:10Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-5fb47bcbf-ggwnw",
+                "namespace": "shop",
+                "resourceVersion": "515115",
+                "uid": "e5ee8511-16ea-4ae4-926c-c157e0c07aaa"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:10:10Z",
+            "message": "Stopping container server",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:10:10Z",
+                "name": "currencyservice-5fb47bcbf-ggwnw.18df94a481f12953",
+                "namespace": "shop",
+                "resourceVersion": "519200",
+                "uid": "d207b47d-3954-45e6-a601-afbfde99ffbd"
+            },
+            "reason": "Killing",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:10:10Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "currencyservice-5fb47bcbf",
+                "namespace": "shop",
+                "resourceVersion": "519190",
+                "uid": "68fa1bd6-4f86-466a-911f-239fd8de977d"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:10:10Z",
+            "message": "Deleted pod: currencyservice-5fb47bcbf-ggwnw",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:10:10Z",
+                "name": "currencyservice-5fb47bcbf.18df94a481d92b1e",
+                "namespace": "shop",
+                "resourceVersion": "519197",
+                "uid": "e2838c4b-46eb-4270-bd98-d9b5e84a5a8e"
+            },
+            "reason": "SuccessfulDelete",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:10:00Z",
+            "involvedObject": {
+                "apiVersion": "networking.liqo.io/v1beta1",
+                "kind": "FirewallConfiguration",
+                "name": "currencyservice-76f57fdd84-rzvdm-remap-ipmapping-gw",
+                "namespace": "shop",
+                "resourceVersion": "519154",
+                "uid": "31d9b120-8a60-41ae-a007-1a5923c69b41"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:10:00Z",
+            "message": "FirewallConfiguration Applied: True",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:10:00Z",
+                "name": "currencyservice-76f57fdd84-rzvdm-remap-ipmapping-gw.18df94a214bd5be2",
+                "namespace": "shop",
+                "resourceVersion": "519158",
+                "uid": "1b2a4d72-fc67-4b04-b2ea-c5785841eb2a"
+            },
+            "reason": "FirewallConfigurationUpdate",
+            "reportingComponent": "firewall-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "firewall-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:09:59Z",
             "involvedObject": {
                 "apiVersion": "v1",
                 "kind": "Pod",
-                "name": "k6-tester",
+                "name": "currencyservice-76f57fdd84-rzvdm",
                 "namespace": "shop",
-                "resourceVersion": "506699",
-                "uid": "2f4b81b3-6ea5-4016-b615-399a8b34d681"
+                "resourceVersion": "519102",
+                "uid": "7239d751-59f1-4254-987c-4752d5c3b63e"
             },
             "kind": "Event",
-            "lastTimestamp": "2026-10-16T14:48:37Z",
-            "message": "Successfully assigned shop/k6-tester to consumer-worker",
+            "lastTimestamp": "2026-10-18T09:09:59Z",
+            "message": "Successfully assigned shop/currencyservice-76f57fdd84-rzvdm to patient-cloud",
             "metadata": {
-                "creationTimestamp": "2026-10-16T14:48:37Z",
-                "name": "k6-tester.18df09f369cedcfd",
+                "creationTimestamp": "2026-10-18T09:09:59Z",
+                "name": "currencyservice-76f57fdd84-rzvdm.18df94a1d5e157d9",
                 "namespace": "shop",
-                "resourceVersion": "506701",
-                "uid": "9942b349-484e-4545-9a47-7ca1c10c804a"
+                "resourceVersion": "519106",
+                "uid": "e5731e2a-a9c0-4a91-81d8-6de1c8abe769"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:09:59Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "currencyservice-76f57fdd84-rzvdm",
+                "namespace": "shop",
+                "resourceVersion": "519104",
+                "uid": "7239d751-59f1-4254-987c-4752d5c3b63e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:09:59Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:09:59Z",
+                "name": "currencyservice-76f57fdd84-rzvdm.18df94a1d6d9a6d0",
+                "namespace": "shop",
+                "resourceVersion": "519111",
+                "uid": "61393557-ecd3-4040-b747-bc1860c24264"
+            },
+            "reason": "SuccessfulSATokensReflection",
+            "reportingComponent": "liqo-serviceaccount-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-serviceaccount-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 16,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:09:59Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "currencyservice-76f57fdd84-rzvdm",
+                "namespace": "shop",
+                "resourceVersion": "519104",
+                "uid": "7239d751-59f1-4254-987c-4752d5c3b63e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:25:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:09:59Z",
+                "name": "currencyservice-76f57fdd84-rzvdm.18df94a1d9687caa",
+                "namespace": "shop",
+                "resourceVersion": "521379",
+                "uid": "2476630d-ecc2-4575-8c02-92c086fbc9e3"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-pod-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-pod-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 10,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:09:59Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "currencyservice-76f57fdd84-rzvdm",
+                "namespace": "shop",
+                "resourceVersion": "519108",
+                "uid": "7239d751-59f1-4254-987c-4752d5c3b63e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:25:49Z",
+            "message": "Successfully reflected object status back from cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:09:59Z",
+                "name": "currencyservice-76f57fdd84-rzvdm.18df94a1dc7b50a9",
+                "namespace": "shop",
+                "resourceVersion": "521416",
+                "uid": "6c5a6021-5859-4e1d-b31e-209df8422959"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-pod-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-pod-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:25:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "currencyservice-76f57fdd84-t9r88",
+                "namespace": "shop",
+                "resourceVersion": "521378",
+                "uid": "67bc5f36-727a-48d7-9cb6-0d92e4143481"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:25:43Z",
+            "message": "Successfully assigned shop/currencyservice-76f57fdd84-t9r88 to consumer-worker2",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:25:43Z",
+                "name": "currencyservice-76f57fdd84-t9r88.18df957dac2b3727",
+                "namespace": "shop",
+                "resourceVersion": "521384",
+                "uid": "e37c65e3-e543-42fd-b21d-bf842bc17f36"
             },
             "reason": "Scheduled",
             "reportingComponent": "default-scheduler",
@@ -199,25 +1382,435 @@
             "apiVersion": "v1",
             "count": 1,
             "eventTime": null,
-            "firstTimestamp": "2026-10-16T14:48:38Z",
+            "firstTimestamp": "2026-10-18T09:25:44Z",
             "involvedObject": {
                 "apiVersion": "v1",
-                "fieldPath": "spec.containers{k6-tester}",
+                "fieldPath": "spec.containers{server}",
                 "kind": "Pod",
-                "name": "k6-tester",
+                "name": "currencyservice-76f57fdd84-t9r88",
                 "namespace": "shop",
-                "resourceVersion": "506700",
-                "uid": "2f4b81b3-6ea5-4016-b615-399a8b34d681"
+                "resourceVersion": "521381",
+                "uid": "67bc5f36-727a-48d7-9cb6-0d92e4143481"
             },
             "kind": "Event",
-            "lastTimestamp": "2026-10-16T14:48:38Z",
-            "message": "Container image \"grafana/k6:latest\" already present on machine and can be accessed by the pod",
+            "lastTimestamp": "2026-10-18T09:25:44Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7\" already present on machine and can be accessed by the pod",
             "metadata": {
-                "creationTimestamp": "2026-10-16T14:48:38Z",
-                "name": "k6-tester.18df09f3857d646b",
+                "creationTimestamp": "2026-10-18T09:25:44Z",
+                "name": "currencyservice-76f57fdd84-t9r88.18df957dd3093a99",
                 "namespace": "shop",
-                "resourceVersion": "506703",
-                "uid": "4bd3bb21-d3f9-4e17-950b-191af5678bcf"
+                "resourceVersion": "521395",
+                "uid": "b361c7ab-89f5-4039-b93b-08755350a9e9"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:25:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-76f57fdd84-t9r88",
+                "namespace": "shop",
+                "resourceVersion": "521381",
+                "uid": "67bc5f36-727a-48d7-9cb6-0d92e4143481"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:25:44Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:25:44Z",
+                "name": "currencyservice-76f57fdd84-t9r88.18df957dd60de1c5",
+                "namespace": "shop",
+                "resourceVersion": "521397",
+                "uid": "3ea0f00d-380d-4ea9-ac79-3d8d36c6475b"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:25:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "currencyservice-76f57fdd84-t9r88",
+                "namespace": "shop",
+                "resourceVersion": "521381",
+                "uid": "67bc5f36-727a-48d7-9cb6-0d92e4143481"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:25:44Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:25:44Z",
+                "name": "currencyservice-76f57fdd84-t9r88.18df957ddefffa51",
+                "namespace": "shop",
+                "resourceVersion": "521398",
+                "uid": "c317f337-b5d7-4b8e-bafa-cf5540848bfa"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:09:59Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "currencyservice-76f57fdd84",
+                "namespace": "shop",
+                "resourceVersion": "519097",
+                "uid": "5e2b3d6d-d923-4629-a18b-9ad734384281"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:09:59Z",
+            "message": "Created pod: currencyservice-76f57fdd84-rzvdm",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:09:59Z",
+                "name": "currencyservice-76f57fdd84.18df94a1d4f2e636",
+                "namespace": "shop",
+                "resourceVersion": "519103",
+                "uid": "2a0e917b-53bb-4640-8d12-3b6304e09a68"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:25:43Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "currencyservice-76f57fdd84",
+                "namespace": "shop",
+                "resourceVersion": "519189",
+                "uid": "5e2b3d6d-d923-4629-a18b-9ad734384281"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:25:43Z",
+            "message": "Created pod: currencyservice-76f57fdd84-t9r88",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:25:43Z",
+                "name": "currencyservice-76f57fdd84.18df957dab6a5d9f",
+                "namespace": "shop",
+                "resourceVersion": "521380",
+                "uid": "ba9d5ded-5682-4f7a-8d21-8dc1c6144f37"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 15,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-16T12:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "currencyservice-r7hkg",
+                "namespace": "shop",
+                "resourceVersion": "512293",
+                "uid": "a52275e8-c4f2-4a55-8696-c16ce8209258"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-16T15:49:15Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-16T15:29:03Z",
+                "name": "currencyservice-r7hkg.18df01397f78cc3a",
+                "namespace": "shop",
+                "resourceVersion": "515120",
+                "uid": "1b327785-ad55-4365-a2a0-628a43f5d518"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 8,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "currencyservice-r7hkg",
+                "namespace": "shop",
+                "resourceVersion": "516146",
+                "uid": "a52275e8-c4f2-4a55-8696-c16ce8209258"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:25:49Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "currencyservice-r7hkg.18df94900a266f58",
+                "namespace": "shop",
+                "resourceVersion": "521418",
+                "uid": "112e3cd0-e971-4d96-98e8-bd0f7c619d7d"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "currencyservice-r7hkg",
+                "namespace": "shop",
+                "resourceVersion": "521478",
+                "uid": "a52275e8-c4f2-4a55-8696-c16ce8209258"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "currencyservice-r7hkg.18df9597335e1393",
+                "namespace": "shop",
+                "resourceVersion": "522058",
+                "uid": "9e580622-5169-441c-8dba-68fee667c9f5"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "currencyservice",
+                "namespace": "shop",
+                "resourceVersion": "76828",
+                "uid": "4db3eb04-ce7b-4266-8791-addd44015fc4"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "currencyservice.18df949012e8dc95",
+                "namespace": "shop",
+                "resourceVersion": "518925",
+                "uid": "026a5e04-c88f-4670-b9be-9682fa45d4bb"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:09:59Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "currencyservice",
+                "namespace": "shop",
+                "resourceVersion": "519096",
+                "uid": "b1e9c2ce-2fd5-4c3b-8f48-4a6f935fb1e5"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:09:59Z",
+            "message": "Scaled up replica set currencyservice-76f57fdd84 from 0 to 1",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:09:59Z",
+                "name": "currencyservice.18df94a1cd6d8d43",
+                "namespace": "shop",
+                "resourceVersion": "519098",
+                "uid": "325068dc-e6b8-4fa1-9b31-aff51dfadedb"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:10:10Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "currencyservice",
+                "namespace": "shop",
+                "resourceVersion": "519109",
+                "uid": "b1e9c2ce-2fd5-4c3b-8f48-4a6f935fb1e5"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:10:10Z",
+            "message": "Scaled down replica set currencyservice-5fb47bcbf from 1 to 0",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:10:10Z",
+                "name": "currencyservice.18df94a480868938",
+                "namespace": "shop",
+                "resourceVersion": "519193",
+                "uid": "05b68147-f843-4c04-addd-7358ed64df29"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "currencyservice",
+                "namespace": "shop",
+                "resourceVersion": "76828",
+                "uid": "4db3eb04-ce7b-4266-8791-addd44015fc4"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "currencyservice.18df959738441bc9",
+                "namespace": "shop",
+                "resourceVersion": "522079",
+                "uid": "787ede39-5d3f-434e-9f1e-a850a82ed1ac"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:41Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "emailservice-6795455f-s88mt",
+                "namespace": "shop",
+                "resourceVersion": "503664",
+                "uid": "27fcc3a0-17b7-471d-b8c0-c352a2b5207c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:41Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:41Z",
+                "name": "emailservice-6795455f-s88mt.18df93b00c5f9f48",
+                "namespace": "shop",
+                "resourceVersion": "515717",
+                "uid": "c499747c-6e21-4d1e-811c-d7e33b57ef8d"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "emailservice-6795455f-s88mt",
+                "namespace": "shop",
+                "resourceVersion": "503664",
+                "uid": "27fcc3a0-17b7-471d-b8c0-c352a2b5207c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "emailservice-6795455f-s88mt.18df93b0d5ca5583",
+                "namespace": "shop",
+                "resourceVersion": "515837",
+                "uid": "6931e66d-c245-41f9-a27b-5cd855bf41d1"
             },
             "reason": "Pulled",
             "reportingComponent": "kubelet",
@@ -232,25 +1825,25 @@
             "apiVersion": "v1",
             "count": 1,
             "eventTime": null,
-            "firstTimestamp": "2026-10-16T14:48:38Z",
+            "firstTimestamp": "2026-10-18T08:52:44Z",
             "involvedObject": {
                 "apiVersion": "v1",
-                "fieldPath": "spec.containers{k6-tester}",
+                "fieldPath": "spec.containers{server}",
                 "kind": "Pod",
-                "name": "k6-tester",
+                "name": "emailservice-6795455f-s88mt",
                 "namespace": "shop",
-                "resourceVersion": "506700",
-                "uid": "2f4b81b3-6ea5-4016-b615-399a8b34d681"
+                "resourceVersion": "503664",
+                "uid": "27fcc3a0-17b7-471d-b8c0-c352a2b5207c"
             },
             "kind": "Event",
-            "lastTimestamp": "2026-10-16T14:48:38Z",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
             "message": "Container created",
             "metadata": {
-                "creationTimestamp": "2026-10-16T14:48:38Z",
-                "name": "k6-tester.18df09f3882b4b04",
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "emailservice-6795455f-s88mt.18df93b0f07a0b27",
                 "namespace": "shop",
-                "resourceVersion": "506707",
-                "uid": "87cd1991-3357-473d-9520-7e5e4b714e30"
+                "resourceVersion": "515871",
+                "uid": "1f5fce71-4d81-421b-8125-00e23edb947d"
             },
             "reason": "Created",
             "reportingComponent": "kubelet",
@@ -265,25 +1858,25 @@
             "apiVersion": "v1",
             "count": 1,
             "eventTime": null,
-            "firstTimestamp": "2026-10-16T14:48:38Z",
+            "firstTimestamp": "2026-10-18T08:52:45Z",
             "involvedObject": {
                 "apiVersion": "v1",
-                "fieldPath": "spec.containers{k6-tester}",
+                "fieldPath": "spec.containers{server}",
                 "kind": "Pod",
-                "name": "k6-tester",
+                "name": "emailservice-6795455f-s88mt",
                 "namespace": "shop",
-                "resourceVersion": "506700",
-                "uid": "2f4b81b3-6ea5-4016-b615-399a8b34d681"
+                "resourceVersion": "503664",
+                "uid": "27fcc3a0-17b7-471d-b8c0-c352a2b5207c"
             },
             "kind": "Event",
-            "lastTimestamp": "2026-10-16T14:48:38Z",
+            "lastTimestamp": "2026-10-18T08:52:45Z",
             "message": "Container started",
             "metadata": {
-                "creationTimestamp": "2026-10-16T14:48:38Z",
-                "name": "k6-tester.18df09f38b357443",
+                "creationTimestamp": "2026-10-18T08:52:45Z",
+                "name": "emailservice-6795455f-s88mt.18df93b116a28e20",
                 "namespace": "shop",
-                "resourceVersion": "506709",
-                "uid": "63e0a8a9-12da-44e3-81d3-457e12dc2999"
+                "resourceVersion": "515905",
+                "uid": "d812bc72-3876-460f-b006-03bbb268e877"
             },
             "reason": "Started",
             "reportingComponent": "kubelet",
@@ -291,6 +1884,575 @@
             "source": {
                 "component": "kubelet",
                 "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 4,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "emailservice-6795455f-s88mt",
+                "namespace": "shop",
+                "resourceVersion": "503664",
+                "uid": "27fcc3a0-17b7-471d-b8c0-c352a2b5207c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:53Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.1.15:8080\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:46Z",
+                "name": "emailservice-6795455f-s88mt.18df93b156ae32e1",
+                "namespace": "shop",
+                "resourceVersion": "516127",
+                "uid": "bb56efa5-f050-425c-8115-47a885daf125"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:47Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "emailservice-6795455f-s88mt",
+                "namespace": "shop",
+                "resourceVersion": "503664",
+                "uid": "27fcc3a0-17b7-471d-b8c0-c352a2b5207c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:52Z",
+            "message": "Liveness probe failed: timeout: failed to connect service \"10.244.1.15:8080\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:47Z",
+                "name": "emailservice-6795455f-s88mt.18df93b1767e9569",
+                "namespace": "shop",
+                "resourceVersion": "516107",
+                "uid": "5bd0a130-9a4b-45fc-bd56-87792f98cc7b"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "emailservice-8rvbb",
+                "namespace": "shop",
+                "resourceVersion": "516164",
+                "uid": "df9866df-b02c-4572-af84-51329a6e4f65"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "emailservice-8rvbb.18df94900a973941",
+                "namespace": "shop",
+                "resourceVersion": "518901",
+                "uid": "9d4248d0-b99f-48d5-a553-a896eeaae08c"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "emailservice-8rvbb",
+                "namespace": "shop",
+                "resourceVersion": "516164",
+                "uid": "df9866df-b02c-4572-af84-51329a6e4f65"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "emailservice-8rvbb.18df9597335df8de",
+                "namespace": "shop",
+                "resourceVersion": "522060",
+                "uid": "358a6697-d7b8-49aa-a2d5-8e4965f34e35"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "emailservice",
+                "namespace": "shop",
+                "resourceVersion": "76839",
+                "uid": "9265791a-f2d7-4365-af31-c8462615c084"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "emailservice.18df94900bac7857",
+                "namespace": "shop",
+                "resourceVersion": "518914",
+                "uid": "1252a38b-adda-4aec-b49e-bf3ff03e8e54"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "emailservice",
+                "namespace": "shop",
+                "resourceVersion": "76839",
+                "uid": "9265791a-f2d7-4365-af31-c8462615c084"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "emailservice.18df95973f71ef10",
+                "namespace": "shop",
+                "resourceVersion": "522085",
+                "uid": "ac1d3574-5a35-456e-8852-b89ec8f29608"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "frontend-4r7wb",
+                "namespace": "shop",
+                "resourceVersion": "516152",
+                "uid": "ed333939-bdf3-44bb-8236-f9ec83ced18c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "frontend-4r7wb.18df94900a294e8a",
+                "namespace": "shop",
+                "resourceVersion": "518897",
+                "uid": "2e6252d1-b4f8-4940-a50b-448232f9485d"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "frontend-4r7wb",
+                "namespace": "shop",
+                "resourceVersion": "516152",
+                "uid": "ed333939-bdf3-44bb-8236-f9ec83ced18c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "frontend-4r7wb.18df9597335c1559",
+                "namespace": "shop",
+                "resourceVersion": "522055",
+                "uid": "5f7a1441-3662-4965-9f47-5a53a9ec591f"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "frontend-7b68f9d7c6-65rmt",
+                "namespace": "shop",
+                "resourceVersion": "503615",
+                "uid": "000ade0d-9d11-44d6-87f6-347618f297e5"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:37Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:38Z",
+                "name": "frontend-7b68f9d7c6-65rmt.18df93af53268eda",
+                "namespace": "shop",
+                "resourceVersion": "515659",
+                "uid": "08148333-4081-407b-b274-9db2ae3b1987"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "frontend-7b68f9d7c6-65rmt",
+                "namespace": "shop",
+                "resourceVersion": "503615",
+                "uid": "000ade0d-9d11-44d6-87f6-347618f297e5"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "frontend-7b68f9d7c6-65rmt.18df93b0c34d7caf",
+                "namespace": "shop",
+                "resourceVersion": "515815",
+                "uid": "ac32887e-0228-43a4-9713-10553311ab10"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "frontend-7b68f9d7c6-65rmt",
+                "namespace": "shop",
+                "resourceVersion": "503615",
+                "uid": "000ade0d-9d11-44d6-87f6-347618f297e5"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "frontend-7b68f9d7c6-65rmt.18df93b0d3860d1d",
+                "namespace": "shop",
+                "resourceVersion": "515835",
+                "uid": "57f95be8-f5c9-49f6-90b6-7c4a023f83f6"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "frontend-7b68f9d7c6-65rmt",
+                "namespace": "shop",
+                "resourceVersion": "503615",
+                "uid": "000ade0d-9d11-44d6-87f6-347618f297e5"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "frontend-7b68f9d7c6-65rmt.18df93b0e13eace6",
+                "namespace": "shop",
+                "resourceVersion": "515849",
+                "uid": "150ce0cb-4344-4bb0-9a59-328d1bbdc732"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "frontend-external-nb7c2",
+                "namespace": "shop",
+                "resourceVersion": "516151",
+                "uid": "c2269119-a4a1-4408-b53f-77903d4ddd50"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "frontend-external-nb7c2.18df94900a2cba7c",
+                "namespace": "shop",
+                "resourceVersion": "518899",
+                "uid": "83d6712d-c1a9-4f7b-aa88-837aa5488b0d"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "frontend-external-nb7c2",
+                "namespace": "shop",
+                "resourceVersion": "516151",
+                "uid": "c2269119-a4a1-4408-b53f-77903d4ddd50"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "frontend-external-nb7c2.18df9597347c764a",
+                "namespace": "shop",
+                "resourceVersion": "522063",
+                "uid": "deabcb5a-e48a-41ef-a0be-9ec28972444d"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "frontend-external",
+                "namespace": "shop",
+                "resourceVersion": "76866",
+                "uid": "f1b2e903-b8e7-4ba9-a209-8c74a59ee431"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "frontend-external.18df949011149e49",
+                "namespace": "shop",
+                "resourceVersion": "518922",
+                "uid": "f73f37be-6ed8-4a3e-acc4-3a81056f1eaa"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "frontend-external",
+                "namespace": "shop",
+                "resourceVersion": "76866",
+                "uid": "f1b2e903-b8e7-4ba9-a209-8c74a59ee431"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "frontend-external.18df959737cabd32",
+                "namespace": "shop",
+                "resourceVersion": "522077",
+                "uid": "730ba56c-2a99-4f71-9ba4-4925a378e30a"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "frontend",
+                "namespace": "shop",
+                "resourceVersion": "76861",
+                "uid": "8dcb7a6a-38f4-403c-b166-95abf6ec5ab2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "frontend.18df94900df7702d",
+                "namespace": "shop",
+                "resourceVersion": "518917",
+                "uid": "5401ce45-cea7-429a-8e7f-bf158f54206d"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "frontend",
+                "namespace": "shop",
+                "resourceVersion": "76861",
+                "uid": "8dcb7a6a-38f4-403c-b166-95abf6ec5ab2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "frontend.18df95973b59eb51",
+                "namespace": "shop",
+                "resourceVersion": "522081",
+                "uid": "2017f09e-061b-473a-9fb9-2d561ee81487"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
             },
             "type": "Normal"
         },
@@ -1302,6 +3464,1771 @@
             "source": {
                 "component": "kubelet",
                 "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "ConfigMap",
+                "name": "kube-root-ca.crt",
+                "namespace": "shop",
+                "resourceVersion": "76466",
+                "uid": "fc57d06e-e69a-4d0a-896b-d9228565e942"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "kube-root-ca.crt.18df94900a1ee080",
+                "namespace": "shop",
+                "resourceVersion": "518900",
+                "uid": "44013eb2-c08b-4d08-8abf-e3221c0e0775"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-configmap-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-configmap-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "ConfigMap",
+                "name": "kube-root-ca.crt",
+                "namespace": "shop",
+                "resourceVersion": "76466",
+                "uid": "fc57d06e-e69a-4d0a-896b-d9228565e942"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "kube-root-ca.crt.18df9597334eb3a1",
+                "namespace": "shop",
+                "resourceVersion": "522061",
+                "uid": "9f78b430-6c70-48ae-9f6f-6494d2a0d842"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-configmap-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-configmap-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:41Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "loadgenerator-685b5f9b7c-qqrzx",
+                "namespace": "shop",
+                "resourceVersion": "503956",
+                "uid": "85e5fffe-73c2-4a6e-a830-692d2e0236cf"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:41Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:41Z",
+                "name": "loadgenerator-685b5f9b7c-qqrzx.18df93b022bc3500",
+                "namespace": "shop",
+                "resourceVersion": "515724",
+                "uid": "70dda4c4-bd83-4c33-9927-69527fbab292"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{frontend-check}",
+                "kind": "Pod",
+                "name": "loadgenerator-685b5f9b7c-qqrzx",
+                "namespace": "shop",
+                "resourceVersion": "503956",
+                "uid": "85e5fffe-73c2-4a6e-a830-692d2e0236cf"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container image \"busybox:1.38.0@sha256:dc2d74b28e4cf8984fa52af1f39bc7c3d9c73760b41a74d629f5d11b1ab28616\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "loadgenerator-685b5f9b7c-qqrzx.18df93b0dadc5185",
+                "namespace": "shop",
+                "resourceVersion": "515844",
+                "uid": "b11e1d1a-3aa9-42bf-9367-ad1e634471e0"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{frontend-check}",
+                "kind": "Pod",
+                "name": "loadgenerator-685b5f9b7c-qqrzx",
+                "namespace": "shop",
+                "resourceVersion": "503956",
+                "uid": "85e5fffe-73c2-4a6e-a830-692d2e0236cf"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "loadgenerator-685b5f9b7c-qqrzx.18df93b0df9bba20",
+                "namespace": "shop",
+                "resourceVersion": "515848",
+                "uid": "fb4c5673-2560-4f43-9303-9404df2723cc"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{frontend-check}",
+                "kind": "Pod",
+                "name": "loadgenerator-685b5f9b7c-qqrzx",
+                "namespace": "shop",
+                "resourceVersion": "503956",
+                "uid": "85e5fffe-73c2-4a6e-a830-692d2e0236cf"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "loadgenerator-685b5f9b7c-qqrzx.18df93b0f3277c21",
+                "namespace": "shop",
+                "resourceVersion": "515870",
+                "uid": "9cd7ab4c-d5d7-4cfd-b7c3-2ee105f75ef7"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:54:16Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{main}",
+                "kind": "Pod",
+                "name": "loadgenerator-685b5f9b7c-qqrzx",
+                "namespace": "shop",
+                "resourceVersion": "503956",
+                "uid": "85e5fffe-73c2-4a6e-a830-692d2e0236cf"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:54:16Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/loadgenerator:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:54:16Z",
+                "name": "loadgenerator-685b5f9b7c-qqrzx.18df93c652ad1352",
+                "namespace": "shop",
+                "resourceVersion": "516614",
+                "uid": "22672197-e9d6-4315-ba99-cc682a46d5c9"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:54:16Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{main}",
+                "kind": "Pod",
+                "name": "loadgenerator-685b5f9b7c-qqrzx",
+                "namespace": "shop",
+                "resourceVersion": "503956",
+                "uid": "85e5fffe-73c2-4a6e-a830-692d2e0236cf"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:54:16Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:54:16Z",
+                "name": "loadgenerator-685b5f9b7c-qqrzx.18df93c655abf96a",
+                "namespace": "shop",
+                "resourceVersion": "516616",
+                "uid": "e6ca0e3c-0925-4e6d-9bc2-fc01b056f4b2"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:54:16Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{main}",
+                "kind": "Pod",
+                "name": "loadgenerator-685b5f9b7c-qqrzx",
+                "namespace": "shop",
+                "resourceVersion": "503956",
+                "uid": "85e5fffe-73c2-4a6e-a830-692d2e0236cf"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:54:16Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:54:16Z",
+                "name": "loadgenerator-685b5f9b7c-qqrzx.18df93c658bbeb85",
+                "namespace": "shop",
+                "resourceVersion": "516617",
+                "uid": "518eb818-6034-432d-9c7a-70d8f543a2ca"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:40Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "paymentservice-7bf687975-2gn2s",
+                "namespace": "shop",
+                "resourceVersion": "503670",
+                "uid": "532a7cce-66d1-49ca-8ec4-2e3a9f9af007"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:40Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:40Z",
+                "name": "paymentservice-7bf687975-2gn2s.18df93aff4fd9fe2",
+                "namespace": "shop",
+                "resourceVersion": "515702",
+                "uid": "e0f9dd41-4b00-498e-a7ac-ad07765971f4"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "paymentservice-7bf687975-2gn2s",
+                "namespace": "shop",
+                "resourceVersion": "503670",
+                "uid": "532a7cce-66d1-49ca-8ec4-2e3a9f9af007"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/paymentservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "paymentservice-7bf687975-2gn2s.18df93b0e162d991",
+                "namespace": "shop",
+                "resourceVersion": "515850",
+                "uid": "62a20f2f-2d29-4f76-845f-a99215dab36e"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "paymentservice-7bf687975-2gn2s",
+                "namespace": "shop",
+                "resourceVersion": "503670",
+                "uid": "532a7cce-66d1-49ca-8ec4-2e3a9f9af007"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:45Z",
+                "name": "paymentservice-7bf687975-2gn2s.18df93b0f647c640",
+                "namespace": "shop",
+                "resourceVersion": "515886",
+                "uid": "b158e33d-e233-4014-be91-67c8dbea6fc8"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:45Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "paymentservice-7bf687975-2gn2s",
+                "namespace": "shop",
+                "resourceVersion": "503670",
+                "uid": "532a7cce-66d1-49ca-8ec4-2e3a9f9af007"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:45Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:45Z",
+                "name": "paymentservice-7bf687975-2gn2s.18df93b117e53789",
+                "namespace": "shop",
+                "resourceVersion": "515910",
+                "uid": "f82d4e99-c9ae-4b72-a62b-ec7cb3ff6d42"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "paymentservice-7bf687975-2gn2s",
+                "namespace": "shop",
+                "resourceVersion": "503670",
+                "uid": "532a7cce-66d1-49ca-8ec4-2e3a9f9af007"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:48Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.1.14:50051\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:46Z",
+                "name": "paymentservice-7bf687975-2gn2s.18df93b15a18df75",
+                "namespace": "shop",
+                "resourceVersion": "515976",
+                "uid": "6d577344-3ac1-4ed8-82ad-dc70652bf831"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "paymentservice-dn22k",
+                "namespace": "shop",
+                "resourceVersion": "516170",
+                "uid": "970b091d-b459-473c-a7eb-cbce394769d5"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "paymentservice-dn22k.18df94900aeffbdc",
+                "namespace": "shop",
+                "resourceVersion": "518902",
+                "uid": "4d0a61e3-9a66-4b13-bd27-f92a36783e99"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "paymentservice-dn22k",
+                "namespace": "shop",
+                "resourceVersion": "516170",
+                "uid": "970b091d-b459-473c-a7eb-cbce394769d5"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "paymentservice-dn22k.18df959732bc27bd",
+                "namespace": "shop",
+                "resourceVersion": "522047",
+                "uid": "04e0669d-9b69-47d7-8095-fb1c133a41c5"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "paymentservice",
+                "namespace": "shop",
+                "resourceVersion": "76917",
+                "uid": "8e903a2f-8aba-4cd1-bcd2-6d1dee8fd663"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "paymentservice.18df94900cc06d8b",
+                "namespace": "shop",
+                "resourceVersion": "518915",
+                "uid": "90924f63-8121-4663-ad5f-88a1b65c053a"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "paymentservice",
+                "namespace": "shop",
+                "resourceVersion": "76917",
+                "uid": "8e903a2f-8aba-4cd1-bcd2-6d1dee8fd663"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "paymentservice.18df95973a314bf5",
+                "namespace": "shop",
+                "resourceVersion": "522080",
+                "uid": "998e2d38-03c2-42bc-8781-50eb0d5d4e84"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:34Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4",
+                "namespace": "shop",
+                "resourceVersion": "503523",
+                "uid": "7966eff4-e290-4e23-8975-e276de03d4e0"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:34Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:34Z",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4.18df93ae6d22cde7",
+                "namespace": "shop",
+                "resourceVersion": "515622",
+                "uid": "64249d4c-0d97-424b-90f0-15b1bba42c5a"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:41Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4",
+                "namespace": "shop",
+                "resourceVersion": "503523",
+                "uid": "7966eff4-e290-4e23-8975-e276de03d4e0"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:41Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:41Z",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4.18df93b02e7a759c",
+                "namespace": "shop",
+                "resourceVersion": "515725",
+                "uid": "51a95981-ee5e-481d-9af1-e22d33796de5"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:41Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4",
+                "namespace": "shop",
+                "resourceVersion": "503523",
+                "uid": "7966eff4-e290-4e23-8975-e276de03d4e0"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:41Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:41Z",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4.18df93b031e5dbba",
+                "namespace": "shop",
+                "resourceVersion": "515728",
+                "uid": "50964732-bfa7-48c5-acb4-b284d2e753bf"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:42Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4",
+                "namespace": "shop",
+                "resourceVersion": "503523",
+                "uid": "7966eff4-e290-4e23-8975-e276de03d4e0"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:42Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:42Z",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4.18df93b075dafe01",
+                "namespace": "shop",
+                "resourceVersion": "515763",
+                "uid": "5d2e192c-6acd-434d-b65b-662790c209da"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4",
+                "namespace": "shop",
+                "resourceVersion": "503523",
+                "uid": "7966eff4-e290-4e23-8975-e276de03d4e0"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:43Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.2.5:3550\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:43Z",
+                "name": "productcatalogservice-5cbcdf9fbf-lq9l4.18df93b0b369573a",
+                "namespace": "shop",
+                "resourceVersion": "515802",
+                "uid": "880647da-4cd5-4e1f-a2e9-5ea000ce4b5c"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "productcatalogservice-p42qh",
+                "namespace": "shop",
+                "resourceVersion": "516046",
+                "uid": "32c57a26-ac3b-4ba4-ba21-390d6825b429"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "productcatalogservice-p42qh.18df94900a1d29ff",
+                "namespace": "shop",
+                "resourceVersion": "518892",
+                "uid": "b33bd04b-6943-4a79-bcad-de83c13d7f73"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "productcatalogservice-p42qh",
+                "namespace": "shop",
+                "resourceVersion": "516046",
+                "uid": "32c57a26-ac3b-4ba4-ba21-390d6825b429"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "productcatalogservice-p42qh.18df9597335998ad",
+                "namespace": "shop",
+                "resourceVersion": "522053",
+                "uid": "3fbdffa0-2120-4fb7-afae-362600404931"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "productcatalogservice",
+                "namespace": "shop",
+                "resourceVersion": "76850",
+                "uid": "3f5d7571-39ec-4933-8965-a02d60bfb248"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "productcatalogservice.18df94900efea7cc",
+                "namespace": "shop",
+                "resourceVersion": "518919",
+                "uid": "b95e6007-7fbe-4754-beda-986017ac1632"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "productcatalogservice",
+                "namespace": "shop",
+                "resourceVersion": "76850",
+                "uid": "3f5d7571-39ec-4933-8965-a02d60bfb248"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "productcatalogservice.18df95973efb9a8c",
+                "namespace": "shop",
+                "resourceVersion": "522087",
+                "uid": "2980f88c-ec4c-4649-b3ed-3f443fcb0f25"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:40Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "recommendationservice-69778f8f45-lmj5l",
+                "namespace": "shop",
+                "resourceVersion": "503710",
+                "uid": "97a4e7b3-eae5-4978-8e4c-271d79efece1"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:40Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:40Z",
+                "name": "recommendationservice-69778f8f45-lmj5l.18df93afcecb03f8",
+                "namespace": "shop",
+                "resourceVersion": "515690",
+                "uid": "81d8a093-0ac0-44e8-aafb-5ef6c83e4f90"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "recommendationservice-69778f8f45-lmj5l",
+                "namespace": "shop",
+                "resourceVersion": "503710",
+                "uid": "97a4e7b3-eae5-4978-8e4c-271d79efece1"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "recommendationservice-69778f8f45-lmj5l.18df93b0ce5cd672",
+                "namespace": "shop",
+                "resourceVersion": "515826",
+                "uid": "dbbcd2aa-4d45-46f1-a448-b0bdd670118b"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "recommendationservice-69778f8f45-lmj5l",
+                "namespace": "shop",
+                "resourceVersion": "503710",
+                "uid": "97a4e7b3-eae5-4978-8e4c-271d79efece1"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "recommendationservice-69778f8f45-lmj5l.18df93b0e7004420",
+                "namespace": "shop",
+                "resourceVersion": "515862",
+                "uid": "7af98b0e-fd59-4607-8b6a-4d85ce9809f3"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:45Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "recommendationservice-69778f8f45-lmj5l",
+                "namespace": "shop",
+                "resourceVersion": "503710",
+                "uid": "97a4e7b3-eae5-4978-8e4c-271d79efece1"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:45Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:45Z",
+                "name": "recommendationservice-69778f8f45-lmj5l.18df93b0fea2795c",
+                "namespace": "shop",
+                "resourceVersion": "515887",
+                "uid": "b819260e-b73c-42ce-aabc-0be6712b175a"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "recommendationservice-69778f8f45-lmj5l",
+                "namespace": "shop",
+                "resourceVersion": "503710",
+                "uid": "97a4e7b3-eae5-4978-8e4c-271d79efece1"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:52Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.1.12:8080\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:46Z",
+                "name": "recommendationservice-69778f8f45-lmj5l.18df93b13d42ea43",
+                "namespace": "shop",
+                "resourceVersion": "516108",
+                "uid": "d1f4b389-0326-4aad-89ab-17a34abb2b3a"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:51Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "recommendationservice-69778f8f45-lmj5l",
+                "namespace": "shop",
+                "resourceVersion": "503710",
+                "uid": "97a4e7b3-eae5-4978-8e4c-271d79efece1"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:51Z",
+            "message": "Liveness probe failed: timeout: failed to connect service \"10.244.1.12:8080\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:51Z",
+                "name": "recommendationservice-69778f8f45-lmj5l.18df93b262cb0bb0",
+                "namespace": "shop",
+                "resourceVersion": "516095",
+                "uid": "c80cf7bb-7def-4a7c-b621-68ad44f3abb7"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "recommendationservice-b8ghm",
+                "namespace": "shop",
+                "resourceVersion": "516140",
+                "uid": "f44b817d-4fd7-4196-99b0-53e72aa16528"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "recommendationservice-b8ghm.18df949009a5180a",
+                "namespace": "shop",
+                "resourceVersion": "518889",
+                "uid": "12397252-71af-4994-85ed-c488d0b5b675"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "recommendationservice-b8ghm",
+                "namespace": "shop",
+                "resourceVersion": "516140",
+                "uid": "f44b817d-4fd7-4196-99b0-53e72aa16528"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "recommendationservice-b8ghm.18df9597335e9654",
+                "namespace": "shop",
+                "resourceVersion": "522059",
+                "uid": "af84dc19-3a36-462b-b027-c25bf3598234"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "recommendationservice",
+                "namespace": "shop",
+                "resourceVersion": "76882",
+                "uid": "cca652b9-e53e-4fb3-8901-893908ac7e3f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "recommendationservice.18df94901172fcfb",
+                "namespace": "shop",
+                "resourceVersion": "518921",
+                "uid": "550d8900-02bd-48c6-918b-4a08a64aaef8"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "recommendationservice",
+                "namespace": "shop",
+                "resourceVersion": "76882",
+                "uid": "cca652b9-e53e-4fb3-8901-893908ac7e3f"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "recommendationservice.18df95973c44c872",
+                "namespace": "shop",
+                "resourceVersion": "522082",
+                "uid": "50d76ce4-bcd2-461e-b3c9-fe47d528e241"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "redis-cart-5986669847-vbzk4",
+                "namespace": "shop",
+                "resourceVersion": "503573",
+                "uid": "02664d69-476a-4df9-bb61-fb013109a351"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:37Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:37Z",
+                "name": "redis-cart-5986669847-vbzk4.18df93af5283e4d2",
+                "namespace": "shop",
+                "resourceVersion": "515658",
+                "uid": "0fcdf1dd-6c1d-4ef7-bea1-a10b3e7a772c"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "redis-cart-5986669847-vbzk4",
+                "namespace": "shop",
+                "resourceVersion": "503573",
+                "uid": "02664d69-476a-4df9-bb61-fb013109a351"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container image \"redis:alpine\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "redis-cart-5986669847-vbzk4.18df93b0c5a1f423",
+                "namespace": "shop",
+                "resourceVersion": "515819",
+                "uid": "5ed9efc7-1e3d-428a-b0b6-db83245a10e9"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "redis-cart-5986669847-vbzk4",
+                "namespace": "shop",
+                "resourceVersion": "503573",
+                "uid": "02664d69-476a-4df9-bb61-fb013109a351"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "redis-cart-5986669847-vbzk4.18df93b0d7a5a485",
+                "namespace": "shop",
+                "resourceVersion": "515839",
+                "uid": "9be827ab-629e-495d-a1fc-36f94b2b5fcd"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "redis-cart-5986669847-vbzk4",
+                "namespace": "shop",
+                "resourceVersion": "503573",
+                "uid": "02664d69-476a-4df9-bb61-fb013109a351"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "redis-cart-5986669847-vbzk4.18df93b0ea26c64c",
+                "namespace": "shop",
+                "resourceVersion": "515869",
+                "uid": "4a5f6488-d4b0-4983-a635-903591012a06"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{redis}",
+                "kind": "Pod",
+                "name": "redis-cart-5986669847-vbzk4",
+                "namespace": "shop",
+                "resourceVersion": "503573",
+                "uid": "02664d69-476a-4df9-bb61-fb013109a351"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:44Z",
+            "message": "Readiness probe failed: dial tcp 10.244.1.7:6379: connect: connection refused",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:44Z",
+                "name": "redis-cart-5986669847-vbzk4.18df93b0f430e7f3",
+                "namespace": "shop",
+                "resourceVersion": "515875",
+                "uid": "fa64b497-d684-423e-afd3-9c3317944efa"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "redis-cart-lrskv",
+                "namespace": "shop",
+                "resourceVersion": "516047",
+                "uid": "82691abc-5bd3-437f-ba73-4e4882d66109"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "redis-cart-lrskv.18df94900a20d481",
+                "namespace": "shop",
+                "resourceVersion": "518895",
+                "uid": "e6cf4d37-a6e5-491e-bd8b-71e6d35727d9"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "redis-cart-lrskv",
+                "namespace": "shop",
+                "resourceVersion": "516047",
+                "uid": "82691abc-5bd3-437f-ba73-4e4882d66109"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "redis-cart-lrskv.18df9597334e6fbb",
+                "namespace": "shop",
+                "resourceVersion": "522048",
+                "uid": "9c5de854-b3dc-4f69-8522-62286227f816"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "redis-cart",
+                "namespace": "shop",
+                "resourceVersion": "76908",
+                "uid": "f3ace41c-1276-4814-865f-32bd49940d67"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "redis-cart.18df949010ecbc08",
+                "namespace": "shop",
+                "resourceVersion": "518923",
+                "uid": "708243b3-e3d2-4b02-8248-9ddbd988d9fa"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "redis-cart",
+                "namespace": "shop",
+                "resourceVersion": "76908",
+                "uid": "f3ace41c-1276-4814-865f-32bd49940d67"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "redis-cart.18df95973c96cb2e",
+                "namespace": "shop",
+                "resourceVersion": "522083",
+                "uid": "fc612f18-d362-4679-85ce-8c8bb94d31b4"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "shippingservice-8485bdbcf9-n4hdw",
+                "namespace": "shop",
+                "resourceVersion": "503524",
+                "uid": "0153a8f6-9cbb-4ff4-9706-e76a6129c317"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:33Z",
+            "message": "Pod sandbox changed, it will be killed and re-created.",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:33Z",
+                "name": "shippingservice-8485bdbcf9-n4hdw.18df93ae43b04331",
+                "namespace": "shop",
+                "resourceVersion": "515616",
+                "uid": "13bf9081-ef62-45f8-8800-ad8d617c8edb"
+            },
+            "reason": "SandboxChanged",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:40Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "shippingservice-8485bdbcf9-n4hdw",
+                "namespace": "shop",
+                "resourceVersion": "503524",
+                "uid": "0153a8f6-9cbb-4ff4-9706-e76a6129c317"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:40Z",
+            "message": "Container image \"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice:v0.10.7\" already present on machine and can be accessed by the pod",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:40Z",
+                "name": "shippingservice-8485bdbcf9-n4hdw.18df93affe15cb81",
+                "namespace": "shop",
+                "resourceVersion": "515705",
+                "uid": "c85462e9-46ed-492c-88a6-0652d0011212"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:40Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "shippingservice-8485bdbcf9-n4hdw",
+                "namespace": "shop",
+                "resourceVersion": "503524",
+                "uid": "0153a8f6-9cbb-4ff4-9706-e76a6129c317"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:40Z",
+            "message": "Container created",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:40Z",
+                "name": "shippingservice-8485bdbcf9-n4hdw.18df93b0050e5fc8",
+                "namespace": "shop",
+                "resourceVersion": "515711",
+                "uid": "40615254-a0cf-4bcd-880c-46480db2ad52"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:42Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "shippingservice-8485bdbcf9-n4hdw",
+                "namespace": "shop",
+                "resourceVersion": "503524",
+                "uid": "0153a8f6-9cbb-4ff4-9706-e76a6129c317"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:42Z",
+            "message": "Container started",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:42Z",
+                "name": "shippingservice-8485bdbcf9-n4hdw.18df93b07572e900",
+                "namespace": "shop",
+                "resourceVersion": "515762",
+                "uid": "53df77fd-8643-4f96-9801-5b81cc4a6a03"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T08:52:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{server}",
+                "kind": "Pod",
+                "name": "shippingservice-8485bdbcf9-n4hdw",
+                "namespace": "shop",
+                "resourceVersion": "503524",
+                "uid": "0153a8f6-9cbb-4ff4-9706-e76a6129c317"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T08:52:43Z",
+            "message": "Readiness probe failed: timeout: failed to connect service \"10.244.2.3:50051\" within 1s: context deadline exceeded",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T08:52:43Z",
+                "name": "shippingservice-8485bdbcf9-n4hdw.18df93b0b30f6b76",
+                "namespace": "shop",
+                "resourceVersion": "515801",
+                "uid": "fd644092-1752-45e7-aeb4-523f730d6e8b"
+            },
+            "reason": "Unhealthy",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "consumer-worker2",
+            "source": {
+                "component": "kubelet",
+                "host": "consumer-worker2"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "shippingservice-zlqx9",
+                "namespace": "shop",
+                "resourceVersion": "516037",
+                "uid": "c877dfde-9878-42d2-b88c-3b6907937e3a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "shippingservice-zlqx9.18df94900a1cb93e",
+                "namespace": "shop",
+                "resourceVersion": "518890",
+                "uid": "fa361e91-be95-4e91-b5a1-d514c94191ed"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "discovery.k8s.io/v1",
+                "kind": "EndpointSlice",
+                "name": "shippingservice-zlqx9",
+                "namespace": "shop",
+                "resourceVersion": "516037",
+                "uid": "c877dfde-9878-42d2-b88c-3b6907937e3a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "shippingservice-zlqx9.18df9597335dff26",
+                "namespace": "shop",
+                "resourceVersion": "522057",
+                "uid": "788639b8-7ec5-45d1-8a1e-9608a43b328c"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-endpointslice-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-endpointslice-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:08:43Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "shippingservice",
+                "namespace": "shop",
+                "resourceVersion": "76783",
+                "uid": "71dfab13-4f3d-4259-8f01-2fa64123e001"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:08:43Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:08:43Z",
+                "name": "shippingservice.18df94900d7d3bc1",
+                "namespace": "shop",
+                "resourceVersion": "518916",
+                "uid": "3d87e282-7b2e-40b0-8059-cf88a1f12b77"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-10-18T09:27:33Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Service",
+                "name": "shippingservice",
+                "namespace": "shop",
+                "resourceVersion": "76783",
+                "uid": "71dfab13-4f3d-4259-8f01-2fa64123e001"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-10-18T09:27:33Z",
+            "message": "Successfully reflected object to cluster \"patient-cloud\"",
+            "metadata": {
+                "creationTimestamp": "2026-10-18T09:27:33Z",
+                "name": "shippingservice.18df95973d90802e",
+                "namespace": "shop",
+                "resourceVersion": "522084",
+                "uid": "fe04fac6-535f-4c88-8c0f-6cbd2b6beb6a"
+            },
+            "reason": "SuccessfulReflection",
+            "reportingComponent": "liqo-service-reflection",
+            "reportingInstance": "",
+            "source": {
+                "component": "liqo-service-reflection"
             },
             "type": "Normal"
         }

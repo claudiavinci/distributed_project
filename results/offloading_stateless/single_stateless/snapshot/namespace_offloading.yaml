@@ -6,10 +6,10 @@ items:
     creationTimestamp: "2026-10-16T12:08:42Z"
     finalizers:
     - namespaceoffloading-controller.liqo.io/finalizer
-    generation: 1
+    generation: 3
     name: offloading
     namespace: shop
-    resourceVersion: "483669"
+    resourceVersion: "527681"
     uid: 6ecd1ef3-2060-4f05-98ab-7523ab698ef8
   spec:
     clusterSelector:
@@ -17,18 +17,18 @@ items:
     namespaceMappingStrategy: EnforceSameName
     podOffloadingStrategy: LocalAndRemote
   status:
-    observedGeneration: 1
+    observedGeneration: 3
     offloadingPhase: Ready
     remoteNamespaceName: shop
     remoteNamespacesConditions:
       patient-cloud:
-      - lastTransitionTime: "2026-10-16T12:08:42Z"
+      - lastTransitionTime: "2026-10-18T10:02:27Z"
         message: The remote cluster has been selected through the ClusterSelector
           field
         reason: ClusterSelected
         status: "True"
         type: OffloadingRequired
-      - lastTransitionTime: "2026-10-16T12:08:42Z"
+      - lastTransitionTime: "2026-10-18T10:02:27Z"
         message: Namespace correctly offloaded to the remote cluster
         reason: NamespaceCreated
         status: "True"

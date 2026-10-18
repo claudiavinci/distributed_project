@@ -16,7 +16,7 @@
                 },
                 "name": "adservice",
                 "namespace": "shop",
-                "resourceVersion": "503870",
+                "resourceVersion": "516475",
                 "uid": "a2e0f2cf-dd50-4de3-a179-14b229982641"
             },
             "spec": {
@@ -127,20 +127,20 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-16T11:58:47Z",
-                        "lastUpdateTime": "2026-10-16T11:58:47Z",
-                        "message": "Deployment has minimum availability.",
-                        "reason": "MinimumReplicasAvailable",
-                        "status": "True",
-                        "type": "Available"
-                    },
-                    {
                         "lastTransitionTime": "2026-10-05T13:41:36Z",
                         "lastUpdateTime": "2026-10-16T14:28:07Z",
                         "message": "ReplicaSet \"adservice-58b67d9989\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
                         "type": "Progressing"
+                    },
+                    {
+                        "lastTransitionTime": "2026-10-18T08:53:29Z",
+                        "lastUpdateTime": "2026-10-18T08:53:29Z",
+                        "message": "Deployment has minimum availability.",
+                        "reason": "MinimumReplicasAvailable",
+                        "status": "True",
+                        "type": "Available"
                     }
                 ],
                 "observedGeneration": 3,
@@ -165,7 +165,7 @@
                 },
                 "name": "cartservice",
                 "namespace": "shop",
-                "resourceVersion": "503817",
+                "resourceVersion": "516347",
                 "uid": "37f45542-0d89-4ebc-a1b6-014953ea151a"
             },
             "spec": {
@@ -276,20 +276,20 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-16T11:58:22Z",
-                        "lastUpdateTime": "2026-10-16T11:58:22Z",
-                        "message": "Deployment has minimum availability.",
-                        "reason": "MinimumReplicasAvailable",
-                        "status": "True",
-                        "type": "Available"
-                    },
-                    {
                         "lastTransitionTime": "2026-10-05T13:41:37Z",
                         "lastUpdateTime": "2026-10-16T14:27:57Z",
                         "message": "ReplicaSet \"cartservice-97df47bdb\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
                         "type": "Progressing"
+                    },
+                    {
+                        "lastTransitionTime": "2026-10-18T08:53:16Z",
+                        "lastUpdateTime": "2026-10-18T08:53:16Z",
+                        "message": "Deployment has minimum availability.",
+                        "reason": "MinimumReplicasAvailable",
+                        "status": "True",
+                        "type": "Available"
                     }
                 ],
                 "observedGeneration": 3,
@@ -475,17 +475,17 @@
             "kind": "Deployment",
             "metadata": {
                 "annotations": {
-                    "deployment.kubernetes.io/revision": "15",
+                    "deployment.kubernetes.io/revision": "16",
                     "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"currencyservice\"},\"name\":\"currencyservice\",\"namespace\":\"shop\"},\"spec\":{\"selector\":{\"matchLabels\":{\"app\":\"currencyservice\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"currencyservice\"}},\"spec\":{\"containers\":[{\"env\":[{\"name\":\"PORT\",\"value\":\"7000\"},{\"name\":\"DISABLE_PROFILER\",\"value\":\"1\"}],\"image\":\"us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7\",\"livenessProbe\":{\"grpc\":{\"port\":7000},\"initialDelaySeconds\":10,\"periodSeconds\":10,\"timeoutSeconds\":5},\"name\":\"server\",\"ports\":[{\"containerPort\":7000,\"name\":\"grpc\"}],\"readinessProbe\":{\"grpc\":{\"port\":7000},\"initialDelaySeconds\":10,\"periodSeconds\":10,\"timeoutSeconds\":5},\"resources\":{\"limits\":{\"cpu\":\"200m\",\"memory\":\"128Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"64Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"privileged\":false,\"readOnlyRootFilesystem\":true}}],\"securityContext\":{\"fsGroup\":1000,\"runAsGroup\":1000,\"runAsNonRoot\":true,\"runAsUser\":1000},\"serviceAccountName\":\"currencyservice\",\"terminationGracePeriodSeconds\":5}}}}\n"
                 },
                 "creationTimestamp": "2026-10-05T13:41:36Z",
-                "generation": 17,
+                "generation": 18,
                 "labels": {
                     "app": "currencyservice"
                 },
                 "name": "currencyservice",
                 "namespace": "shop",
-                "resourceVersion": "513559",
+                "resourceVersion": "521481",
                 "uid": "b1e9c2ce-2fd5-4c3b-8f48-4a6f935fb1e5"
             },
             "spec": {
@@ -507,7 +507,7 @@
                 "template": {
                     "metadata": {
                         "annotations": {
-                            "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                            "kubectl.kubernetes.io/restartedAt": "2026-10-18T11:09:59+02:00"
                         },
                         "labels": {
                             "app": "currencyservice"
@@ -602,22 +602,22 @@
                 "conditions": [
                     {
                         "lastTransitionTime": "2026-10-05T13:41:36Z",
-                        "lastUpdateTime": "2026-10-16T14:27:48Z",
-                        "message": "ReplicaSet \"currencyservice-5fb47bcbf\" has successfully progressed.",
+                        "lastUpdateTime": "2026-10-18T09:10:11Z",
+                        "message": "ReplicaSet \"currencyservice-76f57fdd84\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
                         "type": "Progressing"
                     },
                     {
-                        "lastTransitionTime": "2026-10-16T15:38:05Z",
-                        "lastUpdateTime": "2026-10-16T15:38:05Z",
+                        "lastTransitionTime": "2026-10-18T09:25:55Z",
+                        "lastUpdateTime": "2026-10-18T09:25:55Z",
                         "message": "Deployment has minimum availability.",
                         "reason": "MinimumReplicasAvailable",
                         "status": "True",
                         "type": "Available"
                     }
                 ],
-                "observedGeneration": 17,
+                "observedGeneration": 18,
                 "readyReplicas": 1,
                 "replicas": 1,
                 "terminatingReplicas": 0,
@@ -639,7 +639,7 @@
                 },
                 "name": "emailservice",
                 "namespace": "shop",
-                "resourceVersion": "503751",
+                "resourceVersion": "516166",
                 "uid": "ab1dc0ea-5b43-4804-be91-111758042065"
             },
             "spec": {
@@ -752,20 +752,20 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-16T11:58:32Z",
-                        "lastUpdateTime": "2026-10-16T11:58:32Z",
-                        "message": "Deployment has minimum availability.",
-                        "reason": "MinimumReplicasAvailable",
-                        "status": "True",
-                        "type": "Available"
-                    },
-                    {
                         "lastTransitionTime": "2026-10-05T13:41:36Z",
                         "lastUpdateTime": "2026-10-16T14:27:48Z",
                         "message": "ReplicaSet \"emailservice-6795455f\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
                         "type": "Progressing"
+                    },
+                    {
+                        "lastTransitionTime": "2026-10-18T08:52:57Z",
+                        "lastUpdateTime": "2026-10-18T08:52:57Z",
+                        "message": "Deployment has minimum availability.",
+                        "reason": "MinimumReplicasAvailable",
+                        "status": "True",
+                        "type": "Available"
                     }
                 ],
                 "observedGeneration": 3,
@@ -790,7 +790,7 @@
                 },
                 "name": "frontend",
                 "namespace": "shop",
-                "resourceVersion": "503667",
+                "resourceVersion": "516155",
                 "uid": "bb326575-6dc2-471f-b990-fb92a29ba5e9"
             },
             "spec": {
@@ -952,20 +952,20 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-16T13:27:54Z",
-                        "lastUpdateTime": "2026-10-16T13:27:54Z",
-                        "message": "Deployment has minimum availability.",
-                        "reason": "MinimumReplicasAvailable",
-                        "status": "True",
-                        "type": "Available"
-                    },
-                    {
                         "lastTransitionTime": "2026-10-05T13:41:37Z",
                         "lastUpdateTime": "2026-10-16T14:27:47Z",
                         "message": "ReplicaSet \"frontend-7b68f9d7c6\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
                         "type": "Progressing"
+                    },
+                    {
+                        "lastTransitionTime": "2026-10-18T08:52:56Z",
+                        "lastUpdateTime": "2026-10-18T08:52:56Z",
+                        "message": "Deployment has minimum availability.",
+                        "reason": "MinimumReplicasAvailable",
+                        "status": "True",
+                        "type": "Available"
                     }
                 ],
                 "observedGeneration": 9,
@@ -990,7 +990,7 @@
                 },
                 "name": "loadgenerator",
                 "namespace": "shop",
-                "resourceVersion": "503558",
+                "resourceVersion": "516620",
                 "uid": "a610994d-31ef-480a-a0d7-3157e6663b36"
             },
             "spec": {
@@ -1113,20 +1113,20 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-16T11:58:42Z",
-                        "lastUpdateTime": "2026-10-16T11:58:42Z",
-                        "message": "Deployment has minimum availability.",
-                        "reason": "MinimumReplicasAvailable",
-                        "status": "True",
-                        "type": "Available"
-                    },
-                    {
                         "lastTransitionTime": "2026-10-05T13:41:37Z",
                         "lastUpdateTime": "2026-10-16T14:27:38Z",
                         "message": "ReplicaSet \"loadgenerator-685b5f9b7c\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
                         "type": "Progressing"
+                    },
+                    {
+                        "lastTransitionTime": "2026-10-18T08:54:16Z",
+                        "lastUpdateTime": "2026-10-18T08:54:16Z",
+                        "message": "Deployment has minimum availability.",
+                        "reason": "MinimumReplicasAvailable",
+                        "status": "True",
+                        "type": "Available"
                     }
                 ],
                 "observedGeneration": 3,
@@ -1151,7 +1151,7 @@
                 },
                 "name": "paymentservice",
                 "namespace": "shop",
-                "resourceVersion": "503755",
+                "resourceVersion": "516172",
                 "uid": "9c3375c8-ef5f-4796-842b-6f2297eed77a"
             },
             "spec": {
@@ -1264,20 +1264,20 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-16T11:58:13Z",
-                        "lastUpdateTime": "2026-10-16T11:58:13Z",
-                        "message": "Deployment has minimum availability.",
-                        "reason": "MinimumReplicasAvailable",
-                        "status": "True",
-                        "type": "Available"
-                    },
-                    {
                         "lastTransitionTime": "2026-10-05T13:41:37Z",
                         "lastUpdateTime": "2026-10-16T14:27:48Z",
                         "message": "ReplicaSet \"paymentservice-7bf687975\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
                         "type": "Progressing"
+                    },
+                    {
+                        "lastTransitionTime": "2026-10-18T08:52:57Z",
+                        "lastUpdateTime": "2026-10-18T08:52:57Z",
+                        "message": "Deployment has minimum availability.",
+                        "reason": "MinimumReplicasAvailable",
+                        "status": "True",
+                        "type": "Available"
                     }
                 ],
                 "observedGeneration": 3,
@@ -1453,7 +1453,7 @@
                 },
                 "name": "recommendationservice",
                 "namespace": "shop",
-                "resourceVersion": "503777",
+                "resourceVersion": "516142",
                 "uid": "e5d12ce7-e17b-4842-b02e-1e50994e494e"
             },
             "spec": {
@@ -1570,20 +1570,20 @@
                 "availableReplicas": 1,
                 "conditions": [
                     {
-                        "lastTransitionTime": "2026-10-16T11:58:17Z",
-                        "lastUpdateTime": "2026-10-16T11:58:17Z",
-                        "message": "Deployment has minimum availability.",
-                        "reason": "MinimumReplicasAvailable",
-                        "status": "True",
-                        "type": "Available"
-                    },
-                    {
                         "lastTransitionTime": "2026-10-05T13:41:37Z",
                         "lastUpdateTime": "2026-10-16T14:27:49Z",
                         "message": "ReplicaSet \"recommendationservice-69778f8f45\" has successfully progressed.",
                         "reason": "NewReplicaSetAvailable",
                         "status": "True",
                         "type": "Progressing"
+                    },
+                    {
+                        "lastTransitionTime": "2026-10-18T08:52:56Z",
+                        "lastUpdateTime": "2026-10-18T08:52:56Z",
+                        "message": "Deployment has minimum availability.",
+                        "reason": "MinimumReplicasAvailable",
+                        "status": "True",
+                        "type": "Available"
                     }
                 ],
                 "observedGeneration": 5,

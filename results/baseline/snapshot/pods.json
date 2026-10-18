@@ -27,7 +27,7 @@
                         "uid": "539195c0-efce-441b-bd82-2154e332af45"
                     }
                 ],
-                "resourceVersion": "503849",
+                "resourceVersion": "516471",
                 "uid": "c2065c96-d536-405b-a29a-e2450465f931"
             },
             "spec": {
@@ -180,7 +180,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:36Z",
+                        "lastTransitionTime": "2026-10-18T08:52:42Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -194,14 +194,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:28:07Z",
+                        "lastTransitionTime": "2026-10-18T08:53:29Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:28:07Z",
+                        "lastTransitionTime": "2026-10-18T08:53:29Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -220,10 +220,18 @@
                             "cpu": "200m",
                             "memory": "180Mi"
                         },
-                        "containerID": "containerd://8bc9fe0dd5f70209d9756de72300c62549e1f49c3be82fec85585eed99fec5df",
+                        "containerID": "containerd://2c1549cd84cf3a6c7cd681d1776079fc6ee4a35ec60bc0514bf09e6082e1a95f",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice@sha256:7b26b5ea1a6472ca62b3c20c6f6ac12dd1fbcf18ba596a2c174982bcccdfc0c8",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://8bc9fe0dd5f70209d9756de72300c62549e1f49c3be82fec85585eed99fec5df",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:36Z"
+                            }
+                        },
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -236,11 +244,11 @@
                                 "memory": "180Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:36Z"
+                                "startedAt": "2026-10-18T08:52:42Z"
                             }
                         },
                         "user": {
@@ -262,18 +270,18 @@
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.9",
+                "hostIP": "172.18.0.4",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.9"
+                        "ip": "172.18.0.4"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.2.17",
+                "podIP": "10.244.2.4",
                 "podIPs": [
                     {
-                        "ip": "10.244.2.17"
+                        "ip": "10.244.2.4"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -316,7 +324,7 @@
                         "uid": "cd1232ae-6c9d-4e1c-afc3-d9f3933b6f21"
                     }
                 ],
-                "resourceVersion": "503797",
+                "resourceVersion": "516343",
                 "uid": "e4480d48-4f2b-4d69-ac03-5803229c78f2"
             },
             "spec": {
@@ -469,7 +477,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:36Z",
+                        "lastTransitionTime": "2026-10-18T08:52:44Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -483,14 +491,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:57Z",
+                        "lastTransitionTime": "2026-10-18T08:53:16Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:57Z",
+                        "lastTransitionTime": "2026-10-18T08:53:16Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -509,10 +517,18 @@
                             "cpu": "200m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://d78dbd7b4ce994245b7b5c680a417bd866e920cdd3a4606d57a42e8e849a702c",
+                        "containerID": "containerd://35484921f2e0e68d38bc67040f57c169714c48dde44aad456970213d163b41f5",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice@sha256:e5310c2aa45732e351c55c88051700d958dc7ed2693e66405fc6c70cf080109e",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://d78dbd7b4ce994245b7b5c680a417bd866e920cdd3a4606d57a42e8e849a702c",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:36Z"
+                            }
+                        },
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -525,11 +541,11 @@
                                 "memory": "64Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:36Z"
+                                "startedAt": "2026-10-18T08:52:45Z"
                             }
                         },
                         "user": {
@@ -559,10 +575,10 @@
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.26",
+                "podIP": "10.244.1.9",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.26"
+                        "ip": "10.244.1.9"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -605,7 +621,7 @@
                         "uid": "bcd786bd-2c04-4804-9222-620e03d67ccd"
                     }
                 ],
-                "resourceVersion": "503545",
+                "resourceVersion": "515946",
                 "uid": "bf4f3487-c19b-446f-8e5b-6c03ecbf8b10"
             },
             "spec": {
@@ -780,7 +796,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:36Z",
+                        "lastTransitionTime": "2026-10-18T08:52:44Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -794,14 +810,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:38Z",
+                        "lastTransitionTime": "2026-10-18T08:52:46Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:38Z",
+                        "lastTransitionTime": "2026-10-18T08:52:46Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -820,10 +836,18 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://977d7eb648a7ba50cb565ce15e32d9e008af4cc10c7c87bd9b2876e5d0cf5815",
+                        "containerID": "containerd://36ab75cea6f9e8e52666c2b734269ea6d118dae14295405c64cc763164ee4d8d",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice@sha256:f0e72ff7b438dd2e8776fb142d5132cfa5ba02c523466f1491270c576412d33f",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://977d7eb648a7ba50cb565ce15e32d9e008af4cc10c7c87bd9b2876e5d0cf5815",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:36Z"
+                            }
+                        },
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -836,11 +860,11 @@
                                 "memory": "64Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:36Z"
+                                "startedAt": "2026-10-18T08:52:45Z"
                             }
                         },
                         "user": {
@@ -870,10 +894,10 @@
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.27",
+                "podIP": "10.244.1.10",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.27"
+                        "ip": "10.244.1.10"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -895,16 +919,16 @@
             "kind": "Pod",
             "metadata": {
                 "annotations": {
-                    "kubectl.kubernetes.io/restartedAt": "2026-10-16T16:27:35+02:00"
+                    "kubectl.kubernetes.io/restartedAt": "2026-10-18T11:09:59+02:00"
                 },
-                "creationTimestamp": "2026-10-16T14:27:35Z",
-                "generateName": "currencyservice-5fb47bcbf-",
+                "creationTimestamp": "2026-10-18T09:25:43Z",
+                "generateName": "currencyservice-76f57fdd84-",
                 "generation": 1,
                 "labels": {
                     "app": "currencyservice",
-                    "pod-template-hash": "5fb47bcbf"
+                    "pod-template-hash": "76f57fdd84"
                 },
-                "name": "currencyservice-5fb47bcbf-ggwnw",
+                "name": "currencyservice-76f57fdd84-t9r88",
                 "namespace": "shop",
                 "ownerReferences": [
                     {
@@ -912,12 +936,12 @@
                         "blockOwnerDeletion": true,
                         "controller": true,
                         "kind": "ReplicaSet",
-                        "name": "currencyservice-5fb47bcbf",
-                        "uid": "68fa1bd6-4f86-466a-911f-239fd8de977d"
+                        "name": "currencyservice-76f57fdd84",
+                        "uid": "5e2b3d6d-d923-4629-a18b-9ad734384281"
                     }
                 ],
-                "resourceVersion": "513555",
-                "uid": "e5ee8511-16ea-4ae4-926c-c157e0c07aaa"
+                "resourceVersion": "521480",
+                "uid": "67bc5f36-727a-48d7-9cb6-0d92e4143481"
             },
             "spec": {
                 "containers": [
@@ -989,7 +1013,7 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-k7ssx",
+                                "name": "kube-api-access-wp6wk",
                                 "readOnly": true
                             }
                         ]
@@ -1023,11 +1047,16 @@
                         "key": "node.kubernetes.io/unreachable",
                         "operator": "Exists",
                         "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "NoExecute",
+                        "key": "virtual-node.liqo.io/not-allowed",
+                        "operator": "Exists"
                     }
                 ],
                 "volumes": [
                     {
-                        "name": "kube-api-access-k7ssx",
+                        "name": "kube-api-access-wp6wk",
                         "projected": {
                             "defaultMode": 420,
                             "sources": [
@@ -1074,35 +1103,35 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:36Z",
+                        "lastTransitionTime": "2026-10-18T09:25:44Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:35Z",
+                        "lastTransitionTime": "2026-10-18T09:25:43Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Initialized"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T15:38:05Z",
+                        "lastTransitionTime": "2026-10-18T09:25:55Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T15:38:05Z",
+                        "lastTransitionTime": "2026-10-18T09:25:55Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:35Z",
+                        "lastTransitionTime": "2026-10-18T09:25:43Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodScheduled"
@@ -1114,18 +1143,10 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://94d9738855d2b0b1b5262c5f1fd794571720ece5f1222ca9972a86d7450346b5",
+                        "containerID": "containerd://e27a524669ab0dd7b18cbe28d408043003e00fb4b436d224e3ea3e895a360481",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice@sha256:c581681bbf9abec8563e520aac3f3dbe3e7498853b6eb263193bc80c87e42f74",
-                        "lastState": {
-                            "terminated": {
-                                "containerID": "containerd://a62a9210ab462596b2b96a1ab40f3e9b8621af36e9f06d0e2f869285859f63eb",
-                                "exitCode": 137,
-                                "finishedAt": "2026-10-16T15:37:44Z",
-                                "reason": "OOMKilled",
-                                "startedAt": "2026-10-16T15:29:03Z"
-                            }
-                        },
+                        "lastState": {},
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -1138,11 +1159,11 @@
                                 "memory": "64Mi"
                             }
                         },
-                        "restartCount": 2,
+                        "restartCount": 0,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T15:37:54Z"
+                                "startedAt": "2026-10-18T09:25:44Z"
                             }
                         },
                         "user": {
@@ -1157,25 +1178,25 @@
                         "volumeMounts": [
                             {
                                 "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
-                                "name": "kube-api-access-k7ssx",
+                                "name": "kube-api-access-wp6wk",
                                 "readOnly": true,
                                 "recursiveReadOnly": "Disabled"
                             }
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.9",
+                "hostIP": "172.18.0.4",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.9"
+                        "ip": "172.18.0.4"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.2.18",
+                "podIP": "10.244.2.15",
                 "podIPs": [
                     {
-                        "ip": "10.244.2.18"
+                        "ip": "10.244.2.15"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -1189,7 +1210,7 @@
                         "memory": "64Mi"
                     }
                 },
-                "startTime": "2026-10-16T14:27:35Z"
+                "startTime": "2026-10-18T09:25:43Z"
             }
         },
         {
@@ -1218,7 +1239,7 @@
                         "uid": "66175c42-a878-4326-b14c-d1529b807151"
                     }
                 ],
-                "resourceVersion": "503664",
+                "resourceVersion": "516162",
                 "uid": "27fcc3a0-17b7-471d-b8c0-c352a2b5207c"
             },
             "spec": {
@@ -1373,7 +1394,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:36Z",
+                        "lastTransitionTime": "2026-10-18T08:52:44Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -1387,14 +1408,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:48Z",
+                        "lastTransitionTime": "2026-10-18T08:52:57Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:48Z",
+                        "lastTransitionTime": "2026-10-18T08:52:57Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -1413,10 +1434,18 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://c6454ab72fe30341b6700eb8acffa945f3214ae139c8930d0e0f8c7f1d726c54",
+                        "containerID": "containerd://b963c06027c8d5a7f23df4b1a0c266aa3d0ce35cfcac430c61738f0317b706c3",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice@sha256:1142813191b50f7e74bd1d8957d3b272496e9648b745d2c9914752b94356eade",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://c6454ab72fe30341b6700eb8acffa945f3214ae139c8930d0e0f8c7f1d726c54",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:37Z"
+                            }
+                        },
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -1429,11 +1458,11 @@
                                 "memory": "64Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:37Z"
+                                "startedAt": "2026-10-18T08:52:45Z"
                             }
                         },
                         "user": {
@@ -1463,10 +1492,10 @@
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.28",
+                "podIP": "10.244.1.15",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.28"
+                        "ip": "10.244.1.15"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -1510,7 +1539,7 @@
                         "uid": "ed1d9d8b-21cc-45ef-aa29-16c3dae66614"
                     }
                 ],
-                "resourceVersion": "503615",
+                "resourceVersion": "516149",
                 "uid": "000ade0d-9d11-44d6-87f6-347618f297e5"
             },
             "spec": {
@@ -1713,7 +1742,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:36Z",
+                        "lastTransitionTime": "2026-10-18T08:52:44Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -1727,14 +1756,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:47Z",
+                        "lastTransitionTime": "2026-10-18T08:52:56Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:47Z",
+                        "lastTransitionTime": "2026-10-18T08:52:56Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -1753,10 +1782,18 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://f213fd5676471ca80201020fc27b29290105e0f19c8719dbc42e013d72e326d3",
+                        "containerID": "containerd://309589c65a43615442c03a146ea59ab1db47665eaf9508fb7b6e0168a4201dc6",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend@sha256:e1cbd4561d3c9d27497dc0e8b1c12da194c4bf2ea82648f58bf38f073698f483",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://f213fd5676471ca80201020fc27b29290105e0f19c8719dbc42e013d72e326d3",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:37Z"
+                            }
+                        },
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -1769,11 +1806,11 @@
                                 "memory": "64Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:37Z"
+                                "startedAt": "2026-10-18T08:52:44Z"
                             }
                         },
                         "user": {
@@ -1803,10 +1840,10 @@
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.29",
+                "podIP": "10.244.1.8",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.29"
+                        "ip": "10.244.1.8"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -1850,7 +1887,7 @@
                         "uid": "df790cec-3f7c-4484-a7de-1ed930597187"
                     }
                 ],
-                "resourceVersion": "503956",
+                "resourceVersion": "516618",
                 "uid": "85e5fffe-73c2-4a6e-a830-692d2e0236cf"
             },
             "spec": {
@@ -2021,7 +2058,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:36Z",
+                        "lastTransitionTime": "2026-10-18T08:52:44Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -2035,14 +2072,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:38Z",
+                        "lastTransitionTime": "2026-10-18T08:54:16Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:38Z",
+                        "lastTransitionTime": "2026-10-18T08:54:16Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -2061,10 +2098,18 @@
                             "cpu": "300m",
                             "memory": "256Mi"
                         },
-                        "containerID": "containerd://cf5b0cac66e956a5c76916a1601ba0357ae285a7e050b7cb157132492e03386c",
+                        "containerID": "containerd://e92b7771e57662ebd3161db194970dfff7ceff5124dae3b83b5635607fca386d",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/loadgenerator:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/loadgenerator@sha256:f86f07c0da48bc00e7843e060b6811b56b1ad8a184d3962f5e80e15f42370cc8",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://cf5b0cac66e956a5c76916a1601ba0357ae285a7e050b7cb157132492e03386c",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:38Z"
+                            }
+                        },
                         "name": "main",
                         "ready": true,
                         "resources": {
@@ -2077,11 +2122,11 @@
                                 "memory": "256Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:38Z"
+                                "startedAt": "2026-10-18T08:54:16Z"
                             }
                         },
                         "user": {
@@ -2103,30 +2148,38 @@
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.9",
+                "hostIP": "172.18.0.4",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.9"
+                        "ip": "172.18.0.4"
                     }
                 ],
                 "initContainerStatuses": [
                     {
-                        "containerID": "containerd://29b469c65aba9de1d4d0d5e3077872317ccb7c1ea0f422d98e2c24cdb2463e19",
+                        "containerID": "containerd://a96867562e5809f7d3be3134c479831391b1273dbb5892d7aef5f4d9f4c47eb2",
                         "image": "sha256:c6348fa86ba0fb2108c9334f5fe913ddc6d853313e655891f133a0127c30099f",
                         "imageID": "docker.io/library/busybox@sha256:dc2d74b28e4cf8984fa52af1f39bc7c3d9c73760b41a74d629f5d11b1ab28616",
-                        "lastState": {},
-                        "name": "frontend-check",
-                        "ready": true,
-                        "resources": {},
-                        "restartCount": 0,
-                        "started": false,
-                        "state": {
+                        "lastState": {
                             "terminated": {
                                 "containerID": "containerd://29b469c65aba9de1d4d0d5e3077872317ccb7c1ea0f422d98e2c24cdb2463e19",
                                 "exitCode": 0,
                                 "finishedAt": "2026-10-16T14:27:37Z",
                                 "reason": "Completed",
                                 "startedAt": "2026-10-16T14:27:36Z"
+                            }
+                        },
+                        "name": "frontend-check",
+                        "ready": true,
+                        "resources": {},
+                        "restartCount": 1,
+                        "started": false,
+                        "state": {
+                            "terminated": {
+                                "containerID": "containerd://a96867562e5809f7d3be3134c479831391b1273dbb5892d7aef5f4d9f4c47eb2",
+                                "exitCode": 0,
+                                "finishedAt": "2026-10-18T08:54:16Z",
+                                "reason": "Completed",
+                                "startedAt": "2026-10-18T08:52:44Z"
                             }
                         },
                         "user": {
@@ -2150,10 +2203,10 @@
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.2.19",
+                "podIP": "10.244.2.11",
                 "podIPs": [
                     {
-                        "ip": "10.244.2.19"
+                        "ip": "10.244.2.11"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -2196,7 +2249,7 @@
                         "uid": "76ca957d-16e9-4e2a-8eca-5ec57180e93a"
                     }
                 ],
-                "resourceVersion": "503670",
+                "resourceVersion": "516168",
                 "uid": "532a7cce-66d1-49ca-8ec4-2e3a9f9af007"
             },
             "spec": {
@@ -2351,7 +2404,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:36Z",
+                        "lastTransitionTime": "2026-10-18T08:52:44Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -2365,14 +2418,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:48Z",
+                        "lastTransitionTime": "2026-10-18T08:52:57Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:48Z",
+                        "lastTransitionTime": "2026-10-18T08:52:57Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -2391,10 +2444,18 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://7f9093784ababb64bc373212e0e8b6294d4e8e094348d102da37dede8b4c6d83",
+                        "containerID": "containerd://8fb6fafc27fd7f97b767c8c2a2f9ab39bdd2cb31f1b8a5d48f74e7548a2028fb",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/paymentservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/paymentservice@sha256:e1ff27c553f7e0c31f4a10f1950ec0ee34cd41d77dd819b1fcfa139273891602",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://7f9093784ababb64bc373212e0e8b6294d4e8e094348d102da37dede8b4c6d83",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:37Z"
+                            }
+                        },
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -2407,11 +2468,11 @@
                                 "memory": "64Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:37Z"
+                                "startedAt": "2026-10-18T08:52:45Z"
                             }
                         },
                         "user": {
@@ -2441,10 +2502,10 @@
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.30",
+                "podIP": "10.244.1.14",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.30"
+                        "ip": "10.244.1.14"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -2487,7 +2548,7 @@
                         "uid": "1c63d4ba-ff4d-4fb6-b9b2-22163bbeb445"
                     }
                 ],
-                "resourceVersion": "503523",
+                "resourceVersion": "515804",
                 "uid": "7966eff4-e290-4e23-8975-e276de03d4e0"
             },
             "spec": {
@@ -2642,7 +2703,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:37Z",
+                        "lastTransitionTime": "2026-10-18T08:52:41Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -2656,14 +2717,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:38Z",
+                        "lastTransitionTime": "2026-10-18T08:52:43Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:38Z",
+                        "lastTransitionTime": "2026-10-18T08:52:43Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -2682,10 +2743,18 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://551431a7acb16c6dacb059ffd8a6e3451581f5ef09f3ccdcc8056afa310321dc",
+                        "containerID": "containerd://4dcdb60c7cc4c5eb9be7c08e1dc2aa318b27259894cdee13b0d96ea237c7d52e",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice@sha256:ba573405e9b03ea29970185eeaf0a9de9db7400b9104695e39d4dfc0fb651cb5",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://551431a7acb16c6dacb059ffd8a6e3451581f5ef09f3ccdcc8056afa310321dc",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:37Z"
+                            }
+                        },
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -2698,11 +2767,11 @@
                                 "memory": "64Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:37Z"
+                                "startedAt": "2026-10-18T08:52:42Z"
                             }
                         },
                         "user": {
@@ -2724,18 +2793,18 @@
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.9",
+                "hostIP": "172.18.0.4",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.9"
+                        "ip": "172.18.0.4"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.2.20",
+                "podIP": "10.244.2.5",
                 "podIPs": [
                     {
-                        "ip": "10.244.2.20"
+                        "ip": "10.244.2.5"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -2778,7 +2847,7 @@
                         "uid": "2551dad1-f4f9-4c95-ae80-223535149403"
                     }
                 ],
-                "resourceVersion": "503710",
+                "resourceVersion": "516138",
                 "uid": "97a4e7b3-eae5-4978-8e4c-271d79efece1"
             },
             "spec": {
@@ -2937,7 +3006,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:37Z",
+                        "lastTransitionTime": "2026-10-18T08:52:44Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -2951,14 +3020,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:49Z",
+                        "lastTransitionTime": "2026-10-18T08:52:56Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:49Z",
+                        "lastTransitionTime": "2026-10-18T08:52:56Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -2977,10 +3046,18 @@
                             "cpu": "100m",
                             "memory": "220Mi"
                         },
-                        "containerID": "containerd://39efc89162f15f8378cbf7c46424a29a6954536468bd73f326b6e2722c91a246",
+                        "containerID": "containerd://d386b387cb4a9b993bec287242dc1afeb827d365cf3d42dfcaa9685f4d73cb48",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice@sha256:69291992f5511e9199d08c24a3ceb6470b39461933304fbdad1c7ddfc7358fd9",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://39efc89162f15f8378cbf7c46424a29a6954536468bd73f326b6e2722c91a246",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:38Z"
+                            }
+                        },
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -2993,11 +3070,11 @@
                                 "memory": "220Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:38Z"
+                                "startedAt": "2026-10-18T08:52:45Z"
                             }
                         },
                         "user": {
@@ -3027,10 +3104,10 @@
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.31",
+                "podIP": "10.244.1.12",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.31"
+                        "ip": "10.244.1.12"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -3073,7 +3150,7 @@
                         "uid": "ccec0133-0ebf-44f8-ad9e-ee6e10473333"
                     }
                 ],
-                "resourceVersion": "503573",
+                "resourceVersion": "515931",
                 "uid": "02664d69-476a-4df9-bb61-fb013109a351"
             },
             "spec": {
@@ -3224,7 +3301,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:38Z",
+                        "lastTransitionTime": "2026-10-18T08:52:44Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -3238,14 +3315,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:43Z",
+                        "lastTransitionTime": "2026-10-18T08:52:45Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:43Z",
+                        "lastTransitionTime": "2026-10-18T08:52:45Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -3264,10 +3341,18 @@
                             "cpu": "70m",
                             "memory": "200Mi"
                         },
-                        "containerID": "containerd://1d1b93302d4621619de59568a1593a62ce9b2d75c98733952fdccf6111336573",
+                        "containerID": "containerd://603395fb829fbc803f8d0c5dc18e1c53d0c23dd02e0632c8fb935d82d53a1e38",
                         "image": "docker.io/library/redis:alpine",
                         "imageID": "docker.io/library/redis@sha256:3811787313eba226a2ef38658c6ccb91cd5e110edc89c37767de373120a0e5a0",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://1d1b93302d4621619de59568a1593a62ce9b2d75c98733952fdccf6111336573",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:38Z"
+                            }
+                        },
                         "name": "redis",
                         "ready": true,
                         "resources": {
@@ -3280,11 +3365,11 @@
                                 "memory": "200Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:38Z"
+                                "startedAt": "2026-10-18T08:52:44Z"
                             }
                         },
                         "user": {
@@ -3318,10 +3403,10 @@
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.1.32",
+                "podIP": "10.244.1.7",
                 "podIPs": [
                     {
-                        "ip": "10.244.1.32"
+                        "ip": "10.244.1.7"
                     }
                 ],
                 "qosClass": "Burstable",
@@ -3364,7 +3449,7 @@
                         "uid": "a52f7026-68ea-4fc9-923a-f3e0cfde2049"
                     }
                 ],
-                "resourceVersion": "503524",
+                "resourceVersion": "515803",
                 "uid": "0153a8f6-9cbb-4ff4-9706-e76a6129c317"
             },
             "spec": {
@@ -3519,7 +3604,7 @@
                 "conditions": [
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:37Z",
+                        "lastTransitionTime": "2026-10-18T08:52:40Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "PodReadyToStartContainers"
@@ -3533,14 +3618,14 @@
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:39Z",
+                        "lastTransitionTime": "2026-10-18T08:52:43Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "Ready"
                     },
                     {
                         "lastProbeTime": null,
-                        "lastTransitionTime": "2026-10-16T14:27:39Z",
+                        "lastTransitionTime": "2026-10-18T08:52:43Z",
                         "observedGeneration": 1,
                         "status": "True",
                         "type": "ContainersReady"
@@ -3559,10 +3644,18 @@
                             "cpu": "100m",
                             "memory": "64Mi"
                         },
-                        "containerID": "containerd://9ad136540323b102258c1cf859fa0d7dda4815e43f1b85433bb5e947671755d2",
+                        "containerID": "containerd://c04d037a2d8eb070d20d39b9c88c39623786763d7be56f855e80a625c553b260",
                         "image": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice:v0.10.7",
                         "imageID": "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice@sha256:3984397422ef1b45bd8a7c6736f935f4b6a41a1724ea39f9563b26733ed633e4",
-                        "lastState": {},
+                        "lastState": {
+                            "terminated": {
+                                "containerID": "containerd://9ad136540323b102258c1cf859fa0d7dda4815e43f1b85433bb5e947671755d2",
+                                "exitCode": 255,
+                                "finishedAt": "2026-10-18T08:52:20Z",
+                                "reason": "Unknown",
+                                "startedAt": "2026-10-16T14:27:38Z"
+                            }
+                        },
                         "name": "server",
                         "ready": true,
                         "resources": {
@@ -3575,11 +3668,11 @@
                                 "memory": "64Mi"
                             }
                         },
-                        "restartCount": 0,
+                        "restartCount": 1,
                         "started": true,
                         "state": {
                             "running": {
-                                "startedAt": "2026-10-16T14:27:38Z"
+                                "startedAt": "2026-10-18T08:52:42Z"
                             }
                         },
                         "user": {
@@ -3601,18 +3694,18 @@
                         ]
                     }
                 ],
-                "hostIP": "172.18.0.9",
+                "hostIP": "172.18.0.4",
                 "hostIPs": [
                     {
-                        "ip": "172.18.0.9"
+                        "ip": "172.18.0.4"
                     }
                 ],
                 "observedGeneration": 1,
                 "phase": "Running",
-                "podIP": "10.244.2.21",
+                "podIP": "10.244.2.3",
                 "podIPs": [
                     {
-                        "ip": "10.244.2.21"
+                        "ip": "10.244.2.3"
                     }
                 ],
                 "qosClass": "Burstable",

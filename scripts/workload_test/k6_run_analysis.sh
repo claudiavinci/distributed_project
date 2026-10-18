@@ -48,7 +48,7 @@ PROM_SCRIPT="$(pwd)/scripts/analysis/collect_prometheus_metrics.py"
 K6_SCRIPT="$(pwd)/scripts/analysis/k6_test.py"
 K6_SUMMARY_SCRIPT="$(pwd)/scripts/analysis/k6_summary.py"
 
-RESULTS_DIR="$(pwd)/results/${TEST}"
+RESULTS_DIR="$(pwd)/results/${TEST}/workload_test"
 
 # Layout delle cartelle:
 # {rate} viene sostituito dal valore del rate.

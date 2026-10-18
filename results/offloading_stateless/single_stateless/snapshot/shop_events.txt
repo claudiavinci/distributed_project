@@ -1,45 +1,135 @@
-LAST SEEN   TYPE      REASON                         OBJECT                                                                      MESSAGE
-22s         Normal    Scheduled                      pod/currencyservice-7c79b6758f-j7jdn                                        Successfully assigned shop/currencyservice-7c79b6758f-j7jdn to provider-worker2
-57m         Normal    Killing                        pod/k6-tester                                                               Stopping container k6-tester
-55m         Normal    Scheduled                      pod/k6-tester                                                               Successfully assigned shop/k6-tester to consumer-worker
-55m         Normal    Pulled                         pod/k6-tester                                                               Container image "grafana/k6:latest" already present on machine and can be accessed by the pod
-55m         Normal    Created                        pod/k6-tester                                                               Container created
-55m         Normal    Started                        pod/k6-tester                                                               Container started
-52m         Warning   Unhealthy                      pod/frontend-f667d844d-7tt5h                                                Readiness probe failed: Get "http://10.244.1.14:8080/_healthz": read tcp 10.244.1.1:57374->10.244.1.14:8080: read: connection reset by peer
-50m         Warning   Unhealthy                      pod/frontend-f667d844d-7tt5h                                                Readiness probe failed: Get "http://10.244.1.14:8080/_healthz": dial tcp 10.244.1.14:8080: connect: connection refused
-50m         Warning   Unhealthy                      pod/frontend-f667d844d-7tt5h                                                Readiness probe failed: Get "http://10.244.1.14:8080/_healthz": read tcp 10.244.1.1:36734->10.244.1.14:8080: read: connection reset by peer
-50m         Warning   Unhealthy                      pod/frontend-f667d844d-7tt5h                                                Readiness probe failed: Get "http://10.244.1.14:8080/_healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-49m         Normal    Killing                        pod/k6-tester                                                               Stopping container k6-tester
-46m         Normal    Scheduled                      pod/k6-tester                                                               Successfully assigned shop/k6-tester to consumer-worker
-46m         Normal    Pulled                         pod/k6-tester                                                               Container image "grafana/k6:latest" already present on machine and can be accessed by the pod
-46m         Normal    Created                        pod/k6-tester                                                               Container created
-46m         Normal    Started                        pod/k6-tester                                                               Container started
-43m         Normal    Started                        pod/frontend-f667d844d-7tt5h                                                Container started
-43m         Normal    Killing                        pod/frontend-f667d844d-7tt5h                                                Container server failed liveness probe, will be restarted
-40m         Normal    Killing                        pod/k6-tester                                                               Stopping container k6-tester
-38m         Normal    Scheduled                      pod/k6-tester                                                               Successfully assigned shop/k6-tester to consumer-worker
-38m         Normal    Pulled                         pod/k6-tester                                                               Container image "grafana/k6:latest" already present on machine and can be accessed by the pod
-38m         Normal    Created                        pod/k6-tester                                                               Container created
-38m         Normal    Started                        pod/k6-tester                                                               Container started
-35m         Warning   Unhealthy                      pod/frontend-f667d844d-7tt5h                                                Liveness probe failed: Get "http://10.244.1.14:8080/_healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-33m         Warning   BackOff                        pod/frontend-f667d844d-7tt5h                                                Back-off restarting failed container server in pod frontend-f667d844d-7tt5h_shop(fdb3414f-dc6c-477f-ba35-70873aee0c10)
-31m         Normal    Killing                        pod/k6-tester                                                               Stopping container k6-tester
-30m         Normal    Created                        pod/frontend-f667d844d-7tt5h                                                Container created
-30m         Normal    Pulled                         pod/frontend-f667d844d-7tt5h                                                Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
-30m         Normal    SuccessfulReflection           endpointslice/frontend-external-nb7c2                                       Successfully reflected object to cluster "patient-cloud"
-30m         Normal    SuccessfulReflection           endpointslice/frontend-4r7wb                                                Successfully reflected object to cluster "patient-cloud"
-22s         Normal    CreatedPod                     shadowpod/currencyservice-7c79b6758f-j7jdn                                  Successfully created pod from ShadowPod
-22s         Normal    ScalingReplicaSet              deployment/currencyservice                                                  Scaled up replica set currencyservice-7c79b6758f from 0 to 1
-22s         Normal    Scheduled                      pod/currencyservice-7c79b6758f-j7jdn                                        Successfully assigned shop/currencyservice-7c79b6758f-j7jdn to patient-cloud
-22s         Normal    SuccessfulCreate               replicaset/currencyservice-7c79b6758f                                       Created pod: currencyservice-7c79b6758f-j7jdn
-22s         Normal    SuccessfulSATokensReflection   pod/currencyservice-7c79b6758f-j7jdn                                        Successfully reflected object to cluster "patient-cloud"
-21s         Normal    Started                        pod/currencyservice-7c79b6758f-j7jdn                                        Container started
-21s         Normal    Pulled                         pod/currencyservice-7c79b6758f-j7jdn                                        Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7" already present on machine and can be accessed by the pod
-21s         Normal    Created                        pod/currencyservice-7c79b6758f-j7jdn                                        Container created
-21s         Normal    FirewallConfigurationUpdate    firewallconfiguration/currencyservice-7c79b6758f-j7jdn-remap-ipmapping-gw   FirewallConfiguration Applied: True
-11s         Normal    SuccessfulReflection           pod/currencyservice-7c79b6758f-j7jdn                                        Successfully reflected object status back from cluster "patient-cloud"
-11s         Normal    SuccessfulReflection           pod/currencyservice-7c79b6758f-j7jdn                                        Successfully reflected object to cluster "patient-cloud"
-11s         Normal    Killing                        pod/currencyservice-6d5fb8cbb5-5gvcr                                        Stopping container server
-11s         Normal    SuccessfulDelete               replicaset/currencyservice-6d5fb8cbb5                                       Deleted pod: currencyservice-6d5fb8cbb5-5gvcr
-11s         Normal    ScalingReplicaSet              deployment/currencyservice                                                  Scaled down replica set currencyservice-6d5fb8cbb5 from 1 to 0
-5s          Normal    SuccessfulReflection           endpointslice/currencyservice-r7hkg                                         Successfully reflected object to cluster "patient-cloud"
+LAST SEEN   TYPE     REASON                         OBJECT                                                                      MESSAGE
+55m         Normal   SuccessfulReflection           endpointslice/paymentservice-dn22k                                          Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/redis-cart                                                          Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           endpointslice/frontend-4r7wb                                                Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/adservice                                                           Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           endpointslice/emailservice-8rvbb                                            Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/shippingservice                                                     Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           endpointslice/cartservice-rpzct                                             Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           endpointslice/frontend-external-nb7c2                                       Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/frontend                                                            Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/cartservice                                                         Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/productcatalogservice                                               Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           endpointslice/shippingservice-zlqx9                                         Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           endpointslice/checkoutservice-g5874                                         Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/currencyservice                                                     Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/emailservice                                                        Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/frontend-external                                                   Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           endpointslice/recommendationservice-b8ghm                                   Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/checkoutservice                                                     Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           endpointslice/productcatalogservice-p42qh                                   Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/paymentservice                                                      Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           endpointslice/adservice-2xqfz                                               Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           endpointslice/redis-cart-lrskv                                              Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           configmap/kube-root-ca.crt                                                  Successfully reflected object to cluster "patient-cloud"
+55m         Normal   SuccessfulReflection           service/recommendationservice                                               Successfully reflected object to cluster "patient-cloud"
+53m         Normal   SuccessfulCreate               replicaset/currencyservice-76f57fdd84                                       Created pod: currencyservice-76f57fdd84-rzvdm
+53m         Normal   SuccessfulSATokensReflection   pod/currencyservice-76f57fdd84-rzvdm                                        Successfully reflected object to cluster "patient-cloud"
+53m         Normal   Scheduled                      pod/currencyservice-76f57fdd84-rzvdm                                        Successfully assigned shop/currencyservice-76f57fdd84-rzvdm to patient-cloud
+53m         Normal   ScalingReplicaSet              deployment/currencyservice                                                  Scaled up replica set currencyservice-76f57fdd84 from 0 to 1
+53m         Normal   FirewallConfigurationUpdate    firewallconfiguration/currencyservice-76f57fdd84-rzvdm-remap-ipmapping-gw   FirewallConfiguration Applied: True
+53m         Normal   SuccessfulDelete               replicaset/currencyservice-5fb47bcbf                                        Deleted pod: currencyservice-5fb47bcbf-ggwnw
+53m         Normal   Killing                        pod/currencyservice-5fb47bcbf-ggwnw                                         Stopping container server
+53m         Normal   ScalingReplicaSet              deployment/currencyservice                                                  Scaled down replica set currencyservice-5fb47bcbf from 1 to 0
+38m         Normal   SuccessfulReflection           pod/currencyservice-76f57fdd84-rzvdm                                        Successfully reflected object to cluster "patient-cloud"
+38m         Normal   SuccessfulCreate               replicaset/currencyservice-76f57fdd84                                       Created pod: currencyservice-76f57fdd84-t9r88
+38m         Normal   Scheduled                      pod/currencyservice-76f57fdd84-t9r88                                        Successfully assigned shop/currencyservice-76f57fdd84-t9r88 to consumer-worker2
+38m         Normal   Created                        pod/currencyservice-76f57fdd84-t9r88                                        Container created
+38m         Normal   Started                        pod/currencyservice-76f57fdd84-t9r88                                        Container started
+38m         Normal   Pulled                         pod/currencyservice-76f57fdd84-t9r88                                        Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7" already present on machine and can be accessed by the pod
+37m         Normal   SuccessfulReflection           endpointslice/currencyservice-r7hkg                                         Successfully reflected object to cluster "patient-cloud"
+37m         Normal   SuccessfulReflection           pod/currencyservice-76f57fdd84-rzvdm                                        Successfully reflected object status back from cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/currencyservice                                                     Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           configmap/kube-root-ca.crt                                                  Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/adservice-2xqfz                                               Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/shippingservice                                                     Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/productcatalogservice                                               Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/emailservice-8rvbb                                            Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/adservice                                                           Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/paymentservice                                                      Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/frontend-4r7wb                                                Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/paymentservice-dn22k                                          Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/recommendationservice-b8ghm                                   Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/frontend-external-nb7c2                                       Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/recommendationservice                                               Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/redis-cart-lrskv                                              Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/cartservice-rpzct                                             Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/frontend                                                            Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/checkoutservice                                                     Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/emailservice                                                        Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/frontend-external                                                   Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/redis-cart                                                          Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/checkoutservice-g5874                                         Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           service/cartservice                                                         Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/shippingservice-zlqx9                                         Successfully reflected object to cluster "patient-cloud"
+36m         Normal   SuccessfulReflection           endpointslice/productcatalogservice-p42qh                                   Successfully reflected object to cluster "patient-cloud"
+24m         Normal   SuccessfulCreate               replicaset/currencyservice-7589fdb98b                                       Created pod: currencyservice-7589fdb98b-b24sq
+24m         Normal   ScalingReplicaSet              deployment/currencyservice                                                  Scaled up replica set currencyservice-7589fdb98b from 0 to 1
+24m         Normal   Scheduled                      pod/currencyservice-7589fdb98b-b24sq                                        Successfully assigned shop/currencyservice-7589fdb98b-b24sq to patient-cloud
+24m         Normal   SuccessfulSATokensReflection   pod/currencyservice-7589fdb98b-b24sq                                        Successfully reflected object to cluster "patient-cloud"
+24m         Normal   FirewallConfigurationUpdate    firewallconfiguration/currencyservice-7589fdb98b-b24sq-remap-ipmapping-gw   FirewallConfiguration Applied: True
+24m         Normal   ScalingReplicaSet              deployment/currencyservice                                                  Scaled down replica set currencyservice-76f57fdd84 from 1 to 0
+24m         Normal   SuccessfulDelete               replicaset/currencyservice-76f57fdd84                                       Deleted pod: currencyservice-76f57fdd84-t9r88
+24m         Normal   Killing                        pod/currencyservice-76f57fdd84-t9r88                                        Stopping container server
+23m         Normal   Scheduled                      pod/k6-tester                                                               Successfully assigned shop/k6-tester to consumer-worker
+23m         Normal   Started                        pod/k6-tester                                                               Container started
+23m         Normal   Pulled                         pod/k6-tester                                                               Container image "grafana/k6:latest" already present on machine and can be accessed by the pod
+23m         Normal   Created                        pod/k6-tester                                                               Container created
+17m         Normal   Killing                        pod/k6-tester                                                               Stopping container k6-tester
+5m29s       Normal   Started                        pod/currencyservice-7589fdb98b-58mtb                                        Container started
+5m29s       Normal   Scheduled                      pod/currencyservice-7589fdb98b-58mtb                                        Successfully assigned shop/currencyservice-7589fdb98b-58mtb to consumer-worker
+5m29s       Normal   Pulled                         pod/currencyservice-7589fdb98b-58mtb                                        Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7" already present on machine and can be accessed by the pod
+5m29s       Normal   Created                        pod/currencyservice-7589fdb98b-58mtb                                        Container created
+5m29s       Normal   SuccessfulCreate               replicaset/currencyservice-7589fdb98b                                       Created pod: currencyservice-7589fdb98b-58mtb
+5m29s       Normal   SuccessfulReflection           pod/currencyservice-7589fdb98b-b24sq                                        Successfully reflected object to cluster "patient-cloud"
+5m24s       Normal   SuccessfulReflection           endpointslice/currencyservice-r7hkg                                         Successfully reflected object to cluster "patient-cloud"
+5m24s       Normal   SuccessfulReflection           pod/currencyservice-7589fdb98b-b24sq                                        Successfully reflected object status back from cluster "patient-cloud"
+3m55s       Normal   SuccessfulCreate               replicaset/frontend-9f585578b                                               Created pod: frontend-9f585578b-55bkd
+3m55s       Normal   Started                        pod/frontend-9f585578b-55bkd                                                Container started
+3m55s       Normal   Created                        pod/frontend-9f585578b-55bkd                                                Container created
+3m55s       Normal   Pulled                         pod/frontend-9f585578b-55bkd                                                Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+3m55s       Normal   Scheduled                      pod/frontend-9f585578b-55bkd                                                Successfully assigned shop/frontend-9f585578b-55bkd to consumer-worker
+3m55s       Normal   ScalingReplicaSet              deployment/frontend                                                         Scaled up replica set frontend-9f585578b from 0 to 1
+3m44s       Normal   ScalingReplicaSet              deployment/frontend                                                         Scaled down replica set frontend-7b68f9d7c6 from 1 to 0
+3m44s       Normal   SuccessfulDelete               replicaset/frontend-7b68f9d7c6                                              Deleted pod: frontend-7b68f9d7c6-65rmt
+3m44s       Normal   Killing                        pod/frontend-7b68f9d7c6-65rmt                                               Stopping container server
+41s         Normal   SuccessfulReflection           service/frontend-external                                                   Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/adservice                                                           Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/redis-cart                                                          Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/checkoutservice-g5874                                         Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/checkoutservice                                                     Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/redis-cart-lrskv                                              Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/emailservice                                                        Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/shippingservice                                                     Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/emailservice-8rvbb                                            Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           configmap/kube-root-ca.crt                                                  Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/frontend                                                            Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/adservice-2xqfz                                               Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/paymentservice-dn22k                                          Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/recommendationservice                                               Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/frontend-4r7wb                                                Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/paymentservice                                                      Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/recommendationservice-b8ghm                                   Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/cartservice                                                         Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/productcatalogservice-p42qh                                   Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/shippingservice-zlqx9                                         Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/frontend-external-nb7c2                                       Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/productcatalogservice                                               Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           service/currencyservice                                                     Successfully reflected object to cluster "patient-cloud"
+41s         Normal   SuccessfulReflection           endpointslice/cartservice-rpzct                                             Successfully reflected object to cluster "patient-cloud"
+22s         Normal   ScalingReplicaSet              deployment/currencyservice                                                  Scaled up replica set currencyservice-788d4bdfb9 from 0 to 1
+22s         Normal   Scheduled                      pod/currencyservice-788d4bdfb9-h7t82                                        Successfully assigned shop/currencyservice-788d4bdfb9-h7t82 to patient-cloud
+22s         Normal   SuccessfulSATokensReflection   pod/currencyservice-788d4bdfb9-h7t82                                        Successfully reflected object to cluster "patient-cloud"
+22s         Normal   CreatedPod                     shadowpod/currencyservice-788d4bdfb9-h7t82                                  Successfully created pod from ShadowPod
+22s         Normal   Scheduled                      pod/currencyservice-788d4bdfb9-h7t82                                        Successfully assigned shop/currencyservice-788d4bdfb9-h7t82 to provider-worker
+22s         Normal   SuccessfulCreate               replicaset/currencyservice-788d4bdfb9                                       Created pod: currencyservice-788d4bdfb9-h7t82
+21s         Normal   FirewallConfigurationUpdate    firewallconfiguration/currencyservice-788d4bdfb9-h7t82-remap-ipmapping-gw   FirewallConfiguration Applied: True
+21s         Normal   Pulled                         pod/currencyservice-788d4bdfb9-h7t82                                        Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7" already present on machine and can be accessed by the pod
+21s         Normal   Started                        pod/currencyservice-788d4bdfb9-h7t82                                        Container started
+21s         Normal   Created                        pod/currencyservice-788d4bdfb9-h7t82                                        Container created
+10s         Normal   ScalingReplicaSet              deployment/currencyservice                                                  Scaled down replica set currencyservice-7589fdb98b from 1 to 0
+10s         Normal   Killing                        pod/currencyservice-7589fdb98b-58mtb                                        Stopping container server
+10s         Normal   SuccessfulDelete               replicaset/currencyservice-7589fdb98b                                       Deleted pod: currencyservice-7589fdb98b-58mtb
+10s         Normal   SuccessfulReflection           pod/currencyservice-788d4bdfb9-h7t82                                        Successfully reflected object to cluster "patient-cloud"
+10s         Normal   SuccessfulReflection           pod/currencyservice-788d4bdfb9-h7t82                                        Successfully reflected object status back from cluster "patient-cloud"
+5s          Normal   SuccessfulReflection           endpointslice/currencyservice-r7hkg                                         Successfully reflected object to cluster "patient-cloud"

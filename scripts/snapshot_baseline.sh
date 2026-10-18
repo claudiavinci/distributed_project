@@ -14,9 +14,11 @@ echo "Kubeconfig: $KUBECONFIG"
 # ----------Risorse Kubernetes---------------------
 
 kubectl get nodes -o json > "$OUTPUT_DIR/nodes.json"
+kubectl describe nodes > "$OUTPUT_DIR/nodes_description.txt"
+kubectl get nodes -o wide > "$OUTPUT_DIR/nodes.txt"
 kubectl get pods -n shop -o json > "$OUTPUT_DIR/pods.json"
+kubectl get pods -n shop -o wide > "$OUTPUT_DIR/pods.txt"
 kubectl get deployments -n shop -o json > "$OUTPUT_DIR/deployments.json"
-kubectl get services -n shop -o json > "$OUTPUT_DIR/services.json"
 
 # ----------Eventi applicazione e cluster----------
 
