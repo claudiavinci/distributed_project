@@ -109,6 +109,20 @@ echo ""
 echo "Tempo di convergenza: ${ELAPSED} secondi"
 echo "Risultato salvato: $RESULT_FILE"
 
+# =====================================
+# RIAVVIO FRONTEND (aggiorna le connessioni verso i nuovi pod)
+# =====================================
+
+FRONTEND_DEPLOYMENT="${FRONTEND_DEPLOYMENT:-frontend}"
+
+echo ""
+echo "Riavvio $FRONTEND_DEPLOYMENT per aggiornare le connessioni..."
+
+kubectl rollout restart deployment/"$FRONTEND_DEPLOYMENT" -n "$NAMESPACE"
+kubectl rollout status deployment/"$FRONTEND_DEPLOYMENT" -n "$NAMESPACE" --timeout=180s
+
+echo "$FRONTEND_DEPLOYMENT pronto"
+
 sleep 10
 
 echo ""

@@ -29,6 +29,7 @@ export KUBECONFIG="$(pwd)/consumer-config"
 
 GRAFANA_PID=""
 BASE_OUTPUT_DIR="$(pwd)/results/${TEST}/workload_test"
+mkdir -p "$BASE_OUTPUT_DIR"
 
 read -r -a RATE_LIST <<< "$RATES"
 TOTAL_RUNS=$(( ${#RATE_LIST[@]} * RUNS ))
