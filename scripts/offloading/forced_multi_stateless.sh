@@ -84,7 +84,9 @@ fi
 # =====================================
 # STATO INIZIALE (non misurato)
 # =====================================
-
+kubectl get pods -n shop --no-headers \
+  | awk '$3=="OffloadingAborted"{print $1}' \
+  | xargs -r kubectl delete pod -n shop
 echo "Applico il manifest..."
 kubectl apply -f "$MANIFEST" -n "$NAMESPACE"
 sleep 10
