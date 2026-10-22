@@ -1,0 +1,33 @@
+Test: offloading_stateless/multi_stateless/scheduler
+Configuration: k6 constant-arrival-rate R100 d5m VUs 300-2000
+Run: 3
+Wed Oct 21 16:59:59 CEST 2026
+
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 30000   100.369057/s
+    checks_succeeded...: 100.00% 30000 out of 30000
+    checks_failed......: 0.00%   0 out of 30000
+
+    ✓ frontend reachable
+
+    HTTP
+    http_req_duration..............: avg=604.81ms min=14.37ms med=559.11ms max=2.01s p(90)=875.65ms p(95)=1.03s p(99)=1.36s
+      { expected_response:true }...: avg=604.81ms min=14.37ms med=559.11ms max=2.01s p(90)=875.65ms p(95)=1.03s p(99)=1.36s
+    http_req_failed................: 0.00%  0 out of 30000
+    http_reqs......................: 30000  100.369057/s
+
+    EXECUTION
+    iteration_duration.............: avg=608.12ms min=14.95ms med=562.25ms max=2.01s p(90)=879.57ms p(95)=1.03s p(99)=1.37s
+    iterations.....................: 30000  100.369057/s
+    vus............................: 58     min=21         max=159
+    vus_max........................: 300    min=300        max=300
+
+    NETWORK
+    data_received..................: 323 MB 1.1 MB/s
+    data_sent......................: 2.3 MB 7.6 kB/s
+
+
+

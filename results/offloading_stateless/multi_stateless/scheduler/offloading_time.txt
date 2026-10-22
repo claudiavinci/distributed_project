@@ -1,0 +1,25 @@
+Manifest=microservices-demo/release/kubernetes-manifests.yaml
+Deployments=checkoutservice shippingservice productcatalogservice currencyservice emailservice
+Namespace=shop
+
+Start_timestamp=1792592098
+End_timestamp=1792592111
+
+Start_time=2026-10-21 16:14:58
+End_time=2026-10-21 16:15:11
+
+Offloading_time_seconds=13
+Offload_command_seconds=0
+
+Offloading_time_checkoutservice_seconds=3
+Offloading_time_shippingservice_seconds=8
+Offloading_time_productcatalogservice_seconds=3
+Offloading_time_currencyservice_seconds=13
+Offloading_time_emailservice_seconds=13
+
+All_on_virtual_node=1
+Placement_checkoutservice=patient-cloud
+Placement_shippingservice=patient-cloud
+Placement_productcatalogservice=patient-cloud
+Placement_currencyservice=patient-cloud
+Placement_emailservice=patient-cloud

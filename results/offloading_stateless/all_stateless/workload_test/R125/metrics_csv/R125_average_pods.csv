@@ -1,0 +1,14 @@
+pod,node,memory_avg_MiB,memory_max_MiB,cpu_avg_millicores,cpu_max_millicores
+adservice-55b567599d-dxjl9,patient-cloud,103.08,104.95,9.61,38.5
+cartservice-f7f7f689b-ct74l,patient-cloud,67.89,71.14,20.68,33.21
+checkoutservice-7965c4c76c-bq2pr,patient-cloud,13.23,13.67,0.58,1.19
+currencyservice-796f96f4bc-cvgn9,patient-cloud,116.61,129.98,200.71,210.47
+emailservice-94444785c-2kmsf,consumer-worker2,57.81,57.91,2.64,2.89
+frontend-758f7bf979-jtcs6,consumer-worker2,165.36,233.6,217.45,296.64
+k6-tester,consumer-worker,365.49,555.69,132.22,150.28
+loadgenerator-f7b8b76b5-cbwgr,consumer-worker2,79.59,79.93,2.56,3.59
+paymentservice-7585cdc5b5-4xjcj,patient-cloud,34.0,34.1,0.36,0.49
+productcatalogservice-654ccd4bf8-9tscr,consumer-worker,34.62,35.73,10.84,18.96
+recommendationservice-8497c65d6-kht7z,consumer-worker,40.06,40.15,4.93,7.11
+redis-cart-8b77989f5-snr8p,consumer-worker2,24.84,25.12,3.6,4.91
+shippingservice-dd479db4d-qdpbw,consumer-worker,27.49,27.69,0.56,0.72

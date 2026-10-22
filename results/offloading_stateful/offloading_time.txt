@@ -1,0 +1,34 @@
+Manifest=microservices-demo/release/kubernetes-manifests.yaml
+Deployments=adservice cartservice checkoutservice currencyservice emailservice paymentservice productcatalogservice recommendationservice shippingservice redis-cart
+Namespace=shop
+
+Start_timestamp=1792664418
+End_timestamp=1792664451
+
+Start_time=2026-10-22 12:20:18
+End_time=2026-10-22 12:20:51
+
+Offloading_time_seconds=33
+Offload_command_seconds=1
+
+Offloading_time_adservice_seconds=33
+Offloading_time_cartservice_seconds=23
+Offloading_time_checkoutservice_seconds=4
+Offloading_time_currencyservice_seconds=14
+Offloading_time_emailservice_seconds=15
+Offloading_time_paymentservice_seconds=14
+Offloading_time_productcatalogservice_seconds=5
+Offloading_time_recommendationservice_seconds=15
+Offloading_time_shippingservice_seconds=5
+Offloading_time_redis-cart_seconds=13
+
+Placement_adservice=patient-cloud:virtual-node
+Placement_cartservice=patient-cloud:virtual-node
+Placement_checkoutservice=patient-cloud:virtual-node
+Placement_currencyservice=patient-cloud:virtual-node
+Placement_emailservice=consumer-worker2:n/a
+Placement_paymentservice=consumer-worker2:n/a
+Placement_productcatalogservice=consumer-worker2:n/a
+Placement_recommendationservice=consumer-worker:n/a
+Placement_shippingservice=patient-cloud:virtual-node
+Placement_redis-cart=patient-cloud:virtual-node

@@ -1,0 +1,295 @@
+LAST SEEN   TYPE      REASON                         OBJECT                                                                      MESSAGE
+55s         Normal    Scheduled                      pod/productcatalogservice-66f6cf844f-fdhkd                                  Successfully assigned shop/productcatalogservice-66f6cf844f-fdhkd to consumer-worker2
+55s         Normal    Scheduled                      pod/paymentservice-7796bb9775-5vxc5                                         Successfully assigned shop/paymentservice-7796bb9775-5vxc5 to consumer-worker2
+55s         Normal    Scheduled                      pod/emailservice-66c77b4d67-xvdlv                                           Successfully assigned shop/emailservice-66c77b4d67-xvdlv to consumer-worker2
+41m         Normal    Scheduled                      pod/adservice-55b567599d-wpdn5                                              Successfully assigned shop/adservice-55b567599d-wpdn5 to consumer-worker
+56s         Normal    Scheduled                      pod/cartservice-7bf8cdc789-wx6cb                                            Successfully assigned shop/cartservice-7bf8cdc789-wx6cb to patient-cloud
+41m         Normal    Scheduled                      pod/currencyservice-796f96f4bc-44h7f                                        Successfully assigned shop/currencyservice-796f96f4bc-44h7f to consumer-worker2
+22s         Normal    Scheduled                      pod/frontend-67fbb5f8c6-rqr28                                               Successfully assigned shop/frontend-67fbb5f8c6-rqr28 to consumer-worker
+68s         Warning   FailedScheduling               pod/redis-cart-8486994f74-88sqm                                             0/4 nodes are available: 2 node(s) didn't match Pod's node affinity/selector, 2 node(s) had untolerated taint(s). preemption: 0/4 nodes are available: 4 Preemption is not helpful for scheduling.
+55s         Normal    Scheduled                      pod/currencyservice-6475bdd9df-q26g2                                        Successfully assigned shop/currencyservice-6475bdd9df-q26g2 to patient-cloud
+68s         Warning   FailedScheduling               pod/cartservice-687b57c667-mmgd6                                            0/4 nodes are available: 2 node(s) didn't match Pod's node affinity/selector, 2 node(s) had untolerated taint(s). preemption: 0/4 nodes are available: 4 Preemption is not helpful for scheduling.
+41m         Normal    Scheduled                      pod/cartservice-f7f7f689b-9gk8h                                             Successfully assigned shop/cartservice-f7f7f689b-9gk8h to consumer-worker
+54s         Normal    Scheduled                      pod/recommendationservice-64b8bc869-f6jcq                                   Successfully assigned shop/recommendationservice-64b8bc869-f6jcq to consumer-worker
+56s         Normal    Scheduled                      pod/adservice-6d4964656f-wnrl4                                              Successfully assigned shop/adservice-6d4964656f-wnrl4 to patient-cloud
+54s         Normal    Scheduled                      pod/redis-cart-86db5b5967-54k8t                                             Successfully assigned shop/redis-cart-86db5b5967-54k8t to patient-cloud
+56s         Normal    Scheduled                      pod/checkoutservice-555986dc45-m6q7p                                        Successfully assigned shop/checkoutservice-555986dc45-m6q7p to patient-cloud
+41m         Normal    Scheduled                      pod/checkoutservice-7965c4c76c-97hn9                                        Successfully assigned shop/checkoutservice-7965c4c76c-97hn9 to consumer-worker2
+54s         Normal    Scheduled                      pod/shippingservice-9d7b6c868-kx9hq                                         Successfully assigned shop/shippingservice-9d7b6c868-kx9hq to patient-cloud
+41m         Normal    Scheduled                      pod/paymentservice-7585cdc5b5-kdhcp                                         Successfully assigned shop/paymentservice-7585cdc5b5-kdhcp to consumer-worker2
+15h         Normal    SuccessfulSATokensReflection   pod/checkoutservice-7965c4c76c-bq2pr                                        Successfully reflected object to cluster "patient-cloud"
+15h         Normal    SuccessfulSATokensReflection   pod/cartservice-f7f7f689b-ct74l                                             Successfully reflected object to cluster "patient-cloud"
+15h         Normal    SuccessfulSATokensReflection   pod/currencyservice-796f96f4bc-cvgn9                                        Successfully reflected object to cluster "patient-cloud"
+15h         Normal    SuccessfulSATokensReflection   pod/paymentservice-7585cdc5b5-4xjcj                                         Successfully reflected object to cluster "patient-cloud"
+15h         Normal    SuccessfulSATokensReflection   pod/adservice-55b567599d-dxjl9                                              Successfully reflected object to cluster "patient-cloud"
+54m         Normal    SandboxChanged                 pod/loadgenerator-f7b8b76b5-cbwgr                                           Pod sandbox changed, it will be killed and re-created.
+54m         Normal    SandboxChanged                 pod/frontend-758f7bf979-jtcs6                                               Pod sandbox changed, it will be killed and re-created.
+54m         Normal    SandboxChanged                 pod/recommendationservice-8497c65d6-kht7z                                   Pod sandbox changed, it will be killed and re-created.
+54m         Normal    SandboxChanged                 pod/emailservice-94444785c-2kmsf                                            Pod sandbox changed, it will be killed and re-created.
+54m         Normal    SandboxChanged                 pod/shippingservice-dd479db4d-qdpbw                                         Pod sandbox changed, it will be killed and re-created.
+54m         Normal    SandboxChanged                 pod/productcatalogservice-654ccd4bf8-9tscr                                  Pod sandbox changed, it will be killed and re-created.
+54m         Normal    SandboxChanged                 pod/redis-cart-8b77989f5-snr8p                                              Pod sandbox changed, it will be killed and re-created.
+54m         Normal    Pulled                         pod/loadgenerator-f7b8b76b5-cbwgr                                           Container image "busybox:1.38.0@sha256:dc2d74b28e4cf8984fa52af1f39bc7c3d9c73760b41a74d629f5d11b1ab28616" already present on machine and can be accessed by the pod
+54m         Normal    Created                        pod/redis-cart-8b77989f5-snr8p                                              Container created
+54m         Normal    Pulled                         pod/frontend-758f7bf979-jtcs6                                               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+54m         Normal    Pulled                         pod/productcatalogservice-654ccd4bf8-9tscr                                  Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+54m         Normal    Created                        pod/loadgenerator-f7b8b76b5-cbwgr                                           Container created
+54m         Normal    Pulled                         pod/redis-cart-8b77989f5-snr8p                                              Container image "redis:alpine" already present on machine and can be accessed by the pod
+54m         Normal    Created                        pod/frontend-758f7bf979-jtcs6                                               Container created
+54m         Normal    Started                        pod/productcatalogservice-654ccd4bf8-9tscr                                  Container started
+54m         Normal    Created                        pod/shippingservice-dd479db4d-qdpbw                                         Container created
+54m         Normal    Pulled                         pod/shippingservice-dd479db4d-qdpbw                                         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice:v0.10.7" already present on machine and can be accessed by the pod
+54m         Normal    Started                        pod/loadgenerator-f7b8b76b5-cbwgr                                           Container started
+54m         Normal    Started                        pod/redis-cart-8b77989f5-snr8p                                              Container started
+54m         Normal    Pulled                         pod/emailservice-94444785c-2kmsf                                            Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice:v0.10.7" already present on machine and can be accessed by the pod
+54m         Normal    Created                        pod/productcatalogservice-654ccd4bf8-9tscr                                  Container created
+54m         Normal    Created                        pod/emailservice-94444785c-2kmsf                                            Container created
+54m         Normal    Started                        pod/recommendationservice-8497c65d6-kht7z                                   Container started
+54m         Normal    Created                        pod/recommendationservice-8497c65d6-kht7z                                   Container created
+54m         Warning   Unhealthy                      pod/redis-cart-8b77989f5-snr8p                                              Readiness probe failed: dial tcp 10.244.2.10:6379: connect: connection refused
+54m         Normal    Pulled                         pod/recommendationservice-8497c65d6-kht7z                                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice:v0.10.7" already present on machine and can be accessed by the pod
+54m         Normal    Started                        pod/frontend-758f7bf979-jtcs6                                               Container started
+54m         Normal    Started                        pod/emailservice-94444785c-2kmsf                                            Container started
+54m         Normal    Started                        pod/shippingservice-dd479db4d-qdpbw                                         Container started
+54m         Warning   Unhealthy                      pod/productcatalogservice-654ccd4bf8-9tscr                                  Readiness probe failed: timeout: failed to connect service "10.244.1.9:3550" within 1s: context deadline exceeded
+54m         Warning   Unhealthy                      pod/shippingservice-dd479db4d-qdpbw                                         Readiness probe failed: timeout: failed to connect service "10.244.1.11:50051" within 1s: context deadline exceeded
+54m         Warning   Unhealthy                      pod/recommendationservice-8497c65d6-kht7z                                   Readiness probe failed: timeout: failed to connect service "10.244.1.12:8080" within 1s: context deadline exceeded
+54m         Warning   Unhealthy                      pod/emailservice-94444785c-2kmsf                                            Readiness probe failed: timeout: failed to connect service "10.244.2.11:8080" within 1s: context deadline exceeded
+54m         Warning   Unhealthy                      pod/recommendationservice-8497c65d6-kht7z                                   Liveness probe failed: timeout: failed to connect service "10.244.1.12:8080" within 1s: context deadline exceeded
+54m         Warning   Unhealthy                      pod/emailservice-94444785c-2kmsf                                            Liveness probe failed: timeout: failed to connect service "10.244.2.11:8080" within 1s: context deadline exceeded
+44m         Normal    SandboxChanged                 pod/frontend-758f7bf979-jtcs6                                               Pod sandbox changed, it will be killed and re-created.
+44m         Normal    SandboxChanged                 pod/redis-cart-8b77989f5-snr8p                                              Pod sandbox changed, it will be killed and re-created.
+44m         Normal    SandboxChanged                 pod/recommendationservice-8497c65d6-kht7z                                   Pod sandbox changed, it will be killed and re-created.
+44m         Normal    SandboxChanged                 pod/emailservice-94444785c-2kmsf                                            Pod sandbox changed, it will be killed and re-created.
+44m         Normal    SandboxChanged                 pod/productcatalogservice-654ccd4bf8-9tscr                                  Pod sandbox changed, it will be killed and re-created.
+44m         Normal    SandboxChanged                 pod/loadgenerator-f7b8b76b5-cbwgr                                           Pod sandbox changed, it will be killed and re-created.
+44m         Normal    SandboxChanged                 pod/shippingservice-dd479db4d-qdpbw                                         Pod sandbox changed, it will be killed and re-created.
+44m         Normal    Created                        pod/frontend-758f7bf979-jtcs6                                               Container created
+44m         Normal    Pulled                         pod/frontend-758f7bf979-jtcs6                                               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+44m         Normal    Started                        pod/frontend-758f7bf979-jtcs6                                               Container started
+44m         Normal    Pulled                         pod/redis-cart-8b77989f5-snr8p                                              Container image "redis:alpine" already present on machine and can be accessed by the pod
+44m         Normal    Created                        pod/emailservice-94444785c-2kmsf                                            Container created
+44m         Normal    Pulled                         pod/emailservice-94444785c-2kmsf                                            Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice:v0.10.7" already present on machine and can be accessed by the pod
+44m         Normal    Created                        pod/redis-cart-8b77989f5-snr8p                                              Container created
+44m         Normal    Created                        pod/shippingservice-dd479db4d-qdpbw                                         Container created
+44m         Normal    Started                        pod/emailservice-94444785c-2kmsf                                            Container started
+44m         Warning   Unhealthy                      pod/redis-cart-8b77989f5-snr8p                                              Readiness probe failed: dial tcp 10.244.2.5:6379: connect: connection refused
+44m         Normal    Started                        pod/redis-cart-8b77989f5-snr8p                                              Container started
+44m         Normal    Pulled                         pod/shippingservice-dd479db4d-qdpbw                                         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice:v0.10.7" already present on machine and can be accessed by the pod
+44m         Normal    Pulled                         pod/recommendationservice-8497c65d6-kht7z                                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice:v0.10.7" already present on machine and can be accessed by the pod
+44m         Normal    Pulled                         pod/productcatalogservice-654ccd4bf8-9tscr                                  Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+44m         Normal    Started                        pod/shippingservice-dd479db4d-qdpbw                                         Container started
+44m         Normal    Started                        pod/productcatalogservice-654ccd4bf8-9tscr                                  Container started
+44m         Normal    Created                        pod/recommendationservice-8497c65d6-kht7z                                   Container created
+44m         Normal    Started                        pod/recommendationservice-8497c65d6-kht7z                                   Container started
+44m         Warning   Unhealthy                      pod/shippingservice-dd479db4d-qdpbw                                         Readiness probe failed: timeout: failed to connect service "10.244.1.10:50051" within 1s: context deadline exceeded
+44m         Normal    Created                        pod/productcatalogservice-654ccd4bf8-9tscr                                  Container created
+44m         Warning   Unhealthy                      pod/emailservice-94444785c-2kmsf                                            Liveness probe failed: timeout: failed to connect service "10.244.2.8:8080" within 1s: context deadline exceeded
+44m         Warning   Unhealthy                      pod/recommendationservice-8497c65d6-kht7z                                   Liveness probe failed: timeout: failed to connect service "10.244.1.11:8080" within 1s: context deadline exceeded
+44m         Warning   Unhealthy                      pod/recommendationservice-8497c65d6-kht7z                                   Readiness probe failed: timeout: failed to connect service "10.244.1.11:8080" within 1s: context deadline exceeded
+41m         Warning   BackOff                        pod/loadgenerator-f7b8b76b5-cbwgr                                           Back-off restarting failed container frontend-check in pod loadgenerator-f7b8b76b5-cbwgr_shop(42bcabf4-28f6-4a9a-8197-b736d498dbb3)
+41m         Normal    SuccessfulCreate               replicaset/adservice-55b567599d                                             Created pod: adservice-55b567599d-wpdn5
+41m         Normal    SuccessfulCreate               replicaset/currencyservice-796f96f4bc                                       Created pod: currencyservice-796f96f4bc-44h7f
+41m         Normal    SuccessfulCreate               replicaset/cartservice-f7f7f689b                                            Created pod: cartservice-f7f7f689b-9gk8h
+41m         Normal    SuccessfulCreate               replicaset/checkoutservice-7965c4c76c                                       Created pod: checkoutservice-7965c4c76c-97hn9
+41m         Normal    SuccessfulCreate               replicaset/paymentservice-7585cdc5b5                                        Created pod: paymentservice-7585cdc5b5-kdhcp
+41m         Normal    Created                        pod/cartservice-f7f7f689b-9gk8h                                             Container created
+41m         Normal    Pulled                         pod/currencyservice-796f96f4bc-44h7f                                        Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7" already present on machine and can be accessed by the pod
+41m         Normal    Created                        pod/currencyservice-796f96f4bc-44h7f                                        Container created
+41m         Normal    Started                        pod/currencyservice-796f96f4bc-44h7f                                        Container started
+41m         Normal    Created                        pod/adservice-55b567599d-wpdn5                                              Container created
+41m         Normal    Pulled                         pod/adservice-55b567599d-wpdn5                                              Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+41m         Normal    Started                        pod/adservice-55b567599d-wpdn5                                              Container started
+41m         Normal    Pulled                         pod/paymentservice-7585cdc5b5-kdhcp                                         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/paymentservice:v0.10.7" already present on machine and can be accessed by the pod
+41m         Normal    Pulled                         pod/cartservice-f7f7f689b-9gk8h                                             Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+41m         Normal    Started                        pod/cartservice-f7f7f689b-9gk8h                                             Container started
+41m         Normal    Started                        pod/paymentservice-7585cdc5b5-kdhcp                                         Container started
+41m         Normal    Created                        pod/paymentservice-7585cdc5b5-kdhcp                                         Container created
+41m         Normal    Started                        pod/checkoutservice-7965c4c76c-97hn9                                        Container started
+41m         Normal    Created                        pod/checkoutservice-7965c4c76c-97hn9                                        Container created
+41m         Normal    Pulled                         pod/checkoutservice-7965c4c76c-97hn9                                        Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+41m         Warning   Unhealthy                      pod/checkoutservice-7965c4c76c-97hn9                                        Readiness probe failed: timeout: failed to connect service "10.244.2.12:5050" within 1s: context deadline exceeded
+41m         Normal    Pulled                         pod/loadgenerator-f7b8b76b5-cbwgr                                           Container image "busybox:1.38.0@sha256:dc2d74b28e4cf8984fa52af1f39bc7c3d9c73760b41a74d629f5d11b1ab28616" already present on machine and can be accessed by the pod
+41m         Normal    Created                        pod/loadgenerator-f7b8b76b5-cbwgr                                           Container created
+41m         Normal    Started                        pod/loadgenerator-f7b8b76b5-cbwgr                                           Container started
+41m         Warning   Unhealthy                      pod/paymentservice-7585cdc5b5-kdhcp                                         Readiness probe failed: timeout: failed to connect service "10.244.2.13:50051" within 1s: context deadline exceeded
+41m         Warning   Unhealthy                      pod/cartservice-f7f7f689b-9gk8h                                             Liveness probe failed: timeout: health rpc did not complete within 1s
+41m         Normal    Started                        pod/loadgenerator-f7b8b76b5-cbwgr                                           Container started
+41m         Normal    Pulled                         pod/loadgenerator-f7b8b76b5-cbwgr                                           Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/loadgenerator:v0.10.7" already present on machine and can be accessed by the pod
+41m         Normal    Created                        pod/loadgenerator-f7b8b76b5-cbwgr                                           Container created
+40m         Warning   Unhealthy                      pod/adservice-55b567599d-wpdn5                                              Liveness probe failed: timeout: health rpc did not complete within 1s
+38m         Normal    TaintManagerEviction           pod/paymentservice-7585cdc5b5-4xjcj                                         Marking for deletion Pod shop/paymentservice-7585cdc5b5-4xjcj
+38m         Normal    TaintManagerEviction           pod/currencyservice-796f96f4bc-cvgn9                                        Marking for deletion Pod shop/currencyservice-796f96f4bc-cvgn9
+38m         Normal    TaintManagerEviction           pod/adservice-55b567599d-dxjl9                                              Marking for deletion Pod shop/adservice-55b567599d-dxjl9
+38m         Normal    TaintManagerEviction           pod/cartservice-f7f7f689b-ct74l                                             Marking for deletion Pod shop/cartservice-f7f7f689b-ct74l
+38m         Normal    TaintManagerEviction           pod/checkoutservice-7965c4c76c-bq2pr                                        Marking for deletion Pod shop/checkoutservice-7965c4c76c-bq2pr
+68s         Normal    ScalingReplicaSet              deployment/redis-cart                                                       Scaled up replica set redis-cart-8486994f74 from 0 to 1
+68s         Normal    SuccessfulCreate               replicaset/redis-cart-8486994f74                                            Created pod: redis-cart-8486994f74-88sqm
+68s         Normal    ScalingReplicaSet              deployment/cartservice                                                      Scaled up replica set cartservice-687b57c667 from 0 to 1
+68s         Normal    SuccessfulCreate               replicaset/cartservice-687b57c667                                           Created pod: cartservice-687b57c667-mmgd6
+56s         Normal    SuccessfulReflection           service/paymentservice                                                      Successfully reflected object to cluster "patient-cloud"
+56s         Normal    SuccessfulCreate               replicaset/checkoutservice-555986dc45                                       Created pod: checkoutservice-555986dc45-m6q7p
+56s         Normal    SuccessfulReflection           service/shippingservice                                                     Successfully reflected object to cluster "patient-cloud"
+56s         Normal    SuccessfulReflection           service/productcatalogservice                                               Successfully reflected object to cluster "patient-cloud"
+56s         Normal    SuccessfulCreate               replicaset/cartservice-7bf8cdc789                                           Created pod: cartservice-7bf8cdc789-wx6cb
+56s         Normal    Scheduled                      pod/cartservice-7bf8cdc789-wx6cb                                            Successfully assigned shop/cartservice-7bf8cdc789-wx6cb to provider-worker
+56s         Normal    SuccessfulReflection           service/cartservice                                                         Successfully reflected object to cluster "patient-cloud"
+56s         Normal    ScalingReplicaSet              deployment/cartservice                                                      Scaled down replica set cartservice-687b57c667 from 1 to 0
+56s         Normal    ScalingReplicaSet              deployment/cartservice                                                      Scaled up replica set cartservice-7bf8cdc789 from 0 to 1
+56s         Normal    SuccessfulReflection           service/redis-cart                                                          Successfully reflected object to cluster "patient-cloud"
+56s         Normal    CreatedPod                     shadowpod/cartservice-7bf8cdc789-wx6cb                                      Successfully created pod from ShadowPod
+56s         Normal    SuccessfulSATokensReflection   pod/checkoutservice-555986dc45-m6q7p                                        Successfully reflected object to cluster "patient-cloud"
+56s         Normal    SuccessfulReflection           service/recommendationservice                                               Successfully reflected object to cluster "patient-cloud"
+56s         Normal    CreatedPod                     shadowpod/checkoutservice-555986dc45-m6q7p                                  Successfully created pod from ShadowPod
+56s         Normal    Scheduled                      pod/checkoutservice-555986dc45-m6q7p                                        Successfully assigned shop/checkoutservice-555986dc45-m6q7p to provider-worker
+56s         Normal    SuccessfulSATokensReflection   pod/currencyservice-6475bdd9df-q26g2                                        Successfully reflected object to cluster "patient-cloud"
+56s         Normal    SuccessfulSATokensReflection   pod/cartservice-7bf8cdc789-wx6cb                                            Successfully reflected object to cluster "patient-cloud"
+56s         Normal    SuccessfulReflection           service/emailservice                                                        Successfully reflected object to cluster "patient-cloud"
+56s         Normal    SuccessfulCreate               replicaset/adservice-6d4964656f                                             Created pod: adservice-6d4964656f-wnrl4
+56s         Normal    SuccessfulReflection           service/adservice                                                           Successfully reflected object to cluster "patient-cloud"
+56s         Normal    ScalingReplicaSet              deployment/adservice                                                        Scaled up replica set adservice-6d4964656f from 0 to 1
+56s         Normal    SuccessfulReflection           service/frontend-external                                                   Successfully reflected object to cluster "patient-cloud"
+56s         Normal    SuccessfulReflection           service/frontend                                                            Successfully reflected object to cluster "patient-cloud"
+56s         Normal    ScalingReplicaSet              deployment/currencyservice                                                  Scaled up replica set currencyservice-6475bdd9df from 0 to 1
+56s         Normal    SuccessfulDelete               replicaset/cartservice-687b57c667                                           Deleted pod: cartservice-687b57c667-mmgd6
+56s         Normal    SuccessfulReflection           configmap/kube-root-ca.crt                                                  Successfully reflected object to cluster "patient-cloud"
+56s         Normal    ScalingReplicaSet              deployment/checkoutservice                                                  Scaled up replica set checkoutservice-555986dc45 from 0 to 1
+56s         Normal    SuccessfulReflection           service/checkoutservice                                                     Successfully reflected object to cluster "patient-cloud"
+56s         Normal    SuccessfulReflection           service/currencyservice                                                     Successfully reflected object to cluster "patient-cloud"
+56s         Normal    SuccessfulSATokensReflection   pod/adservice-6d4964656f-wnrl4                                              Successfully reflected object to cluster "patient-cloud"
+56s         Normal    CreatedPod                     shadowpod/adservice-6d4964656f-wnrl4                                        Successfully created pod from ShadowPod
+56s         Normal    Scheduled                      pod/adservice-6d4964656f-wnrl4                                              Successfully assigned shop/adservice-6d4964656f-wnrl4 to provider-worker2
+56s         Normal    SuccessfulCreate               replicaset/currencyservice-6475bdd9df                                       Created pod: currencyservice-6475bdd9df-q26g2
+55s         Normal    Pulled                         pod/adservice-6d4964656f-wnrl4                                              Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+55s         Normal    Created                        pod/currencyservice-6475bdd9df-q26g2                                        Container created
+55s         Normal    FirewallConfigurationUpdate    firewallconfiguration/cartservice-7bf8cdc789-wx6cb-remap-ipmapping-gw       FirewallConfiguration Applied: True
+55s         Normal    FirewallConfigurationUpdate    firewallconfiguration/adservice-6d4964656f-wnrl4-remap-ipmapping-gw         FirewallConfiguration Applied: True
+55s         Normal    ScalingReplicaSet              deployment/emailservice                                                     Scaled up replica set emailservice-66c77b4d67 from 0 to 1
+55s         Normal    ScalingReplicaSet              deployment/productcatalogservice                                            Scaled up replica set productcatalogservice-66f6cf844f from 0 to 1
+55s         Normal    SuccessfulCreate               replicaset/productcatalogservice-66f6cf844f                                 Created pod: productcatalogservice-66f6cf844f-fdhkd
+55s         Normal    Started                        pod/adservice-6d4964656f-wnrl4                                              Container started
+55s         Normal    Started                        pod/cartservice-7bf8cdc789-wx6cb                                            Container started
+55s         Normal    Started                        pod/checkoutservice-555986dc45-m6q7p                                        Container started
+55s         Normal    Created                        pod/checkoutservice-555986dc45-m6q7p                                        Container created
+55s         Normal    Created                        pod/cartservice-7bf8cdc789-wx6cb                                            Container created
+55s         Normal    ScalingReplicaSet              deployment/paymentservice                                                   Scaled up replica set paymentservice-7796bb9775 from 0 to 1
+55s         Normal    Pulled                         pod/checkoutservice-555986dc45-m6q7p                                        Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+55s         Normal    SuccessfulCreate               replicaset/emailservice-66c77b4d67                                          Created pod: emailservice-66c77b4d67-xvdlv
+55s         Normal    Pulled                         pod/cartservice-7bf8cdc789-wx6cb                                            Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+55s         Normal    SuccessfulCreate               replicaset/recommendationservice-64b8bc869                                  Created pod: recommendationservice-64b8bc869-f6jcq
+55s         Normal    ScalingReplicaSet              deployment/recommendationservice                                            Scaled up replica set recommendationservice-64b8bc869 from 0 to 1
+55s         Normal    Pulled                         pod/currencyservice-6475bdd9df-q26g2                                        Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/currencyservice:v0.10.7" already present on machine and can be accessed by the pod
+55s         Normal    Scheduled                      pod/currencyservice-6475bdd9df-q26g2                                        Successfully assigned shop/currencyservice-6475bdd9df-q26g2 to provider-worker2
+55s         Normal    SuccessfulCreate               replicaset/paymentservice-7796bb9775                                        Created pod: paymentservice-7796bb9775-5vxc5
+55s         Normal    CreatedPod                     shadowpod/currencyservice-6475bdd9df-q26g2                                  Successfully created pod from ShadowPod
+55s         Normal    Created                        pod/adservice-6d4964656f-wnrl4                                              Container created
+54s         Normal    CreatedPod                     shadowpod/shippingservice-9d7b6c868-kx9hq                                   Successfully created pod from ShadowPod
+54s         Normal    FirewallConfigurationUpdate    firewallconfiguration/checkoutservice-555986dc45-m6q7p-remap-ipmapping-gw   FirewallConfiguration Applied: True
+54s         Normal    SuccessfulCreate               replicaset/redis-cart-86db5b5967                                            Created pod: redis-cart-86db5b5967-54k8t
+54s         Normal    Created                        pod/emailservice-66c77b4d67-xvdlv                                           Container created
+54s         Normal    SuccessfulDelete               replicaset/redis-cart-8486994f74                                            Deleted pod: redis-cart-8486994f74-88sqm
+54s         Normal    Scheduled                      pod/shippingservice-9d7b6c868-kx9hq                                         Successfully assigned shop/shippingservice-9d7b6c868-kx9hq to provider-worker
+54s         Normal    CreatedPod                     shadowpod/redis-cart-86db5b5967-54k8t                                       Successfully created pod from ShadowPod
+54s         Normal    Started                        pod/paymentservice-7796bb9775-5vxc5                                         Container started
+54s         Normal    Created                        pod/paymentservice-7796bb9775-5vxc5                                         Container created
+54s         Normal    ScalingReplicaSet              deployment/redis-cart                                                       Scaled up replica set redis-cart-86db5b5967 from 0 to 1
+54s         Normal    ScalingReplicaSet              deployment/redis-cart                                                       Scaled down replica set redis-cart-8486994f74 from 1 to 0
+54s         Normal    Started                        pod/currencyservice-6475bdd9df-q26g2                                        Container started
+54s         Normal    Pulled                         pod/emailservice-66c77b4d67-xvdlv                                           Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/emailservice:v0.10.7" already present on machine and can be accessed by the pod
+54s         Normal    Pulled                         pod/paymentservice-7796bb9775-5vxc5                                         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/paymentservice:v0.10.7" already present on machine and can be accessed by the pod
+54s         Normal    Pulled                         pod/productcatalogservice-66f6cf844f-fdhkd                                  Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+54s         Normal    Created                        pod/productcatalogservice-66f6cf844f-fdhkd                                  Container created
+54s         Normal    SuccessfulSATokensReflection   pod/redis-cart-86db5b5967-54k8t                                             Successfully reflected object to cluster "patient-cloud"
+54s         Warning   Unhealthy                      pod/checkoutservice-555986dc45-m6q7p                                        Readiness probe failed: timeout: failed to connect service "10.244.2.10:5050" within 1s: context deadline exceeded
+54s         Normal    SuccessfulCreate               replicaset/shippingservice-9d7b6c868                                        Created pod: shippingservice-9d7b6c868-kx9hq
+54s         Normal    SuccessfulSATokensReflection   pod/shippingservice-9d7b6c868-kx9hq                                         Successfully reflected object to cluster "patient-cloud"
+54s         Normal    FirewallConfigurationUpdate    firewallconfiguration/currencyservice-6475bdd9df-q26g2-remap-ipmapping-gw   FirewallConfiguration Applied: True
+54s         Normal    Scheduled                      pod/redis-cart-86db5b5967-54k8t                                             Successfully assigned shop/redis-cart-86db5b5967-54k8t to provider-worker
+54s         Normal    Started                        pod/emailservice-66c77b4d67-xvdlv                                           Container started
+54s         Normal    ScalingReplicaSet              deployment/shippingservice                                                  Scaled up replica set shippingservice-9d7b6c868 from 0 to 1
+53s         Normal    SuccessfulReflection           endpointslice/checkoutservice-g5874                                         Successfully reflected object to cluster "patient-cloud"
+53s         Normal    SuccessfulReflection           pod/checkoutservice-555986dc45-m6q7p                                        Successfully reflected object status back from cluster "patient-cloud"
+53s         Normal    Started                        pod/recommendationservice-64b8bc869-f6jcq                                   Container started
+53s         Normal    Killing                        pod/checkoutservice-7965c4c76c-97hn9                                        Stopping container server
+53s         Normal    Pulling                        pod/redis-cart-86db5b5967-54k8t                                             Pulling image "redis:alpine"
+53s         Normal    Pulled                         pod/recommendationservice-64b8bc869-f6jcq                                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/recommendationservice:v0.10.7" already present on machine and can be accessed by the pod
+53s         Normal    ScalingReplicaSet              deployment/checkoutservice                                                  Scaled down replica set checkoutservice-7965c4c76c from 1 to 0
+53s         Normal    SuccessfulDelete               replicaset/checkoutservice-7965c4c76c                                       Deleted pod: checkoutservice-7965c4c76c-97hn9
+53s         Normal    FirewallConfigurationUpdate    firewallconfiguration/shippingservice-9d7b6c868-kx9hq-remap-ipmapping-gw    FirewallConfiguration Applied: True
+53s         Normal    Created                        pod/recommendationservice-64b8bc869-f6jcq                                   Container created
+53s         Normal    SuccessfulReflection           pod/checkoutservice-555986dc45-m6q7p                                        Successfully reflected object to cluster "patient-cloud"
+53s         Normal    Pulled                         pod/shippingservice-9d7b6c868-kx9hq                                         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/shippingservice:v0.10.7" already present on machine and can be accessed by the pod
+53s         Normal    Created                        pod/shippingservice-9d7b6c868-kx9hq                                         Container created
+53s         Normal    Started                        pod/productcatalogservice-66f6cf844f-fdhkd                                  Container started
+53s         Normal    Started                        pod/shippingservice-9d7b6c868-kx9hq                                         Container started
+52s         Warning   Unhealthy                      pod/paymentservice-7796bb9775-5vxc5                                         Readiness probe failed: timeout: failed to connect service "10.244.2.17:50051" within 1s: context deadline exceeded
+52s         Normal    Killing                        pod/productcatalogservice-654ccd4bf8-9tscr                                  Stopping container server
+52s         Warning   Unhealthy                      pod/shippingservice-9d7b6c868-kx9hq                                         Readiness probe failed: timeout: failed to connect service "10.244.2.11:50051" within 1s: context deadline exceeded
+52s         Normal    SuccessfulDelete               replicaset/productcatalogservice-654ccd4bf8                                 Deleted pod: productcatalogservice-654ccd4bf8-9tscr
+52s         Warning   Unhealthy                      pod/productcatalogservice-66f6cf844f-fdhkd                                  Readiness probe failed: timeout: failed to connect service "10.244.2.18:3550" within 1s: context deadline exceeded
+52s         Normal    SuccessfulDelete               replicaset/shippingservice-dd479db4d                                        Deleted pod: shippingservice-dd479db4d-qdpbw
+52s         Normal    Killing                        pod/shippingservice-dd479db4d-qdpbw                                         Stopping container server
+52s         Normal    ScalingReplicaSet              deployment/productcatalogservice                                            Scaled down replica set productcatalogservice-654ccd4bf8 from 1 to 0
+52s         Normal    ScalingReplicaSet              deployment/shippingservice                                                  Scaled down replica set shippingservice-dd479db4d from 1 to 0
+51s         Normal    SuccessfulReflection           endpointslice/productcatalogservice-p42qh                                   Successfully reflected object to cluster "patient-cloud"
+51s         Normal    SuccessfulReflection           endpointslice/shippingservice-zlqx9                                         Successfully reflected object to cluster "patient-cloud"
+51s         Normal    SuccessfulReflection           pod/shippingservice-9d7b6c868-kx9hq                                         Successfully reflected object to cluster "patient-cloud"
+51s         Normal    SuccessfulReflection           pod/shippingservice-9d7b6c868-kx9hq                                         Successfully reflected object status back from cluster "patient-cloud"
+46s         Warning   Unhealthy                      pod/emailservice-66c77b4d67-xvdlv                                           Readiness probe failed: timeout: failed to connect service "10.244.2.16:8080" within 1s: context deadline exceeded
+46s         Warning   Unhealthy                      pod/recommendationservice-64b8bc869-f6jcq                                   Readiness probe failed: timeout: failed to connect service "10.244.1.16:8080" within 1s: context deadline exceeded
+45s         Normal    Pulled                         pod/redis-cart-86db5b5967-54k8t                                             Successfully pulled image "redis:alpine" in 7.736s (7.736s including waiting). Image size: 39126067 bytes.
+45s         Normal    Created                        pod/redis-cart-86db5b5967-54k8t                                             Container created
+45s         Normal    Started                        pod/redis-cart-86db5b5967-54k8t                                             Container started
+45s         Warning   Unhealthy                      pod/redis-cart-86db5b5967-54k8t                                             Readiness probe failed: dial tcp 10.244.2.12:6379: connect: connection refused
+44s         Normal    ScalingReplicaSet              deployment/redis-cart                                                       Scaled down replica set redis-cart-8b77989f5 from 1 to 0
+44s         Normal    SuccessfulReflection           endpointslice/redis-cart-lrskv                                              Successfully reflected object to cluster "patient-cloud"
+44s         Normal    SuccessfulDelete               replicaset/redis-cart-8b77989f5                                             Deleted pod: redis-cart-8b77989f5-snr8p
+44s         Normal    Killing                        pod/redis-cart-8b77989f5-snr8p                                              Stopping container redis
+44s         Warning   Unhealthy                      pod/emailservice-66c77b4d67-xvdlv                                           Liveness probe failed: timeout: failed to connect service "10.244.2.16:8080" within 1s: context deadline exceeded
+44s         Normal    FirewallConfigurationUpdate    firewallconfiguration/redis-cart-86db5b5967-54k8t-remap-ipmapping-gw        FirewallConfiguration Applied: True
+43s         Normal    ScalingReplicaSet              deployment/paymentservice                                                   Scaled down replica set paymentservice-7585cdc5b5 from 1 to 0
+43s         Normal    SuccessfulDelete               replicaset/currencyservice-796f96f4bc                                       Deleted pod: currencyservice-796f96f4bc-44h7f
+43s         Warning   Unhealthy                      pod/recommendationservice-64b8bc869-f6jcq                                   Liveness probe failed: timeout: failed to connect service "10.244.1.16:8080" within 1s: context deadline exceeded
+43s         Normal    ScalingReplicaSet              deployment/currencyservice                                                  Scaled down replica set currencyservice-796f96f4bc from 1 to 0
+43s         Normal    Killing                        pod/currencyservice-796f96f4bc-44h7f                                        Stopping container server
+43s         Normal    SuccessfulDelete               replicaset/paymentservice-7585cdc5b5                                        Deleted pod: paymentservice-7585cdc5b5-kdhcp
+43s         Normal    SuccessfulReflection           pod/currencyservice-6475bdd9df-q26g2                                        Successfully reflected object status back from cluster "patient-cloud"
+43s         Normal    SuccessfulReflection           pod/redis-cart-86db5b5967-54k8t                                             Successfully reflected object to cluster "patient-cloud"
+43s         Normal    SuccessfulReflection           pod/redis-cart-86db5b5967-54k8t                                             Successfully reflected object status back from cluster "patient-cloud"
+43s         Normal    SuccessfulReflection           pod/currencyservice-6475bdd9df-q26g2                                        Successfully reflected object to cluster "patient-cloud"
+43s         Normal    Killing                        pod/paymentservice-7585cdc5b5-kdhcp                                         Stopping container server
+42s         Normal    ScalingReplicaSet              deployment/emailservice                                                     Scaled down replica set emailservice-94444785c from 1 to 0
+42s         Normal    Killing                        pod/emailservice-94444785c-2kmsf                                            Stopping container server
+42s         Normal    Killing                        pod/recommendationservice-8497c65d6-kht7z                                   Stopping container server
+42s         Normal    SuccessfulDelete               replicaset/recommendationservice-8497c65d6                                  Deleted pod: recommendationservice-8497c65d6-kht7z
+42s         Normal    ScalingReplicaSet              deployment/recommendationservice                                            Scaled down replica set recommendationservice-8497c65d6 from 1 to 0
+42s         Normal    SuccessfulDelete               replicaset/emailservice-94444785c                                           Deleted pod: emailservice-94444785c-2kmsf
+38s         Normal    SuccessfulReflection           endpointslice/currencyservice-r7hkg                                         Successfully reflected object to cluster "patient-cloud"
+37s         Normal    SuccessfulReflection           endpointslice/paymentservice-dn22k                                          Successfully reflected object to cluster "patient-cloud"
+36s         Normal    SuccessfulReflection           endpointslice/emailservice-8rvbb                                            Successfully reflected object to cluster "patient-cloud"
+36s         Normal    SuccessfulReflection           endpointslice/recommendationservice-b8ghm                                   Successfully reflected object to cluster "patient-cloud"
+35s         Warning   Unhealthy                      pod/cartservice-7bf8cdc789-wx6cb                                            Liveness probe failed: timeout: health rpc did not complete within 1s
+35s         Warning   Unhealthy                      pod/emailservice-94444785c-2kmsf                                            Readiness probe failed: timeout: failed to connect service "10.244.2.8:8080" within 1s: context deadline exceeded
+34s         Normal    SuccessfulReflection           pod/cartservice-7bf8cdc789-wx6cb                                            Successfully reflected object to cluster "patient-cloud"
+34s         Normal    SuccessfulDelete               replicaset/cartservice-f7f7f689b                                            Deleted pod: cartservice-f7f7f689b-9gk8h
+34s         Normal    Killing                        pod/cartservice-f7f7f689b-9gk8h                                             Stopping container server
+34s         Normal    SuccessfulReflection           pod/cartservice-7bf8cdc789-wx6cb                                            Successfully reflected object status back from cluster "patient-cloud"
+34s         Normal    ScalingReplicaSet              deployment/cartservice                                                      Scaled down replica set cartservice-f7f7f689b from 1 to 0
+33s         Normal    SuccessfulReflection           endpointslice/cartservice-rpzct                                             Successfully reflected object to cluster "patient-cloud"
+25s         Warning   Unhealthy                      pod/adservice-6d4964656f-wnrl4                                              Liveness probe failed: timeout: health rpc did not complete within 1s
+24s         Normal    ScalingReplicaSet              deployment/adservice                                                        Scaled down replica set adservice-55b567599d from 1 to 0
+24s         Normal    SuccessfulDelete               replicaset/adservice-55b567599d                                             Deleted pod: adservice-55b567599d-wpdn5
+24s         Normal    SuccessfulReflection           pod/adservice-6d4964656f-wnrl4                                              Successfully reflected object to cluster "patient-cloud"
+24s         Normal    SuccessfulReflection           pod/adservice-6d4964656f-wnrl4                                              Successfully reflected object status back from cluster "patient-cloud"
+24s         Normal    Killing                        pod/adservice-55b567599d-wpdn5                                              Stopping container server
+24s         Normal    SuccessfulReflection           endpointslice/adservice-2xqfz                                               Successfully reflected object to cluster "patient-cloud"
+22s         Normal    SuccessfulCreate               replicaset/frontend-67fbb5f8c6                                              Created pod: frontend-67fbb5f8c6-rqr28
+22s         Normal    ScalingReplicaSet              deployment/frontend                                                         Scaled up replica set frontend-67fbb5f8c6 from 0 to 1
+21s         Normal    Pulled                         pod/frontend-67fbb5f8c6-rqr28                                               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+21s         Normal    Started                        pod/frontend-67fbb5f8c6-rqr28                                               Container started
+21s         Normal    Created                        pod/frontend-67fbb5f8c6-rqr28                                               Container created
+10s         Normal    ScalingReplicaSet              deployment/frontend                                                         Scaled down replica set frontend-758f7bf979 from 1 to 0
+10s         Normal    Killing                        pod/frontend-758f7bf979-jtcs6                                               Stopping container server
+10s         Normal    SuccessfulReflection           endpointslice/frontend-4r7wb                                                Successfully reflected object to cluster "patient-cloud"
+10s         Normal    SuccessfulReflection           endpointslice/frontend-external-nb7c2                                       Successfully reflected object to cluster "patient-cloud"
+10s         Normal    SuccessfulDelete               replicaset/frontend-758f7bf979                                              Deleted pod: frontend-758f7bf979-jtcs6

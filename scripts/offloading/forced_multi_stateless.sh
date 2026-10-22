@@ -86,7 +86,7 @@ fi
 # =====================================
 kubectl get pods -n shop --no-headers \
   | awk '$3=="OffloadingAborted"{print $1}' \
-  | xargs -r kubectl delete pod -n shop
+  | xargs -r kubectl delete pod -n "$NAMESPACE"
 echo "Applico il manifest..."
 kubectl apply -f "$MANIFEST" -n "$NAMESPACE"
 sleep 10
@@ -177,14 +177,8 @@ for d in "${DEPLOY_LIST[@]}"; do
             -o jsonpath='{.metadata.labels.liqo\.io/type}') || NODE_TYPE=""
     fi
 
-    echo "$d schedulato su: ${NODE:-n/a}"
-
-    if [ "$NODE_TYPE" != "virtual-node" ]; then
-        echo "Nota: $d non e' sul virtual node (nodo: ${NODE:-n/a}, type: ${NODE_TYPE:-n/a})"
-        ALL_VIRTUAL=0
-    fi
-
-    PLACEMENT_LINES+="Placement_${d}=${NODE:-n/a}"$'\n'
+    echo "$d schedulato su: ${NODE:-n/a} (${NODE_TYPE:-n/a})"
+    PLACEMENT_LINES+="Placement_${d}=${NODE:-n/a}:${NODE_TYPE:-n/a}"$'\n'
 done
 
 # =====================================
@@ -211,7 +205,6 @@ done
         echo "Offloading_time_${d}_seconds=$(( $(cat "$TMP_DIR/$d.end") - START_TS ))"
     done
     echo ""
-    echo "All_on_virtual_node=$ALL_VIRTUAL"
     printf "%s" "$PLACEMENT_LINES"
 } > "$RESULT_FILE"
 
