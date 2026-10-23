@@ -1,0 +1,33 @@
+Test: offloading_stateful
+Configuration: k6 constant-arrival-rate R100 d5m VUs 300-2000
+Run: 3
+Thu Oct 22 20:29:51 CEST 2026
+
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 30001   100.034728/s
+    checks_succeeded...: 100.00% 30001 out of 30001
+    checks_failed......: 0.00%   0 out of 30001
+
+    ✓ frontend reachable
+
+    HTTP
+    http_req_duration..............: avg=676.28ms min=12.93ms med=638.58ms max=2.18s p(90)=971.83ms p(95)=1.04s p(99)=1.38s
+      { expected_response:true }...: avg=676.28ms min=12.93ms med=638.58ms max=2.18s p(90)=971.83ms p(95)=1.04s p(99)=1.38s
+    http_req_failed................: 0.00%  0 out of 30001
+    http_reqs......................: 30001  100.034728/s
+
+    EXECUTION
+    iteration_duration.............: avg=677.49ms min=13.53ms med=639.16ms max=2.18s p(90)=973.84ms p(95)=1.04s p(99)=1.39s
+    iterations.....................: 30001  100.034728/s
+    vus............................: 63     min=23         max=188
+    vus_max........................: 300    min=300        max=300
+
+    NETWORK
+    data_received..................: 323 MB 1.1 MB/s
+    data_sent......................: 2.3 MB 7.6 kB/s
+
+
+

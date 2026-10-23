@@ -9,6 +9,7 @@ set -e
 source configs/liqo_config.conf
 
 if [ -z "$REMOTE_KUBECONFIG" ] || \
+   [ -z "$KUBECONFIG" ] || \
    [ -z "$REMOTE_NODE" ] || \
    [ -z "$NAMESPACE" ] || \
    [ -z "$OFFLOADING_NAME" ]; then
@@ -21,7 +22,7 @@ fi
 # CONFIGURAZIONE
 # =====================================
 
-export KUBECONFIG="$(pwd)/consumer-config"
+export KUBECONFIG="$KUBECONFIG"
 
 echo "======================================"
 echo "PREPARAZIONE AMBIENTE LIQO"
