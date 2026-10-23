@@ -1,4 +1,0 @@
-rate,run,test_duration_s,total_requests,requests_per_sec,iterations,dropped_iterations,failed_requests,error_rate_%,checks_pass_rate_%,latency_avg_ms,latency_min_ms,latency_med_ms,latency_p90_ms,latency_p95_ms,latency_p99_ms,latency_max_ms,blocked_avg_ms,waiting_avg_ms,waiting_p95_ms,receiving_avg_ms,receiving_p95_ms,iteration_duration_avg_ms,vus_peak,vus_max,data_sent_MiB,data_received_MiB,data_received_MiB_per_s
-50,run1,299.0,15000,50.16,15000,0,0,0,100,97.31,0.11,70.4,182.49,279.63,817.59,1379.07,0.03,96.91,279.08,0.36,0.59,97.83,57,300,1.09,153.81,0.51
-50,run2,299.0,15001,50.17,15001,0,0,0,100,94.48,0.2,56.59,163.41,276.83,974.82,1525.58,0.05,94.1,276.43,0.34,0.55,95.03,55,300,1.09,153.82,0.51
-50,run3,298.9,15000,50.18,15000,0,0,0,100,102.3,0.19,62.05,191.15,346.79,964.44,1399.3,0.05,101.9,346.09,0.35,0.6,103.15,56,300,1.09,153.81,0.51

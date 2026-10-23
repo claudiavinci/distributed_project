@@ -1,4 +1,0 @@
-rate,runs,test_duration_s,total_requests,requests_per_sec,iterations,dropped_iterations,failed_requests,error_rate_%,checks_pass_rate_%,latency_avg_ms,latency_min_ms,latency_med_ms,latency_p90_ms,latency_p95_ms,latency_p99_ms,latency_max_ms,blocked_avg_ms,waiting_avg_ms,waiting_p95_ms,receiving_avg_ms,receiving_p95_ms,iteration_duration_avg_ms,vus_peak,vus_max,data_sent_MiB,data_received_MiB,data_received_MiB_per_s
-50,3,0.06,0.0,0.01,0.0,0.0,0.0,0.0,0.0,2.68,0.05,3.14,11.36,49.93,39.78,730.59,0.01,2.67,50.11,0.01,0.01,2.9,24.17,0.0,0.0,0.0,0.01
-100,3,0.06,0.58,0.02,0.58,0.0,0.0,0.0,0.0,44.74,2.08,28.24,98.0,142.6,252.52,265.08,0.01,44.74,142.61,0.01,0.03,44.87,38.43,0.0,0.0,0.01,0.0
-125,3,3.29,7.55,1.24,7.55,8.02,2184.8,6.07,6.07,621.59,11.29,1.83,0.09,0.05,0.06,2.14,0.01,621.61,0.06,0.48,0.14,626.57,5.29,5.69,0.0,21.25,0.06
