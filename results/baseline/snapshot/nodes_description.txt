@@ -1,0 +1,318 @@
+Name:               consumer-control-plane
+Roles:              control-plane
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/os=linux
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=consumer-control-plane
+                    kubernetes.io/os=linux
+                    node-role.kubernetes.io/control-plane=
+                    node.kubernetes.io/exclude-from-external-load-balancers=
+Annotations:        node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Thu, 01 Oct 2026 12:50:33 +0200
+Taints:             node-role.kubernetes.io/control-plane:NoSchedule
+Unschedulable:      false
+Lease:
+  HolderIdentity:  consumer-control-plane
+  AcquireTime:     <unset>
+  RenewTime:       Wed, 28 Oct 2026 11:23:31 +0100
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  MemoryPressure   False   Wed, 28 Oct 2026 11:20:17 +0100   Thu, 01 Oct 2026 12:50:32 +0200   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     False   Wed, 28 Oct 2026 11:20:17 +0100   Thu, 01 Oct 2026 12:50:32 +0200   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure      False   Wed, 28 Oct 2026 11:20:17 +0100   Thu, 01 Oct 2026 12:50:32 +0200   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Wed, 28 Oct 2026 11:20:17 +0100   Thu, 01 Oct 2026 12:50:54 +0200   KubeletReady                 kubelet is posting ready status
+Addresses:
+  InternalIP:  172.18.0.2
+  Hostname:    consumer-control-plane
+Capacity:
+  cpu:                16
+  ephemeral-storage:  1081101176832
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             20484516Ki
+  pods:               110
+Allocatable:
+  cpu:                16
+  ephemeral-storage:  1081101176832
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             20484516Ki
+  pods:               110
+System Info:
+  Machine ID:                 5fe824c63fb14acc8d6a74aef93dfb3a
+  System UUID:                5fe824c63fb14acc8d6a74aef93dfb3a
+  Boot ID:                    01db566f-e78b-4358-92bb-c06acb24cae5
+  Kernel Version:             5.15.146.1-microsoft-standard-WSL2
+  OS Image:                   Debian GNU/Linux 13 (trixie)
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://2.3.4
+  Kubelet Version:            v1.37.0
+PodCIDR:                      10.244.0.0/24
+PodCIDRs:                     10.244.0.0/24
+ProviderID:                   kind://docker/consumer/consumer-control-plane
+Non-terminated Pods:          (11 in total)
+  Namespace                   Name                                              CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                              ------------  ----------  ---------------  -------------  ---
+  kube-system                 coredns-559f6c778d-gjbr4                          100m (0%)     0 (0%)      70Mi (0%)        170Mi (0%)     26d
+  kube-system                 coredns-559f6c778d-n994l                          100m (0%)     0 (0%)      70Mi (0%)        170Mi (0%)     26d
+  kube-system                 etcd-consumer-control-plane                       100m (0%)     0 (0%)      100Mi (0%)       0 (0%)         15m
+  kube-system                 kindnet-fp2g8                                     100m (0%)     0 (0%)      50Mi (0%)        0 (0%)         26d
+  kube-system                 kube-apiserver-consumer-control-plane             250m (1%)     0 (0%)      0 (0%)           0 (0%)         15m
+  kube-system                 kube-controller-manager-consumer-control-plane    200m (1%)     0 (0%)      0 (0%)           0 (0%)         26d
+  kube-system                 kube-proxy-spv7w                                  0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  kube-system                 kube-scheduler-consumer-control-plane             100m (0%)     0 (0%)      0 (0%)           0 (0%)         26d
+  liqo                        liqo-fabric-qfnrs                                 0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  local-path-storage          local-path-provisioner-75f7fc7dc5-q5vsv           0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  monitoring                  monitoring-prometheus-node-exporter-snp65         0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests    Limits
+  --------           --------    ------
+  cpu                950m (5%)   0 (0%)
+  memory             290Mi (1%)  340Mi (1%)
+  ephemeral-storage  0 (0%)      0 (0%)
+  hugepages-1Gi      0 (0%)      0 (0%)
+  hugepages-2Mi      0 (0%)      0 (0%)
+
+
+Name:               consumer-worker
+Roles:              <none>
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/os=linux
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=consumer-worker
+                    kubernetes.io/os=linux
+Annotations:        node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Thu, 01 Oct 2026 12:50:44 +0200
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  consumer-worker
+  AcquireTime:     <unset>
+  RenewTime:       Wed, 28 Oct 2026 11:23:31 +0100
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  MemoryPressure   False   Wed, 28 Oct 2026 11:19:57 +0100   Thu, 01 Oct 2026 12:50:44 +0200   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     False   Wed, 28 Oct 2026 11:19:57 +0100   Thu, 01 Oct 2026 12:50:44 +0200   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure      False   Wed, 28 Oct 2026 11:19:57 +0100   Thu, 01 Oct 2026 12:50:44 +0200   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Wed, 28 Oct 2026 11:19:57 +0100   Thu, 01 Oct 2026 12:50:56 +0200   KubeletReady                 kubelet is posting ready status
+Addresses:
+  InternalIP:  172.18.0.7
+  Hostname:    consumer-worker
+Capacity:
+  cpu:                16
+  ephemeral-storage:  1081101176832
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             20484516Ki
+  pods:               110
+Allocatable:
+  cpu:                16
+  ephemeral-storage:  1081101176832
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             20484516Ki
+  pods:               110
+System Info:
+  Machine ID:                 07c60fce8c8d4bef987aa773e9af84b9
+  System UUID:                07c60fce8c8d4bef987aa773e9af84b9
+  Boot ID:                    01db566f-e78b-4358-92bb-c06acb24cae5
+  Kernel Version:             5.15.146.1-microsoft-standard-WSL2
+  OS Image:                   Debian GNU/Linux 13 (trixie)
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://2.3.4
+  Kubelet Version:            v1.37.0
+PodCIDR:                      10.244.1.0/24
+PodCIDRs:                     10.244.1.0/24
+ProviderID:                   kind://docker/consumer/consumer-worker
+Non-terminated Pods:          (20 in total)
+  Namespace                   Name                                                      CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                                      ------------  ----------  ---------------  -------------  ---
+  kube-system                 kindnet-mfw2t                                             100m (0%)     0 (0%)      50Mi (0%)        0 (0%)         26d
+  kube-system                 kube-proxy-kq6jg                                          0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  kube-system                 metrics-server-6597b79d94-7nrv6                           100m (0%)     0 (0%)      200Mi (0%)       0 (0%)         26d
+  liqo-tenant-patient-cloud   vk-patient-cloud-54bfcf9c9-z4wdf                          0 (0%)        0 (0%)      0 (0%)           0 (0%)         11m
+  liqo                        liqo-controller-manager-5859d475f4-5c7bz                  0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  liqo                        liqo-crd-replicator-7f559cc65f-d64f4                      0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  liqo                        liqo-fabric-rff6q                                         0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  liqo                        liqo-webhook-75f85fc8d9-49fjc                             0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  monitoring                  alertmanager-monitoring-kube-prometheus-alertmanager-0    0 (0%)        0 (0%)      200Mi (0%)       0 (0%)         26d
+  monitoring                  monitoring-kube-prometheus-operator-5bc5cb7fbb-w8l49      0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  monitoring                  monitoring-kube-state-metrics-78fd56fc4b-9kvf2            0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  monitoring                  monitoring-prometheus-node-exporter-hkz5p                 0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  shop                        adservice-86d959c9d6-tk4d4                                200m (1%)     0 (0%)      180Mi (0%)       0 (0%)         5m57s
+  shop                        cartservice-5856fcf995-9wzj6                              200m (1%)     0 (0%)      64Mi (0%)        0 (0%)         5m57s
+  shop                        checkoutservice-576bb4c9b8-4vlkf                          100m (0%)     0 (0%)      64Mi (0%)        0 (0%)         5m57s
+  shop                        currencyservice-59fff87d84-hs2r5                          100m (0%)     0 (0%)      64Mi (0%)        0 (0%)         5m57s
+  shop                        emailservice-746c59c857-67xdv                             100m (0%)     0 (0%)      64Mi (0%)        0 (0%)         5m57s
+  shop                        frontend-847b4867f7-v96vm                                 100m (0%)     0 (0%)      64Mi (0%)        0 (0%)         5m57s
+  shop                        loadgenerator-5bdfc66d7-9jccb                             300m (1%)     0 (0%)      256Mi (1%)       0 (0%)         5m57s
+  shop                        shippingservice-66b894845f-22kml                          100m (0%)     0 (0%)      64Mi (0%)        0 (0%)         5m57s
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests     Limits
+  --------           --------     ------
+  cpu                1400m (8%)   0 (0%)
+  memory             1270Mi (6%)  0 (0%)
+  ephemeral-storage  0 (0%)       0 (0%)
+  hugepages-1Gi      0 (0%)       0 (0%)
+  hugepages-2Mi      0 (0%)       0 (0%)
+
+
+Name:               consumer-worker2
+Roles:              <none>
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/os=linux
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=consumer-worker2
+                    kubernetes.io/os=linux
+Annotations:        node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Thu, 01 Oct 2026 12:50:44 +0200
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  consumer-worker2
+  AcquireTime:     <unset>
+  RenewTime:       Wed, 28 Oct 2026 11:23:31 +0100
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  MemoryPressure   False   Wed, 28 Oct 2026 11:20:27 +0100   Thu, 01 Oct 2026 12:50:44 +0200   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     False   Wed, 28 Oct 2026 11:20:27 +0100   Thu, 01 Oct 2026 12:50:44 +0200   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure      False   Wed, 28 Oct 2026 11:20:27 +0100   Thu, 01 Oct 2026 12:50:44 +0200   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Wed, 28 Oct 2026 11:20:27 +0100   Thu, 01 Oct 2026 12:50:57 +0200   KubeletReady                 kubelet is posting ready status
+Addresses:
+  InternalIP:  172.18.0.4
+  Hostname:    consumer-worker2
+Capacity:
+  cpu:                16
+  ephemeral-storage:  1081101176832
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             20484516Ki
+  pods:               110
+Allocatable:
+  cpu:                16
+  ephemeral-storage:  1081101176832
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             20484516Ki
+  pods:               110
+System Info:
+  Machine ID:                 bcdcbabff9b74e99b130849d42b67bff
+  System UUID:                bcdcbabff9b74e99b130849d42b67bff
+  Boot ID:                    01db566f-e78b-4358-92bb-c06acb24cae5
+  Kernel Version:             5.15.146.1-microsoft-standard-WSL2
+  OS Image:                   Debian GNU/Linux 13 (trixie)
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://2.3.4
+  Kubelet Version:            v1.37.0
+PodCIDR:                      10.244.2.0/24
+PodCIDRs:                     10.244.2.0/24
+ProviderID:                   kind://docker/consumer/consumer-worker2
+Non-terminated Pods:          (14 in total)
+  Namespace                   Name                                                  CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                                  ------------  ----------  ---------------  -------------  ---
+  kube-system                 kindnet-9t9zt                                         100m (0%)     0 (0%)      50Mi (0%)        0 (0%)         26d
+  kube-system                 kube-proxy-dfksd                                      0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  liqo-tenant-patient-cloud   gw-patient-cloud-9cb8b47b4-bd8k4                      0 (0%)        0 (0%)      0 (0%)           0 (0%)         11m
+  liqo                        liqo-fabric-x2w69                                     0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  liqo                        liqo-ipam-5f5dfb9464-f5bsf                            0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  liqo                        liqo-metric-agent-57fc96f98d-p7r9v                    0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  liqo                        liqo-proxy-7d58885667-r44z8                           0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  monitoring                  monitoring-grafana-8944fd6c5-swmzv                    0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  monitoring                  monitoring-prometheus-node-exporter-698sq             0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  monitoring                  prometheus-monitoring-kube-prometheus-prometheus-0    0 (0%)        0 (0%)      0 (0%)           0 (0%)         26d
+  shop                        paymentservice-78948fbb9c-26nd8                       100m (0%)     0 (0%)      64Mi (0%)        0 (0%)         5m57s
+  shop                        productcatalogservice-6cf677955f-d59jg                100m (0%)     0 (0%)      64Mi (0%)        0 (0%)         5m57s
+  shop                        recommendationservice-7fb9ddb467-89gdq                100m (0%)     0 (0%)      220Mi (1%)       0 (0%)         5m57s
+  shop                        redis-cart-779d69db89-ftnjl                           70m (0%)      0 (0%)      200Mi (0%)       0 (0%)         5m57s
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests    Limits
+  --------           --------    ------
+  cpu                470m (2%)   0 (0%)
+  memory             598Mi (2%)  0 (0%)
+  ephemeral-storage  0 (0%)      0 (0%)
+  hugepages-1Gi      0 (0%)      0 (0%)
+  hugepages-2Mi      0 (0%)      0 (0%)
+
+
+Name:               patient-cloud
+Roles:              agent
+Labels:             alpha.service-controller.kubernetes.io/exclude-balancer=true
+                    beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/os=linux
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=patient-cloud
+                    kubernetes.io/os=linux
+                    kubernetes.io/role=agent
+                    liqo.io/provider=kind
+                    liqo.io/remote-cluster-id=patient-cloud
+                    liqo.io/type=virtual-node
+                    node.kubernetes.io/exclude-from-external-load-balancers=true
+                    storage.liqo.io/available=true
+Annotations:        node.alpha.kubernetes.io/ttl: 0
+                    virtual-kubelet.io/last-applied-node-status:
+                      {"capacity":{"cpu":"4","ephemeral-storage":"20Gi","memory":"8Gi","pods":"110"},"allocatable":{"cpu":"4","ephemeral-storage":"20Gi","memory...
+                    virtual-kubelet.io/last-applied-object-meta:
+                      {"name":"patient-cloud","uid":"0c9fcb6c-3352-4ac3-a48d-cb86b3ce9e86","labels":{"alpha.service-controller.kubernetes.io/exclude-balancer":"...
+CreationTimestamp:  Wed, 28 Oct 2026 11:12:38 +0100
+Taints:             virtual-node.liqo.io/not-allowed=true:NoExecute
+Unschedulable:      false
+Lease:
+  HolderIdentity:  patient-cloud
+  AcquireTime:     <unset>
+  RenewTime:       Wed, 28 Oct 2026 11:23:27 +0100
+Conditions:
+  Type                 Status  LastHeartbeatTime                 LastTransitionTime                Reason                             Message
+  ----                 ------  -----------------                 ------------------                ------                             -------
+  Ready                True    Wed, 28 Oct 2026 11:22:37 +0100   Wed, 28 Oct 2026 11:12:38 +0100   KubeletReady                       The Liqo Virtual Kubelet is posting ready status
+  MemoryPressure       False   Wed, 28 Oct 2026 11:22:37 +0100   Wed, 28 Oct 2026 11:12:38 +0100   RemoteClusterHasSufficientMemory   The remote cluster is advertising sufficient resources
+  DiskPressure         False   Wed, 28 Oct 2026 11:22:37 +0100   Wed, 28 Oct 2026 11:12:38 +0100   RemoteClusterHasNoDiskPressure     The remote cluster is advertising sufficient resources
+  PIDPressure          False   Wed, 28 Oct 2026 11:22:37 +0100   Wed, 28 Oct 2026 11:12:38 +0100   RemoteClusterHasNoPIDPressure      The remote cluster is advertising sufficient resources
+  NetworkUnavailable   False   Wed, 28 Oct 2026 11:22:37 +0100   Wed, 28 Oct 2026 11:12:38 +0100   LiqoNetworkingUp                   The Liqo cluster interconnection is established
+Addresses:
+  InternalIP:  10.244.1.18
+Capacity:
+  cpu:                4
+  ephemeral-storage:  20Gi
+  memory:             8Gi
+  pods:               110
+Allocatable:
+  cpu:                4
+  ephemeral-storage:  20Gi
+  memory:             8Gi
+  pods:               110
+System Info:
+  Machine ID:                 
+  System UUID:                
+  Boot ID:                    
+  Kernel Version:             
+  OS Image:                   
+  Operating System:           Linux
+  Architecture:               amd64
+  Container Runtime Version:  
+  Kubelet Version:            v1.37.0
+PodCIDR:                      10.244.3.0/24
+PodCIDRs:                     10.244.3.0/24
+Non-terminated Pods:          (2 in total)
+  Namespace                   Name                CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                ------------  ----------  ---------------  -------------  ---
+  kube-system                 kindnet-dwvvh       100m (2%)     0 (0%)      50Mi (0%)        0 (0%)         10m
+  kube-system                 kube-proxy-hcrch    0 (0%)        0 (0%)      0 (0%)           0 (0%)         10m
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests   Limits
+  --------           --------   ------
+  cpu                100m (2%)  0 (0%)
+  memory             50Mi (0%)  0 (0%)
+  ephemeral-storage  0 (0%)     0 (0%)
