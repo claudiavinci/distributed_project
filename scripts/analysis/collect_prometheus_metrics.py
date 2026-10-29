@@ -317,6 +317,15 @@ def average_runs(data, key):
         else:
             row[key] = name
 
+        # intervallo temporale complessivo delle run
+        start_ts = min(x["start_ts"] for x in values)
+
+        end_ts = max(x["end_ts"] for x in values)
+
+        row["start_time"] = datetime.fromtimestamp(start_ts).strftime("%Y-%m-%d %H:%M:%S")
+
+        row["end_time"] = datetime.fromtimestamp(end_ts).strftime("%Y-%m-%d %H:%M:%S")
+
         for field in values[0]:
             if field in [
                 "pod",
