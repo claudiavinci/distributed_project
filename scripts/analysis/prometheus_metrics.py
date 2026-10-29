@@ -164,20 +164,24 @@ pod_cpu_query=f"""
                 container!="POD",
                 container!=""
             }}
-            [1m]
+            [{RATE_WINDOW}s]
         )
     )
 """ 
 
 node_memory_query="""
-    100 * (
-        1 - node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes
+    100 *
+    sum by(node) (
+    container_memory_working_set_bytes{}
     )
+    / (6 * 1024 * 1024 * 1024)
 """
 
 
-node_cpu_query="""
-100 * (1 - avg by(instance)(rate(node_cpu_seconds_total{mode="idle"}[1m])))
+node_cpu_query=f"""
+    100 * sum by(node) (
+    rate(container_cpu_usage_seconds_total{{}}[{RATE_WINDOW}s])
+    )
 """
 
 # =====================================================
@@ -338,11 +342,6 @@ def main():
 
             save_csv(output_dir / f"{run_name}_pods.csv", pods)
             save_csv(output_dir / f"{run_name}_nodes.csv", nodes)
-
-    print()
-    print("============================")
-    print("Raccolta completata")
-    print("============================")
 
 if __name__=="__main__":
     main()

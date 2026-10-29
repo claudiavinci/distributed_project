@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Uso:
-# ./run_analysis.sh
-# ./run_analysis.sh 100 300 400
-
 set -e
 
 # =====================================
@@ -13,12 +9,13 @@ set -e
 source configs/exp_config.conf
 
 REQUIRED_VARS=(
-  TEST
-  NAMESPACE
-  MONITORING_NAMESPACE
-  PROMETHEUS_URL
-  PROMETHEUS_SERVICE
-  PROMETHEUS_PORT
+    TEST
+    USERS_LIST
+    NAMESPACE
+    MONITORING_NAMESPACE
+    PROMETHEUS_URL
+    PROMETHEUS_SERVICE
+    PROMETHEUS_PORT
 )
 
 for v in "${REQUIRED_VARS[@]}"; do
@@ -28,15 +25,7 @@ for v in "${REQUIRED_VARS[@]}"; do
     fi
 done
 
-# =====================================
-# USER LEVELS
-# =====================================
-
-if [ -z "${USERS[*]:-}" ]; then
-    echo "Nessun livello utenti definito"
-    exit 1
-fi
-read -r -a USER_LIST <<< "${USERS[*]}"
+read -r -a USER_LIST <<< "${USERS_LIST}"
 
 # =====================================
 # PATH
@@ -47,24 +36,10 @@ export KUBECONFIG="$(pwd)/consumer-config"
 VENV="$(pwd)/venv"
 
 PROM_COLLECT="$(pwd)/scripts/analysis/prometheus_metrics.py"
-
 PROM_SUMMARY="$(pwd)/scripts/analysis/prometheus_summary.py"
-
 LOCUST_SUMMARY="$(pwd)/scripts/analysis/locust_summary.py"
 
 RESULTS_DIR="$(pwd)/results/${TEST}/workload_test"
-
-RUNS_TEMPLATE="${RESULTS_DIR}/U{users}/raw"
-
-METRICS_TEMPLATE="${RESULTS_DIR}/U{users}/metrics_csv"
-
-runs_dir(){
-    echo "${RUNS_TEMPLATE//\{users\}/$1}"
-}
-
-metrics_dir(){
-    echo "${METRICS_TEMPLATE//\{users\}/$1}"
-}
 
 # =====================================
 # CLEANUP
@@ -72,7 +47,7 @@ metrics_dir(){
 
 PORT_FORWARD_PID=""
 
-cleanup(){
+cleanup() {
     echo ""
     echo "Pulizia"
     if [ -n "$PORT_FORWARD_PID" ]; then
@@ -83,81 +58,73 @@ cleanup(){
 trap cleanup EXIT SIGINT SIGTERM
 
 # =====================================
-# CHECK CARTELLE
+# CONTROLLO CARTELLE
 # =====================================
 
 echo "Livelli utenti:"
 echo "${USER_LIST[*]}"
 
 for U in "${USER_LIST[@]}"; do
-    if [ ! -d "$(runs_dir "$U")" ]; then
-        echo "Cartella run mancante:"
-        echo "$(runs_dir "$U")"
+    if [ ! -d "${RESULTS_DIR}/U${U}/raw" ]; then
+        echo "Cartella mancante:"
+        echo "${RESULTS_DIR}/U${U}/raw"
         exit 1
     fi
 done
 
 # =====================================
-# VENV
+# ATTIVAZIONE VENV
 # =====================================
 
 source "$VENV/bin/activate"
 
 # =====================================
-# PROMETHEUS PORT FORWARD
+# PORT FORWARD PROMETHEUS
 # =====================================
 
 echo ""
+echo "================================="
 echo "Avvio Prometheus"
+echo "================================="
 
 kubectl port-forward \
--n "$MONITORING_NAMESPACE" \
-svc/"$PROMETHEUS_SERVICE" \
-${PROMETHEUS_PORT}:${PROMETHEUS_PORT} &
+    -n "$MONITORING_NAMESPACE" \
+    svc/"$PROMETHEUS_SERVICE" \
+    ${PROMETHEUS_PORT}:${PROMETHEUS_PORT} &
 
 PORT_FORWARD_PID=$!
 
 sleep 5
 
 # =====================================
-# COLLECT PROMETHEUS
-# =====================================
-
-for U in "${USER_LIST[@]}"; do
-
-    RUNS_DIR="$(runs_dir "$U")"
-    OUTPUT_DIR="$(metrics_dir "$U")"
-    OUTPUT_PREFIX="${OUTPUT_DIR}/U${U}"
-
-    mkdir -p "$OUTPUT_DIR"
-
-    echo ""
-    echo "================================="
-    echo "Prometheus U${U}"
-    echo "================================="
-
-    python "$PROM_COLLECT" \
-        --namespace "$NAMESPACE" \
-        --runs-dir "$RUNS_DIR" \
-        --output-prefix "$OUTPUT_PREFIX" \
-        --prometheus-url "$PROMETHEUS_URL"
-
-done
-
-# =====================================
-# PROMETHEUS SUMMARY
+# RACCOLTA METRICHE PROMETHEUS
 # =====================================
 
 echo ""
 echo "================================="
-echo "Summary Prometheus"
+echo "Raccolta metriche Prometheus"
 echo "================================="
 
-python "$PROM_SUMMARY" \
-"$RESULTS_DIR"
+python "$PROM_COLLECT" \
+    --base-dir "$RESULTS_DIR" \
+    --namespace "$NAMESPACE" \
+    --prometheus-url "$PROMETHEUS_URL"
+
+echo ""
+echo "================================="
+echo "Raccolta completata."
+echo "Summary metriche Prometheus"
+echo "================================="
 
 # =====================================
-# LOCUST SUMMARY
+# SUMMARY PROMETHEUS
+# =====================================
+
+python "$PROM_SUMMARY" \
+    "$RESULTS_DIR"
+
+# =====================================
+# SUMMARY LOCUST
 # =====================================
 
 echo ""
@@ -166,7 +133,7 @@ echo "Summary Locust"
 echo "================================="
 
 python "$LOCUST_SUMMARY" \
-"$RESULTS_DIR"
+    "$RESULTS_DIR"
 
 # =====================================
 # FINE
@@ -176,10 +143,3 @@ echo ""
 echo "================================="
 echo "ANALISI COMPLETATA"
 echo "================================="
-echo ""
-echo "Output finali:"
-echo ""
-
-echo "${RESULTS_DIR}/prometheus_pods_summary.csv"
-echo "${RESULTS_DIR}/prometheus_nodes_summary.csv"
-echo "${RESULTS_DIR}/stats_summary.csv"

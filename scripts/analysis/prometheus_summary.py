@@ -180,10 +180,6 @@ def main():
     save_csv(output_dir / "prometheus_nodes_summary.csv", node_summary)
 
     print()
-    print("============================")
-    print("Summary Prometheus creati")
-    print("============================")
-    print()
     print(output_dir / "prometheus_pods_summary.csv")
     print(output_dir / "prometheus_nodes_summary.csv")
 
