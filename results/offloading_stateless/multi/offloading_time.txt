@@ -1,0 +1,19 @@
+Manifest=microservices-demo/release/kubernetes-manifests.yaml
+Deployments=checkoutservice currencyservice paymentservice
+Namespace=shop
+
+Start_timestamp=1793461358
+End_timestamp=1793461371
+
+Remote_convergence_seconds=13
+Workload_convergence_seconds=13
+Rollout_observed_seconds=13
+
+Offload_phase_ready_seconds=0
+
+Remote_pods_count=3
+Local_pods_count=0
+
+Placement_checkoutservice-7699f854fd-qtf67=patient-cloud:remote
+Placement_currencyservice-645c5bddf4-nz4nf=patient-cloud:remote
+Placement_paymentservice-5bcdbf9d5f-n6jl4=patient-cloud:remote

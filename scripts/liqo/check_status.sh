@@ -1,7 +1,5 @@
 #!/bin/bash
-# check_liqo.sh - verifica lo stato di Liqo e ripara solo se serve
-# Uso: ./check_liqo.sh            (controlla e ripara)
-#      ./check_liqo.sh --check    (solo controllo, niente riparazione)
+# check_liqo.sh - verifica lo stato di Liqo 
 set -uo pipefail
 
 source configs/liqo_config.conf

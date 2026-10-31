@@ -1,0 +1,13 @@
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+adservice-6f8c777f67-9kjzm               1/1     Running   0          52s     10.71.1.19    patient-cloud      <none>           <none>
+cartservice-65bf7ccc99-7rdcg             1/1     Running   0          51s     10.71.2.31    patient-cloud      <none>           <none>
+checkoutservice-8596d7c796-rhzsh         1/1     Running   0          51s     10.71.2.32    patient-cloud      <none>           <none>
+currencyservice-865d4f476-cmnts          1/1     Running   0          51s     10.71.1.20    patient-cloud      <none>           <none>
+emailservice-5d6bfddf64-8cgqc            1/1     Running   0          51s     10.244.2.34   consumer-worker2   <none>           <none>
+frontend-57dcf48d66-kv9rz                1/1     Running   0          19s     10.244.1.49   consumer-worker    <none>           <none>
+loadgenerator-5bdfc66d7-v8955            1/1     Running   0          10m     10.244.2.31   consumer-worker2   <none>           <none>
+paymentservice-5bfdbc56b8-lstgl          1/1     Running   0          51s     10.244.2.35   consumer-worker2   <none>           <none>
+productcatalogservice-64586f97b7-fr6vx   1/1     Running   0          50s     10.244.1.48   consumer-worker    <none>           <none>
+recommendationservice-6ff9f48d59-82dbh   1/1     Running   0          50s     10.244.2.36   consumer-worker2   <none>           <none>
+redis-cart-b56c96b5-nq59z                1/1     Running   0          3h41m   10.244.1.21   consumer-worker    <none>           <none>
+shippingservice-747fd6f89-gwklt          1/1     Running   0          50s     10.71.2.33    patient-cloud      <none>           <none>

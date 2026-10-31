@@ -1,0 +1,5 @@
+users,runs,requests_mean,requests_std,requests_per_sec_mean,requests_per_sec_std,failures_mean,failures_std,failure_rate_pct_mean,failure_rate_pct_std,latency_avg_ms_mean,latency_avg_ms_std,latency_med_ms_mean,latency_med_ms_std,latency_p90_ms_mean,latency_p90_ms_std,latency_p95_ms_mean,latency_p95_ms_std,latency_p99_ms_mean,latency_p99_ms_std,latency_min_ms_mean,latency_min_ms_std,latency_max_ms_mean,latency_max_ms_std
+100,3,6022.67,18.5,23.8,0.07,1.67,0.58,0.03,0.01,13.88,0.44,12.33,0.58,19.33,0.58,20.67,1.15,26.0,2.0,8.89,0.27,93.35,54.67
+300,3,17644.67,181.58,71.19,0.74,2.67,0.58,0.02,0.0,14.32,0.09,13.0,0.0,20.0,0.0,22.0,0.0,26.67,0.58,8.51,0.22,83.91,35.25
+400,3,23686.0,53.81,95.25,0.23,5.0,1.0,0.02,0.0,14.72,0.03,13.0,0.0,20.67,0.58,23.0,0.0,28.67,0.58,8.48,0.05,69.62,12.55
+800,3,47268.33,279.83,190.77,1.07,9.0,0.0,0.02,0.0,19.62,0.33,17.0,0.0,30.0,1.0,37.67,1.53,57.67,2.52,8.74,0.3,143.21,17.53
