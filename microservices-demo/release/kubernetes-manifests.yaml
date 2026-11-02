@@ -502,19 +502,21 @@ spec:
         sidecar.istio.io/rewriteAppHTTPProbers: "true"
     spec:
       serviceAccountName: frontend
+      nodeSelector:
+        liqo.io/type: virtual-node
       securityContext:
         fsGroup: 1000
         runAsGroup: 1000
         runAsNonRoot: true
         runAsUser: 1000
-      affinity:
-        nodeAffinity:
-          requiredDuringSchedulingIgnoredDuringExecution:
-            nodeSelectorTerms:
-            - matchExpressions:
-              - key: liqo.io/type
-                operator: NotIn
-                values: ["virtual-node"]
+      # affinity:
+      #   nodeAffinity:
+      #     requiredDuringSchedulingIgnoredDuringExecution:
+      #       nodeSelectorTerms:
+      #       - matchExpressions:
+      #         - key: liqo.io/type
+      #           operator: NotIn
+      #           values: ["virtual-node"]
       containers:
         - name: server
           securityContext:

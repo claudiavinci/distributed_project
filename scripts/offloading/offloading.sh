@@ -1,9 +1,9 @@
-
 #!/bin/bash
 
 # Misura dell'offloading a freddo di servizi stateless.
-# SCENARIO=forced: nodeSelector sul VirtualNode
-# SCENARIO=free:   placement scelto dallo scheduler
+# Il manifest determina il placement:
+# - nodeSelector liqo.io/type=virtual-node -> remoto
+# - nessun nodeSelector remoto -> scheduling libero
 
 set -euo pipefail
 
@@ -13,26 +13,15 @@ set -euo pipefail
 
 source configs/exp_config.conf
 
-for v in TEST NAMESPACE SCENARIO BASE_MANIFEST DEPLOYMENTS_LIST; do
+for v in TEST NAMESPACE MANIFEST BASE_MANIFEST DEPLOYMENTS_LIST; do
     if [ -z "${!v:-}" ]; then
         echo "Errore: variabile mancante: $v"
         exit 1
     fi
 done
 
-if [[ "$SCENARIO" != "forced" && "$SCENARIO" != "free" ]]; then
-    echo "Errore: SCENARIO deve essere forced o free"
-    exit 1
-fi
-
-if [ "$SCENARIO" = "forced" ] && [ -z "${MANIFEST:-}" ]; then
-    echo "Errore: MANIFEST mancante per lo scenario forced"
-    exit 1
-fi
-
 read -r -a DEPLOY_LIST <<< "$DEPLOYMENTS_LIST"
 
-FRONTEND_DEPLOYMENT="${FRONTEND_DEPLOYMENT:-frontend}"
 AUTO_RESET="${AUTO_RESET:-1}"
 ROLLOUT_TIMEOUT="${ROLLOUT_TIMEOUT:-180s}"
 
@@ -48,7 +37,7 @@ trap 'rm -rf "$TMP_DIR"' EXIT
 echo "======================================"
 echo "OFFLOADING A FREDDO"
 echo "======================================"
-echo "Scenario: $SCENARIO"
+echo "Manifest: $MANIFEST"
 echo "Deployments: ${DEPLOY_LIST[*]}"
 
 # =====================================
@@ -87,25 +76,29 @@ kubectl get pods -n "$NAMESPACE" --no-headers \
 echo "Applico il manifest locale..."
 kubectl apply -f "$BASE_MANIFEST" -n "$NAMESPACE"
 
-# Verifica che i selector forzati siano stati rimossi
+# Verifica che non rimangano selector remoti
 for d in "${DEPLOY_LIST[@]}"; do
     SELECTOR=$(kubectl get deployment "$d" -n "$NAMESPACE" -o json |
         jq -r '.spec.template.spec.nodeSelector["liqo.io/type"] // ""')
 
-    if [ "$SELECTOR" = "virtual-node" ]; then
-        echo "Errore: $d ha ancora il nodeSelector remoto"
+    if [ -n "$SELECTOR" ]; then
+        echo "Errore: $d ha ancora il nodeSelector Liqo: $SELECTOR"
         exit 1
     fi
 done
 
-# Ricrea la baseline sul consumer
-echo "Preparo la baseline locale..."
+# =====================================
+# BASELINE LOCALE
+# =====================================
+
+# echo "Preparo la baseline locale..."
+
+# for d in "${DEPLOY_LIST[@]}"; do
+#     kubectl rollout restart deployment/"$d" -n "$NAMESPACE"
+# done
 
 for d in "${DEPLOY_LIST[@]}"; do
-    kubectl rollout restart deployment/"$d" -n "$NAMESPACE"
-done
 
-for d in "${DEPLOY_LIST[@]}"; do
     kubectl rollout status deployment/"$d" \
         -n "$NAMESPACE" --timeout="$ROLLOUT_TIMEOUT"
 
@@ -114,22 +107,24 @@ for d in "${DEPLOY_LIST[@]}"; do
         -o jsonpath='{range .items[*]}{.metadata.name}{"\n"}{end}' \
         > "$TMP_DIR/$d.before"
 
-    # Verifica che la baseline sia locale e Ready
+    # Salva la generazione del template prima dell'apply
+    kubectl get deployment "$d" -n "$NAMESPACE" \
+        -o json | jq -S '.spec.template' \
+        > "$TMP_DIR/$d.template.before"
+
+    # Verifica baseline locale e Ready
     kubectl get pods -n "$NAMESPACE" -l "app=$d" -o json |
-        jq -e --argjson expected "$(kubectl get deployment "$d" \
-            -n "$NAMESPACE" -o jsonpath='{.spec.replicas}')" '
+        jq -e --argjson expected \
+            "$(kubectl get deployment "$d" -n "$NAMESPACE" \
+                -o jsonpath='{.spec.replicas}')" '
             [.items[] | select(.metadata.deletionTimestamp == null)] as $pods
             | ($pods | length) == $expected
               and all($pods[];
-                .spec.nodeName != null
-                and (.spec.nodeName | startswith("liqo-") | not)
-                and any(.status.conditions[]?;
-                    .type == "Ready" and .status == "True"))
+                  .spec.nodeName != null
+                  and any(.status.conditions[]?;
+                      .type == "Ready" and .status == "True"))
         ' >/dev/null
-done
 
-# Controllo esplicito dei VirtualNode nella baseline
-for d in "${DEPLOY_LIST[@]}"; do
     NODES=$(kubectl get pods -n "$NAMESPACE" -l "app=$d" \
         -o jsonpath='{.items[*].spec.nodeName}')
 
@@ -150,49 +145,46 @@ kubectl get pods -n "$NAMESPACE" -o wide
 
 START_TS=$(date +%s)
 
-echo ""
 echo "Inizio offloading..."
 
 liqoctl offload namespace "$NAMESPACE" \
     --namespace-mapping-strategy EnforceSameName \
     --pod-offloading-strategy LocalAndRemote
 
-kubectl wait --for=jsonpath='{.status.offloadingPhase}'=Ready \
+kubectl wait \
+    --for=jsonpath='{.status.offloadingPhase}'=Ready \
     namespaceoffloading/offloading \
     -n "$NAMESPACE" --timeout=120s
 
 OFFLOAD_READY_TS=$(date +%s)
 
 # =====================================
-# NUOVO SCHEDULING
+# APPLICAZIONE MANIFEST
 # =====================================
 
-if [ "$SCENARIO" = "forced" ]; then
+echo "Applico il manifest sperimentale..."
+kubectl apply -f "$MANIFEST" -n "$NAMESPACE"
 
-    echo "Applico il manifest con nodeSelector remoto..."
-    kubectl apply -f "$MANIFEST" -n "$NAMESPACE"
+# Riavvia soltanto i Deployment il cui template
+# non e' cambiato con l'apply.
+for d in "${DEPLOY_LIST[@]}"; do
 
-    # Verifica che tutti i Deployment selezionati
-    # siano effettivamente vincolati al VirtualNode
-    for d in "${DEPLOY_LIST[@]}"; do
-        SELECTOR=$(kubectl get deployment "$d" -n "$NAMESPACE" -o json |
-            jq -r '.spec.template.spec.nodeSelector["liqo.io/type"] // ""')
+    kubectl get deployment "$d" -n "$NAMESPACE" \
+        -o json | jq -S '.spec.template' \
+        > "$TMP_DIR/$d.template.after"
 
-        if [ "$SELECTOR" != "virtual-node" ]; then
-            echo "Errore: $d non ha il nodeSelector remoto"
-            exit 1
-        fi
-    done
+    if cmp -s \
+        "$TMP_DIR/$d.template.before" \
+        "$TMP_DIR/$d.template.after"; then
 
-else
-
-    echo "Riavvio i Deployment per lo scheduling libero..."
-
-    for d in "${DEPLOY_LIST[@]}"; do
+        echo "$d: template invariato, eseguo rollout restart"
         kubectl rollout restart deployment/"$d" -n "$NAMESPACE"
-    done
 
-fi
+    else
+        echo "$d: template modificato dal manifest"
+    fi
+
+done
 
 # =====================================
 # ATTESA ROLLOUT
@@ -209,6 +201,7 @@ for d in "${DEPLOY_LIST[@]}"; do
 
         date +%s > "$TMP_DIR/$d.end"
     ) &
+
     PIDS+=($!)
 done
 
@@ -224,7 +217,7 @@ if [ "$FAILED" -ne 0 ]; then
 fi
 
 # =====================================
-# CALCOLO TEMPI
+# CALCOLO TEMPI E PLACEMENT
 # =====================================
 
 ROLLOUT_END=$START_TS
@@ -246,11 +239,10 @@ for d in "${DEPLOY_LIST[@]}"; do
 
     EXPECTED=$(kubectl get deployment "$d" -n "$NAMESPACE" \
         -o jsonpath='{.spec.replicas}')
-    EXPECTED="${EXPECTED:-1}"
 
+    EXPECTED="${EXPECTED:-1}"
     COUNT=0
 
-    # Salva lo stato attuale dei pod
     kubectl get pods -n "$NAMESPACE" -l "app=$d" \
         -o json > "$TMP_DIR/$d.pods.json"
 
@@ -269,9 +261,10 @@ for d in "${DEPLOY_LIST[@]}"; do
 
     while IFS=$'\t' read -r POD NODE READY; do
 
-        # Ignora i pod precedenti all'esperimento
+        # Tutti i pod devono essere nuovi
         if grep -Fxq "$POD" "$TMP_DIR/$d.before"; then
-            continue
+            echo "Errore: pod precedente ancora presente: $POD"
+            exit 1
         fi
 
         if [ "$NODE" = "NA" ] || [ "$READY" = "NA" ]; then
@@ -312,11 +305,9 @@ for d in "${DEPLOY_LIST[@]}"; do
 
 done
 
-# Nello scenario forced tutti i pod devono essere remoti
-if [ "$SCENARIO" = "forced" ] && [ "$LOCAL_COUNT" -gt 0 ]; then
-    echo "Errore: alcuni pod sono rimasti locali"
-    exit 1
-fi
+# =====================================
+# METRICHE TEMPORALI
+# =====================================
 
 WORKLOAD_SECONDS=$((WORKLOAD_END - START_TS))
 ROLLOUT_SECONDS=$((ROLLOUT_END - START_TS))
@@ -333,8 +324,7 @@ fi
 # =====================================
 
 {
-    echo "Scenario=$SCENARIO"
-    echo "Manifest=$([ "$SCENARIO" = forced ] && echo "$MANIFEST" || echo "$BASE_MANIFEST")"
+    echo "Manifest=$MANIFEST"
     echo "Deployments=${DEPLOY_LIST[*]}"
     echo "Namespace=$NAMESPACE"
     echo ""
@@ -350,7 +340,6 @@ fi
     echo "Local_pods_count=$LOCAL_COUNT"
     echo ""
     printf "%s" "$PLACEMENT_LINES"
-
 } > "$RESULT_FILE"
 
 echo ""
@@ -365,16 +354,20 @@ echo "Pod locali: $LOCAL_COUNT"
 echo "Risultati: $RESULT_FILE"
 
 # =====================================
-# FRONTEND E SNAPSHOT
+# SNAPSHOT FINALE
 # =====================================
 
-echo "Riavvio frontend..."
+# if [[ " ${DEPLOY_LIST[*]} " != *" $FRONTEND_DEPLOYMENT "* ]]; then
+#     echo "Riavvio frontend per ripristinare la raggiungibilita'..."
 
-kubectl rollout restart deployment/"$FRONTEND_DEPLOYMENT" \
-    -n "$NAMESPACE"
+#     kubectl rollout restart deployment/"$FRONTEND_DEPLOYMENT" \
+#         -n "$NAMESPACE"
 
-kubectl rollout status deployment/"$FRONTEND_DEPLOYMENT" \
-    -n "$NAMESPACE" --timeout="$ROLLOUT_TIMEOUT"
+#     kubectl rollout status deployment/"$FRONTEND_DEPLOYMENT" \
+#         -n "$NAMESPACE" --timeout="$ROLLOUT_TIMEOUT"
+# else
+#     echo "Frontend gia' ricreato durante l'esperimento."
+# fi
 
 sleep 10
 

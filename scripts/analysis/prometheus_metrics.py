@@ -172,7 +172,10 @@ pod_cpu_query=f"""
 node_memory_query="""
     100 *
     sum by(node) (
-    container_memory_working_set_bytes{}
+    container_memory_working_set_bytes{
+        namespace!="",
+        container!="",
+    }
     )
     / (6 * 1024 * 1024 * 1024)
 """
@@ -180,7 +183,10 @@ node_memory_query="""
 
 node_cpu_query=f"""
     100 * sum by(node) (
-    rate(container_cpu_usage_seconds_total{{}}[{RATE_WINDOW}s])
+    rate(container_cpu_usage_seconds_total{{
+            namespace!="",
+            container!="",
+        }}[{RATE_WINDOW}s])
     )
 """
 
