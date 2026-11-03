@@ -12,6 +12,7 @@ if [ -z "${REMOTE_KUBECONFIG:-}" ] || \
     echo "Errore: configurazione Liqo incompleta"
     exit 1
 fi
+OFFLOADING_NAME="${OFFLOADING_NAME:-offloading}"
 
 export KUBECONFIG="$KUBECONFIG"
 

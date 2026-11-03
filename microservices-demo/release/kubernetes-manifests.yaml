@@ -267,8 +267,8 @@ spec:
     spec:
       serviceAccountName: currencyservice
       terminationGracePeriodSeconds: 5
-      # nodeSelector:
-      #   liqo.io/type: virtual-node
+      nodeSelector:
+        liqo.io/type: virtual-node
       securityContext:
         fsGroup: 1000
         runAsGroup: 1000
@@ -349,8 +349,8 @@ spec:
     spec:
       serviceAccountName: emailservice
       terminationGracePeriodSeconds: 5
-      # nodeSelector:
-      #   liqo.io/type: virtual-node
+      nodeSelector:
+        liqo.io/type: virtual-node
       securityContext:
         fsGroup: 1000
         runAsGroup: 1000
@@ -426,8 +426,8 @@ spec:
     spec:
       serviceAccountName: productcatalogservice
       terminationGracePeriodSeconds: 5
-      # nodeSelector:
-      #   liqo.io/type: virtual-node
+      nodeSelector:
+        liqo.io/type: virtual-node
       securityContext:
         fsGroup: 1000
         runAsGroup: 1000
@@ -643,8 +643,8 @@ spec:
     spec:
       serviceAccountName: recommendationservice
       terminationGracePeriodSeconds: 5
-      # nodeSelector:
-      #   liqo.io/type: virtual-node
+      nodeSelector:
+        liqo.io/type: virtual-node
       securityContext:
         fsGroup: 1000
         runAsGroup: 1000

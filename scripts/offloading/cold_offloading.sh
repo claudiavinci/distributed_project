@@ -306,6 +306,29 @@ for d in "${DEPLOY_LIST[@]}"; do
 done
 
 # =====================================
+# PLACEMENT COMPLESSIVO NAMESPACE
+# =====================================
+
+NAMESPACE_REMOTE_COUNT=0
+NAMESPACE_LOCAL_COUNT=0
+
+while IFS= read -r NODE; do
+    [ -z "$NODE" ] && continue
+
+    if [[ " $VIRTUAL_NODES " == *" $NODE "* ]]; then
+        NAMESPACE_REMOTE_COUNT=$((NAMESPACE_REMOTE_COUNT + 1))
+    else
+        NAMESPACE_LOCAL_COUNT=$((NAMESPACE_LOCAL_COUNT + 1))
+    fi
+
+done < <(
+    kubectl get pods -n "$NAMESPACE" -o json |
+        jq -r '.items[]
+            | select(.metadata.deletionTimestamp == null)
+            | .spec.nodeName // empty'
+)
+
+# =====================================
 # METRICHE TEMPORALI
 # =====================================
 
@@ -336,8 +359,10 @@ fi
     echo "Rollout_observed_seconds=$ROLLOUT_SECONDS"
     echo "Offload_phase_ready_seconds=$OFFLOAD_READY_SECONDS"
     echo ""
-    echo "Remote_pods_count=$REMOTE_COUNT"
-    echo "Local_pods_count=$LOCAL_COUNT"
+    echo "Selected_remote_pods_count=$REMOTE_COUNT"
+    echo "Selected_local_pods_count=$LOCAL_COUNT"
+    echo "Namespace_remote_pods_count=$NAMESPACE_REMOTE_COUNT"
+    echo "Namespace_local_pods_count=$NAMESPACE_LOCAL_COUNT"
     echo ""
     printf "%s" "$PLACEMENT_LINES"
 } > "$RESULT_FILE"
