@@ -27,7 +27,6 @@ def save_plot(fig, output_dir, filename):
 
     fig.tight_layout()
     fig.savefig(output_dir / f"{filename}.png", dpi=300, bbox_inches="tight")
-    fig.savefig(output_dir / f"{filename}.pdf", bbox_inches="tight")
     plt.close(fig)
     print(f"Generato: {filename}")
 

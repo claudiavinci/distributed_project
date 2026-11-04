@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Test di workload con il loadgenerator di Online Boutique (Locust, ciclo chiuso).
+# Test di load con il loadgenerator di Online Boutique (Locust, ciclo chiuso).
 # Per ogni livello di utenti esegue RUNS ripetizioni da DURATION, con un pod nuovo a ogni run.
 # Il pod gira sul nodo LOADGEN_NODE (control-plane del consumer, fuori dal worker limitato).
 
@@ -44,7 +44,7 @@ fi
 export KUBECONFIG="$(pwd)/consumer-config"
 
 GRAFANA_PID=""
-BASE_OUTPUT_DIR="$(pwd)/results/${TEST}/workload_test"
+BASE_OUTPUT_DIR="$(pwd)/results/${TEST}/load_test"
 mkdir -p "$BASE_OUTPUT_DIR"
 
 read -r -a USER_LIST <<< "$USERS_LIST"

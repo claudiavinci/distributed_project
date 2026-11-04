@@ -21,7 +21,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument(
     "--base-dir",
     required=True,
-    help="Cartella workload_test contenente U*/raw"
+    help="Cartella load_test contenente U*/raw"
 )
 
 parser.add_argument(

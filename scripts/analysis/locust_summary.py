@@ -4,8 +4,8 @@ Aggrega i CSV di Locust (*_stats.csv) per livello di utenti.
 Per ogni livello calcola media e deviazione standard campionaria tra le run.
 
 Uso:
-    python3 parse_locust.py results/<TEST>/workload_test
-    python3 parse_locust.py results/<TEST>/workload_test --name /cart/checkout -o checkout.csv
+    python3 parse_locust.py results/<TEST>/load_test
+    python3 parse_locust.py results/<TEST>/load_test --name /cart/checkout -o checkout.csv
 
 --name sceglie la riga del CSV (default "Aggregated"; per un singolo endpoint usa il suo
 path, ad esempio /cart/checkout oppure /product/<id> non aggregato).
@@ -44,7 +44,7 @@ def read_row(path, name):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("base_dir", help="cartella workload_test con le sottocartelle U<utenti>/raw")
+    ap.add_argument("base_dir", help="cartella load_test con le sottocartelle U<utenti>/raw")
     ap.add_argument("--name", default="Aggregated", help="riga da analizzare (default: Aggregated)")
     ap.add_argument("-o", "--output", default=None, help="file CSV di uscita (default: <base_dir>/stats_summary.csv)")
     args = ap.parse_args()

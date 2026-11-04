@@ -20,7 +20,7 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument(
     "base_dir",
-    help="cartella workload_test contenente U*/metrics_csv"
+    help="cartella load_test contenente U*/metrics_csv"
 )
 
 parser.add_argument(
