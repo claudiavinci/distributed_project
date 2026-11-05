@@ -38,7 +38,6 @@ VENV="$(pwd)/venv"
 PROM_COLLECT="$(pwd)/scripts/analysis/prometheus_metrics.py"
 PROM_SUMMARY="$(pwd)/scripts/analysis/prometheus_summary.py"
 LOCUST_SUMMARY="$(pwd)/scripts/analysis/locust_summary.py"
-PLOT_SCRIPT="$(pwd)/scripts/analysis/plot_experiment.py"
 
 RESULTS_DIR="$(pwd)/results/${TEST}/load_test"
 PLOT_DIR="${RESULTS_DIR}/plots"
@@ -136,25 +135,6 @@ echo "================================="
 
 python "$LOCUST_SUMMARY" \
     "$RESULTS_DIR"
-
-# =====================================
-# GENERAZIONE GRAFICI
-# =====================================
-
-echo ""
-echo "================================="
-echo "Generazione grafici"
-echo "================================="
-
-mkdir -p "$PLOT_DIR"
-
-python "$PLOT_SCRIPT" \
-    --stats "$RESULTS_DIR/stats_summary.csv" \
-    --nodes "$RESULTS_DIR/prometheus_nodes_summary.csv" \
-    --pods "$RESULTS_DIR/prometheus_pods_summary.csv" \
-    --output "$PLOT_DIR"
-
-echo "Grafici salvati in: $PLOT_DIR"
 
 # =====================================
 # FINE
