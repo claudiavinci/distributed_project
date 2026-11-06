@@ -382,18 +382,6 @@ echo "Risultati: $RESULT_FILE"
 # SNAPSHOT FINALE
 # =====================================
 
-# if [[ " ${DEPLOY_LIST[*]} " != *" $FRONTEND_DEPLOYMENT "* ]]; then
-#     echo "Riavvio frontend per ripristinare la raggiungibilita'..."
-
-#     kubectl rollout restart deployment/"$FRONTEND_DEPLOYMENT" \
-#         -n "$NAMESPACE"
-
-#     kubectl rollout status deployment/"$FRONTEND_DEPLOYMENT" \
-#         -n "$NAMESPACE" --timeout="$ROLLOUT_TIMEOUT"
-# else
-#     echo "Frontend gia' ricreato durante l'esperimento."
-# fi
-
 sleep 10
 
 ./scripts/offloading/snapshot_offloading.sh
