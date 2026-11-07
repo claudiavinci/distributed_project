@@ -71,7 +71,8 @@ df = pd.read_csv(args.csv_file)
 node_order = [
     "consumer-control-plane",
     "consumer-worker",
-    "consumer-worker2"
+    "consumer-worker2",
+    "patient-cloud"
 ]
 
 df["node"] = pd.Categorical(

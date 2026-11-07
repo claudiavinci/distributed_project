@@ -51,6 +51,8 @@ python3 "$PLOT_SCRIPT" \
     --stats "$RESULTS_DIR/stats_summary.csv" \
     --nodes "$RESULTS_DIR/prometheus_nodes_summary.csv" \
     --pods "$RESULTS_DIR/prometheus_pods_summary.csv" \
+    --baseline-stats results/baseline/load_test/stats_summary.csv \
+    --baseline-nodes results/baseline/load_test/prometheus_nodes_summary.csv \
     --output "$PLOT_DIR"
 
 echo "Grafici salvati in: $PLOT_DIR"
