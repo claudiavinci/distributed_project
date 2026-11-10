@@ -19,37 +19,50 @@ plt.rcParams.update({
     "figure.dpi": 120
 })
 
+
 # =====================================
 # FUNZIONI COMUNI
 # =====================================
 
 def save_plot(fig, output_dir, filename):
+
     output_dir.mkdir(parents=True, exist_ok=True)
 
     fig.tight_layout()
+
     fig.savefig(
         output_dir / f"{filename}.png",
         dpi=300,
         bbox_inches="tight"
     )
+
     plt.close(fig)
-    print(f"Generato: {filename}")
+
+    print(f"Generato: {filename}.png")
 
 
-def plot_metric(df, metrics, ylabel, output_dir,
-                filename, baseline=None):
-    """Grafico a linee con confronto opzionale baseline."""
+def plot_metric(
+    df,
+    metrics,
+    ylabel,
+    output_dir,
+    filename,
+    comparison=None,
+    label1="Dataset 1",
+    label2="Dataset 2"
+):
+    """Grafico a linee con confronto opzionale tra due dataset."""
 
     df = df.sort_values("users")
 
-    if baseline is not None:
-        baseline = baseline.sort_values("users")
+    if comparison is not None:
+        comparison = comparison.sort_values("users")
 
     fig, ax = plt.subplots(figsize=(8, 4.5))
 
     for mean_col, std_col, label in metrics:
 
-        # Configurazione corrente
+        # Primo dataset
         line = ax.errorbar(
             df["users"],
             df[mean_col],
@@ -58,31 +71,51 @@ def plot_metric(df, metrics, ylabel, output_dir,
             linestyle="-",
             linewidth=2,
             capsize=4,
-            label=label
+            label=(
+                f"{label} ({label1})"
+                if comparison is not None
+                else label
+            )
         )
 
-        # Riutilizza esattamente lo stesso colore
+        # Stesso colore per la medesima metrica
         color = line.lines[0].get_color()
 
-        # Baseline
-        if baseline is not None:
+        # Secondo dataset
+        if comparison is not None:
+
             ax.errorbar(
-                baseline["users"],
-                baseline[mean_col],
-                yerr=baseline[std_col],
+                comparison["users"],
+                comparison[mean_col],
+                yerr=comparison[std_col],
                 color=color,
                 linestyle="--",
                 marker=None,
                 linewidth=1.8,
                 capsize=3,
                 alpha=0.8,
-                label=f"{label} (baseline)"
+                label=f"{label} ({label2})"
             )
+
+    # Livelli di carico di entrambi i dataset
+    all_users = df["users"]
+
+    if comparison is not None:
+        all_users = pd.concat([
+            all_users,
+            comparison["users"]
+        ])
 
     ax.set_xlabel("Users")
     ax.set_ylabel(ylabel)
-    ax.set_xticks(sorted(df["users"].unique()))
-    ax.grid(True, linestyle="--", alpha=0.3)
+    ax.set_xticks(sorted(all_users.unique()))
+
+    ax.grid(
+        True,
+        linestyle="--",
+        alpha=0.3
+    )
+
     ax.legend()
 
     save_plot(fig, output_dir, filename)
@@ -92,15 +125,23 @@ def plot_metric(df, metrics, ylabel, output_dir,
 # METRICHE APPLICATIVE (LOCUST)
 # =====================================
 
-def plot_stats(csv_path, output_dir, baseline_path=None):
+def plot_stats(
+    csv_path,
+    output_dir,
+    comparison_path=None,
+    label1="Dataset 1",
+    label2="Dataset 2"
+):
 
     df = pd.read_csv(csv_path)
 
-    baseline = (
-        pd.read_csv(baseline_path)
-        if baseline_path else None
+    comparison = (
+        pd.read_csv(comparison_path)
+        if comparison_path is not None
+        else None
     )
 
+    # Throughput
     plot_metric(
         df,
         [
@@ -113,9 +154,12 @@ def plot_stats(csv_path, output_dir, baseline_path=None):
         "Throughput (req/s)",
         output_dir,
         "throughput",
-        baseline
+        comparison,
+        label1,
+        label2
     )
 
+    # Latenza
     plot_metric(
         df,
         [
@@ -143,7 +187,9 @@ def plot_stats(csv_path, output_dir, baseline_path=None):
         "Latency (ms)",
         output_dir,
         "latency",
-        baseline
+        comparison,
+        label1,
+        label2
     )
 
 
@@ -151,20 +197,29 @@ def plot_stats(csv_path, output_dir, baseline_path=None):
 # METRICHE DEI NODI
 # =====================================
 
-def plot_nodes(csv_path, output_dir, baseline_path=None):
+def plot_nodes(
+    csv_path,
+    output_dir,
+    comparison_path=None,
+    label1="Dataset 1",
+    label2="Dataset 2"
+):
 
     df = pd.read_csv(csv_path)
 
-    baseline = (
-        pd.read_csv(baseline_path)
-        if baseline_path else None
+    comparison = (
+        pd.read_csv(comparison_path)
+        if comparison_path is not None
+        else None
     )
 
     # Normalizza i nomi dei nodi
     df["node"] = df["node"].fillna("patient-cloud")
 
-    if baseline is not None:
-        baseline["node"] = baseline["node"].fillna("patient-cloud")
+    if comparison is not None:
+        comparison["node"] = (
+            comparison["node"].fillna("patient-cloud")
+        )
 
     metrics = [
         (
@@ -181,53 +236,91 @@ def plot_nodes(csv_path, output_dir, baseline_path=None):
         )
     ]
 
+    # Unione dei nodi presenti nei dataset
+    nodes = sorted(
+        set(df["node"]) |
+        (
+            set(comparison["node"])
+            if comparison is not None
+            else set()
+        )
+    )
+
     for mean_col, std_col, ylabel, filename in metrics:
 
         fig, ax = plt.subplots(figsize=(8, 4.5))
 
-        for node, group in df.groupby("node"):
+        for node in nodes:
 
-            group = group.sort_values("users")
+            # Primo dataset
+            group = df[
+                df["node"] == node
+            ].sort_values("users")
 
-            # Configurazione corrente
-            line = ax.errorbar(
-                group["users"],
-                group[mean_col],
-                yerr=group[std_col],
-                marker="o",
-                linestyle="-",
-                linewidth=2,
-                capsize=4,
-                label=node
+            # Secondo dataset
+            comparison_group = (
+                comparison[
+                    comparison["node"] == node
+                ].sort_values("users")
+                if comparison is not None
+                else pd.DataFrame()
             )
 
-            color = line.lines[0].get_color()
+            color = None
 
-            # Baseline dello stesso nodo
-            if baseline is not None:
+            if not group.empty:
 
-                base_group = baseline[
-                    baseline["node"] == node
-                ].sort_values("users")
-
-                if not base_group.empty:
-                    ax.errorbar(
-                        base_group["users"],
-                        base_group[mean_col],
-                        yerr=base_group[std_col],
-                        color=color,
-                        linestyle="--",
-                        marker=None,
-                        linewidth=1.8,
-                        capsize=3,
-                        alpha=0.8,
-                        label=f"{node} (baseline)"
+                line = ax.errorbar(
+                    group["users"],
+                    group[mean_col],
+                    yerr=group[std_col],
+                    marker="o",
+                    linestyle="-",
+                    linewidth=2,
+                    capsize=4,
+                    label=(
+                        f"{node} ({label1})"
+                        if comparison is not None
+                        else node
                     )
+                )
+
+                color = line.lines[0].get_color()
+
+            # Confronto dello stesso nodo
+            if not comparison_group.empty:
+
+                ax.errorbar(
+                    comparison_group["users"],
+                    comparison_group[mean_col],
+                    yerr=comparison_group[std_col],
+                    color=color,
+                    linestyle="--",
+                    marker=None,
+                    linewidth=1.8,
+                    capsize=3,
+                    alpha=0.8,
+                    label=f"{node} ({label2})"
+                )
+
+        all_users = df["users"]
+
+        if comparison is not None:
+            all_users = pd.concat([
+                all_users,
+                comparison["users"]
+            ])
 
         ax.set_xlabel("Users")
         ax.set_ylabel(ylabel)
-        ax.set_xticks(sorted(df["users"].unique()))
-        ax.grid(True, linestyle="--", alpha=0.3)
+        ax.set_xticks(sorted(all_users.unique()))
+
+        ax.grid(
+            True,
+            linestyle="--",
+            alpha=0.3
+        )
+
         ax.legend()
 
         save_plot(fig, output_dir, filename)
@@ -249,10 +342,17 @@ def plot_pods(csv_path, output_dir):
     )
 
     # Esclude il generatore di carico
-    df = df[df["service"] != "locust-tester"]
+    df = df[
+        df["service"] != "locust-tester"
+    ]
 
-    users_levels = sorted(df["users"].unique())
-    order = sorted(df["service"].unique())
+    users_levels = sorted(
+        df["users"].unique()
+    )
+
+    order = sorted(
+        df["service"].unique()
+    )
 
     metrics = [
         (
@@ -274,6 +374,7 @@ def plot_pods(csv_path, output_dir):
         fig, ax = plt.subplots(figsize=(13, 5.5))
 
         x = np.arange(len(order))
+
         width = 0.8 / len(users_levels)
 
         for i, users in enumerate(users_levels):
@@ -299,7 +400,9 @@ def plot_pods(csv_path, output_dir):
 
         ax.set_xlabel("Microservices")
         ax.set_ylabel(ylabel)
+
         ax.set_xticks(x)
+
         ax.set_xticklabels(
             order,
             rotation=35,
@@ -313,6 +416,7 @@ def plot_pods(csv_path, output_dir):
         )
 
         ax.set_axisbelow(True)
+
         ax.legend(title="Carico")
 
         save_plot(fig, output_dir, filename)
@@ -325,16 +429,53 @@ def plot_pods(csv_path, output_dir):
 def main():
 
     parser = argparse.ArgumentParser(
-        description="Generazione grafici esperimenti Kubernetes/Liqo"
+        description=(
+            "Generazione grafici esperimenti "
+            "Kubernetes/Liqo con confronto opzionale"
+        )
     )
 
-    parser.add_argument("--stats", type=Path)
-    parser.add_argument("--nodes", type=Path)
-    parser.add_argument("--pods", type=Path)
+    # Dataset principale
+    parser.add_argument(
+        "--stats",
+        type=Path
+    )
 
-    parser.add_argument("--baseline-stats", type=Path)
-    parser.add_argument("--baseline-nodes", type=Path)
+    parser.add_argument(
+        "--nodes",
+        type=Path
+    )
 
+    parser.add_argument(
+        "--pods",
+        type=Path
+    )
+
+    # Dataset di confronto
+    parser.add_argument(
+        "--compare-stats",
+        type=Path
+    )
+
+    parser.add_argument(
+        "--compare-nodes",
+        type=Path
+    )
+
+    # Etichette
+    parser.add_argument(
+        "--label1",
+        default="Dataset 1",
+        help="Nome del primo dataset"
+    )
+
+    parser.add_argument(
+        "--label2",
+        default="Dataset 2",
+        help="Nome del secondo dataset"
+    )
+
+    # Directory output
     parser.add_argument(
         "--output",
         type=Path,
@@ -343,24 +484,15 @@ def main():
 
     args = parser.parse_args()
 
-    if args.stats:
-        plot_stats(
-            args.stats,
-            args.output,
-            args.baseline_stats
+    # Validazione
+    if args.compare_stats and not args.stats:
+        parser.error(
+            "--compare-stats richiede --stats"
         )
 
-    if args.nodes:
-        plot_nodes(
-            args.nodes,
-            args.output,
-            args.baseline_nodes
-        )
-
-    if args.pods:
-        plot_pods(
-            args.pods,
-            args.output
+    if args.compare_nodes and not args.nodes:
+        parser.error(
+            "--compare-nodes richiede --nodes"
         )
 
     if not any([
@@ -369,7 +501,38 @@ def main():
         args.pods
     ]):
         parser.error(
-            "Specificare almeno un CSV: --stats, --nodes o --pods"
+            "Specificare almeno un CSV: "
+            "--stats, --nodes o --pods"
+        )
+
+    # Grafici applicativi
+    if args.stats:
+
+        plot_stats(
+            args.stats,
+            args.output,
+            args.compare_stats,
+            args.label1,
+            args.label2
+        )
+
+    # Grafici nodi
+    if args.nodes:
+
+        plot_nodes(
+            args.nodes,
+            args.output,
+            args.compare_nodes,
+            args.label1,
+            args.label2
+        )
+
+    # Grafici pod
+    if args.pods:
+
+        plot_pods(
+            args.pods,
+            args.output
         )
 
 
