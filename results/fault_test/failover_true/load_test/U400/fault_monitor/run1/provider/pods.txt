@@ -1,0 +1,1071 @@
+
+========================================
+TIMESTAMP: 2026-11-11 17:35:54
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          96m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          78m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          78m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          78m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:36:02
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          96m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          78m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          78m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          78m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:36:12
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          96m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          78m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          78m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          78m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:36:22
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          96m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          78m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          78m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          78m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:36:30
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          97m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          78m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          78m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          78m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:36:40
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          97m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          78m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          78m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          78m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:36:50
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          97m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          78m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          78m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          78m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:36:58
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          97m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          79m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          79m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          79m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:37:08
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          97m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          79m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          79m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          79m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:37:18
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          97m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          79m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          79m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          79m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:37:25
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          98m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          79m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          79m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          79m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:37:35
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          98m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          79m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          79m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          79m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:37:45
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          98m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          79m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          79m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          79m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:37:53
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          98m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          79m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          79m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          79m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:38:03
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          98m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          80m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          80m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          80m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:38:13
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          98m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          80m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          80m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          80m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:38:23
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          99m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          80m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          80m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          80m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:38:29
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          99m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          80m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          80m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          80m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:38:39
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          99m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          80m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          80m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          80m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:38:48
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          99m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          80m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          80m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          80m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:38:58
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          99m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          81m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          81m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          81m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:39:08
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          99m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          81m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          81m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          81m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:39:15
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE   IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          99m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          81m   10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          81m   10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          81m   10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:39:25
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          100m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          81m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          81m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          81m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:39:35
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          100m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          81m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          81m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          81m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:39:43
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          100m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          81m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          81m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          81m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:39:53
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          100m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          81m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          81m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          81m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:40:03
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          100m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          82m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          82m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          82m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:40:10
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          100m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          82m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          82m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          82m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:40:20
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          100m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          82m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          82m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          82m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:40:30
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          101m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          82m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          82m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          82m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:40:37
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          101m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          82m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          82m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          82m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:40:47
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          101m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          82m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          82m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          82m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:40:57
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          101m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          83m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          83m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          83m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:41:04
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          101m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          83m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          83m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          83m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:41:14
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          101m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          83m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          83m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          83m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:41:24
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          102m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          83m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          83m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          83m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:41:31
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          102m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          83m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          83m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          83m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:41:41
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          102m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          83m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          83m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          83m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:41:51
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          102m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          83m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          83m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          83m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:42:01
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          102m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          84m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          84m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          84m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:42:08
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          102m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          84m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          84m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          84m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:42:18
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          102m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          84m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          84m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          84m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:42:27
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          103m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          84m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          84m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          84m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:42:37
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          103m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          84m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          84m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          84m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:42:47
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          103m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          84m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          84m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          84m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:42:55
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          103m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          85m    10.244.2.2    provider-worker    <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          85m    10.244.2.4    provider-worker    <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          85m    10.244.2.3    provider-worker    <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:43:05
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          103m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   0/1     Running   0          4s     10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          0/1     Running   0          4s     10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          4s     10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:43:15
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          103m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          13s    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          13s    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          13s    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:43:24
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          104m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          22s    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          22s    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          22s    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:43:30
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          104m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          29s    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          29s    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          29s    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:43:40
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          104m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          39s    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          39s    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          39s    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:43:49
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          104m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          48s    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          48s    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          48s    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:43:59
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          104m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          58s    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          58s    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          58s    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:44:09
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          104m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          68s    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          68s    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          68s    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:44:16
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          104m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          75s    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          75s    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          75s    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:44:26
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          105m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          85s    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          85s    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          85s    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:44:36
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          105m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          95s    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          95s    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          95s    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:44:44
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          105m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          102s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          102s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          102s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:44:54
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          105m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          112s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          112s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          112s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:45:04
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          105m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          2m2s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          2m2s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          2m2s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:45:11
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          105m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          2m9s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          2m9s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          2m9s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:45:21
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          105m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          2m19s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          2m19s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          2m19s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:45:31
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          106m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          2m29s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          2m29s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          2m29s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:45:38
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          106m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          2m36s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          2m36s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          2m36s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:45:48
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          106m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          2m46s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          2m46s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          2m46s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:45:58
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          106m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          2m56s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          2m56s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          2m56s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:46:05
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          106m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          3m3s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          3m3s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          3m3s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:46:15
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          106m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          3m13s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          3m13s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          3m13s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:46:25
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          107m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          3m23s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          3m23s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          3m23s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:46:32
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          107m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          3m30s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          3m30s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          3m30s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:46:42
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          107m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          3m41s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          3m41s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          3m41s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:46:52
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          107m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          3m51s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          3m51s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          3m51s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:47:01
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          107m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          4m     10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          4m     10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          4m     10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:47:08
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          107m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          4m7s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          4m7s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          4m7s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:47:18
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          107m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          4m17s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          4m17s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          4m17s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:47:27
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          108m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          4m26s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          4m26s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          4m26s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:47:37
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          108m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          4m36s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          4m36s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          4m36s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:47:47
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          108m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          4m46s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          4m46s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          4m46s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:47:57
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          108m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          4m55s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          4m55s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          4m55s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:48:03
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          108m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          5m2s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          5m2s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          5m2s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:48:13
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          108m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          5m11s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          5m11s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          5m11s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:48:22
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          108m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          5m20s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          5m20s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          5m20s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:48:32
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          109m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          5m30s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          5m30s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          5m30s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:48:42
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          109m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          5m40s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          5m40s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          5m40s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:48:49
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          109m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          5m48s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          5m48s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          5m48s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:48:59
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          109m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          5m57s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          5m57s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          5m57s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:49:09
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          109m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          6m7s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          6m7s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          6m7s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:49:16
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          109m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          6m15s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          6m15s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          6m15s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:49:26
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          110m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          6m25s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          6m25s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          6m25s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:49:36
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          110m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          6m35s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          6m35s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          6m35s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:49:43
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          110m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          6m42s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          6m42s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          6m42s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:49:53
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          110m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          6m51s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          6m51s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          6m51s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:50:03
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          110m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          7m2s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          7m2s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          7m2s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:50:10
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          110m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          7m8s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          7m8s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          7m8s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:50:20
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          110m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          7m18s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          7m18s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          7m18s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:50:30
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          111m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          7m29s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          7m29s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          7m29s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:50:38
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          111m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          7m36s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          7m36s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          7m36s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:50:48
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          111m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          7m46s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          7m46s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          7m46s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:50:58
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          111m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          7m56s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          7m56s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          7m56s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:51:05
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          111m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          8m4s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          8m4s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          8m4s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:51:15
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          111m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          8m14s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          8m14s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          8m14s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:51:25
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          112m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          8m25s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          8m25s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          8m25s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:51:32
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          112m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          8m30s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          8m30s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          8m30s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:51:42
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          112m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          8m40s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          8m40s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          8m40s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:51:52
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          112m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          8m50s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          8m50s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          8m50s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:52:01
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          112m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          9m     10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          9m     10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          9m     10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:52:11
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          112m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          9m6s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          9m6s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          9m6s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:52:21
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          112m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          9m18s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          9m18s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          9m18s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:52:31
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          113m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          9m30s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          9m30s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          9m30s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:52:41
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          113m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          9m39s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          9m39s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          9m39s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:52:51
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          113m    10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          9m47s   10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          9m47s   10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          9m47s   10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:53:01
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          113m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          10m    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          10m    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          10m    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:53:11
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          113m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          10m    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          10m    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          10m    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:53:18
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          113m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          10m    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          10m    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          10m    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:53:28
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          114m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          10m    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          10m    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          10m    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:53:38
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          114m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          10m    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          10m    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          10m    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:53:46
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          114m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          10m    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          10m    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          10m    10.244.1.21   provider-worker2   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-11 17:53:56
+========================================
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+cartservice-68cbd589b7-z74rs       1/1     Running   0          114m   10.244.1.19   provider-worker2   <none>           <none>
+currencyservice-5895599f55-lw5bd   1/1     Running   0          10m    10.244.1.23   provider-worker2   <none>           <none>
+frontend-75d5c847c8-bnhzt          1/1     Running   0          10m    10.244.1.22   provider-worker2   <none>           <none>
+paymentservice-569659756d-kfxwh    1/1     Running   0          10m    10.244.1.21   provider-worker2   <none>           <none>

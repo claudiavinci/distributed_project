@@ -1,0 +1,5948 @@
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:02
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:12
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:22
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:32
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:42
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:48
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:56
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:06
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:16
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:26
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:36
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:46
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:51
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:01
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:11
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:21
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:31
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:00:40Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 58
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1157813"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:49
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:59
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:16
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:26
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:36
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:46
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:56
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:06
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:12
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:22
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:32
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:51
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:01
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:08
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:18
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:28
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:37
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:47
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:57
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:05
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:15
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:25
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:33
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:43
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:53
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:01
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:11
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:21
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:30
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:40
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:47
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:59
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:19
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:28
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:38
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:48
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:55
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:05
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:15
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:22
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:32
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:42
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:49
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:59
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:16
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:26
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:36
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:43
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:53
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:03
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:10
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:20
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:30
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:39
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:46
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:56
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:05
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:15
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:25
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:32
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:42
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:52
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:59
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:19
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:26
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:36
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:46
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:53
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:03
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:13
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:20
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:30
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:40
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:47
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:57
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:07
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:14
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:24
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:34
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:51
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.9
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-wpfr2
+      namespace: shop
+      uid: 027c4bc0-7214-449f-9ea4-a576a803d170
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:04:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 59
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1158432"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:01
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 61
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177825"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:08
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:18
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:28
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:36
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:46
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:56
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:03
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:13
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:23
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:31
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:51
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:20:00
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 16:20:10
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: currencyservice-5895599f55-lw5bd
+      namespace: shop
+      uid: 519960ee-220d-420f-a0f9-f43e36a115da
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T15:18:07Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: currencyservice-
+    generation: 62
+    labels:
+      app: currencyservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: currencyservice
+    name: currencyservice-5fmbj
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: currencyservice
+      uid: 3f4aac80-8564-4771-8e7c-02209645bb88
+    resourceVersion: "1177928"
+    uid: 41a707e6-4f63-4058-9bec-002e5dc72602
+  ports:
+  - name: grpc
+    port: 7000
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""

@@ -1,0 +1,1116 @@
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:02
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   2m40s
+currencyservice-5895599f55-wpfr2   Running   105s
+frontend-75d5c847c8-7tvfj          Running   2m18s
+paymentservice-569659756d-lv6h4    Running   2m40s
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:12
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   2m49s
+currencyservice-5895599f55-wpfr2   Running   114s
+frontend-75d5c847c8-7tvfj          Running   2m27s
+paymentservice-569659756d-lv6h4    Running   2m49s
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:22
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   2m59s
+currencyservice-5895599f55-wpfr2   Running   2m4s
+frontend-75d5c847c8-7tvfj          Running   2m37s
+paymentservice-569659756d-lv6h4    Running   2m59s
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:32
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   3m10s
+currencyservice-5895599f55-wpfr2   Running   2m15s
+frontend-75d5c847c8-7tvfj          Running   2m48s
+paymentservice-569659756d-lv6h4    Running   3m10s
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:42
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   3m20s
+currencyservice-5895599f55-wpfr2   Running   2m25s
+frontend-75d5c847c8-7tvfj          Running   2m58s
+paymentservice-569659756d-lv6h4    Running   3m20s
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:48
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   3m26s
+currencyservice-5895599f55-wpfr2   Running   2m31s
+frontend-75d5c847c8-7tvfj          Running   3m4s
+paymentservice-569659756d-lv6h4    Running   3m26s
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:56
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   3m34s
+currencyservice-5895599f55-wpfr2   Running   2m39s
+frontend-75d5c847c8-7tvfj          Running   3m12s
+paymentservice-569659756d-lv6h4    Running   3m34s
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:06
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   3m44s
+currencyservice-5895599f55-wpfr2   Running   2m49s
+frontend-75d5c847c8-7tvfj          Running   3m22s
+paymentservice-569659756d-lv6h4    Running   3m44s
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:16
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   3m54s
+currencyservice-5895599f55-wpfr2   Running   2m59s
+frontend-75d5c847c8-7tvfj          Running   3m32s
+paymentservice-569659756d-lv6h4    Running   3m54s
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:26
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   4m3s
+currencyservice-5895599f55-wpfr2   Running   3m8s
+frontend-75d5c847c8-7tvfj          Running   3m41s
+paymentservice-569659756d-lv6h4    Running   4m3s
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:36
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   4m13s
+currencyservice-5895599f55-wpfr2   Running   3m18s
+frontend-75d5c847c8-7tvfj          Running   3m51s
+paymentservice-569659756d-lv6h4    Running   4m13s
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:46
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   4m23s
+currencyservice-5895599f55-wpfr2   Running   3m28s
+frontend-75d5c847c8-7tvfj          Running   4m1s
+paymentservice-569659756d-lv6h4    Running   4m23s
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:51
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   4m29s
+currencyservice-5895599f55-wpfr2   Running   3m34s
+frontend-75d5c847c8-7tvfj          Running   4m7s
+paymentservice-569659756d-lv6h4    Running   4m29s
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:01
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   4m38s
+currencyservice-5895599f55-wpfr2   Running   3m43s
+frontend-75d5c847c8-7tvfj          Running   4m16s
+paymentservice-569659756d-lv6h4    Running   4m38s
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:11
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   4m49s
+currencyservice-5895599f55-wpfr2   Running   3m54s
+frontend-75d5c847c8-7tvfj          Running   4m27s
+paymentservice-569659756d-lv6h4    Running   4m49s
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:21
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   4m58s
+currencyservice-5895599f55-wpfr2   Running   4m3s
+frontend-75d5c847c8-7tvfj          Running   4m36s
+paymentservice-569659756d-lv6h4    Running   4m58s
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:31
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   5m8s
+currencyservice-5895599f55-wpfr2   Running   4m13s
+frontend-75d5c847c8-7tvfj          Running   4m46s
+paymentservice-569659756d-lv6h4    Running   5m8s
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:41
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   5m18s
+currencyservice-5895599f55-wpfr2   Running   4m23s
+frontend-75d5c847c8-7tvfj          Running   4m56s
+paymentservice-569659756d-lv6h4    Running   5m18s
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:49
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   5m26s
+currencyservice-5895599f55-wpfr2   Running   4m31s
+frontend-75d5c847c8-7tvfj          Running   5m4s
+paymentservice-569659756d-lv6h4    Running   5m26s
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:59
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   5m37s
+currencyservice-5895599f55-wpfr2   Running   4m42s
+frontend-75d5c847c8-7tvfj          Running   5m15s
+paymentservice-569659756d-lv6h4    Running   5m37s
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:09
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   5m46s
+currencyservice-5895599f55-wpfr2   Running   4m51s
+frontend-75d5c847c8-7tvfj          Running   5m24s
+paymentservice-569659756d-lv6h4    Running   5m46s
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:16
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   5m53s
+currencyservice-5895599f55-wpfr2   Running   4m58s
+frontend-75d5c847c8-7tvfj          Running   5m31s
+paymentservice-569659756d-lv6h4    Running   5m53s
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:26
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   6m3s
+currencyservice-5895599f55-wpfr2   Running   5m8s
+frontend-75d5c847c8-7tvfj          Running   5m41s
+paymentservice-569659756d-lv6h4    Running   6m3s
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:36
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   6m14s
+currencyservice-5895599f55-wpfr2   Running   5m19s
+frontend-75d5c847c8-7tvfj          Running   5m52s
+paymentservice-569659756d-lv6h4    Running   6m14s
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:46
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   6m23s
+currencyservice-5895599f55-wpfr2   Running   5m28s
+frontend-75d5c847c8-7tvfj          Running   6m1s
+paymentservice-569659756d-lv6h4    Running   6m23s
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:56
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   6m34s
+currencyservice-5895599f55-wpfr2   Running   5m39s
+frontend-75d5c847c8-7tvfj          Running   6m12s
+paymentservice-569659756d-lv6h4    Running   6m34s
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:06
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   6m43s
+currencyservice-5895599f55-wpfr2   Running   5m48s
+frontend-75d5c847c8-7tvfj          Running   6m21s
+paymentservice-569659756d-lv6h4    Running   6m43s
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:12
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   6m49s
+currencyservice-5895599f55-wpfr2   Running   5m54s
+frontend-75d5c847c8-7tvfj          Running   6m27s
+paymentservice-569659756d-lv6h4    Running   6m49s
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:22
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   7m
+currencyservice-5895599f55-wpfr2   Running   6m5s
+frontend-75d5c847c8-7tvfj          Running   6m38s
+paymentservice-569659756d-lv6h4    Running   7m
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:32
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   7m9s
+currencyservice-5895599f55-wpfr2   Running   6m14s
+frontend-75d5c847c8-7tvfj          Running   6m47s
+paymentservice-569659756d-lv6h4    Running   7m9s
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:41
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   7m18s
+currencyservice-5895599f55-wpfr2   Running   6m23s
+frontend-75d5c847c8-7tvfj          Running   6m56s
+paymentservice-569659756d-lv6h4    Running   7m18s
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:51
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   7m28s
+currencyservice-5895599f55-wpfr2   Running   6m33s
+frontend-75d5c847c8-7tvfj          Running   7m6s
+paymentservice-569659756d-lv6h4    Running   7m28s
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:01
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   7m38s
+currencyservice-5895599f55-wpfr2   Running   6m43s
+frontend-75d5c847c8-7tvfj          Running   7m16s
+paymentservice-569659756d-lv6h4    Running   7m38s
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:08
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   7m45s
+currencyservice-5895599f55-wpfr2   Running   6m50s
+frontend-75d5c847c8-7tvfj          Running   7m23s
+paymentservice-569659756d-lv6h4    Running   7m45s
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:18
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   7m55s
+currencyservice-5895599f55-wpfr2   Running   7m
+frontend-75d5c847c8-7tvfj          Running   7m33s
+paymentservice-569659756d-lv6h4    Running   7m55s
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:28
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   8m6s
+currencyservice-5895599f55-wpfr2   Running   7m11s
+frontend-75d5c847c8-7tvfj          Running   7m44s
+paymentservice-569659756d-lv6h4    Running   8m6s
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:37
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   8m14s
+currencyservice-5895599f55-wpfr2   Running   7m19s
+frontend-75d5c847c8-7tvfj          Running   7m52s
+paymentservice-569659756d-lv6h4    Running   8m14s
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:47
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   8m25s
+currencyservice-5895599f55-wpfr2   Running   7m30s
+frontend-75d5c847c8-7tvfj          Running   8m3s
+paymentservice-569659756d-lv6h4    Running   8m25s
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:57
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   8m35s
+currencyservice-5895599f55-wpfr2   Running   7m40s
+frontend-75d5c847c8-7tvfj          Running   8m13s
+paymentservice-569659756d-lv6h4    Running   8m35s
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:05
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   8m43s
+currencyservice-5895599f55-wpfr2   Running   7m48s
+frontend-75d5c847c8-7tvfj          Running   8m21s
+paymentservice-569659756d-lv6h4    Running   8m43s
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:15
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   8m52s
+currencyservice-5895599f55-wpfr2   Running   7m57s
+frontend-75d5c847c8-7tvfj          Running   8m30s
+paymentservice-569659756d-lv6h4    Running   8m52s
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:25
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   9m2s
+currencyservice-5895599f55-wpfr2   Running   8m7s
+frontend-75d5c847c8-7tvfj          Running   8m40s
+paymentservice-569659756d-lv6h4    Running   9m2s
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:33
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   9m10s
+currencyservice-5895599f55-wpfr2   Running   8m15s
+frontend-75d5c847c8-7tvfj          Running   8m48s
+paymentservice-569659756d-lv6h4    Running   9m10s
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:43
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   9m21s
+currencyservice-5895599f55-wpfr2   Running   8m26s
+frontend-75d5c847c8-7tvfj          Running   8m59s
+paymentservice-569659756d-lv6h4    Running   9m21s
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:53
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   9m30s
+currencyservice-5895599f55-wpfr2   Running   8m35s
+frontend-75d5c847c8-7tvfj          Running   9m8s
+paymentservice-569659756d-lv6h4    Running   9m30s
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:01
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   9m38s
+currencyservice-5895599f55-wpfr2   Running   8m43s
+frontend-75d5c847c8-7tvfj          Running   9m16s
+paymentservice-569659756d-lv6h4    Running   9m38s
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:11
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   9m48s
+currencyservice-5895599f55-wpfr2   Running   8m53s
+frontend-75d5c847c8-7tvfj          Running   9m26s
+paymentservice-569659756d-lv6h4    Running   9m48s
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:21
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   9m58s
+currencyservice-5895599f55-wpfr2   Running   9m3s
+frontend-75d5c847c8-7tvfj          Running   9m36s
+paymentservice-569659756d-lv6h4    Running   9m58s
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:30
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   10m
+currencyservice-5895599f55-wpfr2   Running   9m12s
+frontend-75d5c847c8-7tvfj          Running   9m45s
+paymentservice-569659756d-lv6h4    Running   10m
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:40
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   10m
+currencyservice-5895599f55-wpfr2   Running   9m22s
+frontend-75d5c847c8-7tvfj          Running   9m55s
+paymentservice-569659756d-lv6h4    Running   10m
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:47
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   10m
+currencyservice-5895599f55-wpfr2   Running   9m29s
+frontend-75d5c847c8-7tvfj          Running   10m
+paymentservice-569659756d-lv6h4    Running   10m
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:59
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   10m
+currencyservice-5895599f55-wpfr2   Running   9m41s
+frontend-75d5c847c8-7tvfj          Running   10m
+paymentservice-569659756d-lv6h4    Running   10m
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:09
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   10m
+currencyservice-5895599f55-wpfr2   Running   9m48s
+frontend-75d5c847c8-7tvfj          Running   10m
+paymentservice-569659756d-lv6h4    Running   10m
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:19
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   10m
+currencyservice-5895599f55-wpfr2   Running   10m
+frontend-75d5c847c8-7tvfj          Running   10m
+paymentservice-569659756d-lv6h4    Running   10m
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:28
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   11m
+currencyservice-5895599f55-wpfr2   Running   10m
+frontend-75d5c847c8-7tvfj          Running   10m
+paymentservice-569659756d-lv6h4    Running   11m
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:38
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   11m
+currencyservice-5895599f55-wpfr2   Running   10m
+frontend-75d5c847c8-7tvfj          Running   10m
+paymentservice-569659756d-lv6h4    Running   11m
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:48
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   11m
+currencyservice-5895599f55-wpfr2   Running   10m
+frontend-75d5c847c8-7tvfj          Running   11m
+paymentservice-569659756d-lv6h4    Running   11m
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:55
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   11m
+currencyservice-5895599f55-wpfr2   Running   10m
+frontend-75d5c847c8-7tvfj          Running   11m
+paymentservice-569659756d-lv6h4    Running   11m
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:05
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   11m
+currencyservice-5895599f55-wpfr2   Running   10m
+frontend-75d5c847c8-7tvfj          Running   11m
+paymentservice-569659756d-lv6h4    Running   11m
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:15
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   11m
+currencyservice-5895599f55-wpfr2   Running   10m
+frontend-75d5c847c8-7tvfj          Running   11m
+paymentservice-569659756d-lv6h4    Running   11m
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:22
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   12m
+currencyservice-5895599f55-wpfr2   Running   11m
+frontend-75d5c847c8-7tvfj          Running   11m
+paymentservice-569659756d-lv6h4    Running   12m
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:32
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   12m
+currencyservice-5895599f55-wpfr2   Running   11m
+frontend-75d5c847c8-7tvfj          Running   11m
+paymentservice-569659756d-lv6h4    Running   12m
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:42
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   12m
+currencyservice-5895599f55-wpfr2   Running   11m
+frontend-75d5c847c8-7tvfj          Running   11m
+paymentservice-569659756d-lv6h4    Running   12m
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:49
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   12m
+currencyservice-5895599f55-wpfr2   Running   11m
+frontend-75d5c847c8-7tvfj          Running   12m
+paymentservice-569659756d-lv6h4    Running   12m
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:59
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   12m
+currencyservice-5895599f55-wpfr2   Running   11m
+frontend-75d5c847c8-7tvfj          Running   12m
+paymentservice-569659756d-lv6h4    Running   12m
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:09
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   12m
+currencyservice-5895599f55-wpfr2   Running   11m
+frontend-75d5c847c8-7tvfj          Running   12m
+paymentservice-569659756d-lv6h4    Running   12m
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:16
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   12m
+currencyservice-5895599f55-wpfr2   Running   11m
+frontend-75d5c847c8-7tvfj          Running   12m
+paymentservice-569659756d-lv6h4    Running   12m
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:26
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   13m
+currencyservice-5895599f55-wpfr2   Running   12m
+frontend-75d5c847c8-7tvfj          Running   12m
+paymentservice-569659756d-lv6h4    Running   13m
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:36
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   13m
+currencyservice-5895599f55-wpfr2   Running   12m
+frontend-75d5c847c8-7tvfj          Running   12m
+paymentservice-569659756d-lv6h4    Running   13m
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:43
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   13m
+currencyservice-5895599f55-wpfr2   Running   12m
+frontend-75d5c847c8-7tvfj          Running   12m
+paymentservice-569659756d-lv6h4    Running   13m
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:53
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   13m
+currencyservice-5895599f55-wpfr2   Running   12m
+frontend-75d5c847c8-7tvfj          Running   13m
+paymentservice-569659756d-lv6h4    Running   13m
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:03
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   13m
+currencyservice-5895599f55-wpfr2   Running   12m
+frontend-75d5c847c8-7tvfj          Running   13m
+paymentservice-569659756d-lv6h4    Running   13m
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:10
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   13m
+currencyservice-5895599f55-wpfr2   Running   12m
+frontend-75d5c847c8-7tvfj          Running   13m
+paymentservice-569659756d-lv6h4    Running   13m
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:20
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   13m
+currencyservice-5895599f55-wpfr2   Running   13m
+frontend-75d5c847c8-7tvfj          Running   13m
+paymentservice-569659756d-lv6h4    Running   13m
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:30
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   14m
+currencyservice-5895599f55-wpfr2   Running   13m
+frontend-75d5c847c8-7tvfj          Running   13m
+paymentservice-569659756d-lv6h4    Running   14m
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:39
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   14m
+currencyservice-5895599f55-wpfr2   Running   13m
+frontend-75d5c847c8-7tvfj          Running   13m
+paymentservice-569659756d-lv6h4    Running   14m
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:46
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   14m
+currencyservice-5895599f55-wpfr2   Running   13m
+frontend-75d5c847c8-7tvfj          Running   14m
+paymentservice-569659756d-lv6h4    Running   14m
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:56
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   14m
+currencyservice-5895599f55-wpfr2   Running   13m
+frontend-75d5c847c8-7tvfj          Running   14m
+paymentservice-569659756d-lv6h4    Running   14m
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:05
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   14m
+currencyservice-5895599f55-wpfr2   Running   13m
+frontend-75d5c847c8-7tvfj          Running   14m
+paymentservice-569659756d-lv6h4    Running   14m
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:15
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   14m
+currencyservice-5895599f55-wpfr2   Running   13m
+frontend-75d5c847c8-7tvfj          Running   14m
+paymentservice-569659756d-lv6h4    Running   14m
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:25
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   15m
+currencyservice-5895599f55-wpfr2   Running   14m
+frontend-75d5c847c8-7tvfj          Running   14m
+paymentservice-569659756d-lv6h4    Running   15m
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:32
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   15m
+currencyservice-5895599f55-wpfr2   Running   14m
+frontend-75d5c847c8-7tvfj          Running   14m
+paymentservice-569659756d-lv6h4    Running   15m
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:42
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   15m
+currencyservice-5895599f55-wpfr2   Running   14m
+frontend-75d5c847c8-7tvfj          Running   14m
+paymentservice-569659756d-lv6h4    Running   15m
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:52
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   15m
+currencyservice-5895599f55-wpfr2   Running   14m
+frontend-75d5c847c8-7tvfj          Running   15m
+paymentservice-569659756d-lv6h4    Running   15m
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:59
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   15m
+currencyservice-5895599f55-wpfr2   Running   14m
+frontend-75d5c847c8-7tvfj          Running   15m
+paymentservice-569659756d-lv6h4    Running   15m
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:09
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   15m
+currencyservice-5895599f55-wpfr2   Running   14m
+frontend-75d5c847c8-7tvfj          Running   15m
+paymentservice-569659756d-lv6h4    Running   15m
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:19
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   15m
+currencyservice-5895599f55-wpfr2   Running   15m
+frontend-75d5c847c8-7tvfj          Running   15m
+paymentservice-569659756d-lv6h4    Running   15m
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:26
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   16m
+currencyservice-5895599f55-wpfr2   Running   15m
+frontend-75d5c847c8-7tvfj          Running   15m
+paymentservice-569659756d-lv6h4    Running   16m
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:36
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   16m
+currencyservice-5895599f55-wpfr2   Running   15m
+frontend-75d5c847c8-7tvfj          Running   15m
+paymentservice-569659756d-lv6h4    Running   16m
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:46
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   16m
+currencyservice-5895599f55-wpfr2   Running   15m
+frontend-75d5c847c8-7tvfj          Running   16m
+paymentservice-569659756d-lv6h4    Running   16m
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:53
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   16m
+currencyservice-5895599f55-wpfr2   Running   15m
+frontend-75d5c847c8-7tvfj          Running   16m
+paymentservice-569659756d-lv6h4    Running   16m
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:03
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   16m
+currencyservice-5895599f55-wpfr2   Running   15m
+frontend-75d5c847c8-7tvfj          Running   16m
+paymentservice-569659756d-lv6h4    Running   16m
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:13
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   16m
+currencyservice-5895599f55-wpfr2   Running   15m
+frontend-75d5c847c8-7tvfj          Running   16m
+paymentservice-569659756d-lv6h4    Running   16m
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:20
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   16m
+currencyservice-5895599f55-wpfr2   Running   16m
+frontend-75d5c847c8-7tvfj          Running   16m
+paymentservice-569659756d-lv6h4    Running   16m
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:30
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   17m
+currencyservice-5895599f55-wpfr2   Running   16m
+frontend-75d5c847c8-7tvfj          Running   16m
+paymentservice-569659756d-lv6h4    Running   17m
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:40
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   17m
+currencyservice-5895599f55-wpfr2   Running   16m
+frontend-75d5c847c8-7tvfj          Running   16m
+paymentservice-569659756d-lv6h4    Running   17m
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:47
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   17m
+currencyservice-5895599f55-wpfr2   Running   16m
+frontend-75d5c847c8-7tvfj          Running   17m
+paymentservice-569659756d-lv6h4    Running   17m
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:57
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   17m
+currencyservice-5895599f55-wpfr2   Running   16m
+frontend-75d5c847c8-7tvfj          Running   17m
+paymentservice-569659756d-lv6h4    Running   17m
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:07
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   17m
+currencyservice-5895599f55-wpfr2   Running   16m
+frontend-75d5c847c8-7tvfj          Running   17m
+paymentservice-569659756d-lv6h4    Running   17m
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:14
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   17m
+currencyservice-5895599f55-wpfr2   Running   16m
+frontend-75d5c847c8-7tvfj          Running   17m
+paymentservice-569659756d-lv6h4    Running   17m
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:24
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   18m
+currencyservice-5895599f55-wpfr2   Running   17m
+frontend-75d5c847c8-7tvfj          Running   17m
+paymentservice-569659756d-lv6h4    Running   18m
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:34
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   18m
+currencyservice-5895599f55-wpfr2   Running   17m
+frontend-75d5c847c8-7tvfj          Running   17m
+paymentservice-569659756d-lv6h4    Running   18m
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:41
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   18m
+currencyservice-5895599f55-wpfr2   Running   17m
+frontend-75d5c847c8-7tvfj          Running   17m
+paymentservice-569659756d-lv6h4    Running   18m
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:51
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   18m
+currencyservice-5895599f55-wpfr2   Running   17m
+frontend-75d5c847c8-7tvfj          Running   18m
+paymentservice-569659756d-lv6h4    Running   18m
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:01
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   18m
+currencyservice-5895599f55-lw5bd   Running   8s
+currencyservice-5895599f55-wpfr2   Failed    17m
+frontend-75d5c847c8-7tvfj          Failed    18m
+frontend-75d5c847c8-bnhzt          Running   8s
+paymentservice-569659756d-kfxwh    Running   8s
+paymentservice-569659756d-lv6h4    Failed    18m
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:08
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   18m
+currencyservice-5895599f55-lw5bd   Running   15s
+currencyservice-5895599f55-wpfr2   Failed    17m
+frontend-75d5c847c8-7tvfj          Failed    18m
+frontend-75d5c847c8-bnhzt          Running   15s
+paymentservice-569659756d-kfxwh    Running   15s
+paymentservice-569659756d-lv6h4    Failed    18m
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:18
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   18m
+currencyservice-5895599f55-lw5bd   Running   25s
+currencyservice-5895599f55-wpfr2   Failed    18m
+frontend-75d5c847c8-7tvfj          Failed    18m
+frontend-75d5c847c8-bnhzt          Running   25s
+paymentservice-569659756d-kfxwh    Running   25s
+paymentservice-569659756d-lv6h4    Failed    18m
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:28
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   19m
+currencyservice-5895599f55-lw5bd   Running   34s
+currencyservice-5895599f55-wpfr2   Failed    18m
+frontend-75d5c847c8-7tvfj          Failed    18m
+frontend-75d5c847c8-bnhzt          Running   34s
+paymentservice-569659756d-kfxwh    Running   34s
+paymentservice-569659756d-lv6h4    Failed    19m
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:36
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   19m
+currencyservice-5895599f55-lw5bd   Running   42s
+currencyservice-5895599f55-wpfr2   Failed    18m
+frontend-75d5c847c8-7tvfj          Failed    18m
+frontend-75d5c847c8-bnhzt          Running   42s
+paymentservice-569659756d-kfxwh    Running   42s
+paymentservice-569659756d-lv6h4    Failed    19m
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:46
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   19m
+currencyservice-5895599f55-lw5bd   Running   52s
+currencyservice-5895599f55-wpfr2   Failed    18m
+frontend-75d5c847c8-7tvfj          Failed    19m
+frontend-75d5c847c8-bnhzt          Running   52s
+paymentservice-569659756d-kfxwh    Running   52s
+paymentservice-569659756d-lv6h4    Failed    19m
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:56
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   19m
+currencyservice-5895599f55-lw5bd   Running   62s
+currencyservice-5895599f55-wpfr2   Failed    18m
+frontend-75d5c847c8-7tvfj          Failed    19m
+frontend-75d5c847c8-bnhzt          Running   62s
+paymentservice-569659756d-kfxwh    Running   62s
+paymentservice-569659756d-lv6h4    Failed    19m
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:03
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   19m
+currencyservice-5895599f55-lw5bd   Running   70s
+currencyservice-5895599f55-wpfr2   Failed    18m
+frontend-75d5c847c8-7tvfj          Failed    19m
+frontend-75d5c847c8-bnhzt          Running   70s
+paymentservice-569659756d-kfxwh    Running   70s
+paymentservice-569659756d-lv6h4    Failed    19m
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:13
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   19m
+currencyservice-5895599f55-lw5bd   Running   80s
+currencyservice-5895599f55-wpfr2   Failed    18m
+frontend-75d5c847c8-7tvfj          Failed    19m
+frontend-75d5c847c8-bnhzt          Running   80s
+paymentservice-569659756d-kfxwh    Running   80s
+paymentservice-569659756d-lv6h4    Failed    19m
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:23
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   20m
+currencyservice-5895599f55-lw5bd   Running   90s
+currencyservice-5895599f55-wpfr2   Failed    19m
+frontend-75d5c847c8-7tvfj          Failed    19m
+frontend-75d5c847c8-bnhzt          Running   90s
+paymentservice-569659756d-kfxwh    Running   90s
+paymentservice-569659756d-lv6h4    Failed    20m
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:31
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   20m
+currencyservice-5895599f55-lw5bd   Running   97s
+currencyservice-5895599f55-wpfr2   Failed    19m
+frontend-75d5c847c8-7tvfj          Failed    19m
+frontend-75d5c847c8-bnhzt          Running   97s
+paymentservice-569659756d-kfxwh    Running   97s
+paymentservice-569659756d-lv6h4    Failed    20m
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:41
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   20m
+currencyservice-5895599f55-lw5bd   Running   107s
+currencyservice-5895599f55-wpfr2   Failed    19m
+frontend-75d5c847c8-7tvfj          Failed    19m
+frontend-75d5c847c8-bnhzt          Running   107s
+paymentservice-569659756d-kfxwh    Running   107s
+paymentservice-569659756d-lv6h4    Failed    20m
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:51
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   20m
+currencyservice-5895599f55-lw5bd   Running   117s
+currencyservice-5895599f55-wpfr2   Failed    19m
+frontend-75d5c847c8-7tvfj          Failed    20m
+frontend-75d5c847c8-bnhzt          Running   117s
+paymentservice-569659756d-kfxwh    Running   117s
+paymentservice-569659756d-lv6h4    Failed    20m
+
+========================================
+TIMESTAMP: 2026-11-11 16:20:00
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   20m
+currencyservice-5895599f55-lw5bd   Running   2m7s
+currencyservice-5895599f55-wpfr2   Failed    19m
+frontend-75d5c847c8-7tvfj          Failed    20m
+frontend-75d5c847c8-bnhzt          Running   2m7s
+paymentservice-569659756d-kfxwh    Running   2m7s
+paymentservice-569659756d-lv6h4    Failed    20m
+
+========================================
+TIMESTAMP: 2026-11-11 16:20:10
+========================================
+NAME                               STATUS    AGE
+cartservice-68cbd589b7-z74rs       Running   20m
+currencyservice-5895599f55-lw5bd   Running   2m13s
+currencyservice-5895599f55-wpfr2   Failed    19m
+frontend-75d5c847c8-7tvfj          Failed    20m
+frontend-75d5c847c8-bnhzt          Running   2m13s
+paymentservice-569659756d-kfxwh    Running   2m13s
+paymentservice-569659756d-lv6h4    Failed    20m

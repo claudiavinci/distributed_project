@@ -1,0 +1,1071 @@
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:02
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h18m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:12
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h18m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:22
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h18m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:32
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h18m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:42
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h19m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:48
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h19m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:02:56
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h19m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:06
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h19m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:16
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h19m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:26
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h19m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:36
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h20m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:46
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h20m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:03:51
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h20m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:01
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h20m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:11
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h20m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:21
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h20m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:31
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h20m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:41
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h21m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:49
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h21m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:04:59
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h21m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:09
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h21m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:16
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h21m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:26
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h21m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:36
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h22m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:46
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h22m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:05:56
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h22m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:06
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h22m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:12
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h22m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:22
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h22m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:32
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h22m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:41
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h23m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:06:51
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h23m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:01
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h23m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:08
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h23m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:18
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h23m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:28
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h23m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:37
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h24m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:47
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h24m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:07:57
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h24m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:05
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h24m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:15
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h24m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:25
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h24m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:33
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h25m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:43
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h25m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:08:53
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h25m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:01
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h25m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:11
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h25m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:21
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h25m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:30
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h25m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:40
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h26m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:47
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h26m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:09:59
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h26m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:09
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h26m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:19
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h26m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:28
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h26m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:38
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h27m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:48
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h27m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:10:55
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h27m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:05
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h27m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:15
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h27m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:22
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h27m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:32
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h27m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:42
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h28m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:49
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h28m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:11:59
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h28m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:09
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h28m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:16
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h28m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:26
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h28m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:36
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h29m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:43
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h29m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:12:53
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h29m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:03
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h29m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:10
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h29m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:20
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h29m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:30
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h29m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:39
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h30m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:46
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h30m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:13:56
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h30m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:05
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h30m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:15
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h30m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:25
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h30m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:32
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h30m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:42
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h31m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:52
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h31m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:14:59
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h31m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:09
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h31m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:19
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h31m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:26
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h31m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:36
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h32m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:46
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h32m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:15:53
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h32m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:03
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h32m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:13
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h32m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:20
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h32m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:30
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h32m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:40
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h33m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:47
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h33m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:16:57
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h33m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:07
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h33m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:14
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h33m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:24
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h33m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:34
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h34m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:41
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h34m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:17:51
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h34m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:01
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h34m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:08
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h34m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:18
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h34m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:28
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h34m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:36
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h35m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:46
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h35m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:18:56
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h35m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:03
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h35m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:13
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h35m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:23
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h35m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:31
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h35m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:41
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h36m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:19:51
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h36m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:20:00
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h36m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>
+
+========================================
+TIMESTAMP: 2026-11-11 16:20:10
+========================================
+NAME                     STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+consumer-control-plane   Ready    control-plane   41d     v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker          Ready    <none>          41d     v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+consumer-worker2         Ready    <none>          41d     v1.37.0   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+patient-cloud            Ready    agent           5h36m   v1.37.0   10.244.1.23   <none>        <unknown>                      <unknown> (amd64)                            <unknown>

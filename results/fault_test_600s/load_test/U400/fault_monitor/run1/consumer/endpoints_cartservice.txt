@@ -1,0 +1,4450 @@
+
+========================================
+TIMESTAMP: 2026-11-11 15:31:12
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:31:22
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:31:32
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:31:42
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:31:49
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:31:59
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:32:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:32:16
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:32:26
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:32:36
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:32:44
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:32:54
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:33:04
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:33:11
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:33:21
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:33:31
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:33:39
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T12:44:24Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 22
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1129899"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:33:49
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:33:59
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:34:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:34:19
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:34:29
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:34:34
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:34:44
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:34:54
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:35:03
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:35:13
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:35:20
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:35:29
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:35:39
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:35:49
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:35:57
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:36:07
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:36:17
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:36:24
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:36:34
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:36:44
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:36:51
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:37:01
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:37:11
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:37:19
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:37:29
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:37:39
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:37:46
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:37:56
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:38:06
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:38:13
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:38:23
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:38:33
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:38:40
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:38:50
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:39:00
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:39:07
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:39:17
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:39:27
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:39:37
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:39:47
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:39:53
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:40:04
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:40:14
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:40:24
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:40:31
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:40:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:40:51
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:41:00
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:41:10
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:41:16
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:41:25
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:41:35
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:41:45
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:41:55
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:42:05
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:42:12
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-2t98m
+      namespace: shop
+      uid: cfbac041-b2b8-4f29-ab8a-0995f9676203
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:33:45Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 23
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1146270"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:42:21
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:14Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 25
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152758"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:42:31
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:14Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 25
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152758"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:42:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:42:50
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:43:00
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:43:06
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:43:15
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:43:25
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:43:35
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:43:43
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:43:53
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:44:03
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:44:10
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:44:20
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:44:30
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-11 15:44:38
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.2
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: cartservice-545cccb7f9-9gn55
+      namespace: shop
+      uid: 0c39cde6-8a50-4b29-9167-77ead181cf1c
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-11T14:42:38Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: cartservice-
+    generation: 26
+    labels:
+      app: cartservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: cartservice
+    name: cartservice-bxtnb
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: cartservice
+      uid: 1e34e2d1-f82e-4d24-a0f2-778990252657
+    resourceVersion: "1152846"
+    uid: 67d8b27c-4662-463d-8c70-f905fde3a794
+  ports:
+  - name: grpc
+    port: 7070
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
