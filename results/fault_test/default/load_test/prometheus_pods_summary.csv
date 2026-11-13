@@ -1,0 +1,16 @@
+users,pod,node,runs,exp_start_time,exp_end_time,memory_avg_MiB_mean,memory_avg_MiB_std,memory_max_MiB_mean,memory_max_MiB_std,cpu_avg_millicores_mean,cpu_avg_millicores_std,cpu_max_millicores_mean,cpu_max_millicores_std
+400,adservice-6d946cfcd-pbscr,consumer-worker,1,2026-11-11 16:02:02,2026-11-11 16:20:12,193.43,0.0,201.88,0.0,16.41,0.0,197.46,0.0
+400,cartservice-68cbd589b7-z74rs,patient-cloud,1,2026-11-11 16:02:02,2026-11-11 16:20:12,56.53,0.0,62.54,0.0,20.59,0.0,158.8,0.0
+400,checkoutservice-57b7c557b8-ck8pv,consumer-worker2,1,2026-11-11 16:02:02,2026-11-11 16:20:12,14.74,0.0,16.1,0.0,4.64,0.0,35.57,0.0
+400,currencyservice-5895599f55-lw5bd,patient-cloud,1,2026-11-11 16:02:02,2026-11-11 16:20:12,91.17,0.0,159.03,0.0,127.54,0.0,225.07,0.0
+400,currencyservice-5895599f55-wpfr2,patient-cloud,1,2026-11-11 16:02:02,2026-11-11 16:20:12,158.97,0.0,197.34,0.0,189.79,0.0,240.93,0.0
+400,emailservice-5499fd8656-lsl49,consumer-worker2,1,2026-11-11 16:02:02,2026-11-11 16:20:12,36.68,0.0,38.93,0.0,3.33,0.0,10.59,0.0
+400,frontend-75d5c847c8-7tvfj,patient-cloud,1,2026-11-11 16:02:02,2026-11-11 16:20:12,55.41,0.0,63.39,0.0,473.93,0.0,590.14,0.0
+400,frontend-75d5c847c8-bnhzt,patient-cloud,1,2026-11-11 16:02:02,2026-11-11 16:20:12,24.42,0.0,36.07,0.0,306.48,0.0,593.38,0.0
+400,locust-tester,consumer-control-plane,1,2026-11-11 16:02:02,2026-11-11 16:20:12,101.93,0.0,120.35,0.0,34.85,0.0,134.66,0.0
+400,paymentservice-569659756d-kfxwh,patient-cloud,1,2026-11-11 16:02:02,2026-11-11 16:20:12,31.05,0.0,34.51,0.0,8.88,0.0,17.79,0.0
+400,paymentservice-569659756d-lv6h4,patient-cloud,1,2026-11-11 16:02:02,2026-11-11 16:20:12,33.33,0.0,34.34,0.0,6.11,0.0,7.87,0.0
+400,productcatalogservice-59655c679b-sgk6b,consumer-worker,1,2026-11-11 16:02:02,2026-11-11 16:20:12,23.04,0.0,33.42,0.0,39.27,0.0,283.14,0.0
+400,recommendationservice-54f89f6856-xr89b,consumer-worker2,1,2026-11-11 16:02:02,2026-11-11 16:20:12,34.01,0.0,38.34,0.0,34.09,0.0,229.98,0.0
+400,redis-cart-78fc657c4b-sz9qj,consumer-worker,1,2026-11-11 16:02:02,2026-11-11 16:20:12,11.76,0.0,12.04,0.0,3.78,0.0,16.86,0.0
+400,shippingservice-7d54447d46-tplrb,consumer-worker2,1,2026-11-11 16:02:02,2026-11-11 16:20:12,14.88,0.0,21.73,0.0,4.19,0.0,27.44,0.0

@@ -1,0 +1,13 @@
+users,pod,node,runs,exp_start_time,exp_end_time,memory_avg_MiB_mean,memory_avg_MiB_std,memory_max_MiB_mean,memory_max_MiB_std,cpu_avg_millicores_mean,cpu_avg_millicores_std,cpu_max_millicores_mean,cpu_max_millicores_std
+400,adservice-6d946cfcd-pbscr,consumer-worker,1,2026-11-11 17:35:54,2026-11-11 17:53:57,252.89,0.0,253.28,0.0,34.71,0.0,60.26,0.0
+400,cartservice-68cbd589b7-z74rs,patient-cloud,1,2026-11-11 17:35:54,2026-11-11 17:53:57,74.19,0.0,77.73,0.0,98.62,0.0,164.88,0.0
+400,checkoutservice-57b7c557b8-ck8pv,consumer-worker2,1,2026-11-11 17:35:54,2026-11-11 17:53:57,30.39,0.0,31.22,0.0,21.12,0.0,37.8,0.0
+400,currencyservice-5895599f55-lw5bd,patient-cloud,1,2026-11-11 17:35:54,2026-11-11 17:53:57,170.23,0.0,199.99,0.0,204.92,0.0,255.73,0.0
+400,emailservice-5499fd8656-lsl49,consumer-worker2,1,2026-11-11 17:35:54,2026-11-11 17:53:57,47.85,0.0,47.91,0.0,7.25,0.0,10.93,0.0
+400,frontend-75d5c847c8-bnhzt,patient-cloud,1,2026-11-11 17:35:54,2026-11-11 17:53:57,56.89,0.0,62.07,0.0,524.91,0.0,623.69,0.0
+400,locust-tester,consumer-control-plane,1,2026-11-11 17:35:54,2026-11-11 17:53:57,113.16,0.0,119.46,0.0,96.05,0.0,163.9,0.0
+400,paymentservice-569659756d-kfxwh,patient-cloud,1,2026-11-11 17:35:54,2026-11-11 17:53:57,79.9,0.0,91.78,0.0,6.68,0.0,11.38,0.0
+400,productcatalogservice-59655c679b-sgk6b,consumer-worker,1,2026-11-11 17:35:54,2026-11-11 17:53:57,34.61,0.0,36.19,0.0,192.99,0.0,321.08,0.0
+400,recommendationservice-54f89f6856-xr89b,consumer-worker2,1,2026-11-11 17:35:54,2026-11-11 17:53:57,45.31,0.0,45.54,0.0,154.08,0.0,267.47,0.0
+400,redis-cart-78fc657c4b-sz9qj,consumer-worker,1,2026-11-11 17:35:54,2026-11-11 17:53:57,15.23,0.0,15.36,0.0,11.9,0.0,19.9,0.0
+400,shippingservice-7d54447d46-tplrb,consumer-worker2,1,2026-11-11 17:35:54,2026-11-11 17:53:57,27.7,0.0,28.19,0.0,17.85,0.0,31.5,0.0

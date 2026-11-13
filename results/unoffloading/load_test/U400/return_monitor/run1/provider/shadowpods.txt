@@ -1,0 +1,515 @@
+
+========================================
+TIMESTAMP: 2026-11-13 15:46:42
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   2m44s
+cartservice-778ffb7f97-8n4g9             Running   2m43s
+checkoutservice-84f95c6f6b-k4lp4         Running   2m43s
+frontend-75d5c847c8-trjbc                Running   2m45s
+productcatalogservice-5f5d467c96-rljmf   Running   2m41s
+
+========================================
+TIMESTAMP: 2026-11-13 15:46:50
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   2m52s
+cartservice-778ffb7f97-8n4g9             Running   2m51s
+checkoutservice-84f95c6f6b-k4lp4         Running   2m51s
+frontend-75d5c847c8-trjbc                Running   2m53s
+productcatalogservice-5f5d467c96-rljmf   Running   2m49s
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:00
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   3m2s
+cartservice-778ffb7f97-8n4g9             Running   3m1s
+checkoutservice-84f95c6f6b-k4lp4         Running   3m1s
+frontend-75d5c847c8-trjbc                Running   3m3s
+productcatalogservice-5f5d467c96-rljmf   Running   2m59s
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:10
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   3m12s
+cartservice-778ffb7f97-8n4g9             Running   3m11s
+checkoutservice-84f95c6f6b-k4lp4         Running   3m11s
+frontend-75d5c847c8-trjbc                Running   3m13s
+productcatalogservice-5f5d467c96-rljmf   Running   3m9s
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:17
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   3m19s
+cartservice-778ffb7f97-8n4g9             Running   3m18s
+checkoutservice-84f95c6f6b-k4lp4         Running   3m18s
+frontend-75d5c847c8-trjbc                Running   3m20s
+productcatalogservice-5f5d467c96-rljmf   Running   3m16s
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:27
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   3m29s
+cartservice-778ffb7f97-8n4g9             Running   3m28s
+checkoutservice-84f95c6f6b-k4lp4         Running   3m28s
+frontend-75d5c847c8-trjbc                Running   3m30s
+productcatalogservice-5f5d467c96-rljmf   Running   3m26s
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:37
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   3m39s
+cartservice-778ffb7f97-8n4g9             Running   3m38s
+checkoutservice-84f95c6f6b-k4lp4         Running   3m38s
+frontend-75d5c847c8-trjbc                Running   3m40s
+productcatalogservice-5f5d467c96-rljmf   Running   3m36s
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:44
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   3m47s
+cartservice-778ffb7f97-8n4g9             Running   3m46s
+checkoutservice-84f95c6f6b-k4lp4         Running   3m46s
+frontend-75d5c847c8-trjbc                Running   3m48s
+productcatalogservice-5f5d467c96-rljmf   Running   3m44s
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:54
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   3m57s
+cartservice-778ffb7f97-8n4g9             Running   3m56s
+checkoutservice-84f95c6f6b-k4lp4         Running   3m56s
+frontend-75d5c847c8-trjbc                Running   3m58s
+productcatalogservice-5f5d467c96-rljmf   Running   3m54s
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:04
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   4m7s
+cartservice-778ffb7f97-8n4g9             Running   4m6s
+checkoutservice-84f95c6f6b-k4lp4         Running   4m6s
+frontend-75d5c847c8-trjbc                Running   4m8s
+productcatalogservice-5f5d467c96-rljmf   Running   4m4s
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:11
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   4m14s
+cartservice-778ffb7f97-8n4g9             Running   4m13s
+checkoutservice-84f95c6f6b-k4lp4         Running   4m13s
+frontend-75d5c847c8-trjbc                Running   4m15s
+productcatalogservice-5f5d467c96-rljmf   Running   4m11s
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:21
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   4m24s
+cartservice-778ffb7f97-8n4g9             Running   4m23s
+checkoutservice-84f95c6f6b-k4lp4         Running   4m23s
+frontend-75d5c847c8-trjbc                Running   4m25s
+productcatalogservice-5f5d467c96-rljmf   Running   4m21s
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:31
+========================================
+NAME                                     STATUS    AGE
+adservice-6f6478fb45-lq5fz               Running   4m34s
+cartservice-778ffb7f97-8n4g9             Running   4m33s
+checkoutservice-84f95c6f6b-k4lp4         Running   4m33s
+frontend-75d5c847c8-trjbc                Running   4m35s
+productcatalogservice-5f5d467c96-rljmf   Running   4m31s
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:48
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:58
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:05
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:15
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:25
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:35
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:45
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:55
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:02
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:12
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:22
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:29
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:39
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:49
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:56
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:06
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:16
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:23
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:33
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:43
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:50
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:00
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:10
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:18
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:28
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:46
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:56
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:06
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:14
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:24
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:34
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:42
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:52
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:02
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:10
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:20
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:30
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:48
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:58
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:06
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:16
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:26
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:33
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:43
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:53
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:01
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:11
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:21
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:28
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:48
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:55
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:05
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:15
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:22
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:32
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:42
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:49
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:59
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:09
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:16
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:26
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:36
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:43
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:53
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:03
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:10
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:20
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:30
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:37
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:47
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:57
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 16:00:04
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 16:00:14
+========================================
+No resources found in shop namespace.

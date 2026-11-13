@@ -1,0 +1,25 @@
+NAMESPACE                 NAME                                             READY   STATUS    RESTARTS          AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+kube-system               coredns-559f6c778d-47jjb                         1/1     Running   44 (4h51m ago)    43d     10.244.0.3    provider-control-plane   <none>           <none>
+kube-system               coredns-559f6c778d-g7q29                         1/1     Running   44 (4h51m ago)    43d     10.244.0.2    provider-control-plane   <none>           <none>
+kube-system               etcd-provider-control-plane                      1/1     Running   0                 4h50m   172.18.0.4    provider-control-plane   <none>           <none>
+kube-system               kindnet-6mmmh                                    1/1     Running   45 (4h51m ago)    43d     172.18.0.4    provider-control-plane   <none>           <none>
+kube-system               kindnet-6mvq9                                    1/1     Running   44 (4h51m ago)    43d     172.18.0.7    provider-worker2         <none>           <none>
+kube-system               kindnet-fzw44                                    1/1     Running   53 (4h51m ago)    43d     172.18.0.6    provider-worker          <none>           <none>
+kube-system               kube-apiserver-provider-control-plane            1/1     Running   0                 4h50m   172.18.0.4    provider-control-plane   <none>           <none>
+kube-system               kube-controller-manager-provider-control-plane   1/1     Running   45 (4h51m ago)    43d     172.18.0.4    provider-control-plane   <none>           <none>
+kube-system               kube-proxy-4stks                                 1/1     Running   53 (4h51m ago)    43d     172.18.0.6    provider-worker          <none>           <none>
+kube-system               kube-proxy-dtwvt                                 1/1     Running   45 (4h51m ago)    43d     172.18.0.4    provider-control-plane   <none>           <none>
+kube-system               kube-proxy-nzw5m                                 1/1     Running   44 (4h51m ago)    43d     172.18.0.7    provider-worker2         <none>           <none>
+kube-system               kube-scheduler-provider-control-plane            1/1     Running   45 (4h51m ago)    43d     172.18.0.4    provider-control-plane   <none>           <none>
+liqo-tenant-green-bush    gw-green-bush-5f4fdd4f8b-4dsmj                   3/3     Running   5 (4h50m ago)     2d3h    10.244.1.10   provider-worker2         <none>           <none>
+liqo-tenant-summer-lake   gw-summer-lake-6b78c96d74-pmxwv                  3/3     Running   0                 177m    10.244.2.4    provider-worker          <none>           <none>
+liqo                      liqo-controller-manager-6db8499659-b75zb         1/1     Running   2 (4h50m ago)     46h     10.244.1.4    provider-worker2         <none>           <none>
+liqo                      liqo-crd-replicator-7f559cc65f-9rgsl             1/1     Running   79 (4h50m ago)    43d     10.244.1.6    provider-worker2         <none>           <none>
+liqo                      liqo-fabric-2sb5k                                1/1     Running   89 (4h50m ago)    43d     172.18.0.4    provider-control-plane   <none>           <none>
+liqo                      liqo-fabric-fqc5q                                1/1     Running   104 (4h50m ago)   43d     172.18.0.6    provider-worker          <none>           <none>
+liqo                      liqo-fabric-jl6j6                                1/1     Running   86 (4h50m ago)    43d     172.18.0.7    provider-worker2         <none>           <none>
+liqo                      liqo-ipam-5f5dfb9464-jrswn                       1/1     Running   2 (4h50m ago)     2d3h    10.244.1.5    provider-worker2         <none>           <none>
+liqo                      liqo-metric-agent-57fc96f98d-l666t               1/1     Running   66 (4h50m ago)    43d     10.244.1.7    provider-worker2         <none>           <none>
+liqo                      liqo-proxy-7d58885667-r7l7l                      1/1     Running   1 (4h51m ago)     2d3h    10.244.1.8    provider-worker2         <none>           <none>
+liqo                      liqo-webhook-75f85fc8d9-qsdnb                    1/1     Running   80 (4h50m ago)    43d     10.244.1.2    provider-worker2         <none>           <none>
+local-path-storage        local-path-provisioner-75f7fc7dc5-6r6vw          1/1     Running   81 (4h50m ago)    43d     10.244.0.4    provider-control-plane   <none>           <none>

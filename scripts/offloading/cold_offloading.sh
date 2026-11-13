@@ -384,4 +384,4 @@ echo "Risultati: $RESULT_FILE"
 
 sleep 10
 
-./scripts/offloading/snapshot_offloading.sh
+# ./scripts/offloading/snapshot_offloading.sh

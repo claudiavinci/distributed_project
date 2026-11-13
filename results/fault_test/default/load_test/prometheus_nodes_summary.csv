@@ -1,0 +1,5 @@
+users,node,runs,exp_start_time,exp_end_time,memory_avg_%_mean,memory_avg_%_std,memory_max_%_mean,memory_max_%_std,cpu_avg_%_mean,cpu_avg_%_std,cpu_max_%_mean,cpu_max_%_std
+400,consumer-control-plane,1,2026-11-11 16:02:02,2026-11-11 16:20:12,23.78,0.0,25.95,0.0,39.62,0.0,81.52,0.0
+400,consumer-worker,1,2026-11-11 16:02:02,2026-11-11 16:20:12,11.87,0.0,12.4,0.0,19.33,0.0,47.87,0.0
+400,consumer-worker2,1,2026-11-11 16:02:02,2026-11-11 16:20:12,24.61,0.0,25.11,0.0,8.95,0.0,34.59,0.0
+400,patient-cloud,1,2026-11-11 16:02:02,2026-11-11 16:20:12,1.6,0.0,5.1,0.0,12.68,0.0,98.65,0.0

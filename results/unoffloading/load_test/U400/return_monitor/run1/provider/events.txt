@@ -1,0 +1,788 @@
+
+========================================
+TIMESTAMP: 2026-11-13 15:46:42
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+2m43s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+2m44s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+2m41s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+2m45s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+2m43s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+2m45s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+2m44s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+2m44s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+2m44s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+2m44s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+2m43s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+2m43s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+2m43s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+2m43s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+2m43s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+2m42s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+2m42s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+2m42s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+2m42s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+2m42s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+2m42s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+2m41s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+2m41s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+2m40s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+2m40s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+2m40s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:46:50
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+2m51s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+2m52s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+2m49s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+2m53s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+2m51s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+2m54s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+2m53s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+2m53s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+2m53s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+2m53s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+2m52s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+2m52s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+2m52s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+2m52s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+2m52s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+2m51s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+2m51s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+2m51s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+2m51s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+2m51s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+2m51s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+2m50s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+2m50s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+2m49s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+2m49s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+2m49s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:00
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+3m1s        Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+3m2s        Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+2m59s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+3m3s        Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+3m1s        Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+3m4s        Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+3m3s        Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+3m3s        Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+3m3s        Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+3m3s        Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+3m2s        Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+3m2s        Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+3m2s        Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+3m2s        Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+3m2s        Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+3m1s        Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+3m1s        Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+3m1s        Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+3m1s        Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+3m1s        Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+3m1s        Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+3m          Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+3m          Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+2m59s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+2m59s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+2m59s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:10
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+3m11s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+3m12s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+3m9s        Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+3m13s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+3m11s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+3m14s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+3m13s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+3m13s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+3m13s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+3m13s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+3m12s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+3m12s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+3m12s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+3m12s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+3m12s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+3m11s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+3m11s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+3m11s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+3m11s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+3m11s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+3m11s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+3m10s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+3m10s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+3m9s        Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+3m9s        Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+3m9s        Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:17
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+3m18s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+3m19s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+3m16s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+3m20s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+3m18s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+3m21s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+3m20s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+3m20s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+3m20s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+3m20s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+3m19s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+3m19s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+3m19s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+3m19s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+3m19s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+3m18s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+3m18s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+3m18s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+3m18s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+3m18s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+3m18s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+3m17s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+3m17s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+3m16s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+3m16s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+3m16s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:27
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+3m28s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+3m29s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+3m26s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+3m30s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+3m28s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+3m31s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+3m30s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+3m30s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+3m30s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+3m30s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+3m29s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+3m29s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+3m29s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+3m29s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+3m29s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+3m28s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+3m28s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+3m28s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+3m28s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+3m28s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+3m28s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+3m27s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+3m27s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+3m26s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+3m26s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+3m26s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:37
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+3m38s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+3m39s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+3m36s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+3m40s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+3m38s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+3m41s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+3m40s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+3m40s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+3m40s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+3m40s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+3m39s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+3m39s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+3m39s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+3m39s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+3m39s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+3m38s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+3m38s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+3m38s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+3m38s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+3m38s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+3m38s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+3m37s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+3m37s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+3m36s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+3m36s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+3m36s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:44
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+3m45s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+3m46s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+3m43s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+3m47s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+3m45s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+3m48s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+3m47s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+3m47s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+3m47s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+3m47s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+3m46s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+3m46s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+3m46s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+3m46s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+3m46s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+3m45s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+3m45s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+3m45s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+3m45s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+3m45s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+3m45s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+3m44s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+3m44s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+3m43s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+3m43s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+3m43s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:54
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+3m55s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+3m56s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+3m53s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+3m57s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+3m55s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+3m58s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+3m57s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+3m57s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+3m57s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+3m57s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+3m56s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+3m56s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+3m56s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+3m56s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+3m56s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+3m55s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+3m55s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+3m55s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+3m55s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+3m55s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+3m55s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+3m54s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+3m54s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+3m53s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+3m53s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+3m53s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:04
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+4m5s        Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+4m6s        Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+4m3s        Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+4m7s        Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+4m5s        Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+4m8s        Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+4m7s        Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+4m7s        Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+4m7s        Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+4m7s        Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+4m6s        Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+4m6s        Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+4m6s        Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+4m6s        Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+4m6s        Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+4m5s        Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+4m5s        Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+4m5s        Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+4m5s        Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+4m5s        Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+4m5s        Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+4m4s        Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+4m4s        Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+4m3s        Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+4m3s        Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+4m3s        Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:11
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+4m13s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+4m13s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+4m11s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+4m15s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+4m12s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+4m15s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+4m14s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+4m14s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+4m14s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+4m14s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+4m13s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+4m13s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+4m13s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+4m13s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+4m13s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+4m12s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+4m12s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+4m12s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+4m12s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+4m12s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+4m12s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+4m11s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+4m11s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+4m10s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+4m10s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+4m10s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:21
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+4m23s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+4m23s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+4m21s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+4m25s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+4m22s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+4m25s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+4m24s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+4m24s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+4m24s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+4m24s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+4m23s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+4m23s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+4m23s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+4m23s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+4m23s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+4m22s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+4m22s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+4m22s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+4m22s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+4m22s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+4m22s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+4m21s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+4m21s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+4m20s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+4m20s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+4m20s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:31
+========================================
+LAST SEEN   TYPE      REASON       OBJECT                                             MESSAGE
+4m33s       Normal    Scheduled    pod/cartservice-778ffb7f97-8n4g9                   Successfully assigned shop/cartservice-778ffb7f97-8n4g9 to provider-worker
+4m34s       Normal    Scheduled    pod/adservice-6f6478fb45-lq5fz                     Successfully assigned shop/adservice-6f6478fb45-lq5fz to provider-worker
+4m31s       Normal    Scheduled    pod/productcatalogservice-5f5d467c96-rljmf         Successfully assigned shop/productcatalogservice-5f5d467c96-rljmf to provider-worker
+4m35s       Normal    Scheduled    pod/frontend-75d5c847c8-trjbc                      Successfully assigned shop/frontend-75d5c847c8-trjbc to provider-worker
+4m33s       Normal    Scheduled    pod/checkoutservice-84f95c6f6b-k4lp4               Successfully assigned shop/checkoutservice-84f95c6f6b-k4lp4 to provider-worker
+4m36s       Normal    CreatedPod   shadowpod/frontend-75d5c847c8-trjbc                Successfully created pod from ShadowPod
+4m35s       Normal    Pulled       pod/frontend-75d5c847c8-trjbc                      Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/frontend:v0.10.7" already present on machine and can be accessed by the pod
+4m35s       Normal    CreatedPod   shadowpod/adservice-6f6478fb45-lq5fz               Successfully created pod from ShadowPod
+4m35s       Normal    Started      pod/frontend-75d5c847c8-trjbc                      Container started
+4m35s       Normal    Created      pod/frontend-75d5c847c8-trjbc                      Container created
+4m34s       Normal    CreatedPod   shadowpod/cartservice-778ffb7f97-8n4g9             Successfully created pod from ShadowPod
+4m34s       Normal    Started      pod/adservice-6f6478fb45-lq5fz                     Container started
+4m34s       Normal    Pulled       pod/adservice-6f6478fb45-lq5fz                     Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/adservice:v0.10.7" already present on machine and can be accessed by the pod
+4m34s       Normal    CreatedPod   shadowpod/checkoutservice-84f95c6f6b-k4lp4         Successfully created pod from ShadowPod
+4m34s       Normal    Created      pod/adservice-6f6478fb45-lq5fz                     Container created
+4m33s       Normal    Started      pod/checkoutservice-84f95c6f6b-k4lp4               Container started
+4m33s       Normal    Pulled       pod/cartservice-778ffb7f97-8n4g9                   Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/cartservice:v0.10.7" already present on machine and can be accessed by the pod
+4m33s       Normal    Created      pod/checkoutservice-84f95c6f6b-k4lp4               Container created
+4m33s       Normal    Started      pod/cartservice-778ffb7f97-8n4g9                   Container started
+4m33s       Normal    Created      pod/cartservice-778ffb7f97-8n4g9                   Container created
+4m33s       Normal    Pulled       pod/checkoutservice-84f95c6f6b-k4lp4               Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/checkoutservice:v0.10.7" already present on machine and can be accessed by the pod
+4m32s       Warning   Unhealthy    pod/checkoutservice-84f95c6f6b-k4lp4               Readiness probe failed: timeout: failed to connect service "10.244.2.17:5050" within 1s: context deadline exceeded
+4m32s       Normal    CreatedPod   shadowpod/productcatalogservice-5f5d467c96-rljmf   Successfully created pod from ShadowPod
+4m31s       Normal    Pulled       pod/productcatalogservice-5f5d467c96-rljmf         Container image "us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo/productcatalogservice:v0.10.7" already present on machine and can be accessed by the pod
+4m31s       Normal    Created      pod/productcatalogservice-5f5d467c96-rljmf         Container created
+4m31s       Normal    Started      pod/productcatalogservice-5f5d467c96-rljmf         Container started
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:48
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:58
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:05
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:15
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:25
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:35
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:45
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:55
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:02
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:12
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:22
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:29
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:39
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:49
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:56
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:06
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:16
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:23
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:33
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:43
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:50
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:00
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:10
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:18
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:28
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:46
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:56
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:06
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:14
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:24
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:34
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:42
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:52
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:02
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:10
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:20
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:30
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:48
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:58
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:06
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:16
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:26
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:33
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:43
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:53
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:01
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:11
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:21
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:28
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:48
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:55
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:05
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:15
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:22
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:32
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:42
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:49
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:59
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:09
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:16
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:26
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:36
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:43
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:53
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:03
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:10
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:20
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:30
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:37
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:47
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:57
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 16:00:04
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 16:00:14
+========================================
+No resources found in shop namespace.

@@ -53,31 +53,39 @@ echo "================================="
 
 mkdir -p "$PLOT_DIR"
 
+# python3 "$PLOT_SCRIPT" \
+#     --stats "$RESULTS_DIR/stats_summary.csv"\
+#     --nodes "$RESULTS_DIR/prometheus_nodes_summary.csv" \
+#     --pods "$RESULTS_DIR/prometheus_pods_summary.csv" \
+#     --compare-stats "$RESULTS_COMPARE_DIR/stats_summary.csv" \
+#     --compare-nodes "$RESULTS_COMPARE_DIR/prometheus_nodes_summary.csv" \
+#     --label1 "$LABEL1" \
+#     --label2 "$LABEL2" \
+#     --output "$COMPARE_PLOT_DIR"
+
+# echo "Grafici salvati in: $COMPARE_PLOT_DIR"
+
 python3 "$PLOT_SCRIPT" \
     --stats "$RESULTS_DIR/stats_summary.csv"\
     --nodes "$RESULTS_DIR/prometheus_nodes_summary.csv" \
     --pods "$RESULTS_DIR/prometheus_pods_summary.csv" \
-    --compare-stats "$RESULTS_COMPARE_DIR/stats_summary.csv" \
-    --compare-nodes "$RESULTS_COMPARE_DIR/prometheus_nodes_summary.csv" \
-    --label1 "$LABEL1" \
-    --label2 "$LABEL2" \
-    --output "$COMPARE_PLOT_DIR"
+    --output "$PLOT_DIR"
 
-echo "Grafici salvati in: $COMPARE_PLOT_DIR"
+echo "Grafici salvati in: $PLOT_DIR"
 
-# echo ""
-# echo "================================="
-# echo "Generazione tabelle"
-# echo "================================="
+echo ""
+echo "================================="
+echo "Generazione tabelle"
+echo "================================="
 
-# python3 "$NODE_TABLE_SCRIPT" \
-#     "$RESULTS_DIR/prometheus_nodes_summary.csv" \
-#     --output "$PLOT_DIR/nodes_table.png"
+python3 "$NODE_TABLE_SCRIPT" \
+    "$RESULTS_DIR/prometheus_nodes_summary.csv" \
+    --output "$PLOT_DIR/nodes_table.png"
 
 
-# python3 "$STATS_TABLE_SCRIPT" \
-#     "$RESULTS_DIR/stats_summary.csv" \
-#     --output "$PLOT_DIR/stats_table.png"
+python3 "$STATS_TABLE_SCRIPT" \
+    "$RESULTS_DIR/stats_summary.csv" \
+    --output "$PLOT_DIR/stats_table.png"
 
 # =====================================
 # FINE

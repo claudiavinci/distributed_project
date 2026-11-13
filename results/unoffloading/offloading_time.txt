@@ -1,0 +1,27 @@
+Manifest=microservices-demo/release/kubernetes-manifests.yaml
+Deployments=adservice frontend cartservice checkoutservice currencyservice emailservice paymentservice productcatalogservice recommendationservice shippingservice
+Namespace=shop
+
+Start_timestamp=1794581036
+End_timestamp=1794581068
+
+Remote_convergence_seconds=32
+Workload_convergence_seconds=32
+Rollout_observed_seconds=32
+Offload_phase_ready_seconds=1
+
+Selected_remote_pods_count=5
+Selected_local_pods_count=5
+Namespace_remote_pods_count=5
+Namespace_local_pods_count=7
+
+Placement_adservice-6f6478fb45-lq5fz=patient-cloud:remote
+Placement_frontend-75d5c847c8-trjbc=patient-cloud:remote
+Placement_cartservice-778ffb7f97-8n4g9=patient-cloud:remote
+Placement_checkoutservice-84f95c6f6b-k4lp4=patient-cloud:remote
+Placement_currencyservice-758bb6976f-xgxhv=consumer-worker2:local
+Placement_emailservice-6f795bfc67-85ssj=consumer-worker2:local
+Placement_paymentservice-57d4c64bd-s4656=consumer-worker:local
+Placement_productcatalogservice-5f5d467c96-rljmf=patient-cloud:remote
+Placement_recommendationservice-df997d94d-nv4qz=consumer-worker2:local
+Placement_shippingservice-69797dd7fc-nscdk=consumer-worker2:local

@@ -1,0 +1,4481 @@
+
+========================================
+TIMESTAMP: 2026-11-13 15:46:42
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:46:50
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:00
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:10
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:17
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:27
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:37
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:44
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:54
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:04
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:11
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:21
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.71.2.14
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: patient-cloud
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-trjbc
+      namespace: shop
+      uid: 12d6710e-6179-4caa-984a-5a3f9a9a5da9
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:17Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 108
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1237337"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:31
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints: null
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:31Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 109
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238112"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports: null
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:38
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 110
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238208"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:48
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: false
+      serving: false
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 110
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238208"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:58
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:05
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:15
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:25
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:35
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:45
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:55
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:02
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:12
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:22
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:29
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:39
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:49
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:56
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:06
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:16
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:23
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:33
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:43
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:50
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:00
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:10
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:18
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:28
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:38
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:46
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:56
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:06
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:14
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:24
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:34
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:42
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:52
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:02
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:10
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:20
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:30
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:38
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:48
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:58
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:06
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:16
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:26
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:33
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:43
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:53
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:01
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:11
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:21
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:28
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:38
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:48
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:55
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:05
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:15
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:22
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:32
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:42
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:49
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:59
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:16
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:26
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:36
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:43
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:53
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:03
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:10
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:20
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:30
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:37
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:47
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:57
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 16:00:04
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 16:00:14
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.38
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: frontend-75d5c847c8-cvvck
+      namespace: shop
+      uid: f136f607-172d-47cf-9ba1-12de68dec311
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:48:51Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: frontend-
+    generation: 111
+    labels:
+      app: frontend
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: frontend
+    name: frontend-7c926
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: frontend
+      uid: ad272ee4-f313-4cc1-b090-e86ac25b7912
+    resourceVersion: "1238281"
+    uid: e55d505a-d7d1-40fb-b2b3-8677f2db7cda
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""

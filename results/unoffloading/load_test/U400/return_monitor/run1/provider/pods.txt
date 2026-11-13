@@ -1,0 +1,515 @@
+
+========================================
+TIMESTAMP: 2026-11-13 15:46:42
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          2m44s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          2m43s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          2m43s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          2m45s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          2m41s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:46:50
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          2m52s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          2m51s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          2m51s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          2m53s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          2m49s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:00
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          3m2s    10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          3m1s    10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          3m1s    10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          3m3s    10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          2m59s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:10
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          3m12s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          3m11s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          3m11s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          3m13s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          3m9s    10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:17
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          3m19s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          3m18s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          3m18s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          3m20s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          3m16s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:27
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          3m29s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          3m28s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          3m28s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          3m30s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          3m26s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:37
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          3m39s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          3m38s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          3m38s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          3m40s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          3m36s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:44
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          3m46s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          3m45s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          3m45s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          3m47s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          3m43s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:47:54
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          3m56s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          3m55s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          3m55s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          3m57s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          3m53s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:04
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE    IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          4m6s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          4m5s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          4m5s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          4m7s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          4m3s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:11
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          4m14s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          4m13s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          4m13s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          4m15s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          4m11s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:21
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          4m24s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          4m23s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          4m23s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          4m25s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          4m21s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:31
+========================================
+NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE              NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-lq5fz               1/1     Running   0          4m34s   10.244.2.15   provider-worker   <none>           <none>
+cartservice-778ffb7f97-8n4g9             1/1     Running   0          4m33s   10.244.2.16   provider-worker   <none>           <none>
+checkoutservice-84f95c6f6b-k4lp4         1/1     Running   0          4m33s   10.244.2.17   provider-worker   <none>           <none>
+frontend-75d5c847c8-trjbc                1/1     Running   0          4m35s   10.244.2.14   provider-worker   <none>           <none>
+productcatalogservice-5f5d467c96-rljmf   1/1     Running   0          4m31s   10.244.2.18   provider-worker   <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:48
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:48:58
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:05
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:15
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:25
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:35
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:45
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:49:55
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:02
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:12
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:22
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:29
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:39
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:49
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:50:56
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:06
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:16
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:23
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:33
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:43
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:51:50
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:00
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:10
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:18
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:28
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:46
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:52:56
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:06
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:14
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:24
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:34
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:42
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:53:52
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:02
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:10
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:20
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:30
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:48
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:54:58
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:06
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:16
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:26
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:33
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:43
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:55:53
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:01
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:11
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:21
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:28
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:38
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:48
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:56:55
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:05
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:15
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:22
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:32
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:42
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:49
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:57:59
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:09
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:16
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:26
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:36
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:43
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:58:53
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:03
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:10
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:20
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:30
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:37
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:47
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 15:59:57
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 16:00:04
+========================================
+No resources found in shop namespace.
+
+========================================
+TIMESTAMP: 2026-11-13 16:00:14
+========================================
+No resources found in shop namespace.
