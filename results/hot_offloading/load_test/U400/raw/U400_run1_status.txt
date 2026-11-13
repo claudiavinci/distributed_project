@@ -1,0 +1,1 @@
+Locust exit status: 0

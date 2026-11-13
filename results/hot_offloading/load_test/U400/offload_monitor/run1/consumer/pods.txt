@@ -1,0 +1,1646 @@
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:41
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               107m   10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               107m   10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               107m   10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               111m   10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               111m   10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               107m   10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               41s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               111m   10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               107m   10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               111m   10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h26m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               111m   10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:51
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               107m   10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               107m   10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               107m   10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               111m   10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               111m   10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               107m   10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               51s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               111m   10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               107m   10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               111m   10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h26m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               111m   10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:59
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               107m   10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               107m   10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               107m   10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               111m   10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               111m   10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               107m   10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               59s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               111m   10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               107m   10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               111m   10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h26m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               111m   10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:09
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               107m   10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               107m   10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               107m   10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               112m   10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               112m   10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               107m   10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               69s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               112m   10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               107m   10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               112m   10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h26m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               112m   10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:19
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               107m   10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               107m   10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               107m   10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               112m   10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               112m   10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               107m   10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               80s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               112m   10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               107m   10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               112m   10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h27m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               112m   10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:27
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               107m   10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               107m   10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               107m   10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               112m   10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               112m   10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               107m   10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               87s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               112m   10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               107m   10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               112m   10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h27m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               112m   10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:37
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               108m   10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               108m   10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               108m   10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               112m   10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               112m   10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               108m   10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               97s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               112m   10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               108m   10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               112m   10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h27m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               112m   10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:47
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               108m   10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               108m   10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               108m   10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               112m   10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               112m   10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               108m   10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               107s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               112m   10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               108m   10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               112m   10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h27m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               112m   10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:54
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               108m   10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               108m   10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               108m   10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               112m   10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               112m   10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               108m   10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               114s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               112m   10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               108m   10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               112m   10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h27m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               112m   10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:04
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               108m   10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               108m   10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               108m   10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               113m   10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               113m   10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               108m   10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               2m4s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               113m   10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               108m   10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               113m   10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h27m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               113m   10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:14
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               108m    10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               108m    10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               108m    10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               113m    10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               113m    10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               108m    10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               2m14s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               113m    10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               108m    10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               113m    10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h28m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               113m    10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:21
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               108m    10.244.1.39   consumer-worker          <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               108m    10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               108m    10.244.1.36   consumer-worker          <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               113m    10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               113m    10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               108m    10.244.1.38   consumer-worker          <none>           <none>
+locust-tester                            1/1     Running   0               2m21s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               113m    10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               108m    10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               113m    10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h28m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               113m    10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:31
+========================================
+NAME                                     READY   STATUS              RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running             0               109m    10.244.1.39   consumer-worker          <none>           <none>
+adservice-764f648c48-5rwnm               0/1     ContainerCreating   0               1s      <none>        patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             0/1     ContainerCreating   0               1s      <none>        patient-cloud            <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running             0               109m    10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running             0               109m    10.244.1.36   consumer-worker          <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          0/1     Pending             0               0s      <none>        <none>                   <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running             0               113m    10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running             0               113m    10.244.2.25   consumer-worker2         <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running             0               109m    10.244.1.38   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 0/1     ContainerCreating   0               1s      <none>        patient-cloud            <none>           <none>
+locust-tester                            1/1     Running             0               2m32s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running             0               113m    10.244.1.35   consumer-worker          <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running             0               109m    10.244.1.37   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running             0               113m    10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running             1 (6h28m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running             0               113m    10.244.2.27   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:41
+========================================
+NAME                                     READY   STATUS        RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running       0               109m    10.244.1.39   consumer-worker          <none>           <none>
+adservice-764f648c48-5rwnm               0/1     Running       0               11s     10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             0/1     Running       0               11s     10.71.2.21    patient-cloud            <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running       0               109m    10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running       0               10s     10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          0/1     Running       0               10s     10.71.2.22    patient-cloud            <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running       0               113m    10.244.2.24   consumer-worker2         <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Terminating   0               113m    10.244.2.25   consumer-worker2         <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running       0               10s     10.244.1.41   consumer-worker          <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running       0               109m    10.244.1.38   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 0/1     Running       0               11s     10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running       0               2m42s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Terminating   0               113m    10.244.1.35   consumer-worker          <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running       0               9s      10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running       0               9s      10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   0/1     Running       0               9s      10.244.1.43   consumer-worker          <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running       0               113m    10.244.2.26   consumer-worker2         <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running       1 (6h28m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running       0               8s      10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:48
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               109m    10.244.1.39   consumer-worker          <none>           <none>
+adservice-764f648c48-5rwnm               0/1     Running   0               17s     10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             0/1     Running   0               17s     10.71.2.21    patient-cloud            <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               109m    10.244.1.40   consumer-worker          <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               16s     10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               16s     10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               16s     10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               17s     10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               2m48s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               15s     10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               15s     10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               15s     10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h28m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               14s     10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:58
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               109m    10.244.1.39   consumer-worker          <none>           <none>
+adservice-764f648c48-5rwnm               0/1     Running   0               27s     10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               27s     10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               26s     10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               26s     10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               26s     10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               27s     10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               2m58s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               25s     10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               25s     10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               25s     10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h28m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               24s     10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:08
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               38s    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               38s    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               37s    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               37s    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               37s    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               38s    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               3m9s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               36s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               36s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               36s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h28m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               35s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:15
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               45s     10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               45s     10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               44s     10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               44s     10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               44s     10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               45s     10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               3m16s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               43s     10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               43s     10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               43s     10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h29m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               42s     10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:25
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               55s     10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               55s     10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               54s     10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               54s     10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               54s     10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               55s     10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               3m26s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               53s     10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               53s     10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               53s     10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h29m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               52s     10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:35
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               64s     10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               64s     10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               63s     10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               63s     10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               63s     10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               64s     10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               3m35s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               62s     10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               62s     10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               62s     10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h29m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               61s     10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:42
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               71s     10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               71s     10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               70s     10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               70s     10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               70s     10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               71s     10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               3m42s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               69s     10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               69s     10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               69s     10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h29m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               68s     10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:52
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               81s     10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               81s     10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               80s     10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               80s     10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               80s     10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               81s     10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               3m52s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               79s     10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               79s     10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               79s     10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h29m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               78s     10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:02
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               91s    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               91s    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               90s    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               90s    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               90s    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               91s    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               4m2s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               89s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               89s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               89s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h29m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               88s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:09
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               99s     10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               99s     10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               98s     10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               98s     10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               98s     10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               99s     10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               4m10s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               97s     10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               97s     10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               97s     10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h29m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               96s     10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:19
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               109s    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               109s    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               108s    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               108s    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               108s    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               109s    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               4m20s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               107s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               107s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               107s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h30m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               106s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:29
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               119s    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               119s    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               118s    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               118s    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               118s    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               119s    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               4m30s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               117s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               117s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               117s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h30m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               116s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:37
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               2m6s    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               2m6s    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               2m5s    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               2m5s    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               2m5s    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               2m6s    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               4m37s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               2m4s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               2m4s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               2m4s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h30m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               2m3s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:47
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               2m16s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               2m16s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               2m15s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               2m15s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               2m15s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               2m16s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               4m47s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               2m14s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               2m14s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               2m14s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h30m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               2m13s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:57
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               2m26s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               2m26s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               2m25s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               2m25s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               2m25s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               2m26s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               4m57s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               2m24s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               2m24s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               2m24s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h30m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               2m23s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:04
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               2m34s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               2m34s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               2m33s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               2m33s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               2m33s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               2m34s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               5m5s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               2m32s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               2m32s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               2m32s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h30m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               2m31s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:14
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               2m44s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               2m44s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               2m43s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               2m43s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               2m43s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               2m44s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               5m15s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               2m42s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               2m42s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               2m42s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h31m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               2m41s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:24
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               2m54s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               2m54s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               2m53s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               2m53s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               2m53s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               2m54s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               5m25s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               2m52s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               2m52s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               2m52s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h31m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               2m51s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:31
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               3m      10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               3m      10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               2m59s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               2m59s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               2m59s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               3m      10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               5m31s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               2m58s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               2m58s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               2m58s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h31m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               2m57s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:41
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               3m10s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               3m10s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               3m9s    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               3m9s    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               3m9s    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               3m10s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               5m41s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               3m8s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               3m8s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               3m8s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h31m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               3m7s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:51
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               3m20s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               3m20s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               3m19s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               3m19s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               3m19s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               3m20s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               5m51s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               3m18s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               3m18s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               3m18s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h31m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               3m17s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:59
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               3m28s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               3m28s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               3m27s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               3m27s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               3m27s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               3m28s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               5m59s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               3m26s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               3m26s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               3m26s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h31m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               3m25s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:09
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               3m39s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               3m39s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               3m38s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               3m38s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               3m38s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               3m39s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               6m10s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               3m37s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               3m37s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               3m37s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h31m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               3m36s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:19
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               3m48s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               3m48s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               3m47s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               3m47s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               3m47s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               3m48s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               6m19s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               3m46s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               3m46s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               3m46s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h32m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               3m45s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:26
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               3m55s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               3m55s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               3m54s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               3m54s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               3m54s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               3m55s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               6m26s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               3m53s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               3m53s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               3m53s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h32m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               3m52s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:36
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               4m5s    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               4m5s    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               4m4s    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               4m4s    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               4m4s    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               4m5s    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               6m36s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               4m3s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               4m3s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               4m3s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h32m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               4m2s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:46
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               4m16s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               4m16s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               4m15s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               4m15s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               4m15s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               4m16s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               6m47s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               4m14s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               4m14s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               4m14s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h32m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               4m13s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:54
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               4m23s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               4m23s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               4m22s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               4m22s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               4m22s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               4m23s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               6m54s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               4m21s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               4m21s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               4m21s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h32m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               4m20s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:04
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               4m33s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               4m33s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               4m32s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               4m32s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               4m32s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               4m33s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               7m4s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               4m31s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               4m31s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               4m31s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h32m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               4m30s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:14
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               4m43s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               4m43s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               4m42s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               4m42s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               4m42s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               4m43s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               7m14s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               4m41s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               4m41s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               4m41s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h33m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               4m40s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:21
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               4m51s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               4m51s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               4m50s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               4m50s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               4m50s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               4m51s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               7m22s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               4m49s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               4m49s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               4m49s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h33m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               4m48s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:31
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               5m1s    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               5m1s    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               5m      10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               5m      10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               5m      10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               5m1s    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               7m32s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               4m59s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               4m59s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               4m59s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h33m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               4m58s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:41
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               5m11s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               5m11s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               5m10s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               5m10s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               5m10s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               5m11s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               7m42s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               5m9s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               5m9s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               5m9s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h33m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               5m8s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:48
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               5m17s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               5m17s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               5m16s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               5m16s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               5m16s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               5m17s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               7m48s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               5m15s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               5m15s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               5m15s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h33m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               5m14s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:58
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               5m27s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               5m27s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               5m26s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               5m26s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               5m26s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               5m27s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               7m58s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               5m25s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               5m25s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               5m25s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h33m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               5m24s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:08
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               5m37s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               5m37s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               5m36s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               5m36s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               5m36s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               5m37s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               8m8s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               5m35s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               5m35s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               5m35s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h33m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               5m34s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:15
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               5m45s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               5m45s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               5m44s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               5m44s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               5m44s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               5m45s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               8m16s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               5m43s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               5m43s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               5m43s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h34m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               5m42s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:25
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               5m55s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               5m55s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               5m54s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               5m54s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               5m54s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               5m55s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               8m26s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               5m53s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               5m53s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               5m53s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h34m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               5m52s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:35
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               6m5s    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               6m5s    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               6m4s    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               6m4s    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               6m4s    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               6m5s    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               8m36s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               6m3s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               6m3s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               6m3s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h34m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               6m2s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:42
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               6m11s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               6m11s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               6m10s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               6m10s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               6m10s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               6m11s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               8m42s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               6m9s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               6m9s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               6m9s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h34m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               6m8s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:52
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               6m21s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               6m21s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               6m20s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               6m20s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               6m20s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               6m21s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               8m52s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               6m19s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               6m19s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               6m19s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h34m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               6m18s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:02
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               6m31s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               6m31s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               6m30s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               6m30s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               6m30s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               6m31s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               9m2s    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               6m29s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               6m29s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               6m29s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h34m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               6m28s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:09
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               6m39s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               6m39s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               6m38s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               6m38s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               6m38s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               6m39s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               9m10s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               6m37s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               6m37s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               6m37s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h34m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               6m36s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:19
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               6m49s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               6m49s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               6m48s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               6m48s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               6m48s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               6m49s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               9m20s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               6m47s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               6m47s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               6m47s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h35m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               6m46s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:29
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               6m59s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               6m59s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               6m58s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               6m58s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               6m58s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               6m59s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               9m30s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               6m57s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               6m57s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               6m57s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h35m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               6m56s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:37
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               7m6s    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               7m6s    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               7m5s    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               7m5s    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               7m5s    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               7m6s    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               9m37s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               7m4s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               7m4s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               7m4s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h35m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               7m3s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:47
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               7m16s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               7m16s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               7m15s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               7m15s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               7m15s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               7m16s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               9m47s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               7m14s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               7m14s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               7m14s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h35m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               7m13s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:57
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               7m26s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               7m26s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               7m25s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               7m25s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               7m25s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               7m26s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               9m57s   10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               7m24s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               7m24s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               7m24s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h35m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               7m23s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:04
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               7m34s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               7m34s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               7m33s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               7m33s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               7m33s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               7m34s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               10m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               7m32s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               7m32s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               7m32s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h35m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               7m31s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:14
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               7m43s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               7m43s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               7m42s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               7m42s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               7m42s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               7m43s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               10m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               7m41s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               7m41s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               7m41s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h36m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               7m40s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:24
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               7m53s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               7m53s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               7m52s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               7m52s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               7m52s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               7m53s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               10m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               7m51s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               7m51s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               7m51s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h36m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               7m50s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:31
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               8m      10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               8m      10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               7m59s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               7m59s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               7m59s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               8m      10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               10m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               7m58s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               7m58s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               7m58s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h36m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               7m57s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:41
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               8m10s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               8m10s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               8m9s    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               8m9s    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               8m9s    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               8m10s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               10m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               8m8s    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               8m8s    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               8m8s    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h36m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               8m7s    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:51
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               8m21s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               8m21s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               8m20s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               8m20s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               8m20s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               8m21s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               10m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               8m19s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               8m19s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               8m19s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h36m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               8m18s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:58
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               8m28s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               8m28s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               8m27s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               8m27s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               8m27s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               8m28s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               10m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               8m26s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               8m26s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               8m26s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h36m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               8m25s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:08
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               8m38s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               8m38s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               8m37s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               8m37s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               8m37s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               8m38s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               11m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               8m36s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               8m36s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               8m36s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h36m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               8m35s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:18
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               8m48s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               8m48s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               8m47s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               8m47s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               8m47s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               8m48s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               11m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               8m46s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               8m46s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               8m46s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h37m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               8m45s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:25
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               8m54s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               8m54s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               8m53s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               8m53s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               8m53s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               8m54s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               11m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               8m52s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               8m52s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               8m52s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h37m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               8m51s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:35
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               9m4s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               9m4s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               9m3s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               9m3s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               9m3s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               9m4s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               11m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               9m2s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               9m2s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               9m2s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h37m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               9m1s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:45
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               9m14s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               9m14s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               9m13s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               9m13s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               9m13s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               9m14s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               11m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               9m12s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               9m12s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               9m12s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h37m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               9m11s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:52
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               9m22s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               9m22s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               9m21s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               9m21s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               9m21s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               9m22s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               11m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               9m20s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               9m20s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               9m20s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h37m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               9m19s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:02
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               9m31s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               9m31s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               9m30s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               9m30s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               9m30s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               9m31s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               12m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               9m29s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               9m29s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               9m29s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h37m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               9m28s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:12
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               9m41s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               9m41s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               9m40s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               9m40s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               9m40s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               9m41s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               12m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               9m39s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               9m39s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               9m39s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h38m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               9m38s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:19
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               9m48s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               9m48s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               9m47s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               9m47s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               9m47s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               9m48s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               12m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               9m46s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               9m46s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               9m46s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h38m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               9m45s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:29
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               9m58s   10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               9m58s   10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               9m57s   10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               9m57s   10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               9m57s   10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               9m58s   10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               12m     10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               9m56s   10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               9m56s   10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               9m56s   10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h38m ago)   2d1h    10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               9m55s   10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:39
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               10m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               10m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               10m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               10m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               10m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               10m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               12m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               10m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               10m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               10m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h38m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               10m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:46
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               10m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               10m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               10m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               10m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               10m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               10m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               12m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               10m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               10m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               10m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h38m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               10m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:56
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               10m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               10m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               10m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               10m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               10m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               10m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               12m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               10m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               10m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               10m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h38m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               10m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:06
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               10m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               10m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               10m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               10m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               10m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               10m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               13m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               10m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               10m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               10m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h38m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               10m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:14
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               10m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               10m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               10m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               10m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               10m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               10m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               13m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               10m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               10m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               10m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h39m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               10m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:24
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               10m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               10m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               10m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               10m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               10m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               10m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               13m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               10m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               10m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               10m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h39m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               10m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:34
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               11m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               11m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               11m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               11m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               11m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               11m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               13m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               11m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               11m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               11m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h39m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               11m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:41
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               11m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               11m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               11m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               11m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               11m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               11m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               13m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               11m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               11m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               11m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h39m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               11m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:51
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               11m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               11m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               11m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               11m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               11m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               11m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               13m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               11m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               11m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               11m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h39m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               11m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:01
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               11m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               11m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               11m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               11m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               11m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               11m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               14m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               11m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               11m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               11m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h39m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               11m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:08
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               11m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               11m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               11m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               11m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               11m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               11m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               14m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               11m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               11m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               11m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h39m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               11m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:18
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               11m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               11m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               11m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               11m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               11m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               11m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               14m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               11m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               11m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               11m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h40m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               11m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:28
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               11m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               11m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               11m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               11m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               11m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               11m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               14m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               11m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               11m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               11m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h40m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               11m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:36
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               12m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               12m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               12m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               12m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               12m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               12m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               14m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               12m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               12m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               12m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h40m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               12m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:46
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               12m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               12m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               12m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               12m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               12m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               12m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               14m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               12m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               12m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               12m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h40m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               12m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:56
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               12m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               12m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               12m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               12m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               12m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               12m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               14m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               12m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               12m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               12m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h40m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               12m    10.244.2.30   consumer-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:50:03
+========================================
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE                     NOMINATED NODE   READINESS GATES
+adservice-764f648c48-5rwnm               1/1     Running   0               12m    10.71.2.19    patient-cloud            <none>           <none>
+cartservice-5799dbb8df-lx4x2             1/1     Running   0               12m    10.71.2.21    patient-cloud            <none>           <none>
+checkoutservice-86bf97bcd-r5m7b          1/1     Running   0               12m    10.244.2.28   consumer-worker2         <none>           <none>
+currencyservice-57d979fdc-c52n8          1/1     Running   0               12m    10.71.2.22    patient-cloud            <none>           <none>
+emailservice-747bd879fc-xqhwp            1/1     Running   0               12m    10.244.1.41   consumer-worker          <none>           <none>
+frontend-bdd4c7796-h9tqq                 1/1     Running   0               12m    10.71.2.20    patient-cloud            <none>           <none>
+locust-tester                            1/1     Running   0               15m    10.244.0.11   consumer-control-plane   <none>           <none>
+paymentservice-74c7cf9d8f-6dvqw          1/1     Running   0               12m    10.244.1.42   consumer-worker          <none>           <none>
+productcatalogservice-56b9bf4676-8tl9s   1/1     Running   0               12m    10.244.2.29   consumer-worker2         <none>           <none>
+recommendationservice-5fd48947d4-926f8   1/1     Running   0               12m    10.244.1.43   consumer-worker          <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h40m ago)   2d1h   10.244.1.2    consumer-worker          <none>           <none>
+shippingservice-7c8657fd7f-nqs2c         1/1     Running   0               12m    10.244.2.30   consumer-worker2         <none>           <none>

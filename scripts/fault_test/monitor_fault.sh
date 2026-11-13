@@ -107,7 +107,7 @@ collect_snapshot() {
 # =====================================
 
 echo "================================="
-echo "Avvio monitoraggio fault"
+echo "Avvio monitoraggio cluster"
 echo "Intervallo: ${INTERVAL}s"
 echo "Output: $OUTPUT_DIR"
 echo "================================="

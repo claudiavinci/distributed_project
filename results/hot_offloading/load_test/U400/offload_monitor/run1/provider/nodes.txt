@@ -1,0 +1,768 @@
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:41
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:51
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:59
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:09
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:19
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:27
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:37
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:47
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:54
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:04
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:14
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:21
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:31
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:41
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:48
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:58
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:08
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:15
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:25
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:35
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:42
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:52
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:02
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:09
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:19
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:29
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:37
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:47
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:57
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:04
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:14
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:24
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:31
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:41
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:51
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:59
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:09
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:19
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:26
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:36
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:46
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:54
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:04
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:14
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:21
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:31
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:41
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:48
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:58
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:08
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:15
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:25
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:35
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:42
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:52
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:02
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:09
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:19
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:29
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:37
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:47
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:57
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:04
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:14
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:24
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:31
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:41
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:51
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:58
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:08
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:18
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:25
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:35
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:45
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:52
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:02
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:12
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:19
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:29
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:39
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:46
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:56
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:06
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:14
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:24
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:34
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:41
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:51
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:01
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:08
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:18
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:28
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:36
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:46
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:56
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+========================================
+TIMESTAMP: 2026-11-13 17:50:03
+========================================
+NAME                     STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION                               CONTAINER-RUNTIME
+provider-control-plane   Ready    control-plane   43d   v1.37.0   172.18.0.4    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker          Ready    <none>          43d   v1.37.0   172.18.0.6    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+provider-worker2         Ready    <none>          43d   v1.37.0   172.18.0.7    <none>        Debian GNU/Linux 13 (trixie)   5.15.146.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4

@@ -1,0 +1,12 @@
+NAME                                     READY   STATUS    RESTARTS        AGE    IP            NODE               NOMINATED NODE   READINESS GATES
+adservice-6f6478fb45-2q95v               1/1     Running   0               106m   10.244.1.39   consumer-worker    <none>           <none>
+cartservice-778ffb7f97-m2hbd             1/1     Running   0               106m   10.244.1.40   consumer-worker    <none>           <none>
+checkoutservice-84f95c6f6b-n5dll         1/1     Running   0               106m   10.244.1.36   consumer-worker    <none>           <none>
+currencyservice-758bb6976f-xgxhv         1/1     Running   0               111m   10.244.2.24   consumer-worker2   <none>           <none>
+emailservice-6f795bfc67-85ssj            1/1     Running   0               111m   10.244.2.25   consumer-worker2   <none>           <none>
+frontend-75d5c847c8-cvvck                1/1     Running   0               106m   10.244.1.38   consumer-worker    <none>           <none>
+paymentservice-57d4c64bd-s4656           1/1     Running   0               111m   10.244.1.35   consumer-worker    <none>           <none>
+productcatalogservice-5f5d467c96-7bv9s   1/1     Running   0               106m   10.244.1.37   consumer-worker    <none>           <none>
+recommendationservice-df997d94d-nv4qz    1/1     Running   0               110m   10.244.2.26   consumer-worker2   <none>           <none>
+redis-cart-78fc657c4b-sz9qj              1/1     Running   1 (6h25m ago)   2d1h   10.244.1.2    consumer-worker    <none>           <none>
+shippingservice-69797dd7fc-nscdk         1/1     Running   0               110m   10.244.2.27   consumer-worker2   <none>           <none>

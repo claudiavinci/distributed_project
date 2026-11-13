@@ -1,0 +1,4810 @@
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:51
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:59
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:19
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:27
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:37
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:47
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:54
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:04
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:14
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:21
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:31
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T14:44:06Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 55
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1237205"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.35
+    conditions:
+      ready: false
+      serving: true
+      terminating: true
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-57d4c64bd-s4656
+      namespace: shop
+      uid: 9863b26e-6802-47a0-9f3b-3ea75a12ca99
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 58
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255020"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:48
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:58
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:08
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:15
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:25
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:35
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:42
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:52
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:02
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:19
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:29
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:37
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:47
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:57
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:04
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:14
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:24
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:31
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:51
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:59
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:19
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:26
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:36
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:46
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:54
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:04
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:14
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:21
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:31
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:48
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:58
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:08
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:15
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:25
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:35
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:42
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:52
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:02
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:09
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:19
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:29
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:37
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:47
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:57
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:04
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:14
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:24
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:31
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:51
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:58
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:08
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:18
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:25
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:35
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:45
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:52
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:02
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:12
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:19
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:29
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:39
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:46
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:56
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:06
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:14
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:24
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:34
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:41
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:51
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:01
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:08
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:18
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:28
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:36
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:46
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:56
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""
+
+========================================
+TIMESTAMP: 2026-11-13 17:50:03
+========================================
+apiVersion: v1
+items:
+- addressType: IPv4
+  apiVersion: discovery.k8s.io/v1
+  endpoints:
+  - addresses:
+    - 10.244.1.42
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: consumer-worker
+    targetRef:
+      kind: Pod
+      name: paymentservice-74c7cf9d8f-6dvqw
+      namespace: shop
+      uid: 514e971f-c964-48b4-9b16-ae352a184ca2
+  kind: EndpointSlice
+  metadata:
+    annotations:
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-11-13T16:37:43Z"
+    creationTimestamp: "2026-11-11T09:42:43Z"
+    generateName: paymentservice-
+    generation: 59
+    labels:
+      app: paymentservice
+      endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+      kubernetes.io/service-name: paymentservice
+    name: paymentservice-vrkxm
+    namespace: shop
+    ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Service
+      name: paymentservice
+      uid: 573ab524-b49c-4393-bc5c-37b87cf528da
+    resourceVersion: "1255122"
+    uid: 28c398ec-a93e-43c8-86bf-352315c184b6
+  ports:
+  - name: grpc
+    port: 50051
+    protocol: TCP
+kind: List
+metadata:
+  resourceVersion: ""

@@ -1,0 +1,6 @@
+offload_command_ms=329
+migrated_deployments=4
+migration_observed=yes
+first_remote_ready_ms=14517
+last_observed_remote_ready_ms=33558
+observation_complete=yes

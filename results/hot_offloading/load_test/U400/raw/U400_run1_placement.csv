@@ -1,0 +1,11 @@
+deployment,first_remote_ready_ms
+frontend,14517
+currencyservice,15597
+cartservice,24943
+adservice,33558
+checkoutservice,
+emailservice,
+paymentservice,
+productcatalogservice,
+recommendationservice,
+shippingservice,

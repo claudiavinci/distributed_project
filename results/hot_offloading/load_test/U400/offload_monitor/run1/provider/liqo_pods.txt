@@ -1,0 +1,1344 @@
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:41
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h25m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h25m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h26m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h26m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h26m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h25m ago)     2d4h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h26m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h26m ago)     2d4h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h25m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:51
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h25m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h25m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h26m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h26m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h26m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h25m ago)     2d4h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h26m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h26m ago)     2d4h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h26m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:35:59
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h26m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h26m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h26m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h26m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h26m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h26m ago)     2d4h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h26m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h26m ago)     2d4h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h26m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:09
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h26m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h26m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h26m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h26m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h26m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h26m ago)     2d4h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h26m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h26m ago)     2d4h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h26m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:19
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h26m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h26m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h26m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h26m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h26m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h26m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h26m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h27m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h26m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:27
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h26m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h26m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h26m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h26m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h27m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h26m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h26m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h27m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h26m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:37
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h26m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h26m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h26m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h26m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h27m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h26m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h27m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h27m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h26m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:47
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h26m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h26m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h27m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h27m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h27m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h26m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h27m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h27m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h26m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:36:54
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h27m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h26m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h27m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h27m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h27m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h27m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h27m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h27m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h27m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:04
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h27m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h27m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h27m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h27m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h27m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h27m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h27m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h27m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h27m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:14
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h27m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h27m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h27m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h27m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h27m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h27m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h27m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h28m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h27m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:21
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h27m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h27m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h27m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h27m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h27m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h27m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h27m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h28m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h27m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:31
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h27m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h27m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h27m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h27m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h28m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h27m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h28m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h28m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h27m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:41
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h27m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h27m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h28m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h28m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h28m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h27m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h28m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h28m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h27m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:48
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h27m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h27m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h28m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h28m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h28m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h27m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h28m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h28m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h27m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:37:58
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h28m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h28m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h28m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h28m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h28m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h28m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h28m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h28m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h28m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:08
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h28m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h28m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h28m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h28m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h28m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h28m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h28m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h28m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h28m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:15
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h28m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h28m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h28m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h28m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h28m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h28m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h28m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h29m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h28m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:25
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h28m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h28m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h28m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h28m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h29m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h28m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h28m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h29m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h28m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:35
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h28m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h28m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h28m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h28m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h29m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h28m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h29m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h29m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h28m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:42
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h28m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h28m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h29m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h29m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h29m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h28m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h29m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h29m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h28m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:38:52
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h29m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h28m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h29m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h29m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h29m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h29m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h29m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h29m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h29m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:02
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h29m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h29m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h29m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h29m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h29m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h29m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h29m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h29m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h29m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:09
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h29m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h29m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h29m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h29m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h29m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h29m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h29m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h29m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h29m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:19
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h29m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h29m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h29m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h29m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h29m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h29m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h29m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h30m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h29m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:29
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h29m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h29m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h29m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h29m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h30m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h29m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h30m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h30m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h29m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:37
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h29m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h29m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h29m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h29m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h30m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h29m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h30m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h30m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h29m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:47
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h29m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h29m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h30m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h30m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h30m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h29m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h30m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h30m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h29m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:39:57
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h30m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h30m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h30m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h30m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h30m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h30m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h30m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h30m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h30m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:04
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h30m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h30m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h30m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h30m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h30m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h30m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h30m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h30m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h30m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:14
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h30m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h30m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h30m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h30m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h30m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h30m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h30m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h31m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h30m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:24
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h30m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h30m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h30m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h30m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h31m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h30m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h30m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h31m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h30m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:31
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h30m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h30m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h30m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h30m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h31m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h30m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h31m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h31m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h30m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:41
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h30m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h30m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h31m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h31m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h31m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h30m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h31m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h31m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h30m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:51
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h30m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h30m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h31m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h31m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h31m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h30m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h31m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h31m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h31m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:40:59
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h31m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h31m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h31m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h31m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h31m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h31m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h31m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h31m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h31m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:09
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h31m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h31m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h31m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h31m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h31m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h31m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h31m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h31m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h31m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:19
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h31m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h31m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h31m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h31m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h31m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h31m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h31m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h32m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h31m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:26
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h31m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h31m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h31m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h31m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h32m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h31m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h31m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h32m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h31m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:36
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h31m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h31m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h31m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h31m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h32m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h31m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h32m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h32m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h31m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:46
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h31m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h31m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h32m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h32m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h32m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h31m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h32m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h32m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h31m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:41:54
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h32m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h31m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h32m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h32m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h32m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h32m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h32m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h32m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h32m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:04
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h32m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h32m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h32m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h32m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h32m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h32m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h32m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h32m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h32m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:14
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h32m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h32m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h32m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h32m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h32m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h32m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h32m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h33m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h32m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:21
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h32m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h32m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h32m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h32m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h32m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h32m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h32m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h33m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h32m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:31
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h32m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h32m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h32m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h32m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h33m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h32m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h33m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h33m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h32m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:41
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h32m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h32m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h33m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h33m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h33m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h32m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h33m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h33m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h32m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:48
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h32m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h32m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h33m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h33m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h33m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h32m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h33m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h33m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h32m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:42:58
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h33m ago)     47h    10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h33m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h33m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h33m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h33m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h33m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h33m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h33m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h33m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:08
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h33m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h33m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h33m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h33m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h33m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h33m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h33m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h33m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h33m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:15
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h33m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h33m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h33m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h33m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h33m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h33m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h33m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h34m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h33m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:25
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h33m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h33m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h33m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h33m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h34m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h33m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h33m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h34m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h33m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:35
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h33m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h33m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h33m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h33m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h34m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h33m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h34m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h34m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h33m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:42
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h33m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h33m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h34m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h34m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h34m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h33m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h34m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h34m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h33m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:43:52
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h34m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h33m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h34m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h34m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h34m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h34m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h34m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h34m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h34m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:02
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h34m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h34m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h34m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h34m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h34m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h34m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h34m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h34m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h34m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:09
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h34m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h34m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h34m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h34m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h34m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h34m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h34m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h34m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h34m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:19
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h34m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h34m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h34m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h34m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h34m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h34m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h34m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h35m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h34m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:29
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h34m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h34m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h34m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h34m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h35m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h34m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h35m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h35m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h34m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:37
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h34m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h34m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h34m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h34m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h35m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h34m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h35m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h35m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h34m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:47
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h34m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h34m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h35m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h35m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h35m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h34m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h35m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h35m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h34m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:44:57
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h35m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h35m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h35m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h35m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h35m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h35m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h35m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h35m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h35m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:04
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h35m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h35m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h35m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h35m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h35m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h35m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h35m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h35m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h35m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:14
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h35m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h35m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h35m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h35m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h35m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h35m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h35m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h36m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h35m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:24
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h35m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h35m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h35m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h35m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h36m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h35m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h35m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h36m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h35m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:31
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h35m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h35m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h35m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h35m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h36m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h35m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h36m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h36m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h35m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:41
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h35m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h35m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h36m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h36m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h36m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h35m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h36m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h36m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h35m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:51
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h35m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h35m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h36m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h36m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h36m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h35m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h36m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h36m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h36m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:45:58
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h36m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h36m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h36m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h36m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h36m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h36m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h36m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h36m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h36m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:08
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h36m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h36m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h36m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h36m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h36m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h36m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h36m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h36m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h36m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:18
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h36m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h36m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h36m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h36m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h36m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h36m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h36m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h37m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h36m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:25
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h36m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h36m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h36m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h36m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h37m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h36m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h36m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h37m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h36m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:35
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h36m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h36m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h36m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h36m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h37m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h36m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h37m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h37m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h36m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:45
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h36m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h36m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h37m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h37m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h37m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h36m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h37m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h37m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h36m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:46:52
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h37m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h36m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h37m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h37m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h37m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h37m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h37m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h37m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h37m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:02
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h37m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h37m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h37m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h37m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h37m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h37m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h37m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h37m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h37m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:12
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h37m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h37m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h37m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h37m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h37m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h37m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h37m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h38m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h37m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:19
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h37m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h37m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h37m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h37m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h37m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h37m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h37m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h38m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h37m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:29
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h37m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h37m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h37m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h37m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h38m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h37m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h38m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h38m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h37m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:39
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h37m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h37m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h37m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h37m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h38m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h37m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h38m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h38m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h37m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:46
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h37m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h37m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h38m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h38m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h38m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h37m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h38m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h38m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h37m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:47:56
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h38m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h38m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h38m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h38m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h38m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h38m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h38m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h38m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h38m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:06
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h38m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h38m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h38m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h38m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h38m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h38m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h38m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h38m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h38m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:14
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h38m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h38m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h38m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h38m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h38m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h38m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h38m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h39m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h38m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:24
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h38m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h38m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h38m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h38m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h39m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h38m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h38m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h39m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h38m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:34
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h38m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h38m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h38m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h38m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h39m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h38m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h39m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h39m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h38m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:41
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h38m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h38m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h39m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h39m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h39m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h38m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h39m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h39m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h38m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:48:51
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h38m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h38m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h39m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h39m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h39m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h38m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h39m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h39m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h39m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:01
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h39m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h39m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h39m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h39m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h39m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h39m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h39m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h39m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h39m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:08
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h39m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h39m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h39m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h39m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h39m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h39m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h39m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h39m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h39m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:18
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h39m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h39m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h39m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h39m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h39m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h39m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h39m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h40m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h39m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:28
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h39m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h39m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h39m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h39m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h40m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h39m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h39m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h40m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h39m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:36
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h39m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h39m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h39m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h39m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h40m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h39m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h40m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h40m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h39m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:46
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h39m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h39m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h40m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h40m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h40m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h39m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h40m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h40m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h39m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:49:56
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h40m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h40m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h40m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h40m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h40m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h40m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h40m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h40m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h40m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>
+
+========================================
+TIMESTAMP: 2026-11-13 17:50:03
+========================================
+NAME                                       READY   STATUS    RESTARTS          AGE    IP           NODE                     NOMINATED NODE   READINESS GATES
+liqo-controller-manager-6db8499659-b75zb   1/1     Running   2 (6h40m ago)     2d     10.244.1.4   provider-worker2         <none>           <none>
+liqo-crd-replicator-7f559cc65f-9rgsl       1/1     Running   79 (6h40m ago)    43d    10.244.1.6   provider-worker2         <none>           <none>
+liqo-fabric-2sb5k                          1/1     Running   89 (6h40m ago)    43d    172.18.0.4   provider-control-plane   <none>           <none>
+liqo-fabric-fqc5q                          1/1     Running   104 (6h40m ago)   43d    172.18.0.6   provider-worker          <none>           <none>
+liqo-fabric-jl6j6                          1/1     Running   86 (6h40m ago)    43d    172.18.0.7   provider-worker2         <none>           <none>
+liqo-ipam-5f5dfb9464-jrswn                 1/1     Running   2 (6h40m ago)     2d5h   10.244.1.5   provider-worker2         <none>           <none>
+liqo-metric-agent-57fc96f98d-l666t         1/1     Running   66 (6h40m ago)    43d    10.244.1.7   provider-worker2         <none>           <none>
+liqo-proxy-7d58885667-r7l7l                1/1     Running   1 (6h40m ago)     2d5h   10.244.1.8   provider-worker2         <none>           <none>
+liqo-webhook-75f85fc8d9-qsdnb              1/1     Running   80 (6h40m ago)    43d    10.244.1.2   provider-worker2         <none>           <none>

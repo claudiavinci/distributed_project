@@ -1,4 +1,8 @@
+
 #!/usr/bin/env bash
+
+# Test di fault del worker provider sotto carico Locust.
+# Una sola run: funzionamento normale, guasto e ripristino.
 
 set -Eeuo pipefail
 
@@ -10,7 +14,7 @@ source configs/exp_config.conf
 source configs/liqo_config.conf
 
 REQUIRED_VARS=(
-    TEST NAMESPACE RUNS USERS_LIST
+    TEST NAMESPACE USERS_LIST
     LOADGEN_POD LOADGEN_NODE TARGET_URL
     RAMP_S WARMUP_USERS WARMUP_DURATION
     LOCUSTFILE_LOCAL
@@ -25,7 +29,7 @@ for v in "${REQUIRED_VARS[@]}"; do
 done
 
 # =====================================
-# PARAMETRI FAULT TEST
+# PARAMETRI ESPERIMENTO
 # =====================================
 
 USERS="$USERS_LIST"
@@ -39,33 +43,32 @@ READY_TIMEOUT=300
 
 TOTAL_TIME=$((FAULT_AT + FAULT_OBSERVE + RECOVERY_OBSERVE + 45))
 
-# Nodo Kind da arrestare (non il VirtualNode Liqo)
 FAULT_NODE="provider-worker"
 
 # =====================================
-# CLUSTER
+# CLUSTER E LOADGENERATOR
 # =====================================
 
 CONSUMER_CONFIG="$KUBECONFIG"
 PROVIDER_CONFIG="$REMOTE_KUBECONFIG"
 
-# =====================================
-# LOADGENERATOR
-# =====================================
-
 LOADGEN_DEPLOY="loadgenerator"
-LOADGEN_IMAGE=""
-
 LOCUSTFILE="/tmp/locustfile.py"
 
 # =====================================
-# MONITORAGGIO
+# OUTPUT E MONITORAGGIO
 # =====================================
 
 MONITOR_SCRIPT="scripts/fault_test/monitor_fault.sh"
 
 OUTPUT_DIR="$(pwd)/results/${TEST}/load_test/U${USERS}"
 RAW_DIR="$OUTPUT_DIR/raw"
+
+PREFIX="U${USERS}_run1"
+EVENTS="$RAW_DIR/${PREFIX}_fault_events.csv"
+
+MONITOR_SUBDIR="fault_monitor/run1"
+CSV_NAME="fault"
 
 mkdir -p "$RAW_DIR" "$OUTPUT_DIR/metrics_csv"
 
@@ -79,99 +82,11 @@ POD_CREATED=0
 LOCUST_PID=""
 MONITOR_PID=""
 
-PREFIX=""
-FAULT_EVENTS=""
-
 # =====================================
 # FUNZIONI COMUNI
 # =====================================
 
-consumer() {
-    kubectl --kubeconfig="$CONSUMER_CONFIG" "$@"
-}
-
-provider() {
-    kubectl --kubeconfig="$PROVIDER_CONFIG" "$@"
-}
-
-timestamp() {
-    date +"%Y-%m-%d %H:%M:%S"
-}
-
-log_event() {
-    printf '%s,%s\n' "$(timestamp)" "$1" |
-        tee -a "$FAULT_EVENTS"
-}
-
-# =====================================
-# MONITORAGGIO ESTERNO
-# =====================================
-
-start_monitor() {
-    local monitor_dir="$OUTPUT_DIR/fault_monitor/run${RUN}"
-
-    mkdir -p "$monitor_dir"
-
-    # Evita di mescolare dati di esecuzioni precedenti
-    rm -rf "$monitor_dir/consumer" "$monitor_dir/provider"
-
-    echo "Avvio monitoraggio cluster..."
-
-    MONITOR_INTERVAL="$MONITOR_INTERVAL" \
-    OUTPUT_DIR="$monitor_dir" \
-        bash "$MONITOR_SCRIPT" &
-
-    MONITOR_PID=$!
-
-    echo "Monitor PID: $MONITOR_PID"
-    echo "Output: $monitor_dir"
-}
-
-stop_monitor() {
-    if [[ -n "$MONITOR_PID" ]]; then
-        kill "$MONITOR_PID" 2>/dev/null || true
-        wait "$MONITOR_PID" 2>/dev/null || true
-        MONITOR_PID=""
-    fi
-}
-
-# =====================================
-# CLEANUP
-# =====================================
-
-cleanup() {
-    local status=$?
-
-    trap - EXIT INT TERM
-
-    echo ""
-    echo "Pulizia risorse..."
-
-    stop_monitor
-
-    if (( NODE_STOPPED )); then
-        echo "Riavvio di emergenza: $FAULT_NODE"
-        docker start "$FAULT_NODE" >/dev/null || true
-        NODE_STOPPED=0
-    fi
-
-    if [[ -n "$LOCUST_PID" ]]; then
-        kill "$LOCUST_PID" 2>/dev/null || true
-        wait "$LOCUST_PID" 2>/dev/null || true
-    fi
-
-    if (( POD_CREATED )); then
-        consumer delete pod "$LOADGEN_POD" \
-            -n "$NAMESPACE" \
-            --ignore-not-found \
-            --wait=false >/dev/null 2>&1 || true
-    fi
-
-    exit "$status"
-}
-
-trap cleanup EXIT
-trap 'exit 130' INT TERM
+source scripts/common.sh
 
 # =====================================
 # VERIFICHE PRELIMINARI
@@ -196,12 +111,54 @@ for cmd in kubectl docker python3; do
     }
 done
 
-docker inspect "$FAULT_NODE" >/dev/null
+if ! docker inspect "$FAULT_NODE" >/dev/null 2>&1; then
+    echo "Errore: container $FAULT_NODE non trovato"
+    exit 1
+fi
 
 if [[ "$(docker inspect -f '{{.State.Running}}' "$FAULT_NODE")" != "true" ]]; then
     echo "Errore: worker $FAULT_NODE non in esecuzione"
     exit 1
 fi
+
+# =====================================
+# CLEANUP
+# =====================================
+
+cleanup_fault() {
+    local status=$?
+
+    trap - EXIT INT TERM
+
+    echo ""
+    echo "Pulizia risorse..."
+
+    stop_monitor
+
+    # Ripristino di emergenza del worker.
+    if (( NODE_STOPPED )); then
+        echo "Riavvio di emergenza: $FAULT_NODE"
+        docker start "$FAULT_NODE" >/dev/null || true
+        NODE_STOPPED=0
+    fi
+
+    if [[ -n "$LOCUST_PID" ]]; then
+        kill "$LOCUST_PID" 2>/dev/null || true
+        wait "$LOCUST_PID" 2>/dev/null || true
+    fi
+
+    if (( POD_CREATED )); then
+        consumer delete pod "$LOADGEN_POD" \
+            -n "$NAMESPACE" \
+            --ignore-not-found \
+            --wait=false >/dev/null 2>&1 || true
+    fi
+
+    exit "$status"
+}
+
+trap cleanup_fault EXIT
+trap 'exit 130' INT TERM
 
 # =====================================
 # VERIFICA WORKER PROVIDER
@@ -214,6 +171,7 @@ check_provider_ready() {
     echo "Verifico worker $FAULT_NODE..."
 
     while (( SECONDS < deadline )); do
+
         ready="$(provider get node "$FAULT_NODE" \
             -o jsonpath='{.status.conditions[?(@.type=="Ready")].status}' \
             --request-timeout=5s 2>/dev/null || true)"
@@ -229,6 +187,9 @@ check_provider_ready() {
 # =====================================
 # VERIFICA APPLICAZIONE
 # =====================================
+
+# Controlla tutti i Deployment del namespace,
+# escludendo il loadgenerator.
 
 check_app_ready() {
     local deadline=$((SECONDS + READY_TIMEOUT))
@@ -273,126 +234,16 @@ except (ValueError, KeyError, TypeError):
 }
 
 # =====================================
-# LOADGENERATOR
-# =====================================
-
-create_loadgen_pod() {
-    echo "Creo loadgenerator $LOADGEN_POD..."
-
-    consumer delete pod "$LOADGEN_POD" \
-        -n "$NAMESPACE" \
-        --ignore-not-found \
-        --wait=true
-
-    consumer run "$LOADGEN_POD" \
-        -n "$NAMESPACE" \
-        --image="$LOADGEN_IMAGE" \
-        --image-pull-policy=IfNotPresent \
-        --restart=Never \
-        --overrides="$(printf \
-        '{"spec":{"nodeSelector":{"kubernetes.io/hostname":"%s"},"tolerations":[{"key":"node-role.kubernetes.io/control-plane","operator":"Exists","effect":"NoSchedule"}]}}' \
-        "$LOADGEN_NODE")" \
-        --command -- sleep infinity
-
-    POD_CREATED=1
-
-    consumer wait \
-        --for=condition=Ready \
-        "pod/$LOADGEN_POD" \
-        -n "$NAMESPACE" \
-        --timeout=180s
-
-    consumer exec -n "$NAMESPACE" "$LOADGEN_POD" \
-        -- locust --version
-
-    echo "Carico locustfile..."
-
-    consumer exec -i -n "$NAMESPACE" "$LOADGEN_POD" \
-        -- sh -c "cat > $LOCUSTFILE" \
-        < "$LOCUSTFILE_LOCAL"
-}
-
-# =====================================
-# ESECUZIONE LOCUST
-# =====================================
-
-run_locust() {
-    local users="$1"
-    local duration="$2"
-    local csv_prefix="$3"
-
-    local spawn=$(( (users + RAMP_S - 1) / RAMP_S ))
-
-    consumer exec -n "$NAMESPACE" "$LOADGEN_POD" -- \
-        locust \
-        -f "$LOCUSTFILE" \
-        --host="$TARGET_URL" \
-        --headless \
-        -u "$users" \
-        -r "$spawn" \
-        --run-time "${duration}s" \
-        --csv="$csv_prefix" \
-        --csv-full-history \
-        --exit-code-on-error 0
-}
-
-# =====================================
-# RACCOLTA CSV LOCUST
-# =====================================
-
-collect_csv() {
-    local kind src dest
-
-    for kind in stats failures stats_history; do
-        src="/tmp/fault_${kind}.csv"
-        dest="$RAW_DIR/${PREFIX}_${kind}.csv"
-
-        if ! consumer exec -n "$NAMESPACE" "$LOADGEN_POD" \
-            -- cat "$src" > "$dest" 2>/dev/null; then
-
-            rm -f "$dest"
-            echo "Attenzione: CSV $kind non disponibile"
-        fi
-    done
-}
-
-# =====================================
-# PREPARAZIONE LOADGENERATOR
-# =====================================
-
-if [[ -z "$LOADGEN_IMAGE" ]]; then
-    LOADGEN_IMAGE="$(consumer get deploy "$LOADGEN_DEPLOY" \
-        -n "$NAMESPACE" \
-        -o jsonpath='{.spec.template.spec.containers[0].image}')"
-fi
-
-[[ -n "$LOADGEN_IMAGE" ]] || {
-    echo "Errore: immagine loadgenerator non trovata"
-    exit 1
-}
-
-echo "Spengo deployment $LOADGEN_DEPLOY..."
-
-consumer scale deploy "$LOADGEN_DEPLOY" \
-    -n "$NAMESPACE" \
-    --replicas=0
-
-consumer wait \
-    --for=delete pod \
-    -l "app=$LOADGEN_DEPLOY" \
-    -n "$NAMESPACE" \
-    --timeout=90s || true
-
-# =====================================
 # INIZIO ESPERIMENTO
 # =====================================
+
+printf 'timestamp,epoch_ms,event\n' > "$EVENTS"
 
 echo ""
 echo "================================="
 echo "FAULT TEST LIQO"
 echo "================================="
 echo "Utenti: $USERS"
-echo "Run: $RUNS"
 echo "Worker provider: $FAULT_NODE"
 echo "Guasto dopo: ${FAULT_AT}s"
 echo "Osservazione guasto: ${FAULT_OBSERVE}s"
@@ -402,200 +253,179 @@ echo "Monitoraggio: ${MONITOR_INTERVAL}s"
 echo "Output: $OUTPUT_DIR"
 echo "================================="
 
-for ((RUN=1; RUN<=RUNS; RUN++)); do
+# =====================================
+# VERIFICHE INIZIALI
+# =====================================
 
-    PREFIX="U${USERS}_run${RUN}"
-    FAULT_EVENTS="$RAW_DIR/${PREFIX}_fault_events.csv"
+check_provider_ready || {
+    echo "Errore: worker provider non Ready"
+    exit 1
+}
 
-    echo "timestamp,event" > "$FAULT_EVENTS"
+check_app_ready || {
+    echo "Errore: applicazione non disponibile"
+    exit 1
+}
 
-    echo ""
-    echo "================================="
-    echo "RUN $RUN / $RUNS"
-    echo "================================="
+save_snapshot before
 
-    # ---------------------------------
-    # VERIFICHE INIZIALI
-    # ---------------------------------
+# =====================================
+# LOADGENERATOR E WARM-UP
+# =====================================
 
-    check_provider_ready || {
-        echo "Errore: worker provider non Ready"
-        exit 1
-    }
+create_loadgen_pod
 
-    check_app_ready || {
-        echo "Errore: applicazione non disponibile"
-        exit 1
-    }
+log_event "WARMUP_START"
 
-    provider get pods -A -o wide \
-        > "$RAW_DIR/${PREFIX}_provider_pods_before.txt"
+run_locust \
+    "$WARMUP_USERS" \
+    "$WARMUP_DURATION" \
+    /tmp/warmup \
+    > "$RAW_DIR/${PREFIX}_warmup.log" 2>&1
 
-    consumer get pods -n "$NAMESPACE" -o wide \
-        > "$RAW_DIR/${PREFIX}_consumer_pods_before.txt"
+log_event "WARMUP_END"
 
-    # ---------------------------------
-    # LOADGENERATOR E WARM-UP
-    # ---------------------------------
+# =====================================
+# MONITORAGGIO
+# =====================================
 
-    create_loadgen_pod
+# Evita di mescolare dati di esecuzioni precedenti.
+rm -rf \
+    "$OUTPUT_DIR/$MONITOR_SUBDIR/consumer" \
+    "$OUTPUT_DIR/$MONITOR_SUBDIR/provider"
 
-    log_event "WARMUP_START"
+start_monitor
 
-    run_locust \
-        "$WARMUP_USERS" \
-        "$WARMUP_DURATION" \
-        /tmp/warmup \
-        > "$RAW_DIR/${PREFIX}_warmup.log" 2>&1
+# =====================================
+# AVVIO LOCUST
+# =====================================
 
-    log_event "WARMUP_END"
+echo "Avvio Locust con $USERS utenti..."
 
-    # ---------------------------------
-    # AVVIO MONITORAGGIO ESTERNO
-    # ---------------------------------
+RUN_START_TS=$(date +%s)
 
-    start_monitor
+log_event "LOCUST_START"
 
-    # ---------------------------------
-    # AVVIO LOCUST
-    # ---------------------------------
+run_locust \
+    "$USERS" \
+    "$TOTAL_TIME" \
+    /tmp/fault \
+    > "$RAW_DIR/${PREFIX}.txt" 2>&1 &
 
-    echo "Avvio Locust con $USERS utenti..."
+LOCUST_PID=$!
 
-    RUN_START_TS=$(date +%s)
-    log_event "LOCUST_START"
+# =====================================
+# FASE 1 - FUNZIONAMENTO NORMALE
+# =====================================
 
-    run_locust \
-        "$USERS" \
-        "$TOTAL_TIME" \
-        /tmp/fault \
-        > "$RAW_DIR/${PREFIX}.txt" 2>&1 &
+echo "Attendo ${FAULT_AT}s prima del guasto..."
 
-    LOCUST_PID=$!
+sleep "$FAULT_AT"
 
-    # ---------------------------------
-    # FASE 1 - FUNZIONAMENTO NORMALE
-    # ---------------------------------
+# =====================================
+# FASE 2 - GUASTO WORKER
+# =====================================
 
-    echo "Attendo ${FAULT_AT}s prima del guasto..."
-    sleep "$FAULT_AT"
+echo ""
+echo "GUASTO: $FAULT_NODE"
 
-    # ---------------------------------
-    # FASE 2 - GUASTO WORKER
-    # ---------------------------------
+log_event "FAULT_COMMAND_START"
 
-    echo ""
-    echo "GUASTO: $FAULT_NODE"
+NODE_STOPPED=1
 
-    log_event "FAULT_COMMAND_START"
+docker stop --time 10 "$FAULT_NODE" >/dev/null
 
-    NODE_STOPPED=1
+log_event "NODE_STOPPED"
 
-    docker stop --time 10 "$FAULT_NODE" >/dev/null
+echo "Worker arrestato."
+echo "Osservazione per ${FAULT_OBSERVE}s..."
 
-    log_event "NODE_STOPPED"
+sleep "$FAULT_OBSERVE"
 
-    echo "Worker arrestato."
-    echo "Osservazione per ${FAULT_OBSERVE}s..."
+# =====================================
+# FASE 3 - RIPRISTINO WORKER
+# =====================================
 
-    sleep "$FAULT_OBSERVE"
+echo ""
+echo "RIPRISTINO WORKER"
 
-    # ---------------------------------
-    # FASE 3 - RIAVVIO WORKER
-    # ---------------------------------
+log_event "NODE_RESTART_COMMAND"
 
-    echo ""
-    echo "RIPRISTINO WORKER"
+docker start "$FAULT_NODE" >/dev/null
 
-    log_event "NODE_RESTART_COMMAND"
+NODE_STOPPED=0
 
-    docker start "$FAULT_NODE" >/dev/null
+log_event "NODE_RESTARTED"
 
-    NODE_STOPPED=0
+echo "Osservazione recovery per ${RECOVERY_OBSERVE}s..."
 
-    log_event "NODE_RESTARTED"
+sleep "$RECOVERY_OBSERVE"
 
-    echo "Osservazione recovery per ${RECOVERY_OBSERVE}s..."
-    sleep "$RECOVERY_OBSERVE"
+log_event "RECOVERY_OBSERVATION_END"
 
-    log_event "RECOVERY_OBSERVATION_END"
+# =====================================
+# COMPLETAMENTO LOCUST
+# =====================================
 
-    # ---------------------------------
-    # COMPLETAMENTO LOCUST
-    # ---------------------------------
+LOCUST_STATUS=0
 
-    set +e
-    wait "$LOCUST_PID"
-    LOCUST_STATUS=$?
-    set -e
+wait "$LOCUST_PID" || LOCUST_STATUS=$?
 
-    LOCUST_PID=""
+LOCUST_PID=""
 
-    RUN_END_TS=$(date +%s)
+RUN_END_TS=$(date +%s)
 
-    log_event "LOCUST_END"
+log_event "LOCUST_END"
 
-    # ---------------------------------
-    # TIMESTAMP PROMETHEUS
-    # ---------------------------------
+# =====================================
+# TIMESTAMP PROMETHEUS
+# =====================================
 
-    cat > "$RAW_DIR/run${RUN}_times.txt" <<EOF
-start=$RUN_START_TS
-end=$RUN_END_TS
-ramp_s=$RAMP_S
-EOF
+save_run_times "$RUN_START_TS" "$RUN_END_TS"
 
-    echo "Locust exit status: $LOCUST_STATUS" \
-        > "$RAW_DIR/${PREFIX}_status.txt"
+printf 'Locust exit status: %s\n' "$LOCUST_STATUS" \
+    > "$RAW_DIR/${PREFIX}_status.txt"
 
-    # ---------------------------------
-    # RACCOLTA RISULTATI
-    # ---------------------------------
+# =====================================
+# RACCOLTA RISULTATI
+# =====================================
 
-    collect_csv
+collect_csv
 
-    provider get pods -A -o wide \
-        > "$RAW_DIR/${PREFIX}_provider_pods_after.txt" || true
+save_snapshot after
 
-    consumer get pods -n "$NAMESPACE" -o wide \
-        > "$RAW_DIR/${PREFIX}_consumer_pods_after.txt" || true
+stop_monitor
 
-    stop_monitor
+# =====================================
+# ELIMINAZIONE LOADGENERATOR
+# =====================================
 
-    # ---------------------------------
-    # ELIMINAZIONE LOADGENERATOR
-    # ---------------------------------
+consumer delete pod "$LOADGEN_POD" \
+    -n "$NAMESPACE" \
+    --ignore-not-found \
+    --wait=true
 
-    consumer delete pod "$LOADGEN_POD" \
-        -n "$NAMESPACE" \
-        --ignore-not-found \
-        --wait=true
+POD_CREATED=0
 
-    POD_CREATED=0
+# =====================================
+# VERIFICA RIPRISTINO
+# =====================================
 
-    # ---------------------------------
-    # VERIFICA RIPRISTINO
-    # ---------------------------------
+echo "Verifico ripristino cluster..."
 
-    echo "Verifico ripristino cluster..."
+check_provider_ready || {
+    echo "Errore: worker provider non recuperato"
+    exit 1
+}
 
-    check_provider_ready || {
-        echo "Errore: worker provider non recuperato"
-        exit 1
-    }
+check_app_ready || {
+    echo "Errore: applicazione non recuperata"
+    exit 1
+}
 
-    check_app_ready || {
-        echo "Errore: applicazione non recuperata"
-        exit 1
-    }
-
-    echo "Run completata: $PREFIX"
-
-    if (( RUN < RUNS )); then
-        echo "Cooldown: ${COOLDOWN}s..."
-        sleep "$COOLDOWN"
-    fi
-done
+# =====================================
+# FINE ESPERIMENTO
+# =====================================
 
 echo ""
 echo "================================="

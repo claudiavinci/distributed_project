@@ -1,0 +1,39 @@
+Method,Name,Error,Occurrences
+GET,/product/1YMWWN1N4O,LocustBadStatusCode(code=500),102
+GET,/product/2ZYFJ3GM2N,"ConnectionRefusedError(111, 'Connection refused')",5
+POST,/setCurrency,LocustBadStatusCode(code=500),155
+GET,/product/0PUK6V6EV0,"ConnectionRefusedError(111, 'Connection refused')",4
+GET,/product/6E92ZMYYFZ,"RetriesExceeded('http://frontend-external:80/product/6E92ZMYYFZ', 0, original=timed out)",7
+GET,/product/0PUK6V6EV0,LocustBadStatusCode(code=500),120
+GET,/product/1YMWWN1N4O,"ConnectionRefusedError(111, 'Connection refused')",1
+GET,/product/LS4PSXUNUM,"RetriesExceeded('http://frontend-external:80/product/LS4PSXUNUM', 0, original=timed out)",2
+GET,/product/1YMWWN1N4O,"RetriesExceeded('http://frontend-external:80/product/1YMWWN1N4O', 0, original=timed out)",3
+GET,/,"RetriesExceeded('http://frontend-external:80/', 0, original=timed out)",1
+POST,/cart,"ConnectionRefusedError(111, 'Connection refused')",4
+GET,/,"ConnectionRefusedError(111, 'Connection refused')",1
+POST,/setCurrency,"RetriesExceeded('http://frontend-external:80/setCurrency', 0, original=timed out)",5
+POST,/setCurrency,"ConnectionRefusedError(111, 'Connection refused')",2
+GET,/product/L9ECAV7KIM,"RetriesExceeded('http://frontend-external:80/product/L9ECAV7KIM', 0, original=timed out)",7
+POST,/cart,LocustBadStatusCode(code=500),236
+GET,/product/OLJCESPC7Z,"RetriesExceeded('http://frontend-external:80/product/OLJCESPC7Z', 0, original=timed out)",5
+GET,/cart,LocustBadStatusCode(code=500),264
+GET,/product/L9ECAV7KIM,LocustBadStatusCode(code=500),129
+POST,/cart/checkout,"ConnectionRefusedError(111, 'Connection refused')",1
+GET,/product/0PUK6V6EV0,"RetriesExceeded('http://frontend-external:80/product/0PUK6V6EV0', 0, original=timed out)",6
+GET,/product/66VCHSJNUP,"ConnectionRefusedError(111, 'Connection refused')",1
+GET,/product/9SIQT8TOJO,"RetriesExceeded('http://frontend-external:80/product/9SIQT8TOJO', 0, original=timed out)",1
+GET,/,LocustBadStatusCode(code=500),72
+GET,/product/66VCHSJNUP,LocustBadStatusCode(code=500),119
+GET,/product/2ZYFJ3GM2N,"RetriesExceeded('http://frontend-external:80/product/2ZYFJ3GM2N', 0, original=timed out)",3
+GET,/cart,"RetriesExceeded('http://frontend-external:80/cart', 0, original=timed out)",3
+GET,/product/2ZYFJ3GM2N,LocustBadStatusCode(code=500),116
+GET,/cart,"ConnectionRefusedError(111, 'Connection refused')",5
+GET,/product/OLJCESPC7Z,LocustBadStatusCode(code=500),135
+GET,/product/6E92ZMYYFZ,LocustBadStatusCode(code=500),110
+GET,/product/66VCHSJNUP,"RetriesExceeded('http://frontend-external:80/product/66VCHSJNUP', 0, original=timed out)",2
+POST,/cart/checkout,LocustBadStatusCode(code=500),26
+GET,/product/9SIQT8TOJO,"ConnectionRefusedError(111, 'Connection refused')",1
+GET,/product/LS4PSXUNUM,LocustBadStatusCode(code=500),125
+GET,/product/6E92ZMYYFZ,"ConnectionRefusedError(111, 'Connection refused')",2
+GET,/product/LS4PSXUNUM,"ConnectionRefusedError(111, 'Connection refused')",1
+GET,/product/9SIQT8TOJO,LocustBadStatusCode(code=500),112
