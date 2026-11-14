@@ -63,9 +63,9 @@ check_requirements() {
         }
     done
 
-    (( RAMP_S > 0 )) || {
-        echo "Errore: RAMP_S deve essere positivo"
-        return 1
+    (( ${#DEPLOY_LIST[@]} > 0 )) || {
+    echo "Errore: DEPLOYMENTS_LIST vuota"
+    exit 1
     }
 }
 
@@ -241,58 +241,6 @@ check_placement() {
     return 0
 }
 
-# =====================================
-# RILEVAMENTO WORKLOAD OFFLOADATI
-# =====================================
-
-detect_offloaded() {
-    local deployment placement
-
-    OFFLOADED_LIST=()
-
-    for deployment in "${DEPLOY_LIST[@]}"; do
-
-        placement="$(placement_of "$deployment")" || return 1
-
-        if [[ "$placement" == "remote" ]]; then
-            OFFLOADED_LIST+=("$deployment")
-        fi
-    done
-
-    if (( ${#OFFLOADED_LIST[@]} == 0 )); then
-        echo "Errore: nessun Deployment risulta offloadato"
-        return 1
-    fi
-
-    echo "Deployment offloadati: ${OFFLOADED_LIST[*]}"
-}
-
-# =====================================
-# ATTESA POSIZIONAMENTO
-# =====================================
-
-wait_for_placement() {
-    local expected="$1"
-    local timeout="$2"
-    local success_event="$3"
-
-    local deadline=$((SECONDS + timeout))
-
-    echo "Attendo posizionamento: $expected..."
-
-    while (( SECONDS < deadline )); do
-
-        if check_placement "$expected"; then
-            log_event "$success_event"
-            return 0
-        fi
-
-        sleep "$POLL_INTERVAL"
-    done
-
-    log_event "PLACEMENT_TIMEOUT"
-    return 1
-}
 
 # =====================================
 # LOADGENERATOR
@@ -429,19 +377,4 @@ start=$start
 end=$end
 ramp_s=$RAMP_S
 EOF_TIMES
-}
-
-# =====================================
-# PULIZIA SHADOW POD LIQO
-# =====================================
-
-cleanup_shadow_pods() {
-    echo "Pulizia shadow Pod Liqo falliti..."
-
-    consumer delete pods \
-        -n "$NAMESPACE" \
-        -l "liqo.io/shadowPod=true" \
-        --field-selector='status.phase=Failed' \
-        --ignore-not-found \
-        --wait=false
 }

@@ -46,7 +46,7 @@ LOCUSTFILE="/tmp/locustfile.py"
 # OUTPUT E MONITORAGGIO
 # =====================================
 
-MONITOR_SCRIPT="scripts/fault_test/monitor_fault.sh"
+MONITOR_SCRIPT="scripts/monitor_cluster.sh"
 
 OUTPUT_DIR="$(pwd)/results/${TEST}/load_test/U${USERS}"
 RAW_DIR="$OUTPUT_DIR/raw"
@@ -88,11 +88,6 @@ trap 'exit 130' INT TERM
 mkdir -p "$RAW_DIR" "$OUTPUT_DIR/metrics_csv"
 
 printf 'timestamp,epoch_ms,event\n' > "$EVENTS"
-
-(( ${#DEPLOY_LIST[@]} > 0 )) || {
-    echo "Errore: DEPLOYMENTS_LIST vuota"
-    exit 1
-}
 
 # =====================================
 # RIAVVIO WORKLOAD

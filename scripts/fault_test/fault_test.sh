@@ -12,6 +12,11 @@ set -Eeuo pipefail
 
 source configs/exp_config.conf
 source configs/liqo_config.conf
+# =====================================
+# FUNZIONI COMUNI
+# =====================================
+
+source scripts/common.sh
 
 REQUIRED_VARS=(
     TEST NAMESPACE USERS_LIST
@@ -55,11 +60,23 @@ PROVIDER_CONFIG="$REMOTE_KUBECONFIG"
 LOADGEN_DEPLOY="loadgenerator"
 LOCUSTFILE="/tmp/locustfile.py"
 
+deployments="$(consumer get deployments \
+    -n "$NAMESPACE" \
+    -o jsonpath='{range .items[*]}{.metadata.name}{"\n"}{end}' \
+    --request-timeout=5s)" || {
+    echo "Errore: impossibile recuperare i Deployment"
+    exit 1
+}
+
+mapfile -t DEPLOY_LIST < <(
+    printf '%s\n' "$deployments" | grep -vxF "$LOADGEN_DEPLOY"
+)
+
 # =====================================
 # OUTPUT E MONITORAGGIO
 # =====================================
 
-MONITOR_SCRIPT="scripts/fault_test/monitor_fault.sh"
+MONITOR_SCRIPT="scripts/monitor_cluster.sh"
 
 OUTPUT_DIR="$(pwd)/results/${TEST}/load_test/U${USERS}"
 RAW_DIR="$OUTPUT_DIR/raw"
@@ -83,33 +100,10 @@ LOCUST_PID=""
 MONITOR_PID=""
 
 # =====================================
-# FUNZIONI COMUNI
-# =====================================
-
-source scripts/common.sh
-
-# =====================================
 # VERIFICHE PRELIMINARI
 # =====================================
 
-for file in \
-    "$CONSUMER_CONFIG" \
-    "$PROVIDER_CONFIG" \
-    "$LOCUSTFILE_LOCAL" \
-    "$MONITOR_SCRIPT"; do
-
-    [[ -f "$file" ]] || {
-        echo "Errore: file non trovato: $file"
-        exit 1
-    }
-done
-
-for cmd in kubectl docker python3; do
-    command -v "$cmd" >/dev/null || {
-        echo "Errore: comando non disponibile: $cmd"
-        exit 1
-    }
-done
+check_requirements
 
 if ! docker inspect "$FAULT_NODE" >/dev/null 2>&1; then
     echo "Errore: container $FAULT_NODE non trovato"
@@ -177,55 +171,6 @@ check_provider_ready() {
             --request-timeout=5s 2>/dev/null || true)"
 
         [[ "$ready" == "True" ]] && return 0
-
-        sleep 5
-    done
-
-    return 1
-}
-
-# =====================================
-# VERIFICA APPLICAZIONE
-# =====================================
-
-# Controlla tutti i Deployment del namespace,
-# escludendo il loadgenerator.
-
-check_app_ready() {
-    local deadline=$((SECONDS + READY_TIMEOUT))
-
-    echo "Verifico disponibilità applicazione..."
-
-    while (( SECONDS < deadline )); do
-
-        if consumer get deploy -n "$NAMESPACE" -o json \
-            --request-timeout=5s |
-            python3 -c '
-import json
-import sys
-
-try:
-    deployments = json.load(sys.stdin)["items"]
-    loadgen = sys.argv[1]
-
-    deployments = [
-        d for d in deployments
-        if d["metadata"]["name"] != loadgen
-    ]
-
-    ready = bool(deployments) and all(
-        d.get("status", {}).get("availableReplicas", 0)
-        >= d["spec"].get("replicas", 1)
-        for d in deployments
-    )
-
-    sys.exit(0 if ready else 1)
-
-except (ValueError, KeyError, TypeError):
-    sys.exit(1)
-' "$LOADGEN_DEPLOY" 2>/dev/null; then
-            return 0
-        fi
 
         sleep 5
     done
