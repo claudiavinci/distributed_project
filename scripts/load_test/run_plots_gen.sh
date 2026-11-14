@@ -30,7 +30,7 @@ read -r -a USER_LIST <<< "${USERS_LIST}"
 
 NODE_TABLE_SCRIPT="$(pwd)/scripts/analysis/table_nodes_summary.py"
 STATS_TABLE_SCRIPT="$(pwd)/scripts/analysis/table_stats_summary.py"
-PLOT_SCRIPT="$(pwd)/scripts/analysis/plot_experiment.py"
+PLOT_SCRIPT="$(pwd)/scripts/analysis/plot_load_experiment.py"
 
 RESULTS_DIR="$(pwd)/results/${TEST}/load_test"
 PLOT_DIR="${RESULTS_DIR}/plots"

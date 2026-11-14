@@ -328,9 +328,6 @@ log_event "LOCUST_END"
 
 save_run_times "$RUN_START_TS" "$RUN_END_TS"
 
-printf 'Locust exit status: %s\n' "$LOCUST_STATUS" \
-    > "$RAW_DIR/${PREFIX}_status.txt"
-
 # =====================================
 # RACCOLTA RISULTATI
 # =====================================

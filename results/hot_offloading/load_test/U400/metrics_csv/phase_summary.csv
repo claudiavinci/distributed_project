@@ -1,0 +1,4 @@
+fase,durata_s,richieste_campionate,errori_campionati,rps_medi,failure_rate_pct,latency_media_ms
+Prima,109.09,9970,1,91.39,0.01,17.353
+Migrazione,33.56,2976,1140,88.672,38.306,33.106
+Dopo,726.32,65477,753,90.149,1.15,60.891

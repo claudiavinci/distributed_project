@@ -1,0 +1,4 @@
+fase,durata_s,richieste_campionate,errori_campionati,rps_medi,failure_rate_pct,latency_media_ms
+Prima,109.0,9744,2,89.394,0.021,21.808
+Rientro,33.0,1367,133,41.424,9.729,3156.211
+Dopo,675.0,64976,13,96.261,0.02,75.533
