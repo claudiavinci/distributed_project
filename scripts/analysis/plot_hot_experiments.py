@@ -88,7 +88,8 @@ def read_events(path):
         )
 
         df["epoch_ms"] = (
-            timestamps.astype("int64") // 10**6
+            timestamps.astype("datetime64[ns, Europe/Rome]")
+            .astype("int64") // 10**6
         )
 
     else:
@@ -209,50 +210,6 @@ def calculate_interval_metrics(df):
         df[col] = df[col].where((requests > 0) & (df[col] > 0), np.nan)
 
     return df
-
-# =====================================
-# TABELLA PER FASE
-# =====================================
-
-def phase_summary(df, bounds, labels):
-
-    rows = []
-
-    for i in range(3):
-
-        left = bounds[i]
-        right = bounds[i + 1]
-
-        # I delta sono associati al timestamp finale
-        # dell'intervallo di campionamento.
-        segment = df[(df["Timestamp"] >= left) & (df["Timestamp"] < right)].copy()
-
-        valid = segment.dropna(subset=["interval_mean_ms"])
-
-        n = valid["delta_requests"].sum()
-        f = valid["delta_failures"].sum()
-
-        total_response_time = (valid["delta_response_time"].sum())
-
-        duration = right - left
-
-        mean_ms = (total_response_time / n if n > 0 else np.nan)
-
-        failure_pct = (100 * f / n if n > 0 else np.nan)
-
-        rows.append({
-            "fase": labels[i],
-            "durata_s": round(duration, 2),
-            "richieste_campionate": int(n),
-            "errori_campionati": int(f),
-            "rps_medi": round(n / duration, 3)
-                if duration > 0 else np.nan,
-            "failure_rate_pct": round(failure_pct, 3),
-            "latency_media_ms": round(mean_ms, 3),
-        })
-
-    return pd.DataFrame(rows)
-
 
 # =====================================
 # GRAFICI
@@ -521,15 +478,6 @@ def main():
     plot_latency_percentiles(df, axes_args, plots_dir)
 
     plot_failure_rate(df, axes_args, plots_dir)
-
-    # Tabella fasi
-    bounds = [start, t1, t2, end]
-
-    summary = phase_summary(df, bounds, config["labels"])
-
-    summary.to_csv(output_dir / "phase_summary.csv", index=False)
-
-    print(summary.to_string(index=False))
     print(f"Output: {output_dir}")
 
 

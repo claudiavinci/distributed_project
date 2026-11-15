@@ -62,6 +62,9 @@ fi
 # =====================================
 # ANALISI
 # =====================================
+VENV=$(pwd)/venv
+source "$VENV/bin/activate"
+
 
 echo "================================="
 echo "Analisi esperimento: $TYPE"
