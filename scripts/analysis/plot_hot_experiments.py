@@ -383,12 +383,6 @@ def main():
     )
 
     parser.add_argument(
-        "--output-dir",
-        required=True,
-        type=Path
-    )
-
-    parser.add_argument(
         "--plots-dir",
         required=True,
         type=Path
@@ -408,10 +402,8 @@ def main():
 
     args = parser.parse_args()
 
-    output_dir = args.output_dir
     plots_dir = args.plots_dir
 
-    output_dir.mkdir(parents=True, exist_ok=True)
     plots_dir.mkdir(parents=True, exist_ok=True)
 
     config = EXPERIMENTS[args.type]
@@ -478,7 +470,6 @@ def main():
     plot_latency_percentiles(df, axes_args, plots_dir)
 
     plot_failure_rate(df, axes_args, plots_dir)
-    print(f"Output: {output_dir}")
 
 
 if __name__ == "__main__":

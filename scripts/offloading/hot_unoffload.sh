@@ -208,6 +208,10 @@ log_event "WARMUP_END"
 # MONITORAGGIO
 # =====================================
 
+rm -rf \
+    "$OUTPUT_DIR/$MONITOR_SUBDIR/consumer" \
+    "$OUTPUT_DIR/$MONITOR_SUBDIR/provider"
+
 start_monitor
 
 # =====================================

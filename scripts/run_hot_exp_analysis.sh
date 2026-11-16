@@ -18,7 +18,6 @@ source configs/exp_config.conf
 
 BASE_DIR="results/${TEST}/load_test"
 RAW_DIR="${BASE_DIR}/U400/raw"
-METRICS_DIR="${BASE_DIR}/U400/metrics_csv"
 PLOTS_DIR="${BASE_DIR}/plots"
 
 PREFIX="U400_run1"
@@ -76,7 +75,6 @@ python3 "$(pwd)/scripts/analysis/plot_hot_experiments.py" \
     --type "$TYPE" \
     --history "$HISTORY" \
     --events "$EVENTS" \
-    --output-dir "$METRICS_DIR" \
     --plots-dir "$PLOTS_DIR"
 
 echo

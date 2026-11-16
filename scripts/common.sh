@@ -79,7 +79,8 @@ start_monitor() {
     mkdir -p "$monitor_dir"
 
     echo "Avvio monitoraggio cluster..."
-
+    
+    MONITOR_DEPLOYMENTS="${TARGET_LIST[*]}" \
     MONITOR_INTERVAL="$MONITOR_INTERVAL" \
     OUTPUT_DIR="$monitor_dir" \
         bash "$MONITOR_SCRIPT" &

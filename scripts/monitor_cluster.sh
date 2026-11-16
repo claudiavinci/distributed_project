@@ -13,6 +13,7 @@ source configs/exp_config.conf
 source configs/liqo_config.conf
 
 INTERVAL="${MONITOR_INTERVAL:-10}"
+DEPLOYMENTS=${MONITOR_DEPLOYMENTS:-}
 
 CONSUMER_CONFIG="$KUBECONFIG"
 PROVIDER_CONFIG="$REMOTE_KUBECONFIG"
@@ -77,7 +78,7 @@ collect_snapshot() {
         consumer get events -n "$NAMESPACE" \
         --sort-by=.lastTimestamp
 
-    for svc in frontend currencyservice paymentservice; do
+    for svc in $DEPLOYMENTS; do
         append_command "$OUTPUT_DIR/consumer/endpoints_${svc}.txt" "$timestamp" \
             consumer get endpointslices -n "$NAMESPACE" \
             -l "kubernetes.io/service-name=$svc" -o yaml
@@ -92,7 +93,7 @@ collect_snapshot() {
         provider get pods -n "$NAMESPACE" -o wide
 
     append_command "$OUTPUT_DIR/provider/shadowpods.txt" "$timestamp" \
-        provider get shadowpods -n "$NAMESPACE"
+        provider get shadowpods -A -o wide
 
     append_command "$OUTPUT_DIR/provider/liqo_pods.txt" "$timestamp" \
         provider get pods -n liqo -o wide
