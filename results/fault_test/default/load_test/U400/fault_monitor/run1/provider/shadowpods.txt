@@ -936,7 +936,7 @@ frontend-75d5c847c8-7tvfj          Running   18m
 paymentservice-569659756d-lv6h4    Running   18m
 
 ========================================
-TIMESTAMP: 2026-11-11 16:18:01
+TIMESTAMP: 2026-11-11 16:18:01          # NODE_RESTART
 ========================================
 NAME                               STATUS    AGE
 cartservice-68cbd589b7-z74rs       Running   18m

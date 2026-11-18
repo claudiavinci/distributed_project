@@ -900,7 +900,7 @@ metadata:
   resourceVersion: ""
 
 ========================================
-TIMESTAMP: 2026-11-11 16:04:49
+TIMESTAMP: 2026-11-11 16:04:49          # RILEVAZIONE GUASTO DA NODE_STOPPED
 ========================================
 apiVersion: v1
 items:

@@ -6286,7 +6286,7 @@ LAST SEEN   TYPE      REASON                         OBJECT                     
 2m37s       Normal    Started                        pod/locust-tester                                                           Container started
 
 ========================================
-TIMESTAMP: 2026-11-11 16:04:11
+TIMESTAMP: 2026-11-11 16:04:11          # NODE_STOPPED
 ========================================
 LAST SEEN   TYPE      REASON                         OBJECT                                                                      MESSAGE
 43m         Normal    SuccessfulSATokensReflection   pod/cartservice-545cccb7f9-2t98m                                            Successfully reflected object to cluster "patient-cloud"
@@ -8082,7 +8082,7 @@ LAST SEEN   TYPE      REASON                         OBJECT                     
 3m17s       Normal    Started                        pod/locust-tester                                                           Container started
 
 ========================================
-TIMESTAMP: 2026-11-11 16:04:49
+TIMESTAMP: 2026-11-11 16:04:49              # RILEVAZIONE GUASTO DA NODE_STOPPED
 ========================================
 LAST SEEN   TYPE      REASON                         OBJECT                                                                      MESSAGE
 44m         Normal    SuccessfulSATokensReflection   pod/cartservice-545cccb7f9-2t98m                                            Successfully reflected object to cluster "patient-cloud"

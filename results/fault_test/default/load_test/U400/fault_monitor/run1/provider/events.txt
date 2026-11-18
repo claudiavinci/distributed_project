@@ -1332,7 +1332,7 @@ LAST SEEN   TYPE      REASON                 OBJECT                             
 4m23s       Normal    CreatedPod             shadowpod/currencyservice-5895599f55-wpfr2   Successfully created pod from ShadowPod
 
 ========================================
-TIMESTAMP: 2026-11-11 16:04:49
+TIMESTAMP: 2026-11-11 16:04:49             # RILEVAZIONE DEL GUASTO DOPO NODE_STOPPED
 ========================================
 LAST SEEN   TYPE      REASON                 OBJECT                                       MESSAGE
 31m         Warning   NodeNotReady           pod/cartservice-545cccb7f9-2t98m             Node is not ready
@@ -3565,7 +3565,7 @@ LAST SEEN   TYPE      REASON                 OBJECT                             
 4m29s       Warning   NodeNotReady           pod/currencyservice-5895599f55-wpfr2         Node is not ready
 
 ========================================
-TIMESTAMP: 2026-11-11 16:09:21
+TIMESTAMP: 2026-11-11 16:09:21          # TaintManagerEviction dopo NODE_STOPPED
 ========================================
 LAST SEEN   TYPE      REASON                 OBJECT                                       MESSAGE
 35m         Warning   NodeNotReady           pod/cartservice-545cccb7f9-2t98m             Node is not ready
@@ -8125,7 +8125,7 @@ LAST SEEN   TYPE      REASON                 OBJECT                             
 8m31s       Normal    TaintManagerEviction   pod/frontend-75d5c847c8-7tvfj                Marking for deletion Pod shop/frontend-75d5c847c8-7tvfj
 
 ========================================
-TIMESTAMP: 2026-11-11 16:18:01
+TIMESTAMP: 2026-11-11 16:18:01             # Cancello eliminazione dopo NODE_RESTART e ripristino pod
 ========================================
 LAST SEEN   TYPE      REASON                 OBJECT                                       MESSAGE
 44m         Warning   NodeNotReady           pod/frontend-cbd59758-4lkjs                  Node is not ready

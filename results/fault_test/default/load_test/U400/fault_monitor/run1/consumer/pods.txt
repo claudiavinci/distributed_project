@@ -221,7 +221,7 @@ redis-cart-78fc657c4b-sz9qj              1/1     Running   0          4m27s   10
 shippingservice-7d54447d46-tplrb         1/1     Running   0          4m27s   10.244.2.48   consumer-worker2         <none>           <none>
 
 ========================================
-TIMESTAMP: 2026-11-11 16:04:01
+TIMESTAMP: 2026-11-11 16:04:01          # FAULT_COMMAND_START
 ========================================
 NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
 adservice-6d946cfcd-pbscr                1/1     Running   0          4m37s   10.244.1.56   consumer-worker          <none>           <none>
@@ -238,7 +238,7 @@ redis-cart-78fc657c4b-sz9qj              1/1     Running   0          4m36s   10
 shippingservice-7d54447d46-tplrb         1/1     Running   0          4m36s   10.244.2.48   consumer-worker2         <none>           <none>
 
 ========================================
-TIMESTAMP: 2026-11-11 16:04:11
+TIMESTAMP: 2026-11-11 16:04:11          # NODE_STOPPED
 ========================================
 NAME                                     READY   STATUS    RESTARTS   AGE     IP            NODE                     NOMINATED NODE   READINESS GATES
 adservice-6d946cfcd-pbscr                1/1     Running   0          4m48s   10.244.1.56   consumer-worker          <none>           <none>
@@ -1751,7 +1751,7 @@ redis-cart-78fc657c4b-sz9qj              1/1     Running   0          18m   10.2
 shippingservice-7d54447d46-tplrb         1/1     Running   0          18m   10.244.2.48   consumer-worker2         <none>           <none>
 
 ========================================
-TIMESTAMP: 2026-11-11 16:17:51
+TIMESTAMP: 2026-11-11 16:17:51          # NODE_RESTART
 ========================================
 NAME                                     READY   STATUS    RESTARTS   AGE   IP            NODE                     NOMINATED NODE   READINESS GATES
 adservice-6d946cfcd-pbscr                1/1     Running   0          18m   10.244.1.56   consumer-worker          <none>           <none>
