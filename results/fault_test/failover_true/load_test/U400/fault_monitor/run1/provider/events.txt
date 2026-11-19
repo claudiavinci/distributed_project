@@ -325,7 +325,7 @@ LAST SEEN   TYPE      REASON         OBJECT                                 MESS
 4m27s       Warning   NodeNotReady   pod/paymentservice-569659756d-kfxwh    Node is not ready
 
 ========================================
-TIMESTAMP: 2026-11-11 17:43:05
+TIMESTAMP: 2026-11-11 17:43:05          # RISCHEDULAZIONE DOPO NODE_STOPPED -> FAILOVER
 ========================================
 LAST SEEN   TYPE      REASON                 OBJECT                                       MESSAGE
 4m38s       Warning   NodeNotReady           pod/currencyservice-5895599f55-lw5bd         Node is not ready

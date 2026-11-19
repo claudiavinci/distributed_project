@@ -208,7 +208,7 @@ LAST SEEN   TYPE     REASON                         OBJECT                      
 2m7s        Normal   SuccessfulSATokensReflection   pod/cartservice-68cbd589b7-z74rs       Successfully reflected object to cluster "patient-cloud"
 
 ========================================
-TIMESTAMP: 2026-11-11 17:37:53
+TIMESTAMP: 2026-11-11 17:37:53          # NODE_STOPPED
 ========================================
 LAST SEEN   TYPE     REASON                         OBJECT                                 MESSAGE
 31m         Normal   SuccessfulSATokensReflection   pod/frontend-75d5c847c8-bnhzt          Successfully reflected object to cluster "patient-cloud"
@@ -272,7 +272,7 @@ LAST SEEN   TYPE     REASON                         OBJECT                      
 2m45s       Normal   SuccessfulSATokensReflection   pod/cartservice-68cbd589b7-z74rs       Successfully reflected object to cluster "patient-cloud"
 
 ========================================
-TIMESTAMP: 2026-11-11 17:38:29
+TIMESTAMP: 2026-11-11 17:38:29          # RILEVAZIONE GUASTO DOPO NODE_STOPPED
 ========================================
 LAST SEEN   TYPE      REASON                         OBJECT                                  MESSAGE
 32m         Normal    SuccessfulSATokensReflection   pod/frontend-75d5c847c8-bnhzt           Successfully reflected object to cluster "patient-cloud"
@@ -1142,7 +1142,7 @@ LAST SEEN   TYPE      REASON                         OBJECT                     
 4m26s       Normal    SuccessfulReflection           endpointslice/paymentservice-vrkxm      Successfully reflected object to cluster "patient-cloud"
 
 ========================================
-TIMESTAMP: 2026-11-11 17:43:05
+TIMESTAMP: 2026-11-11 17:43:05          # creazione nuovi pod dopo NODE_STOPPED
 ========================================
 LAST SEEN   TYPE      REASON                         OBJECT                                       MESSAGE
 37m         Normal    SuccessfulSATokensReflection   pod/frontend-75d5c847c8-bnhzt                Successfully reflected object to cluster "patient-cloud"

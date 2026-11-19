@@ -423,7 +423,7 @@ frontend-75d5c847c8-bnhzt          1/1     Running   0          85m    10.244.2.
 paymentservice-569659756d-kfxwh    1/1     Running   0          85m    10.244.2.3    provider-worker    <none>           <none>
 
 ========================================
-TIMESTAMP: 2026-11-11 17:43:05
+TIMESTAMP: 2026-11-11 17:43:05          # RISCHEDULAZIONE DEI POD DOPO NODE_STOPPED -> FAILOVER
 ========================================
 NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE               NOMINATED NODE   READINESS GATES
 cartservice-68cbd589b7-z74rs       1/1     Running   0          103m   10.244.1.19   provider-worker2   <none>           <none>

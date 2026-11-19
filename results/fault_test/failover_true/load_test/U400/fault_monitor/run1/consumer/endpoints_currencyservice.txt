@@ -650,7 +650,7 @@ metadata:
   resourceVersion: ""
 
 ========================================
-TIMESTAMP: 2026-11-11 17:37:53
+TIMESTAMP: 2026-11-11 17:37:53          # NODE_STOPPED
 ========================================
 apiVersion: v1
 items:
@@ -800,7 +800,7 @@ metadata:
   resourceVersion: ""
 
 ========================================
-TIMESTAMP: 2026-11-11 17:38:23
+TIMESTAMP: 2026-11-11 17:38:23        
 ========================================
 apiVersion: v1
 items:
@@ -850,7 +850,7 @@ metadata:
   resourceVersion: ""
 
 ========================================
-TIMESTAMP: 2026-11-11 17:38:29
+TIMESTAMP: 2026-11-11 17:38:29          # RILEVAZIONE FALSE DOPO NODE_STOPPED
 ========================================
 apiVersion: v1
 items:
@@ -2400,7 +2400,7 @@ metadata:
   resourceVersion: ""
 
 ========================================
-TIMESTAMP: 2026-11-11 17:43:15
+TIMESTAMP: 2026-11-11 17:43:15          # SERVIZIO READY DOPO FAILOVER
 ========================================
 apiVersion: v1
 items:
